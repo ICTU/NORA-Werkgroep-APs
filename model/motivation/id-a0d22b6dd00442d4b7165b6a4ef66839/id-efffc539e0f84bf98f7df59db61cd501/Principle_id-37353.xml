@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NAP12 Informeer bij de bron"
+    id="id-37353"
+    documentation="STELLING &#xA;Maak bij de dienst gebruik van gegevens die afkomstig zijn uit een bronregistratie. &#xA;&#xA;RATIONALE &#xA;Voor betrouwbare dienstverlening is het hergebruik van de juiste informatie en documenten van cruciaal belang. Om de kwaliteit over de juistheid van een gegeven te borgen, moet duidelijk zijn welke organisatie bepaalt wat de juiste informatie is. Uitgangspunt is dat er voor gegevens waar de overheid gebruik van maakt, altijd één bron bestaat, die leidend is."/>

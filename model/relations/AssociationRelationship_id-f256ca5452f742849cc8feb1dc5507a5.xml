@@ -1,0 +1,13 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Worden overgenomen in"
+    id="id-f256ca5452f742849cc8feb1dc5507a5"
+    directed="true">
+  <source
+      xsi:type="archimate:Principle"
+      href="Principle_id-27463.xml#id-27463"/>
+  <target
+      xsi:type="archimate:Principle"
+      href="Principle_id-27466.xml#id-27466"/>
+</archimate:AssociationRelationship>

@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NAP07 Bouw diensten modulair op"
+    id="id-30185"
+    documentation="STELLING &#xA;Maak bij de ontwikkeling van diensten gebruik van een modulaire indeling met een maximale interne samenhang en minimale externe koppelingen. &#xA;&#xA;RATIONALE &#xA;Door diensten modulair op te bouwen en te ontkoppelen wordt de flexibiliteit vergroot, wat leidt tot meer wendbaarheid, meer hergebruik en duurzaamheid."/>

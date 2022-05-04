@@ -1,0 +1,12 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PDCA Cyclus"
+    id="id-1992fd5a069744379df89eeef64ae437">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-11d72df663ce4225be42f400e0ca49da.xml#id-11d72df663ce4225be42f400e0ca49da"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-3fb78bf04b66463f95f8b7f063ef58e7.xml#id-3fb78bf04b66463f95f8b7f063ef58e7"/>
+</archimate:TriggeringRelationship>

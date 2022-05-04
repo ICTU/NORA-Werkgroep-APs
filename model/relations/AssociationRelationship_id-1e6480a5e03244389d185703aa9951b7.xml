@@ -1,0 +1,13 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Verwijst naar"
+    id="id-1e6480a5e03244389d185703aa9951b7"
+    directed="true">
+  <source
+      xsi:type="archimate:Requirement"
+      href="Requirement_id-27773.xml#id-27773"/>
+  <target
+      xsi:type="archimate:Requirement"
+      href="Requirement_id-d3a51b2dbc464391b29acebefaa5b212.xml#id-d3a51b2dbc464391b29acebefaa5b212"/>
+</archimate:AssociationRelationship>

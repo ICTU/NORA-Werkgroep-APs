@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NAP14 Verifieer altijd"
+    id="id-1a2e7fcb12cb4e269421f615094a1657"
+    documentation="STELLING &#xA;Verifieer doorlopend de juiste werking van de componenten en beheersmaatregelen van de dienst. &#xA;&#xA;RATIONALE &#xA;Vertrouwen in het service-niveau van een overheidsdienstverlener, in de beschikbaarheid van een dienst, in de betrouwbaarheid van informatie, in de werking van een component, of de adequaatheid van beheersmaatregelen, is alleen gerechtvaardigd als de componenten en beheersmaatregelen van de dienst doorlopend wordt geverifieerd."/>

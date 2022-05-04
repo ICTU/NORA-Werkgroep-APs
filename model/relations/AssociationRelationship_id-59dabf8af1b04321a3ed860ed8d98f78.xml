@@ -1,0 +1,13 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="O.a. wendbaar, innovatief"
+    id="id-59dabf8af1b04321a3ed860ed8d98f78"
+    directed="true">
+  <source
+      xsi:type="archimate:Driver"
+      href="Driver_id-28628.xml#id-28628"/>
+  <target
+      xsi:type="archimate:Principle"
+      href="Principle_id-27809.xml#id-27809"/>
+</archimate:AssociationRelationship>

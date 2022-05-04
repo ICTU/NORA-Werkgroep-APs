@@ -1,0 +1,13 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Verwijst naar"
+    id="id-28667"
+    directed="true">
+  <source
+      xsi:type="archimate:Requirement"
+      href="Requirement_id-27773.xml#id-27773"/>
+  <target
+      xsi:type="archimate:Grouping"
+      href="Grouping_id-28683.xml#id-28683"/>
+</archimate:AssociationRelationship>

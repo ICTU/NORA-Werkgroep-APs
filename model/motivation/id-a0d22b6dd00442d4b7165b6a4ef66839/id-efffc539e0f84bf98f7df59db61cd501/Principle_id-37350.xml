@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NAP08 Standaardiseer waar mogelijk"
+    id="id-37350"
+    documentation="STELLING &#xA;Standaardiseer waar het kan, maak specifiek waar het moet. &#xA;&#xA;RATIONALE &#xA;Standaardisatie reduceert variëteit en kosten, en zorgt voor een betere interoperabiliteit en beveiliging. Hiermee komt bovendien een grotere wendbaarheid tot stand. Door te kiezen voor open standaarden wordt vendor lock-in voorkomen."/>

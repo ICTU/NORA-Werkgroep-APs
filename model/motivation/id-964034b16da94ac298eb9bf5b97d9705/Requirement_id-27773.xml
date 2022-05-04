@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="#Implicatie"
+    id="id-27773"
+    documentation="DEFINITIE&#xA;&#xA;BESCHRIJVING&#xA;Implicaties zijn genummerd naar de relatie die ze hebben met het bovenliggend archtectuurprincipe. AP02.02 is dus implicatie nr. 2 behorend bij Architectuurprincipe AP02. Er is geen volgorde van belangrijkheid in de nummering van de implicaties zelf.&#xA;Implicaties zijn gerelateerd aan 1 of meerdere architectuurlagen. Deze relatie is gelegd in de Properties (als attribuut) bij de betreffende implicatie. Implicaties worden gemodelleerd als ArchiMate element type Requirement."/>

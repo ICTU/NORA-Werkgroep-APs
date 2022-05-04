@@ -1,0 +1,12 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-fea82638ab814f3081d39c43bf728eca"
+    strength="Eisen aan kwaliteit (het 'wat')">
+  <source
+      xsi:type="archimate:Goal"
+      href="Goal_id-27768.xml#id-27768"/>
+  <target
+      xsi:type="archimate:Grouping"
+      href="Grouping_id-ff64dbc7ec40487e9441bd0a379ec636.xml#id-ff64dbc7ec40487e9441bd0a379ec636"/>
+</archimate:InfluenceRelationship>

@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NAP10 Neem gegevens als fundament"
+    id="id-185aa93fbd55485d8682022ba067609d"
+    documentation="STELLING &#xA;Gebruik gegevens als fundament voor het ontwerp, realisatie en doorontwikkeling van de dienst en richt het beheer hiervan goed in. &#xA;&#xA;RATIONALE &#xA;De kwaliteit en toegankelijkheid van gegevens bepaalt de waarde van de dienst. De onderliggende gegevens kennen meestal een veel langere levenscyclus dan de systemen waarin deze verwerkt wordt. Als gegevens op duurzame wijze toegankelijk zijn gemaakt voor mens én machine kunnen deze gegevens dienen als fundering voor verschillende diensten in verschillende toepassingen, door de tijd en over de hele keten heen. Daarom is het essentieel dat het beheer van gegevens in de keten op orde is, vanaf het ontstaan ervan tot en met de vernietiging (conform bewaartermijnen)."/>

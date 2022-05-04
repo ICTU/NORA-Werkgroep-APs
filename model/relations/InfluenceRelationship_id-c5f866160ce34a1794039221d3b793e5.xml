@@ -1,0 +1,12 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Concete implicaties per laag"
+    id="id-c5f866160ce34a1794039221d3b793e5">
+  <source
+      xsi:type="archimate:Requirement"
+      href="Requirement_id-27773.xml#id-27773"/>
+  <target
+      xsi:type="archimate:Grouping"
+      href="Grouping_id-ff64dbc7ec40487e9441bd0a379ec636.xml#id-ff64dbc7ec40487e9441bd0a379ec636"/>
+</archimate:InfluenceRelationship>

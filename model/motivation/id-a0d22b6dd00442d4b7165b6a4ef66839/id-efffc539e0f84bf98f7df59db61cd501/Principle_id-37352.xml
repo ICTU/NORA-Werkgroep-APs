@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NAP03 Lever een kanaal-onafhankelijk resultaat"
+    id="id-37352"
+    documentation="STELLING &#xA;Lever een gelijkwaardige uitkomst, ongeacht het gebruikte kanaal. Bied de dienst aan via internet, fysiek (off-line) en eventueel via andere passende kanalen waar de afnemer gebruik van kan maken. &#xA;&#xA;RATIONALE &#xA;Afnemers verwachten een gelijkwaardig resultaat, dat niet beïnvloed wordt door hun kanaalkeuze. Het mag dus voor het resultaat van de dienst geen verschil uitmaken of deze bijvoorbeeld via internet of fysiek is aangevraagd. De geleverde informatie is in alle gevallen hetzelfde, ongeacht de plaats of medewerker die deze informatie levert."/>

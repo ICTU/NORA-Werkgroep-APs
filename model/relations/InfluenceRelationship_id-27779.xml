@@ -1,0 +1,12 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Is grondslag voor"
+    id="id-27779">
+  <source
+      xsi:type="archimate:Driver"
+      href="Driver_id-27771.xml#id-27771"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_id-27768.xml#id-27768"/>
+</archimate:InfluenceRelationship>

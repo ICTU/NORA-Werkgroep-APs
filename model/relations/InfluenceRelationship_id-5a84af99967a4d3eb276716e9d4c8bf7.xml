@@ -1,0 +1,12 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Richting geven (het 'hoe')"
+    id="id-5a84af99967a4d3eb276716e9d4c8bf7">
+  <source
+      xsi:type="archimate:Principle"
+      href="Principle_id-27466.xml#id-27466"/>
+  <target
+      xsi:type="archimate:Grouping"
+      href="Grouping_id-ff64dbc7ec40487e9441bd0a379ec636.xml#id-ff64dbc7ec40487e9441bd0a379ec636"/>
+</archimate:InfluenceRelationship>

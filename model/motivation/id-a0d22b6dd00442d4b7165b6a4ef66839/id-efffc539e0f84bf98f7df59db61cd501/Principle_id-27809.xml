@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NAP15 Maak diensten schaalbaar"
+    id="id-27809"
+    documentation="STELLING &#xA;Bereid de dienst voor op veranderende werklast of reikwijdte. &#xA;&#xA;RATIONALE &#xA;Een schaalbare dienst kan omgaan met zowel verwachte als onverwachte intensivering of extensivering. Dit waarborgt de beschikbaarheid van de dienst en hiermee ook de wendbaarheid. Het voorkomt het ad hoc en onder hoge tijdsdruk realiseren van het opschalen van de dienst."/>
