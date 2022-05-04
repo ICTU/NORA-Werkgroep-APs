@@ -4,5 +4,5 @@ Werkmodel van de NORA werkgroep Architectuur Principes. Dit werkmodel is ontwikk
 Dit werkmodel is niet het officiële kanaal waarmee NORA wordt gecommuniceerd. Ga hiervoor naar https://www.noraonline.nl/wiki/NORA_online
 
 Deze repository bevat een tweetal folders:
-[model] bevat het Archi model.
-[csv] bevat de csv-export uit Archi en kan gebruikt worden als basis voor analyse, bijvoorbeeld in Excel of PowerBI.
+De folder "model" bevat het Archi model.
+De folder "csv" bevat de csv-export uit Archi en kan gebruikt worden als basis voor analyse, bijvoorbeeld in Excel.
