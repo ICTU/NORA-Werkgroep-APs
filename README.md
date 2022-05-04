@@ -5,14 +5,14 @@ Dit werkmodel is niet het officiële kanaal waarmee NORA wordt gecommuniceerd. G
 
 Deze repository bevat een drietal folders:
 
-# model
+## model
 Deze bevat het Archi model zelf en kan vanuit Archi worden geopend.
 
-# csv
+## csv
 Deze bevat de csv-export uit Archi en kan gebruikt worden als basis voor analyse:
 elements.csv bevat alle elementen (zoals architectuurprincipes).
 relations.csv bevat de relaties tussen de elementen.
 properties.csv bevat attributen voor de elementen, bijvoorbeeld de architectuurlaag bij implicaties.
 
-# excel
+## excel
 Deze bevat een Excel sheet met data-koppelingen naar de drie bovengenoemde csv's, inclusief kruistabellen. Download deze Excel en ververs (Refresh) de data met de Refresh knop in de Data tab.
