@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="07 Overzicht nieuwe Architectuur Principes"
     id="id-981f2f0c6a21447bb610cabe66d83eaf"
-    documentation="Dit overzicht beschrijft het voorstel voor de nieuwe NORA Architectuurprincipes. Deze zijn ten opzichte van de huidige Afgeleide Principes opnieuw genummerd."
+    documentation="Dit overzicht beschrijft het voorstel voor de nieuwe 17 NORA Architectuurprincipes. Deze zijn ten opzichte van de huidige Afgeleide Principes opnieuw genummerd."
     viewpoint="motivation">
   <children
       xsi:type="archimate:DiagramModelNote"
