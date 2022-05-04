@@ -36,10 +36,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28671"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
+      fillColor="#ccccff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-28675"
@@ -93,8 +90,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28680"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
       lineColor="#7459d9"
       fillColor="#a2eeb9">
     <bounds
@@ -109,8 +104,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28672"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
       lineColor="#808080"
       textAlignment="1"
       fillColor="#e1e1e1">
@@ -127,10 +120,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28679"
       targetConnections="id-28675"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
+      fillColor="#ccccff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-28677"
@@ -156,10 +146,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28674"
       targetConnections="id-28677 id-28670"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
+      fillColor="#ccccff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-28673"
@@ -185,10 +172,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28678"
       targetConnections="id-28681 id-28673"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
+      fillColor="#ccccff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-28681"
@@ -226,10 +210,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28676"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#ffc4e1">
+      fillColor="#ffc3fd">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-28670"
@@ -255,8 +236,6 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28682"
       targetConnections="id-28666"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
       lineColor="#808080"
       textAlignment="1"
       fillColor="#e1e1e1">
@@ -320,10 +299,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28657"
       targetConnections="id-28651 id-28656"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
+      fillColor="#ccccff">
     <bounds
         x="784"
         y="701"
@@ -337,10 +313,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28658"
       targetConnections="id-28664 id-28663 id-0d45172a325946d1a9154ac45f393ccd"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
+      fillColor="#ccccff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-28651"
@@ -365,8 +338,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28653"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
       lineColor="#7459d9"
       fillColor="#a2eeb9">
     <bounds
@@ -381,8 +352,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28660"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
       lineColor="#808080"
       textAlignment="1"
       fillColor="#e1e1e1">
@@ -398,10 +367,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28652"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#ffc4e1">
+      fillColor="#ffc3fd">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-28656"
@@ -446,10 +412,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-28665"
       targetConnections="id-28659"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#d9c91e"
-      fillColor="#faf087">
+      fillColor="#ffffb5">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-28663"
@@ -531,10 +494,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-cc5963c624ca4081a7447577d8df7d63"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
+      fillColor="#ccccff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-59a1ca1e442d4dfe84e47882125b949b"
@@ -557,10 +517,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e0e5a44aae69485bb05cba2ed9abf1fa"
       targetConnections="id-59a1ca1e442d4dfe84e47882125b949b"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
+      fillColor="#ccccff">
     <bounds
         x="1020"
         y="1044"
@@ -573,10 +530,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-ba7ca980339446a181ec2ab58073d008"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
+      fillColor="#ccccff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-af9061da48f7469d9bc04f20216557c9"
@@ -599,10 +553,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-646289960f1d4e6691fd95e70dc8a75d"
       targetConnections="id-af9061da48f7469d9bc04f20216557c9"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
+      fillColor="#ccccff">
     <bounds
         x="1019"
         y="1116"
@@ -615,10 +566,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-23ce94028ad24ab680efeaaa9072a477"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
+      fillColor="#ccccff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-28659"
@@ -658,10 +606,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f6b9947d91354e12b64fb431ef1c9567"
       targetConnections="id-cc83247d286a43c8a839f746e10ef801"
-      font="1|Verdana|11.0|0|COCOA|1|Verdana"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
+      fillColor="#ccccff">
     <bounds
         x="419"
         y="469"

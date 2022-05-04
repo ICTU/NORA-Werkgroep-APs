@@ -95,8 +95,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-629370fbb9614de98b1190e4b3293156"
       targetConnections="id-e8f4bddbc12446fb8dbeb5e1e95ba28a"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <bounds
         x="504"
         y="480"
@@ -109,8 +108,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-1a19b885d1c74454bae566ec6fee7429"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-e8f4bddbc12446fb8dbeb5e1e95ba28a"
@@ -189,8 +187,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-2a4dd2e5418548e1b77cac24a573a2ab"
       targetConnections="id-ad8a5f29262b4f0f889553a63195f99e"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <bounds
         x="61"
         y="480"
@@ -204,8 +201,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-aba7b29f9fac498a9c2c29fcd38de53b"
       targetConnections="id-16443f40e9b449ba91dff310644afd35"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <bounds
         x="208"
         y="480"
@@ -219,8 +215,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-76ed51fd6b5c4db1a40145935aec068c"
       targetConnections="id-bd1504f6cfc14365811f3b1934366777"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <bounds
         x="648"
         y="480"
@@ -234,8 +229,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f09de134e64e4ef5a1dad8a69db2f725"
       targetConnections="id-afc943423dc0404aa7481e0b2d9fa9b5"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <bounds
         x="348"
         y="480"
@@ -249,8 +243,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9ac9955ff28f451e9063a4403a853289"
       targetConnections="id-733fbe85e7ec4c83b6256fd80b05db23"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <bounds
         x="793"
         y="480"

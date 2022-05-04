@@ -95,8 +95,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d37f445c2b0943358997275a29b84011"
       targetConnections="id-833e843b42b349aabc7417c4cd1e6287"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <sourceConnections
         id="id-c690d262bf8641ae935287c2fa54a7e0"
         lineColor="#bfbfbf"
@@ -157,8 +156,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9027b9a3eaa04de98bace609c3fb9892"
       targetConnections="id-91a1540f75bf4f6a827fe5d860ed4703"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <bounds
         x="553"
         y="480"
@@ -172,8 +170,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f96647524afb4893be14ddb008237a87"
       targetConnections="id-3f5024125e7a4242aed1f5e84511231e"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <bounds
         x="372"
         y="480"
@@ -187,8 +184,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-7de115e2931d44f5b4e5506b8b21adb5"
       targetConnections="id-2ecfab63e13942a4975ef95330700cd4"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <bounds
         x="61"
         y="480"
@@ -201,8 +197,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5dcf3e9d73e640faab33b30061f18c2a"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-833e843b42b349aabc7417c4cd1e6287"
@@ -230,8 +225,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-370b2b03af2b4e7c9c4e4d1d9f031dda"
       targetConnections="id-1a84e473302c43f99a6be7aae3c49f79"
-      lineColor="#7459d9"
-      fillColor="#b3fde4">
+      fillColor="#ccccff">
     <bounds
         x="204"
         y="480"
