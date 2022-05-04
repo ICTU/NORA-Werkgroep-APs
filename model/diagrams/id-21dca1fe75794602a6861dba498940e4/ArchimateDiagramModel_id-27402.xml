@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="02 Conceptueel Model"
+    name="03 Conceptueel Model"
     id="id-27402"
     documentation="NORA is een stelsel van afspraken en standaarden om de digitale dienstverlening en ketensamenwerking in de publieke sector te verbeteren. NORA beoogt hiermee bij te dragen aan een samenhangend ontwerp van de publieke sector als geheel.&#xA;&#xA;De dienstverlening van de overheid naar burgers en bedrijven is samen te vatten in een vijfaantal NORA Kernwaarden. Hiervoor streeft NORA Kwaliteitsdoelen na die aangeven wat we verstaan onder goede dienstverlening. Om dit te bereiken moeten overheidsinstellingen - in samenhang en in de keten - hun dienstverlening op elkaar afstemmen en dus als zodanig ontwerpen en realiseren. De NORA Architectuur principes geven hiervoor richting: Deze geven architecten richtlijnen hoe de dienst te ontwerpen en te realiseren, zodanig dat er zo veel mogelijk een samenhangend geheel aan diensten ontstaat. In de figuur staan enkele voorbeelden genoemd. NORA Architectuur principes worden voorzien van concrete implicaties (per architectuurlaag) die van belang zijn voor de inrichting van de processen, applicaties, en infrastructurele voorzieningen van de organisatie.">
   <children
