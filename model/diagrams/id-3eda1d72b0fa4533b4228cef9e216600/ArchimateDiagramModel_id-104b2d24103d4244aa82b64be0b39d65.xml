@@ -1,4 +1,18 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Temp"
-    id="id-104b2d24103d4244aa82b64be0b39d65"/>
+    id="id-104b2d24103d4244aa82b64be0b39d65">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-dca686588e39485387d098a6b440cd4c">
+    <bounds
+        x="301"
+        y="327"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Principle"
+        href="Principle_id-27463.xml#id-27463"/>
+  </children>
+</archimate:ArchimateDiagramModel>
