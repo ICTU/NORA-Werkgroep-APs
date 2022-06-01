@@ -1,28 +1,28 @@
-"ID";"Type";"Name";"Documentation";"Specialization"
-"id-6fe01ebe-e97d-4a44-879b-b15ad1211660";"ArchimateModel";"NORA-Werkgroep-APs";"";""
-"id-188e097ab46d4562b61e2afceb4e09f6";"Capability";"#Afspreken";"";""
-"id-5f9e10d9c8be436b85279ba7595120b3";"Capability";"#Herstellen";"";""
-"id-0e64c96e42f746faa8587602139a2494";"Capability";"#Uitvoeren";"";""
-"id-92caf36be7774e41bbb217ee6d4b00e2";"Capability";"#Verbeteren";"";""
-"id-3e841ce2faa34258a2fc60ce7691e8d7";"Capability";"#Wijzigen (ontwerpen, realiseren)";"";""
-"id-451e011b3dee402b92b056a69008048f";"ValueStream";"#Leveren dienst";"";""
-"id-3fb78bf04b66463f95f8b7f063ef58e7";"BusinessProcess";"#Afspreken";"";""
-"id-88756c9d34004996ba68173b7beffeeb";"BusinessProcess";"#Herstellen";"";""
-"id-52039c5844964e82947a6851cd80901c";"BusinessProcess";"#Uitvoeren";"";""
-"id-11d72df663ce4225be42f400e0ca49da";"BusinessProcess";"#Verbeteren";"";""
-"id-f7b791ac7daa4926a8c9d1b1a1947a94";"BusinessProcess";"#Wijzigen (ontwerpen, realiseren)";"";""
-"id-29634";"BusinessRole";"#Bedrijven";"";""
-"id-29636";"BusinessRole";"#Burgers";"";""
-"id-29631";"BusinessRole";"#Overheids instelling";"";""
-"id-27464";"BusinessService";"#Bouwsteen";"";""
-"id-29630";"BusinessService";"#Dienst";"";""
-"id-06308939466e4710a3ee5be4708f8b43";"BusinessService";"#Dienst";"";""
-"id-27771";"Driver";"#Beleidskader";"DEFINITIE
+"ID","Type","Name","Documentation","Specialization"
+"id-6fe01ebe-e97d-4a44-879b-b15ad1211660","ArchimateModel","NORA-Werkgroep-APs","",""
+"id-188e097ab46d4562b61e2afceb4e09f6","Capability","#Afspreken","",""
+"id-5f9e10d9c8be436b85279ba7595120b3","Capability","#Herstellen","",""
+"id-0e64c96e42f746faa8587602139a2494","Capability","#Uitvoeren","",""
+"id-92caf36be7774e41bbb217ee6d4b00e2","Capability","#Verbeteren","",""
+"id-3e841ce2faa34258a2fc60ce7691e8d7","Capability","#Wijzigen (ontwerpen, realiseren)","",""
+"id-451e011b3dee402b92b056a69008048f","ValueStream","#Leveren dienst","",""
+"id-3fb78bf04b66463f95f8b7f063ef58e7","BusinessProcess","#Afspreken","",""
+"id-88756c9d34004996ba68173b7beffeeb","BusinessProcess","#Herstellen","",""
+"id-52039c5844964e82947a6851cd80901c","BusinessProcess","#Uitvoeren","",""
+"id-11d72df663ce4225be42f400e0ca49da","BusinessProcess","#Verbeteren","",""
+"id-f7b791ac7daa4926a8c9d1b1a1947a94","BusinessProcess","#Wijzigen (ontwerpen, realiseren)","",""
+"id-29634","BusinessRole","#Bedrijven","",""
+"id-29636","BusinessRole","#Burgers","",""
+"id-29631","BusinessRole","#Overheids instelling","",""
+"id-27464","BusinessService","#Bouwsteen","",""
+"id-06308939466e4710a3ee5be4708f8b43","BusinessService","#Dienst","",""
+"id-29630","BusinessService","#Dienst","",""
+"id-27771","Driver","#Beleidskader","DEFINITIE
 NORA is gebaseerd op bestaand overheidsbeleid (nationaal en Europees) en op de instrumenten die in het kader van dat beleid zijn ontwikkeld, zoals wetten, regels, kamerstukken en bestuursakkoorden.
 
 BESCHRIJVING
-Zie ook https://www.noraonline.nl/wiki/Beleidskader en https://www.noraonline.nl/wiki/Beleidskaders#Pilot_aanpak_beleidskaders_.26_NORA";""
-"id-27769";"Driver";"#NORA Kernwaarde";"DEFINITIE
+Zie ook https://www.noraonline.nl/wiki/Beleidskader en https://www.noraonline.nl/wiki/Beleidskaders#Pilot_aanpak_beleidskaders_.26_NORA",""
+"id-27769","Driver","#NORA Kernwaarde","DEFINITIE
 NORA Kernwaarden van Dienstverlening zijn fundamentele overtuigingen, gebaseerd op maatschappelijke waarden, waar overheidsdienstverlening aan moet voldoen (het waarom). 
 
 BESCHRIJVING
@@ -36,47 +36,47 @@ Kernwaarden vormen een verbindende functie tussen beleid en het in samenhang ont
 OPMERKING
 Kernwaarden zijn een nieuw concept binnen NORA en vormen de verbinding  tussen beleid, architectuur en uitvoering.
 
-Noot: De kernwaarden in dit ArchiMate model zijn genummerd (KW00) om praktische redenen.";""
-"id-9aa20b6b9d914a6ab816f6900a0c955b";"Driver";"BK01 AVG (Algemene Verordening Gegevensbescherming)";"";""
-"id-bf301f76888149048fe37618c20d0def";"Driver";"BK02 BIO (Baseline Informatiebeveiliging Overheid)";"";""
-"id-147ae02631c84a9392cde57c4861e4d0";"Driver";"BK03 Burger Service Code";"";""
-"id-f20fd85f5f7745a99b86935104c1c922";"Driver";"BK04 Code goed openbaar bestuur";"";""
-"id-5355488d577d47aaabdc79317e6f81c1";"Driver";"BK05 Data Agenda Overheid";"NL Digitaal - Data Agenda Overheid
-https://www.noraonline.nl/wiki/Data_Agenda_Overheid";""
-"id-47502f18c81d4ba9a53a69abd5604ab7";"Driver";"BK06 Digitale Basisinfrastructuur";"Digitale Basisinfrastructuur
-https://www.noraonline.nl/wiki/Digitale_Basisinfrastructuur";""
-"id-09e7d6a53ed0474ca1fb4c7161a52090";"Driver";"BK07 I-strategie Rijk 2021-2025";"";""
-"id-27906484075a4f289d77c8ef6d69eeff";"Driver";"BK08 NL DIGIbeter";"NL DIGIBeter
+Noot: De kernwaarden in dit ArchiMate model zijn genummerd (KW00) om praktische redenen.",""
+"id-9aa20b6b9d914a6ab816f6900a0c955b","Driver","BK01 AVG (Algemene Verordening Gegevensbescherming)","",""
+"id-bf301f76888149048fe37618c20d0def","Driver","BK02 BIO (Baseline Informatiebeveiliging Overheid)","",""
+"id-147ae02631c84a9392cde57c4861e4d0","Driver","BK03 Burger Service Code","",""
+"id-f20fd85f5f7745a99b86935104c1c922","Driver","BK04 Code goed openbaar bestuur","",""
+"id-5355488d577d47aaabdc79317e6f81c1","Driver","BK05 Data Agenda Overheid","NL Digitaal - Data Agenda Overheid
+https://www.noraonline.nl/wiki/Data_Agenda_Overheid",""
+"id-47502f18c81d4ba9a53a69abd5604ab7","Driver","BK06 Digitale Basisinfrastructuur","Digitale Basisinfrastructuur
+https://www.noraonline.nl/wiki/Digitale_Basisinfrastructuur",""
+"id-09e7d6a53ed0474ca1fb4c7161a52090","Driver","BK07 I-strategie Rijk 2021-2025","",""
+"id-27906484075a4f289d77c8ef6d69eeff","Driver","BK08 NL DIGIbeter","NL DIGIBeter
 https://www.noraonline.nl/wiki/NL_DIGIbeter
 
 NL DIGIbeter 2020 - Agenda Digitale Overheid
-https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2020/07/nl-digibeter-2020.pdf";""
-"id-fafe315807694a02bfd4e4f935fc7ced";"Driver";"BK09 Regeerakkoord 2017-2021 Vertrouwen in de toekomst";"";""
-"id-ffdfe0ee899f4954b8a5c6526a4689a7";"Driver";"BK10 Regie op Gegevens Digitale Overheid";"";""
-"id-c39ab7617b47464e8ed85ea33c06ef78";"Driver";"BK11 Toolbox voor Ethisch Verantwoorde Innovatie";"";""
-"id-4de4a3c6ebbb469299334695475afee1";"Driver";"BK12 Wet Elektronisch Bestuurlijk Verkeer";"";""
-"id-781e24c7e4994d668a15b84a8be1f887";"Driver";"BK13 Big Data in een vrije en veilige samenleving";"";""
-"id-8ad4d99f98fd4cb486385efaafdf0598";"Driver";"BK14 Wat is Duurzaamheid (CBS)";"";""
-"id-485d1c6ccd5a4babaa9a2280d0b52d50";"Driver";"BK15 Nederlandse Digitaliseringsstrategie";"";""
-"id-c0d8f60ca7864a67b4a25e1d7b6350f1";"Driver";"BK16 Monitor Begrijpelijke Overheidsteksten";"";""
-"id-6f46b3a7f9c44eea9d19a775aa3ea399";"Driver";"BK17 Overheid in contact";"";""
-"id-efc290bd97024c25a8e7325919c0b333";"Driver";"BK18 Dienstverlening Position Paper (VNG)";"";""
-"id-3438e667279f48589817071797f7b16a";"Driver";"BK19 Brede maatschappelijke heroverweging Rijksfinancien";"";""
-"id-5af0cd200f454f6693a75497121b6ee2";"Driver";"BK20 Betere en goedkopere dienstverlening op basis van het gebruikersperspectief (BZK)";"";""
-"id-0e25750e8979427895febadcb6ccc2da";"Driver";"BK21 DUTO (Normenkader Duurzaam Toegankelijke Overheidsinformatie)";"";""
-"id-e5e84945efa4445cbb1797d54aae3bfc";"Driver";"BK22 Samenwerken op weg naar duurzaam toegankelijke overheidsinformatie";"";""
-"id-3467be28912c4528a781bc5f3c49eb25";"Driver";"BK23 Overheidsbrede implementatieagenda digitale dienstverlening 2017";"";""
-"id-a650add5b61f49509eeadfb63740ca43";"Driver";"BK24 Actieplan Nederland Open in Verbinding";"";""
-"id-21eacf9eea3a42deb02a4a4c37e689c5";"Driver";"BK25 Nationaal Uitvoeringsprogramma Dienstverlening en e-Overheid (NUP)";"";""
-"id-104bd59460254f79b259955b31d1cf71";"Driver";"BK26 Wet Elektronisch Bestuurlijk Verkeer";"";""
-"id-c2414c1a37e44dde9b83ebaadfdbad4c";"Driver";"BK27 Wet eenmalige gegevensuitvraag werk en inkomen";"";""
-"id-2370bca5c3434d9cac6405834583a12d";"Driver";"BK28 Wet Algemene Bepalingen Omgevingsrecht";"";""
-"id-28627";"Driver";"KW01 Vertrouwen";"BESCHRIJVING 
+https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2020/07/nl-digibeter-2020.pdf",""
+"id-fafe315807694a02bfd4e4f935fc7ced","Driver","BK09 Regeerakkoord 2017-2021 Vertrouwen in de toekomst","",""
+"id-ffdfe0ee899f4954b8a5c6526a4689a7","Driver","BK10 Regie op Gegevens Digitale Overheid","",""
+"id-c39ab7617b47464e8ed85ea33c06ef78","Driver","BK11 Toolbox voor Ethisch Verantwoorde Innovatie","",""
+"id-4de4a3c6ebbb469299334695475afee1","Driver","BK12 Wet Elektronisch Bestuurlijk Verkeer","",""
+"id-781e24c7e4994d668a15b84a8be1f887","Driver","BK13 Big Data in een vrije en veilige samenleving","",""
+"id-8ad4d99f98fd4cb486385efaafdf0598","Driver","BK14 Wat is Duurzaamheid (CBS)","",""
+"id-485d1c6ccd5a4babaa9a2280d0b52d50","Driver","BK15 Nederlandse Digitaliseringsstrategie","",""
+"id-c0d8f60ca7864a67b4a25e1d7b6350f1","Driver","BK16 Monitor Begrijpelijke Overheidsteksten","",""
+"id-6f46b3a7f9c44eea9d19a775aa3ea399","Driver","BK17 Overheid in contact","",""
+"id-efc290bd97024c25a8e7325919c0b333","Driver","BK18 Dienstverlening Position Paper (VNG)","",""
+"id-3438e667279f48589817071797f7b16a","Driver","BK19 Brede maatschappelijke heroverweging Rijksfinancien","",""
+"id-5af0cd200f454f6693a75497121b6ee2","Driver","BK20 Betere en goedkopere dienstverlening op basis van het gebruikersperspectief (BZK)","",""
+"id-0e25750e8979427895febadcb6ccc2da","Driver","BK21 DUTO (Normenkader Duurzaam Toegankelijke Overheidsinformatie)","",""
+"id-e5e84945efa4445cbb1797d54aae3bfc","Driver","BK22 Samenwerken op weg naar duurzaam toegankelijke overheidsinformatie","",""
+"id-3467be28912c4528a781bc5f3c49eb25","Driver","BK23 Overheidsbrede implementatieagenda digitale dienstverlening 2017","",""
+"id-a650add5b61f49509eeadfb63740ca43","Driver","BK24 Actieplan Nederland Open in Verbinding","",""
+"id-21eacf9eea3a42deb02a4a4c37e689c5","Driver","BK25 Nationaal Uitvoeringsprogramma Dienstverlening en e-Overheid (NUP)","",""
+"id-104bd59460254f79b259955b31d1cf71","Driver","BK26 Wet Elektronisch Bestuurlijk Verkeer","",""
+"id-c2414c1a37e44dde9b83ebaadfdbad4c","Driver","BK27 Wet eenmalige gegevensuitvraag werk en inkomen","",""
+"id-2370bca5c3434d9cac6405834583a12d","Driver","BK28 Wet Algemene Bepalingen Omgevingsrecht","",""
+"id-28627","Driver","KW01 Vertrouwen","BESCHRIJVING 
 De dienstverlening van de overheid maakt het vertrouwen waar die burgers en bedrijven daar in stellen. 
 
 TOELICHTING 
-De dienstverlening van de overheid is rechtvaardig, transparant, objectief en onbevooroordeeld: gelijke gevallen worden gelijk behandeld, waar mogelijk rekening houdend met individuele omstandigheden. In haar dienstverlening handelt de overheid verantwoord. Zij stelt de belangen van burgers en bedrijven én van de democratische rechtsstaat centraal. Ze staat open voor vragen, klachten en ideeën. De overheid beschermt de privacy van burgers en bedrijven en gaat vertrouwelijk om met informatie die ze voor haar dienstverlening ontvangt, verzamelt en gebruikt. ";""
-"id-28625";"Driver";"KW02 Veilig";"BESCHRIJVING 
+De dienstverlening van de overheid is rechtvaardig, transparant, objectief en onbevooroordeeld: gelijke gevallen worden gelijk behandeld, waar mogelijk rekening houdend met individuele omstandigheden. In haar dienstverlening handelt de overheid verantwoord. Zij stelt de belangen van burgers en bedrijven én van de democratische rechtsstaat centraal. Ze staat open voor vragen, klachten en ideeën. De overheid beschermt de privacy van burgers en bedrijven en gaat vertrouwelijk om met informatie die ze voor haar dienstverlening ontvangt, verzamelt en gebruikt.",""
+"id-28625","Driver","KW02 Veilig","BESCHRIJVING 
 Niemand hoeft bij dienstverlening van de overheid te vrezen voor gevaren en bedreigingen. 
 
 TOELICHTING 
@@ -84,26 +84,26 @@ Onveilige situaties kunnen de vrijheid van burgers en bedrijven om voluit deel t
 -  analyse van risico's en effectiviteit van beschikbare veiligheidsmaatregelen; 
 -  goede weging van de impact van risico's en maatregelen ten opzichte van andere maatschappelijke waarden; 
 -  verantwoording van de gemaakte keuzes; 
--  controle op de uitvoering.";""
-"id-28628";"Driver";"KW03 Toekomstgericht";"BESCHRIJVING 
+-  controle op de uitvoering.",""
+"id-28628","Driver","KW03 Toekomstgericht","BESCHRIJVING 
 De dienstverlening van de overheid is op de toekomst voorbereid. 
 
 TOELICHTING 
-De overheid verbetert en innoveert haar dienstverlening continu. Die dienstverlening is wendbaar zodat deze steeds aangepast kan worden aan de ontwikkelingen in de maatschappij, techniek en leefomgeving. Het doel is dienstverlening die uitgaat van behoeften en effecten op korte én lange termijn en die duurzaam is. Dit betekent dat de negatieve effecten op het milieu en de leefomgeving zo veel mogelijk worden beperkt.";""
-"id-28629";"Driver";"KW04 Doeltreffend";"BESCHRIJVING 
+De overheid verbetert en innoveert haar dienstverlening continu. Die dienstverlening is wendbaar zodat deze steeds aangepast kan worden aan de ontwikkelingen in de maatschappij, techniek en leefomgeving. Het doel is dienstverlening die uitgaat van behoeften en effecten op korte én lange termijn en die duurzaam is. Dit betekent dat de negatieve effecten op het milieu en de leefomgeving zo veel mogelijk worden beperkt.",""
+"id-28629","Driver","KW04 Doeltreffend","BESCHRIJVING 
 De dienstverlening van de overheid bereikt de gestelde doelen en voldoet zo aan de verwachtingen van burgers en bedrijven. 
 
 TOELICHTING 
-Burgers en bedrijven verwachten van de overheid dat haar dienstverlening effectief is. De overheid streeft ernaar om de dienstverlening te leveren zoals deze is bedoeld. De geplande doelen worden gerealiseerd door hiervoor prestatienormen vast te stellen, prestaties regelmatig te evalueren, uitkomsten duidelijk te communiceren en veranderingen door te voeren. ";""
-"id-28626";"Driver";"KW05 Doelmatig";"BESCHRIJVING 
+Burgers en bedrijven verwachten van de overheid dat haar dienstverlening effectief is. De overheid streeft ernaar om de dienstverlening te leveren zoals deze is bedoeld. De geplande doelen worden gerealiseerd door hiervoor prestatienormen vast te stellen, prestaties regelmatig te evalueren, uitkomsten duidelijk te communiceren en veranderingen door te voeren. ",""
+"id-28626","Driver","KW05 Doelmatig","BESCHRIJVING 
 De dienstverlening van de overheid is zo ingericht dat met een optimale balans tussen kosten, tijdigheid en kwaliteit het beoogde doel wordt bereikt. 
 
 TOELICHTING 
 De overheid standaardiseert waar dat kan en biedt maatwerk waar dat nodig is, om kwaliteit en tijdigheid van de dienstverlening voor burgers en bedrijven te garanderen en kosten te reduceren. 
 Om administratieve lasten te verminderen gebruikt de overheidsdienstverlener informatie die bekend is en stelt informatie beschikbaar aan andere overheidsdienstverleners en ketenpartners op basis van verantwoord gegevensgebruik. Zo worden afnemers niet geconfronteerd met overbodige vragen of irrelevante informatie. Om dit te realiseren is overheidsinformatie duurzaam toegankelijk gemaakt. 
-Informatie over dienstverlening van de overheid staat op plaatsen waar burgers en bedrijven dit verwachten. Als de verkeerde overheidsdienstverlener is benaderd wordt de afnemer geholpen met de doorverwijzing.";""
-"id-27775";"Goal";"#Basisprincipe";"";""
-"id-27768";"Goal";"#NORA Kwaliteitsdoel";"DEFINITIE
+Informatie over dienstverlening van de overheid staat op plaatsen waar burgers en bedrijven dit verwachten. Als de verkeerde overheidsdienstverlener is benaderd wordt de afnemer geholpen met de doorverwijzing.",""
+"id-27775","Goal","#Basisprincipe","",""
+"id-27768","Goal","#NORA Kwaliteitsdoel","DEFINITIE
 NORA Kwaliteitsdoelen beschrijven de gewenste kenmerken van overheidsdienstverlening vanuit het perspectief van de wensen van de samenleving, de burgers en bedrijven (het wat).
 
 BESCHRIJVING
@@ -111,48 +111,48 @@ NORA Kwaliteitsdoelen beschrijven aan welke kwaliteitskenmerken overheidsdienstv
 Het zal in de praktijk niet altijd mogelijk zijn voor een overheidsorganisatie om volledig en aan ál de Kwaliteitsdoelen te voldoen. Waar het om gaat, is dat een overheidsorganisatie die doelen onderschrijft, daartoe samenwerkt met andere (overheids)organisaties, en actief stuurt op het behalen van deze doelen. De Kwaliteitsdoelen zijn daarmee richtinggevend en bieden ruimte voor interpretatie.
 
 OPMERKING
-De Kwaliteitsdoelen zijn in de plaats gekomen van de NORA Basisprincipes.";""
-"id-37375";"Goal";"KD01 Transparant";"Burgers en bedrijven kunnen gemakkelijk te weten komen hoe de overheid werkt en krijgen inzicht waarom ze voor bepaalde dienstverlening wel of niet in aanmerking komen. De overheid houdt hen op de hoogte van het verloop van procedures waarbij ze betrokken zijn. De overheid zorgt ervoor dat haar werkwijze transparant is, kan zich hierover verantwoorden en stelt de informatie die hiervoor nodig is actief beschikbaar. 
-Burgers en bedrijven kunnen de prestaties van overheden vergelijken, controleren en beoordelen. De overheid stelt de informatie die daarvoor nodig is actief beschikbaar. Dit is belangrijk voor het vertrouwen van burgers en bedrijven in de overheid. ";""
-"id-37373";"Goal";"KD02 Betrouwbaar";"De overheid doet in haar dienstverlening recht aan de zekerheid die burgers en bedrijven daarin mogen stellen. In haar dienstverlening zegt de overheid wat ze doet en doet wat ze zegt. Burgers en bedrijven kunnen uitgaan van een betrouwbare en voorspelbare overheid.  Zij kunnen vertrouwen dat informatie tijdig wordt verstrekt en dat deze correct, compleet en actueel is. De kwaliteit van diensten voldoet aan vooraf bepaalde normen. De monitoring en verantwoording hierop, alsmede de verbeteringen die hieruit voortvloeien zijn verankerd in de overheidsprocessen. Deze worden zo continu verbeterd.";""
-"id-28634";"Goal";"KD03 Ontvankelijk";"Burgers en bedrijven kunnen gemakkelijk terecht bij de overheidsdienstverlener met verzoeken, ideeën voor verbetering, meldingen of klachten. De overheidsdienstverlener herstelt met deze inbreng fouten, compenseert tekortkomingen en leert hiervan om haar dienstverlening continu te verbeteren. Bij innovaties en het vernieuwen van diensten is het belangrijk om alle belanghebbenden in beeld te hebben en te betrekken. Bij inzet van nieuwe technologieën wordt rekening gehouden met de waarden, belangen, verwachtingen en zorgen van burgers en bedrijven.";""
-"id-28635";"Goal";"KD04 Verantwoord";"De overheid legt verantwoording af aan het publiek en de volksvertegenwoordiging. De keuzes die ten grondslag liggen aan de inrichting van de dienstverlening zijn inzichtelijk. De overheidsdienstverlener kan laten zien hoe verschillende belangen tegenover elkaar zijn afgewogen. De overheidsdienstverlener rapporteert hoe de dienst functioneert, welke middelen daarvoor nodig zijn en welke verbeteringen noodzakelijk zijn.";""
-"id-28636";"Goal";"KD05 Privacy";"De overheid respecteert en beschermt de privacy van de burger. De verdergaande samenwerking tussen overheid, wetenschap en bedrijfsleven leidt tot meer gegevensuitwisselingen. De toenemende verwerking van gegevens mag niet ten koste gaan van de rechten van burgers en bedrijven. De overheid biedt voorzieningen aan de burger om de controle te houden over de eigen privacy.";""
-"id-37368";"Goal";"KD06 Beschikbaar";"Diensten en de hiervoor benodigde informatie zijn op het juiste moment klaar voor gebruik. De overheidsdienstverlener zorgt voor de tijdigheid, continuïteit en robuustheid van de dienst, zodanig dat deze: 
+De Kwaliteitsdoelen zijn in de plaats gekomen van de NORA Basisprincipes.",""
+"id-37375","Goal","KD01 Transparant","Burgers en bedrijven kunnen gemakkelijk te weten komen hoe de overheid werkt en krijgen inzicht waarom ze voor bepaalde dienstverlening wel of niet in aanmerking komen. De overheid houdt hen op de hoogte van het verloop van procedures waarbij ze betrokken zijn. De overheid zorgt ervoor dat haar werkwijze transparant is, kan zich hierover verantwoorden en stelt de informatie die hiervoor nodig is actief beschikbaar. 
+Burgers en bedrijven kunnen de prestaties van overheden vergelijken, controleren en beoordelen. De overheid stelt de informatie die daarvoor nodig is actief beschikbaar. Dit is belangrijk voor het vertrouwen van burgers en bedrijven in de overheid. ",""
+"id-37373","Goal","KD02 Betrouwbaar","De overheid doet in haar dienstverlening recht aan de zekerheid die burgers en bedrijven daarin mogen stellen. In haar dienstverlening zegt de overheid wat ze doet en doet wat ze zegt. Burgers en bedrijven kunnen uitgaan van een betrouwbare en voorspelbare overheid.  Zij kunnen vertrouwen dat informatie tijdig wordt verstrekt en dat deze correct, compleet en actueel is. De kwaliteit van diensten voldoet aan vooraf bepaalde normen. De monitoring en verantwoording hierop, alsmede de verbeteringen die hieruit voortvloeien zijn verankerd in de overheidsprocessen. Deze worden zo continu verbeterd.",""
+"id-28634","Goal","KD03 Ontvankelijk","Burgers en bedrijven kunnen gemakkelijk terecht bij de overheidsdienstverlener met verzoeken, ideeën voor verbetering, meldingen of klachten. De overheidsdienstverlener herstelt met deze inbreng fouten, compenseert tekortkomingen en leert hiervan om haar dienstverlening continu te verbeteren. Bij innovaties en het vernieuwen van diensten is het belangrijk om alle belanghebbenden in beeld te hebben en te betrekken. Bij inzet van nieuwe technologieën wordt rekening gehouden met de waarden, belangen, verwachtingen en zorgen van burgers en bedrijven.",""
+"id-28635","Goal","KD04 Verantwoord","De overheid legt verantwoording af aan het publiek en de volksvertegenwoordiging. De keuzes die ten grondslag liggen aan de inrichting van de dienstverlening zijn inzichtelijk. De overheidsdienstverlener kan laten zien hoe verschillende belangen tegenover elkaar zijn afgewogen. De overheidsdienstverlener rapporteert hoe de dienst functioneert, welke middelen daarvoor nodig zijn en welke verbeteringen noodzakelijk zijn.",""
+"id-28636","Goal","KD05 Privacy","De overheid respecteert en beschermt de privacy van de burger. De verdergaande samenwerking tussen overheid, wetenschap en bedrijfsleven leidt tot meer gegevensuitwisselingen. De toenemende verwerking van gegevens mag niet ten koste gaan van de rechten van burgers en bedrijven. De overheid biedt voorzieningen aan de burger om de controle te houden over de eigen privacy.",""
+"id-37368","Goal","KD06 Beschikbaar","Diensten en de hiervoor benodigde informatie zijn op het juiste moment klaar voor gebruik. De overheidsdienstverlener zorgt voor de tijdigheid, continuïteit en robuustheid van de dienst, zodanig dat deze: 
 1- geleverd kan worden wanneer deze nodig is; 
 2- ook in de toekomst geleverd blijft worden; 
 3- bestand is tegen verstoringen en aanvallen. 
-De overheidsdienstverlener legt daarom de vereisten over beschikbaarheid vast en evalueert deze regelmatig. De overheidsdienstverlener zorgt ervoor dat de dienst aan de verwachtingen blijft voldoen, die burgers en bedrijven redelijkerwijs mogen stellen. ";""
-"id-37369";"Goal";"KD07 Integer";"De informatie die de overheid gebruikt en verstrekt is - binnen afgesproken kwaliteitscriteria - in overeenstemming met de werkelijkheid. De informatie is correct, compleet en actueel. Burgers en bedrijven hebben inzage in de informatie die hen betreft: wanneer deze is gecreëerd, gelezen, gekopieerd, gewijzigd of vernietigd. Alle relevante informatie wordt verstrekt, er wordt niets onnodig verwijderd of achtergehouden. Gebruikte en verstrekte informatie is over diensten heen onderling consistent.";""
-"id-37365";"Goal";"KD08 Vertrouwelijk";"Informatie die niet openbaar gemaakt of gedeeld mag worden, wordt vertrouwelijk behandeld. Deze vertrouwelijke informatie is afdoende afgeschermd voor onbevoegden door passende technische en organisatorische maatregelen. Bekend is wie bevoegdheden heeft om informatie te creëren, lezen, kopiëren, wijzigen en vernietigen, en wanneer deze bevoegdheden zijn gebruikt.";""
-"id-28637";"Goal";"KD09 Wendbaar";"Overheidsdienstverlening moet zich kunnen aanpassen aan veranderende omstandigheden. Om dit mogelijk te maken zijn overheidsorganisaties, processen, en systemen  duidelijk afgebakend en modulair opgebouwd. De positionering van verschillende onderdelen is duidelijk evenals de  afspraken die gelden. Hierdoor kunnen gedeelde functies gemakkelijker over overheidsorganisaties heen gebruikt worden.";""
-"id-28639";"Goal";"KD10 Innovatief";"Innovaties kunnen oplossingen bieden voor maatschappelijke vraagstukken. Nieuwe innovatieve toepassingen vormen de technologische kennisbasis voor vernieuwing op tal van maatschappelijke terreinen. Innovatie maakt nieuwe oplossingen mogelijk, nu en in de toekomst. De overheid benut innovaties om de dienstverlening te verbeteren, bijvoorbeeld door nieuwe, meer flexibele en eigentijdse vormen van interactie met burgers en bedrijven. Als lerende organisatie stelt de overheid zich open voor innovatieve oplossingen van het bedrijfsleven en de wetenschap. En maakt ruimte voor innovatie door zich niet te richten op de oplossing, maar op het gewenste resultaat.";""
-"id-28640";"Goal";"KD11 Duurzaam";"Overheidsdienstverlening levert zo min mogelijk belasting op het milieu en onze leefomgeving. Dit leidt tot lagere emissies, minder verbruik van grondstoffen, energie en een positieve bijdrage aan de leefomgeving. ";""
-"id-37371";"Goal";"KD12 Proactief";"Burgers en bedrijven krijgen de dienstverlening waar ze recht op hebben of behoefte aan hebben. De overheidsdienstverlener zorgt er voor dat informatie hierover beschikbaar wordt gesteld.
-De overheidsdienstverlener neemt zelf het initiatief om burgers en bedrijven te informeren, wanneer uit beschikbare gegevens blijkt dat dit voor hen van belang is. Dit uiteraard binnen de wettelijke kaders.";""
-"id-37366";"Goal";"KD13 Gebundeld";"Diensten en deeldiensten die bij elkaar horen worden gebundeld aangeboden aan burgers en bedrijven. Zo ervaren zij de dienstverlening als één geheel en worden ze beter bediend. Overheidsdienstverleners en ketenpartners werken samen om dit te bereiken.";""
-"id-37374";"Goal";"KD14 Toegankelijk";"Digitale diensten van de overheid zijn voor iedereen bruikbaar oftewel ‘digitoegankelijk’. Bovendien hebben burgers en bedrijven belang bij een overheid die bereikbaar is via verschillende kanalen: bij voorkeur digitaal, indien gewenst via de telefoon, post of persoonlijk. 
-Overheidsdienstverleners communiceren eenduidig via alle beschikbare kanalen en bieden begeleiding aan diegenen die er zonder hulp niet uitkomen zodat iedereen ten volle kan deelnemen aan de samenleving. Ze sluiten aan bij de manier waarop afnemers contact met hen willen en kunnen onderhouden. Zowel wat betreft de beschikbare communicatiekanalen, als de tijdstippen waarop contact mogelijk is en de gebruiksvriendelijkheid van de communicatiemiddelen.";""
-"id-28649";"Goal";"KD15 Begrijpelijk";"De overheidsdienstverlener gebruikt begrijpelijke taal in alle communicatie over haar dienstverlening. Zo is de dienst voor iedereen te begrijpen, kunnen burgers en bedrijven gemakkelijk een aanvraag doen, een benodigde actie uitvoeren, een vraag stellen en is de daaropvolgende communicatie helder. 
-Het is voor burgers en bedrijven duidelijk wat de betekenis van de informatie is binnen het werkproces waar het is ontvangen of gemaakt. Het is bijvoorbeeld bekend wanneer de informatie is gemaakt, door wie, waar zij betrekking op heeft en wat de status is. Automatische besluitvorming (door toepassing van algoritmes) vindt altijd voor burgers en bedrijven begrijpelijke wijze plaats. ";""
-"id-37372";"Goal";"KD16 Overzichtelijk";"De overheidsdienstverlener zorgt voor goede informatievoorziening over het aanvragen en leveren van een dienst door dee informatievoorziening daarover gebruikersvriendelijk in te richten. De informatie wordt overzichtelijk en in onderlinge samenhang gepresenteerd. Dat is essentieel zodat burgers en bedrijven kunnen bepalen waar ze recht op hebben, en hoe ze dat recht kunnen halen.";""
-"id-37370";"Goal";"KD17 Vindbaar";"Burgers en bedrijven kunnen informatie over dienstverlening vinden op de plaatsen waar ze die verwachten. Daarbij verwijst de overheidsdienstverlener zo nodig door naar andere overheidsdienstverlener. De dienstverlening is alleen doelmatig als de afnemer de dienst kan vinden.";""
-"id-37364";"Goal";"KD18 Uniform";"Uniformiteit is er op gericht om burgers en bedrijven de overheid in haar dienstverlening zo veel mogelijk te laten ervaren als één organisatie. De overheid standaardiseert haar dienstverlening waar het kan en levert maatwerk waar het nodig is. Aspecten van dienstverlening die vergelijkbaar zijn krijgen op soortgelijke wijze vorm, door gebruik te maken van standaard bouwstenen. Daarbij kan het gaan om hergebruik van diensten, of onderdelen daarvan, of de toepassing van open standaarden op eigen processen en systemen.";""
-"id-37367";"Goal";"KD19 Noodzakelijk";"Burgers en bedrijven worden niet geconfronteerd met overbodige vragen of irrelevante informatie. De overheidsdienstverlener hergebruikt informatie die bekend is, bij zichzelf of bij andere overheidsdienstverlener. De overheidsdienstverlener stelt als dat nodig is informatie beschikbaar aan andere overheidsdienstverleners en ketenpartners, op basis van verantwoord gegevensgebruik. Overheidsdienstverleners en ketenpartners hebben expliciet vastgelegd welke afspraken zij gemaakt hebben om hieraan invulling te geven. Het onnodig opvragen of leveren van informatie kost tijd, wekt irritatie op en verhoogt de kans op fouten.";""
-"id-28646";"Goal";"KD20 Kostenefficient";"Betere dienstverlening door digitalisering gaat in veel gevallen gepaard met een efficiëntere bedrijfsvoering en daarmee met lagere kosten voor overheidsorganisaties. Burgers en bedrijven verwachten een juist gebruik van middelen, dus zonder verspilling, en dat juist gebruik van middelen ook regelmatig wordt gecontroleerd.";""
-"id-ff7a9faec6414996a608a27eacab477d";"Meaning";"#Afnemer";"DEFINITIE
+De overheidsdienstverlener legt daarom de vereisten over beschikbaarheid vast en evalueert deze regelmatig. De overheidsdienstverlener zorgt ervoor dat de dienst aan de verwachtingen blijft voldoen, die burgers en bedrijven redelijkerwijs mogen stellen. ",""
+"id-37369","Goal","KD07 Integer","De informatie die de overheid gebruikt en verstrekt is - binnen afgesproken kwaliteitscriteria - in overeenstemming met de werkelijkheid. De informatie is correct, compleet en actueel. Burgers en bedrijven hebben inzage in de informatie die hen betreft: wanneer deze is gecreëerd, gelezen, gekopieerd, gewijzigd of vernietigd. Alle relevante informatie wordt verstrekt, er wordt niets onnodig verwijderd of achtergehouden. Gebruikte en verstrekte informatie is over diensten heen onderling consistent.",""
+"id-37365","Goal","KD08 Vertrouwelijk","Informatie die niet openbaar gemaakt of gedeeld mag worden, wordt vertrouwelijk behandeld. Deze vertrouwelijke informatie is afdoende afgeschermd voor onbevoegden door passende technische en organisatorische maatregelen. Bekend is wie bevoegdheden heeft om informatie te creëren, lezen, kopiëren, wijzigen en vernietigen, en wanneer deze bevoegdheden zijn gebruikt.",""
+"id-28637","Goal","KD09 Wendbaar","Overheidsdienstverlening moet zich kunnen aanpassen aan veranderende omstandigheden. Om dit mogelijk te maken zijn overheidsorganisaties, processen, en systemen  duidelijk afgebakend en modulair opgebouwd. De positionering van verschillende onderdelen is duidelijk evenals de  afspraken die gelden. Hierdoor kunnen gedeelde functies gemakkelijker over overheidsorganisaties heen gebruikt worden.",""
+"id-28639","Goal","KD10 Innovatief","Innovaties kunnen oplossingen bieden voor maatschappelijke vraagstukken. Nieuwe innovatieve toepassingen vormen de technologische kennisbasis voor vernieuwing op tal van maatschappelijke terreinen. Innovatie maakt nieuwe oplossingen mogelijk, nu en in de toekomst. De overheid benut innovaties om de dienstverlening te verbeteren, bijvoorbeeld door nieuwe, meer flexibele en eigentijdse vormen van interactie met burgers en bedrijven. Als lerende organisatie stelt de overheid zich open voor innovatieve oplossingen van het bedrijfsleven en de wetenschap. En maakt ruimte voor innovatie door zich niet te richten op de oplossing, maar op het gewenste resultaat.",""
+"id-28640","Goal","KD11 Duurzaam","Overheidsdienstverlening levert zo min mogelijk belasting op het milieu en onze leefomgeving. Dit leidt tot lagere emissies, minder verbruik van grondstoffen, energie en een positieve bijdrage aan de leefomgeving. ",""
+"id-37371","Goal","KD12 Proactief","Burgers en bedrijven krijgen de dienstverlening waar ze recht op hebben of behoefte aan hebben. De overheidsdienstverlener zorgt er voor dat informatie hierover beschikbaar wordt gesteld.
+De overheidsdienstverlener neemt zelf het initiatief om burgers en bedrijven te informeren, wanneer uit beschikbare gegevens blijkt dat dit voor hen van belang is. Dit uiteraard binnen de wettelijke kaders.",""
+"id-37366","Goal","KD13 Gebundeld","Diensten en deeldiensten die bij elkaar horen worden gebundeld aangeboden aan burgers en bedrijven. Zo ervaren zij de dienstverlening als één geheel en worden ze beter bediend. Overheidsdienstverleners en ketenpartners werken samen om dit te bereiken.",""
+"id-37374","Goal","KD14 Toegankelijk","Digitale diensten van de overheid zijn voor iedereen bruikbaar oftewel ‘digitoegankelijk’. Bovendien hebben burgers en bedrijven belang bij een overheid die bereikbaar is via verschillende kanalen: bij voorkeur digitaal, indien gewenst via de telefoon, post of persoonlijk. 
+Overheidsdienstverleners communiceren eenduidig via alle beschikbare kanalen en bieden begeleiding aan diegenen die er zonder hulp niet uitkomen zodat iedereen ten volle kan deelnemen aan de samenleving. Ze sluiten aan bij de manier waarop afnemers contact met hen willen en kunnen onderhouden. Zowel wat betreft de beschikbare communicatiekanalen, als de tijdstippen waarop contact mogelijk is en de gebruiksvriendelijkheid van de communicatiemiddelen.",""
+"id-28649","Goal","KD15 Begrijpelijk","De overheidsdienstverlener gebruikt begrijpelijke taal in alle communicatie over haar dienstverlening. Zo is de dienst voor iedereen te begrijpen, kunnen burgers en bedrijven gemakkelijk een aanvraag doen, een benodigde actie uitvoeren, een vraag stellen en is de daaropvolgende communicatie helder. 
+Het is voor burgers en bedrijven duidelijk wat de betekenis van de informatie is binnen het werkproces waar het is ontvangen of gemaakt. Het is bijvoorbeeld bekend wanneer de informatie is gemaakt, door wie, waar zij betrekking op heeft en wat de status is. Automatische besluitvorming (door toepassing van algoritmes) vindt altijd voor burgers en bedrijven begrijpelijke wijze plaats. ",""
+"id-37372","Goal","KD16 Overzichtelijk","De overheidsdienstverlener zorgt voor goede informatievoorziening over het aanvragen en leveren van een dienst door dee informatievoorziening daarover gebruikersvriendelijk in te richten. De informatie wordt overzichtelijk en in onderlinge samenhang gepresenteerd. Dat is essentieel zodat burgers en bedrijven kunnen bepalen waar ze recht op hebben, en hoe ze dat recht kunnen halen.",""
+"id-37370","Goal","KD17 Vindbaar","Burgers en bedrijven kunnen informatie over dienstverlening vinden op de plaatsen waar ze die verwachten. Daarbij verwijst de overheidsdienstverlener zo nodig door naar andere overheidsdienstverlener. De dienstverlening is alleen doelmatig als de afnemer de dienst kan vinden.",""
+"id-37364","Goal","KD18 Uniform","Uniformiteit is er op gericht om burgers en bedrijven de overheid in haar dienstverlening zo veel mogelijk te laten ervaren als één organisatie. De overheid standaardiseert haar dienstverlening waar het kan en levert maatwerk waar het nodig is. Aspecten van dienstverlening die vergelijkbaar zijn krijgen op soortgelijke wijze vorm, door gebruik te maken van standaard bouwstenen. Daarbij kan het gaan om hergebruik van diensten, of onderdelen daarvan, of de toepassing van open standaarden op eigen processen en systemen.",""
+"id-37367","Goal","KD19 Noodzakelijk","Burgers en bedrijven worden niet geconfronteerd met overbodige vragen of irrelevante informatie. De overheidsdienstverlener hergebruikt informatie die bekend is, bij zichzelf of bij andere overheidsdienstverlener. De overheidsdienstverlener stelt als dat nodig is informatie beschikbaar aan andere overheidsdienstverleners en ketenpartners, op basis van verantwoord gegevensgebruik. Overheidsdienstverleners en ketenpartners hebben expliciet vastgelegd welke afspraken zij gemaakt hebben om hieraan invulling te geven. Het onnodig opvragen of leveren van informatie kost tijd, wekt irritatie op en verhoogt de kans op fouten.",""
+"id-28646","Goal","KD20 Kostenefficient","Betere dienstverlening door digitalisering gaat in veel gevallen gepaard met een efficiëntere bedrijfsvoering en daarmee met lagere kosten voor overheidsorganisaties. Burgers en bedrijven verwachten een juist gebruik van middelen, dus zonder verspilling, en dat juist gebruik van middelen ook regelmatig wordt gecontroleerd.",""
+"id-ff7a9faec6414996a608a27eacab477d","Meaning","#Afnemer","DEFINITIE
 Een afnemer neemt diensten van de overheid af. Dit kunnen burgers en bedrijven zijn, maar ook andere overheidsorganisaties waarmee in de keten wordt samengewerkt.
 
 BESCHRIJVING
-Zie ook https://www.noraonline.nl/wiki/Afnemer";""
-"id-2ed07730b62446ecb206c2de5c9c9dff";"Meaning";"#Burgers en bedrijven";"DEFINITIE
+Zie ook https://www.noraonline.nl/wiki/Afnemer",""
+"id-2ed07730b62446ecb206c2de5c9c9dff","Meaning","#Burgers en bedrijven","DEFINITIE
 Met de term ‘burgers en bedrijven’ bedoelen we alle belanghebbenden van overheidsdienstverlening in de ruime zin des woords.
 
 BESCHRIJVING
-Zo moet in dezde context een statushouder gezien worden als een burger en een overheidsinstelling als een bedrijf. ";""
-"id-27463";"Principle";"#Afgeleid principe";"";""
-"id-28654";"Principle";"#Begrip";"";""
-"id-27466";"Principle";"#NORA Architectuur principle";"DEFINITIE
+Zo moet in dezde context een statushouder gezien worden als een burger en een overheidsinstelling als een bedrijf. ",""
+"id-27463","Principle","#Afgeleid principe","",""
+"id-28654","Principle","#Begrip","",""
+"id-27466","Principle","#NORA Architectuur principle","DEFINITIE
 NORA Architectuurprincipes zijn normatieve uitspraken die richting geven aan het in samenhang ontwerpen en realiseren van overheidsdiensten voor burgers en bedrijven (het hoe).
 
 BESCHRIJVING
@@ -164,114 +164,114 @@ Een NORA Architectuurprincipe is geen voorschrift of richtlijn om een concreet p
 OPMERKING
 De NORA Architectuurprincipes vervangen de term Afgeleide Principes.
 
-";""
-"id-37351";"Principle";"NAP01 Verplaats je in de gebruiker";"STELLING 
+",""
+"id-37351","Principle","NAP01 Verplaats je in de gebruiker","STELLING 
 Ontwerp, realiseer en verbeter de dienst vanuit het perspectief van de afnemer. 
 
 RATIONALE 
-Om een kwalitatief goede dienst met ondersteunende systemen te leveren is het nodig om niet alleen het perspectief van de overheidsdienstverlener, maar óók het perspectief, de beweegredenen, verwachtingen en context van de afnemer mee te nemen.";""
-"id-37355";"Principle";"NAP02 Geef inzicht in de afhandeling van de dienst";"STELLING 
+Om een kwalitatief goede dienst met ondersteunende systemen te leveren is het nodig om niet alleen het perspectief van de overheidsdienstverlener, maar óók het perspectief, de beweegredenen, verwachtingen en context van de afnemer mee te nemen.",""
+"id-37355","Principle","NAP02 Geef inzicht in de afhandeling van de dienst","STELLING 
 Informeer de afnemer over de dienst, zowel procesmatig als inhoudelijk. 
 
 RATIONALE 
-Afnemers willen graag inzicht hebben in de voortgang en (deel)beslissingen van de dienstverlening. Dit is onder andere van belang wanneer de afnemer het resultaat nodig heeft voor vervolgactiviteiten. De overheidsdienstverlener neemt onzekerheid weg door deze transparantie te bieden: is mijn verzoek überhaupt aangekomen, krijg ik de uitslag op tijd? Verder geeft het inzagerecht invulling aan het streven naar een betrouwbare en transparante overheid. Door deze informatie duurzaam toegangkelijk te houden wordt de traceerbaarheid van beslissingen gegarandeerd.";""
-"id-37352";"Principle";"NAP03 Lever een kanaal-onafhankelijk resultaat";"STELLING 
+Afnemers willen graag inzicht hebben in de voortgang en (deel)beslissingen van de dienstverlening. Dit is onder andere van belang wanneer de afnemer het resultaat nodig heeft voor vervolgactiviteiten. De overheidsdienstverlener neemt onzekerheid weg door deze transparantie te bieden: is mijn verzoek überhaupt aangekomen, krijg ik de uitslag op tijd? Verder geeft het inzagerecht invulling aan het streven naar een betrouwbare en transparante overheid. Door deze informatie duurzaam toegangkelijk te houden wordt de traceerbaarheid van beslissingen gegarandeerd.",""
+"id-37352","Principle","NAP03 Lever een kanaal-onafhankelijk resultaat","STELLING 
 Lever een gelijkwaardige uitkomst, ongeacht het gebruikte kanaal. Bied de dienst aan via internet, fysiek (off-line) en eventueel via andere passende kanalen waar de afnemer gebruik van kan maken. 
 
 RATIONALE 
-Afnemers verwachten een gelijkwaardig resultaat, dat niet beïnvloed wordt door hun kanaalkeuze. Het mag dus voor het resultaat van de dienst geen verschil uitmaken of deze bijvoorbeeld via internet of fysiek is aangevraagd. De geleverde informatie is in alle gevallen hetzelfde, ongeacht de plaats of medewerker die deze informatie levert.";""
-"id-37358";"Principle";"NAP04 Bundel diensten";"STELLING 
+Afnemers verwachten een gelijkwaardig resultaat, dat niet beïnvloed wordt door hun kanaalkeuze. Het mag dus voor het resultaat van de dienst geen verschil uitmaken of deze bijvoorbeeld via internet of fysiek is aangevraagd. De geleverde informatie is in alle gevallen hetzelfde, ongeacht de plaats of medewerker die deze informatie levert.",""
+"id-37358","Principle","NAP04 Bundel diensten","STELLING 
 Bundel de dienst met andere voor de afnemer relevante diensten binnen de keten, zodat die in één keer afgenomen kunnen worden. 
 
 RATIONALE 
-Door bundeling van diensten nemen gebruiksgemak en meerwaarde voor afnemers toe: waar voorheen meerdere aanvragen nodig waren, kan nu met één aanvraag worden volstaan. Tevens kunnen overheidsdienstverleners zo efficiënter samenwerken.";""
-"id-37354";"Principle";"NAP05 Bied de dienst proactief aan";"STELLING 
+Door bundeling van diensten nemen gebruiksgemak en meerwaarde voor afnemers toe: waar voorheen meerdere aanvragen nodig waren, kan nu met één aanvraag worden volstaan. Tevens kunnen overheidsdienstverleners zo efficiënter samenwerken.",""
+"id-37354","Principle","NAP05 Bied de dienst proactief aan","STELLING 
 Bied de dienst aan wanneer dit in het belang is of zou kunnen zijn voor de afnemer. 
 
 RATIONALE 
-Het gebruik en gemak van diensten neemt toe wanneer overheidsdienstverleners acteren op signalen die duiden op (latente) behoeften bij de afnemer. Op basis hiervan nemen zij het initiatief om (aanvullende) diensten aan te bieden of er naar door te wijzen. Afnemers hoeven daardoor niet eerst zelf de vraag te stellen, of te weten welke diensten beschikbaar zijn. Proactiviteit is een belangrijk aspect van de kwaliteit van dienstverlening die de overheid nastreeft.";""
-"id-30180";"Principle";"NAP06 Hergebruik voor kopen, voor maken";"STELLING 
+Het gebruik en gemak van diensten neemt toe wanneer overheidsdienstverleners acteren op signalen die duiden op (latente) behoeften bij de afnemer. Op basis hiervan nemen zij het initiatief om (aanvullende) diensten aan te bieden of er naar door te wijzen. Afnemers hoeven daardoor niet eerst zelf de vraag te stellen, of te weten welke diensten beschikbaar zijn. Proactiviteit is een belangrijk aspect van de kwaliteit van dienstverlening die de overheid nastreeft.",""
+"id-30180","Principle","NAP06 Hergebruik voor kopen, voor maken","STELLING 
 Ga uit van overheidsbreed hergebruik van diensten, of onderdelen daarvan voordat je overgaat tot het kopen of het laten maken. 
 
 RATIONALE 
-Hergebruik van diensten of onderdelen daarvan is duurzaam en kostenefficiënt, en bovendien leidt dit tot standaardisering van dienstverlening en informatievoorzieningen. Als hergebruik niet mogelijk is, dan nagaan of aanpassing op het bestaande mogelijk is. Daarna komt het alternatief om iets te kopen of te (laten) maken.";""
-"id-30185";"Principle";"NAP07 Bouw diensten modulair op";"STELLING 
+Hergebruik van diensten of onderdelen daarvan is duurzaam en kostenefficiënt, en bovendien leidt dit tot standaardisering van dienstverlening en informatievoorzieningen. Als hergebruik niet mogelijk is, dan nagaan of aanpassing op het bestaande mogelijk is. Daarna komt het alternatief om iets te kopen of te (laten) maken.",""
+"id-30185","Principle","NAP07 Bouw diensten modulair op","STELLING 
 Maak bij de ontwikkeling van diensten gebruik van een modulaire indeling met een maximale interne samenhang en minimale externe koppelingen. 
 
 RATIONALE 
-Door diensten modulair op te bouwen en te ontkoppelen wordt de flexibiliteit vergroot, wat leidt tot meer wendbaarheid, meer hergebruik en duurzaamheid.";""
-"id-37350";"Principle";"NAP08 Standaardiseer waar mogelijk";"STELLING 
+Door diensten modulair op te bouwen en te ontkoppelen wordt de flexibiliteit vergroot, wat leidt tot meer wendbaarheid, meer hergebruik en duurzaamheid.",""
+"id-37350","Principle","NAP08 Standaardiseer waar mogelijk","STELLING 
 Standaardiseer waar het kan, maak specifiek waar het moet. 
 
 RATIONALE 
-Standaardisatie reduceert variëteit en kosten, en zorgt voor een betere interoperabiliteit en beveiliging. Hiermee komt bovendien een grotere wendbaarheid tot stand. Door te kiezen voor open standaarden wordt vendor lock-in voorkomen.";""
-"id-30187";"Principle";"NAP09 Beschrijf de dienst nauwkeurig";"STELLING 
+Standaardisatie reduceert variëteit en kosten, en zorgt voor een betere interoperabiliteit en beveiliging. Hiermee komt bovendien een grotere wendbaarheid tot stand. Door te kiezen voor open standaarden wordt vendor lock-in voorkomen.",""
+"id-30187","Principle","NAP09 Beschrijf de dienst nauwkeurig","STELLING 
 Beschrijf de dienst nauwkeurig en positioneer deze helder binnen het dienstenaanbod. 
 
 RATIONALE 
-Een heldere beschrijving van het wat, het doel en wettelijk kader inclusief interactiemomenten en positionering draagt bij aan het gebruik van de dienst. Het maakt diensten gemakkelijker vindbaar voor afnemers. Het draagt bij aan het begrip bij afnemers van wat de dienst wel en niet te bieden heeft, ten opzichte van andere verwante diensten.";""
-"id-185aa93fbd55485d8682022ba067609d";"Principle";"NAP10 Neem gegevens als fundament";"STELLING 
+Een heldere beschrijving van het wat, het doel en wettelijk kader inclusief interactiemomenten en positionering draagt bij aan het gebruik van de dienst. Het maakt diensten gemakkelijker vindbaar voor afnemers. Het draagt bij aan het begrip bij afnemers van wat de dienst wel en niet te bieden heeft, ten opzichte van andere verwante diensten.",""
+"id-185aa93fbd55485d8682022ba067609d","Principle","NAP10 Neem gegevens als fundament","STELLING 
 Gebruik gegevens als fundament voor het ontwerp, realisatie en doorontwikkeling van de dienst en richt het beheer hiervan goed in. 
 
 RATIONALE 
-De kwaliteit en toegankelijkheid van gegevens bepaalt de waarde van de dienst. De onderliggende gegevens kennen meestal een veel langere levenscyclus dan de systemen waarin deze verwerkt wordt. Als gegevens op duurzame wijze toegankelijk zijn gemaakt voor mens én machine kunnen deze gegevens dienen als fundering voor verschillende diensten in verschillende toepassingen, door de tijd en over de hele keten heen. Daarom is het essentieel dat het beheer van gegevens in de keten op orde is, vanaf het ontstaan ervan tot en met de vernietiging (conform bewaartermijnen).";""
-"id-37357";"Principle";"NAP11 Pas doelbinding toe";"STELLING 
+De kwaliteit en toegankelijkheid van gegevens bepaalt de waarde van de dienst. De onderliggende gegevens kennen meestal een veel langere levenscyclus dan de systemen waarin deze verwerkt wordt. Als gegevens op duurzame wijze toegankelijk zijn gemaakt voor mens én machine kunnen deze gegevens dienen als fundering voor verschillende diensten in verschillende toepassingen, door de tijd en over de hele keten heen. Daarom is het essentieel dat het beheer van gegevens in de keten op orde is, vanaf het ontstaan ervan tot en met de vernietiging (conform bewaartermijnen).",""
+"id-37357","Principle","NAP11 Pas doelbinding toe","STELLING 
 Geef burgers en bedrijven de zekerheid dat informatie over hen alleen wordt gebruikt voor de doelen waarvoor deze oorspronkelijk is verzameld.  
 
 RATIONALE 
-Afspraken over het gebruik van informatie zijn nodig voor een vertrouwen in de dienstverlening. Door informatie niet te gebruiken voor andere processen of diensten binnen de overheid, wordt zekerheid naar burgers en bedrijven geboden.";""
-"id-37353";"Principle";"NAP12 Informeer bij de bron";"STELLING 
+Afspraken over het gebruik van informatie zijn nodig voor een vertrouwen in de dienstverlening. Door informatie niet te gebruiken voor andere processen of diensten binnen de overheid, wordt zekerheid naar burgers en bedrijven geboden.",""
+"id-37353","Principle","NAP12 Informeer bij de bron","STELLING 
 Maak bij de dienst gebruik van gegevens die afkomstig zijn uit een bronregistratie. 
 
 RATIONALE 
-Voor betrouwbare dienstverlening is het hergebruik van de juiste informatie en documenten van cruciaal belang. Om de kwaliteit over de juistheid van een gegeven te borgen, moet duidelijk zijn welke organisatie bepaalt wat de juiste informatie is. Uitgangspunt is dat er voor gegevens waar de overheid gebruik van maakt, altijd één bron bestaat, die leidend is.";""
-"id-27922";"Principle";"NAP13 Beheers voortdurend risico's";"STELLING 
+Voor betrouwbare dienstverlening is het hergebruik van de juiste informatie en documenten van cruciaal belang. Om de kwaliteit over de juistheid van een gegeven te borgen, moet duidelijk zijn welke organisatie bepaalt wat de juiste informatie is. Uitgangspunt is dat er voor gegevens waar de overheid gebruik van maakt, altijd één bron bestaat, die leidend is.",""
+"id-27922","Principle","NAP13 Beheers risico's voortdurend","STELLING 
 Maak in alle stappen van ontwerp en doorontwikkeling van de dienst de risico's inzichtelijk en stuur op een afgewogen beheersing ervan.  
 
 RATIONALE 
-Wanneer helder in beeld is welke gevaren en bedreigingen van toepassing zijn voor de dienst kunnen gepaste beheersmaatregelen worden genomen. De manieren waarop componenten kunnen falen of hoe er misbruik van kan worden gemaakt zijn onderdeel van de risicoanalyse. Telkens kan dan de afweging worden gemaakt in welke mate de kosten en inspanningen van verdere mitigatie in verhouding staan tot de gevolgen als een risico zich voordoet. De bereidheid van de overheidsdienstverlener om restrisico's te accepteren maakt onderdeel uit van de afweging. Door risico's tijdig te onderkennen zijn beheersmaatregelen effectiever en efficiënter te implementeren.";""
-"id-1a2e7fcb12cb4e269421f615094a1657";"Principle";"NAP14 Verifieer altijd";"STELLING 
+Wanneer helder in beeld is welke gevaren en bedreigingen van toepassing zijn voor de dienst kunnen gepaste beheersmaatregelen worden genomen. De manieren waarop componenten kunnen falen of hoe er misbruik van kan worden gemaakt zijn onderdeel van de risicoanalyse. Telkens kan dan de afweging worden gemaakt in welke mate de kosten en inspanningen van verdere mitigatie in verhouding staan tot de gevolgen als een risico zich voordoet. De bereidheid van de overheidsdienstverlener om restrisico's te accepteren maakt onderdeel uit van de afweging. Door risico's tijdig te onderkennen zijn beheersmaatregelen effectiever en efficiënter te implementeren.",""
+"id-1a2e7fcb12cb4e269421f615094a1657","Principle","NAP14 Verifieer altijd","STELLING 
 Verifieer doorlopend de juiste werking van de componenten en beheersmaatregelen van de dienst. 
 
 RATIONALE 
-Vertrouwen in het service-niveau van een overheidsdienstverlener, in de beschikbaarheid van een dienst, in de betrouwbaarheid van informatie, in de werking van een component, of de adequaatheid van beheersmaatregelen, is alleen gerechtvaardigd als de componenten en beheersmaatregelen van de dienst doorlopend wordt geverifieerd.";""
-"id-27809";"Principle";"NAP15 Maak diensten schaalbaar";"STELLING 
+Vertrouwen in het service-niveau van een overheidsdienstverlener, in de beschikbaarheid van een dienst, in de betrouwbaarheid van informatie, in de werking van een component, of de adequaatheid van beheersmaatregelen, is alleen gerechtvaardigd als de componenten en beheersmaatregelen van de dienst doorlopend wordt geverifieerd.",""
+"id-27809","Principle","NAP15 Maak diensten schaalbaar","STELLING 
 Bereid de dienst voor op veranderende werklast of reikwijdte. 
 
 RATIONALE 
-Een schaalbare dienst kan omgaan met zowel verwachte als onverwachte intensivering of extensivering. Dit waarborgt de beschikbaarheid van de dienst en hiermee ook de wendbaarheid. Het voorkomt het ad hoc en onder hoge tijdsdruk realiseren van het opschalen van de dienst.";""
-"id-27794";"Principle";"NAP16 Voorkom onnodige complexiteit";"STELLING 
+Een schaalbare dienst kan omgaan met zowel verwachte als onverwachte intensivering of extensivering. Dit waarborgt de beschikbaarheid van de dienst en hiermee ook de wendbaarheid. Het voorkomt het ad hoc en onder hoge tijdsdruk realiseren van het opschalen van de dienst.",""
+"id-27794","Principle","NAP16 Voorkom onnodige complexiteit","STELLING 
 Voorkom onnodige complexiteit door activiteiten en middelen die geen waarde toevoegen, weg te laten. 
 
 RATIONALE 
-Meer complexiteit verhoogt de kosten, verhult kwetsbaarheden en reduceert het overzicht en belemmert veranderingen. ";""
-"id-37359";"Principle";"NAP17 Stuur cyclisch op kwaliteit";"STELLING 
+Meer complexiteit verhoogt de kosten, verhult kwetsbaarheden en reduceert het overzicht en belemmert veranderingen. ",""
+"id-37359","Principle","NAP17 Stuur cyclisch op kwaliteit","STELLING 
 Maak cyclische sturing op de kwaliteit van de dienst mogelijk. 
 
 RATIONALE
-Afnemers vragen overheidsorganisaties om transparantie ten aanzien van de geleverde kwaliteit van de dienst en de sturing daarop. De overheidsdienstverlener legt over deze sturing verantwoording af en geeft aan of zij 'in control' is. Voor alle diensten gelden leveringsvoorwaarden en kwaliteitscriteria (Quality of Service). Afspraken hierover zorgen ervoor dat overheidsdienstverlener en afnemer weten waar zij aan toe zijn en elkaar kunnen vertrouwen. Voor afnemers is het van belang om snel inzicht te kunnen krijgen in een pakket van maatregelen voor de borging van de kwaliteit. Dit is ook in het kader van samenwerking tussen organisaties van belang. Op basis van inzicht in deze maatregelen ontstaat vertrouwen en het vermogen om snel samenwerking te realiseren. De overheidsdienstverlener werkt daarom op methodische wijze aan de kwaliteit van de dienst. Dit veronderstelt een cyclische terugkoppeling of Plan-Do-Check-Act-cyclus (Deming-cirkel) op de kwaliteit van de dienst. ";""
-"id-27773";"Requirement";"#Implicatie";"DEFINITIE
+Afnemers vragen overheidsorganisaties om transparantie ten aanzien van de geleverde kwaliteit van de dienst en de sturing daarop. De overheidsdienstverlener legt over deze sturing verantwoording af en geeft aan of zij 'in control' is. Voor alle diensten gelden leveringsvoorwaarden en kwaliteitscriteria (Quality of Service). Afspraken hierover zorgen ervoor dat overheidsdienstverlener en afnemer weten waar zij aan toe zijn en elkaar kunnen vertrouwen. Voor afnemers is het van belang om snel inzicht te kunnen krijgen in een pakket van maatregelen voor de borging van de kwaliteit. Dit is ook in het kader van samenwerking tussen organisaties van belang. Op basis van inzicht in deze maatregelen ontstaat vertrouwen en het vermogen om snel samenwerking te realiseren. De overheidsdienstverlener werkt daarom op methodische wijze aan de kwaliteit van de dienst. Dit veronderstelt een cyclische terugkoppeling of Plan-Do-Check-Act-cyclus (Deming-cirkel) op de kwaliteit van de dienst. ",""
+"id-27773","Requirement","#Implicatie","DEFINITIE
 
 BESCHRIJVING
 Implicaties zijn genummerd naar de relatie die ze hebben met het bovenliggend archtectuurprincipe. AP02.02 is dus implicatie nr. 2 behorend bij Architectuurprincipe AP02. Er is geen volgorde van belangrijkheid in de nummering van de implicaties zelf.
-Implicaties zijn gerelateerd aan 1 of meerdere architectuurlagen. Deze relatie is gelegd in de Properties (als attribuut) bij de betreffende implicatie. Implicaties worden gemodelleerd als ArchiMate element type Requirement.";""
-"id-d3a51b2dbc464391b29acebefaa5b212";"Requirement";"#Standaard";"";""
-"id-511fba2f031e442fb2aad7f5a5ba8ea5";"Requirement";"IMP001 Beschrijf informatieobjecten in een model";"STELLING
+Implicaties zijn gerelateerd aan 1 of meerdere architectuurlagen. Deze relatie is gelegd in de Properties (als attribuut) bij de betreffende implicatie. Implicaties worden gemodelleerd als ArchiMate element type Requirement.",""
+"id-d3a51b2dbc464391b29acebefaa5b212","Requirement","#Standaard","",""
+"id-511fba2f031e442fb2aad7f5a5ba8ea5","Requirement","IMP001 Beschrijf informatieobjecten in een model","STELLING
 Beschrijf de toegepaste informatieobjecten voor een dienst systematisch in een informatiemodel en voorzie deze van metadata.
 
 RATIONALE
-Samenwerking in het leveren van diensten tussen en binnen overheidsorganisaties is alleen goed mogelijk wanneer de betrokkenen de relevante informatieobjecten kunnen vinden, toepassen, hergebruiken en duurzaam archiveren.";""
-"id-3bd2ac77dfb5476fa4a0e1922834efaa";"Requirement";"IMP002 Gegevens zijn duurzaam toegankelijk";"STELLING
+Samenwerking in het leveren van diensten tussen en binnen overheidsorganisaties is alleen goed mogelijk wanneer de betrokkenen de relevante informatieobjecten kunnen vinden, toepassen, hergebruiken en duurzaam archiveren.",""
+"id-3bd2ac77dfb5476fa4a0e1922834efaa","Requirement","IMP002 Gegevens zijn duurzaam toegankelijk","STELLING
 Gegevens die via de dienst geleverd worden zijn 'duurzaam toegankelijk', voor iedereen die daar belang bij heeft en voor zo lang als noodzakelijk.
 
 RATIONALE
-Onder toegankelijk verstaan we dat gegevens vindbaar, beschikbaar, leesbaar, interpreteerbaar en betrouwbaar zijn, alsmede zijn beschermd tegen fysiek of technologisch verval. Duurzaam in deze context betekent dat de toegankelijkheid bestand is tegen veranderingen van welke aard dan ook. Het gaat hier bijvoorbeeld over de toegankelijkheid van gegevens over genomen besluiten, de herleidbaarheid van gegevensproducten naar de bron en overwegingen die hebben geleid tot besluitvorming, informatie over de dienstverlening van de overheid, wet- en regelgeving, rechten en plichten, correspondentie door en met de overheid en persoonlijke (zaak)gegevens.";""
-"id-83859412ff8349c99d5a8b08a8882444";"Requirement";"IMP003 Deel open data";"STELLING
+Onder toegankelijk verstaan we dat gegevens vindbaar, beschikbaar, leesbaar, interpreteerbaar en betrouwbaar zijn, alsmede zijn beschermd tegen fysiek of technologisch verval. Duurzaam in deze context betekent dat de toegankelijkheid bestand is tegen veranderingen van welke aard dan ook. Het gaat hier bijvoorbeeld over de toegankelijkheid van gegevens over genomen besluiten, de herleidbaarheid van gegevensproducten naar de bron en overwegingen die hebben geleid tot besluitvorming, informatie over de dienstverlening van de overheid, wet- en regelgeving, rechten en plichten, correspondentie door en met de overheid en persoonlijke (zaak)gegevens.",""
+"id-83859412ff8349c99d5a8b08a8882444","Requirement","IMP003 Deel open data","STELLING
 Stel overheidsdata actief beschikbaar voor hergebruik door derden, bijvoorbeeld in de vorm van open data. De enige uitzondering zijn overheidsdata waarvoor wet- en regelgeving expliciet beperkingen oplegt, die stel je niet actief beschikbaar. 
 
 RATIONALE
 Er zijn meerdere redenen om data actief beschikbaar te stellen. Zo kan het meer transparantie en inzicht geven in het overheidshandelen en zo de accountability vergroten. Bijvoorbeeld door begrotingen of inkoopgegevens als open data beschikbaar te stellen. Het kan ook economische en maatschappelijke innovatie stimuleren, zoals de ontwikkeling van apps en informatiediensten op basis van overheidsdata.
-En het kan zorgen dat de overheid effectiever en efficiënter opereert. Bijvoorbeeld door het actief benutten van data om de eigen bedrijfsvoerings- en dienstverleningsprocessen te verbeteren. Zo gaan de kosten omlaag en de prestaties omhoog.";""
-"id-28683";"Grouping";"#Bouwsteen";"";""
-"id-ff64dbc7ec40487e9441bd0a379ec636";"Grouping";"#PDCA Cyclus Overheids diensten (in de keten)";"";""
-"id-28661";"Grouping";"#Thema";"";""
+En het kan zorgen dat de overheid effectiever en efficiënter opereert. Bijvoorbeeld door het actief benutten van data om de eigen bedrijfsvoerings- en dienstverleningsprocessen te verbeteren. Zo gaan de kosten omlaag en de prestaties omhoog.",""
+"id-28683","Grouping","#Bouwsteen","",""
+"id-ff64dbc7ec40487e9441bd0a379ec636","Grouping","#PDCA Cyclus Overheids diensten (in de keten)","",""
+"id-28661","Grouping","#Thema","",""
