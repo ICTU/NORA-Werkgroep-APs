@@ -1,4 +1,42 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Temp"
-    id="id-104b2d24103d4244aa82b64be0b39d65"/>
+    id="id-104b2d24103d4244aa82b64be0b39d65">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-f5df2f76df314efd9100a33aa8d22772">
+    <bounds
+        x="114"
+        y="126"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_id-511fba2f031e442fb2aad7f5a5ba8ea5.xml#id-511fba2f031e442fb2aad7f5a5ba8ea5"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-ec0aaa50661a4f0696d93f5d5744cde1">
+    <bounds
+        x="264"
+        y="126"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_id-3bd2ac77dfb5476fa4a0e1922834efaa.xml#id-3bd2ac77dfb5476fa4a0e1922834efaa"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-c0c6612966f24497b7beff1f43ecc097">
+    <bounds
+        x="414"
+        y="126"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_id-83859412ff8349c99d5a8b08a8882444.xml#id-83859412ff8349c99d5a8b08a8882444"/>
+  </children>
+</archimate:ArchimateDiagramModel>
