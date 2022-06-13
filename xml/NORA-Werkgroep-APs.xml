@@ -11400,6 +11400,33 @@ De dienstverlening van de overheid naar burgers en bedrijven is samen te vatten 
       </view>
       <view identifier="id-104b2d24103d4244aa82b64be0b39d65" xsi:type="Diagram">
         <name xml:lang="en">Temp</name>
+        <node identifier="id-f5df2f76df314efd9100a33aa8d22772" elementRef="id-511fba2f031e442fb2aad7f5a5ba8ea5" xsi:type="Element" x="60" y="36" w="120" h="55">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-ec0aaa50661a4f0696d93f5d5744cde1" elementRef="id-3bd2ac77dfb5476fa4a0e1922834efaa" xsi:type="Element" x="192" y="36" w="120" h="55">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-c0c6612966f24497b7beff1f43ecc097" elementRef="id-83859412ff8349c99d5a8b08a8882444" xsi:type="Element" x="324" y="36" w="120" h="55">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
       </view>
     </diagrams>
   </views>
