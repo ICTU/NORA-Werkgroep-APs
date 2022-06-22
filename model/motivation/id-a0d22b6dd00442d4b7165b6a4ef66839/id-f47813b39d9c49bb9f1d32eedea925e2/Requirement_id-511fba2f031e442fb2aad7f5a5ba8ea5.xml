@@ -4,9 +4,6 @@
     id="id-511fba2f031e442fb2aad7f5a5ba8ea5"
     documentation="STELLING&#xA;Beschrijf de toegepaste informatieobjecten voor een dienst systematisch in een informatiemodel en voorzie deze van metadata.&#xA;&#xA;RATIONALE&#xA;Samenwerking in het leveren van diensten tussen en binnen overheidsorganisaties is alleen goed mogelijk wanneer de betrokkenen de relevante informatieobjecten kunnen vinden, toepassen, hergebruiken en duurzaam archiveren.">
   <properties
-      key="Architectuurlaag"
-      value="3-Informatie"/>
-  <properties
       key="Bron"
       value="D0.Afgeleid principe AP17"/>
 </archimate:Requirement>

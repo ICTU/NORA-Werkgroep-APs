@@ -15,8 +15,8 @@
     <bounds
         x="20"
         y="20"
-        width="800"
-        height="509"/>
+        width="808"
+        height="569"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -33,82 +33,7 @@
         x="348"
         y="48"
         width="453"
-        height="445"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-35510"
-      font="1|Verdana|14.0|0|COCOA|1|"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      textAlignment="1"
-      fillColor="#b3e09c"
-      content="1- Grondslagen en Visie">
-    <bounds
-        x="432"
-        y="118"
-        width="293"
-        height="53"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-37696"
-      font="1|Verdana|14.0|0|COCOA|1|"
-      fontColor="#000000"
-      lineColor="#4acf8c"
-      textAlignment="1"
-      fillColor="#f0d5fd"
-      content="2- Organisatorische laag">
-    <bounds
-        x="432"
-        y="191"
-        width="293"
-        height="53"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-37697"
-      font="1|Verdana|14.0|0|COCOA|1|"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      textAlignment="1"
-      fillColor="#c2e3f8"
-      content="3- Informatielaag">
-    <bounds
-        x="432"
-        y="264"
-        width="293"
-        height="53"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-37698"
-      font="1|Verdana|14.0|0|COCOA|1|"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      textAlignment="1"
-      fillColor="#ffc2a6"
-      content="4- Applicatielaag">
-    <bounds
-        x="432"
-        y="338"
-        width="293"
-        height="53"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-37699"
-      font="1|Verdana|14.0|0|COCOA|1|"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      textAlignment="1"
-      fillColor="#e0e0e0"
-      content="5- Infrastructuurlaag">
-    <bounds
-        x="432"
-        y="411"
-        width="293"
-        height="53"/>
+        height="517"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -124,7 +49,7 @@
         x="47"
         y="156"
         width="280"
-        height="337"/>
+        height="409"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -151,5 +76,90 @@
     <referencedModel
         xsi:type="archimate:ArchimateDiagramModel"
         href="ArchimateDiagramModel_id-27340.xml#id-27340"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-9ed5d7c340b74fd2929f3e60849031f1"
+      font="1|Verdana|14.0|0|COCOA|1|"
+      fontColor="#000000"
+      lineColor="#7459d9"
+      textAlignment="1"
+      fillColor="#b3e09c">
+    <bounds
+        x="384"
+        y="96"
+        width="370"
+        height="69"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-1d4a343462be40548c3b704b34ed0a04.xml#id-1d4a343462be40548c3b704b34ed0a04"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-f44814e1aad04048aee83ebd2a40b7b8"
+      font="1|Verdana|14.0|0|COCOA|1|"
+      fontColor="#000000"
+      lineColor="#4acf8c"
+      textAlignment="1"
+      fillColor="#f0d5fd">
+    <bounds
+        x="384"
+        y="178"
+        width="369"
+        height="68"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-55298bd32f1f46e1a171a689e47fdf45.xml#id-55298bd32f1f46e1a171a689e47fdf45"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-6a06b89eb72a4ca483f5bacc2cc22951"
+      font="1|Verdana|14.0|0|COCOA|1|"
+      fontColor="#000000"
+      lineColor="#7459d9"
+      textAlignment="1"
+      fillColor="#c2e3f8">
+    <bounds
+        x="384"
+        y="262"
+        width="369"
+        height="73"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-4468c6df9320405e8fce62e54e297b0b.xml#id-4468c6df9320405e8fce62e54e297b0b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-b8d63f35df824312bf6e42845f9a03e3"
+      font="1|Verdana|14.0|0|COCOA|1|"
+      fontColor="#000000"
+      lineColor="#7459d9"
+      textAlignment="1"
+      fillColor="#ffc2a6">
+    <bounds
+        x="384"
+        y="348"
+        width="369"
+        height="72"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-e28f6311e03a458d8160cc92b818e631.xml#id-e28f6311e03a458d8160cc92b818e631"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-46f0d63f6c194bedb99d11d42026af3b"
+      font="1|Verdana|14.0|0|COCOA|1|"
+      fontColor="#000000"
+      lineColor="#7459d9"
+      textAlignment="1"
+      fillColor="#e0e0e0">
+    <bounds
+        x="384"
+        y="440"
+        width="369"
+        height="72"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-e1dd5189a3e74a9aa9bed2a68b8b58c5.xml#id-e1dd5189a3e74a9aa9bed2a68b8b58c5"/>
   </children>
 </archimate:ArchimateDiagramModel>
