@@ -1,4 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IMP006 Doe het in één keer goed"
-    id="id-e0b7dec8ff264328bc9f4dbd5278ff97"/>
+    name="IM006 Doe het in één keer goed"
+    id="id-e0b7dec8ff264328bc9f4dbd5278ff97"
+    documentation="Bron: 'progrmma antwoord', gemeenten WAU, klantgericht zijn."/>

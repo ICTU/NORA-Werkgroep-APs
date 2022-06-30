@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IMP003 Deel open data"
+    name="IM003 Deel open data"
     id="id-83859412ff8349c99d5a8b08a8882444"
     documentation="STELLING&#xA;Stel overheidsdata actief beschikbaar voor hergebruik door derden, bijvoorbeeld in de vorm van open data. De enige uitzondering zijn overheidsdata waarvoor wet- en regelgeving expliciet beperkingen oplegt, die stel je niet actief beschikbaar. &#xA;&#xA;RATIONALE&#xA;Er zijn meerdere redenen om data actief beschikbaar te stellen. Zo kan het meer transparantie en inzicht geven in het overheidshandelen en zo de accountability vergroten. Bijvoorbeeld door begrotingen of inkoopgegevens als open data beschikbaar te stellen. Het kan ook economische en maatschappelijke innovatie stimuleren, zoals de ontwikkeling van apps en informatiediensten op basis van overheidsdata.&#xA;En het kan zorgen dat de overheid effectiever en efficiënter opereert. Bijvoorbeeld door het actief benutten van data om de eigen bedrijfsvoerings- en dienstverleningsprocessen te verbeteren. Zo gaan de kosten omlaag en de prestaties omhoog.">
   <properties

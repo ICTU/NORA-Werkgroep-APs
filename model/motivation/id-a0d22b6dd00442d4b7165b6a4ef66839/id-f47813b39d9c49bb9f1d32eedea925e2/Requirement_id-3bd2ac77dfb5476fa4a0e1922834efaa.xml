@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IMP002 Gegevens zijn duurzaam toegankelijk"
+    name="IM002 Gegevens zijn duurzaam toegankelijk"
     id="id-3bd2ac77dfb5476fa4a0e1922834efaa"
     documentation="STELLING&#xA;Gegevens die via de dienst geleverd worden zijn 'duurzaam toegankelijk', voor iedereen die daar belang bij heeft en voor zo lang als noodzakelijk.&#xA;&#xA;RATIONALE&#xA;Onder toegankelijk verstaan we dat gegevens vindbaar, beschikbaar, leesbaar, interpreteerbaar en betrouwbaar zijn, alsmede zijn beschermd tegen fysiek of technologisch verval. Duurzaam in deze context betekent dat de toegankelijkheid bestand is tegen veranderingen van welke aard dan ook. Het gaat hier bijvoorbeeld over de toegankelijkheid van gegevens over genomen besluiten, de herleidbaarheid van gegevensproducten naar de bron en overwegingen die hebben geleid tot besluitvorming, informatie over de dienstverlening van de overheid, wet- en regelgeving, rechten en plichten, correspondentie door en met de overheid en persoonlijke (zaak)gegevens.">
   <properties
