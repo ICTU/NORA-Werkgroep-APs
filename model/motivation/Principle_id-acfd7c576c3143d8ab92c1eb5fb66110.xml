@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="NAP16 Voorkom onnodige complexiteit (copy)"
+    id="id-acfd7c576c3143d8ab92c1eb5fb66110"
+    documentation="STELLING &#xA;Voorkom onnodige complexiteit door activiteiten en middelen die geen waarde toevoegen, weg te laten. &#xA;&#xA;RATIONALE &#xA;Meer complexiteit verhoogt de kosten, verhult kwetsbaarheden en reduceert het overzicht en belemmert veranderingen. "/>
