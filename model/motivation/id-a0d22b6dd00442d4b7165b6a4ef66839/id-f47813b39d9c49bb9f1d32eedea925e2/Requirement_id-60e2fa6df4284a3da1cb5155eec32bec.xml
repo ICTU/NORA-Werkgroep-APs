@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM097 Neem diensten op in een producten- en dienstencatalogus (PDC)"
+    id="id-60e2fa6df4284a3da1cb5155eec32bec"
+    documentation="56 [Organisatie] beschrijft diensten in een producten- en dienstencatalogus (PDC) inclusief de daarbij   behorende spelregels. Datasets worden beschreven in de [organisatie] datacatalogus (interne afnemers). Open data van de overheid (data.overheid.nl) biedt dit inzicht aan externe afnemers."/>

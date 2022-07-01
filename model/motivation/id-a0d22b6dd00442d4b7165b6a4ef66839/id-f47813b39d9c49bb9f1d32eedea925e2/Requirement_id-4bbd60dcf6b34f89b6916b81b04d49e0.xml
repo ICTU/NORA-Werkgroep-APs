@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM084 Open standaarden (tenzij)"
+    id="id-4bbd60dcf6b34f89b6916b81b04d49e0"
+    documentation="32 Verwerf producten in die aan de standaard(en) voldoen.&#xD;&#xA;36 Open standaarden tenzij: implementaties maken gebruik van de beschrijvingen uit de open standaarden om leveranciersonafhankelijkheid te behouden."/>
