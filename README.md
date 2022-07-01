@@ -20,3 +20,9 @@ Deze bevat een Excel sheet met data-koppelingen naar de drie bovengenoemde csv's
 
 ## xml
 Export naar xml uit Archi (als Open Exchange Format). Dit formaat kan worden geopend in ArchiMate tools die dit open formaat ondersteunen (zoals BiZZdesign). In BiZZdesign Enterprise Studio, importeer het xml bestand met de functie 'Import ArchiMate model exchange file' (in het ArchiMate menu).
+
+##png
+PNG export van alle Views uit het Archimate model.
+
+## word
+Word mailmerge export van alle elementen uit het Aerchimate model.
