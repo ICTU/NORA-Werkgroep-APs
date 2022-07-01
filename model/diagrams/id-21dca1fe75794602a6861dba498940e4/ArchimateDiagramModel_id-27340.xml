@@ -16,7 +16,7 @@
         x="12"
         y="12"
         width="1021"
-        height="1309"/>
+        height="1429"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -89,8 +89,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-29437"
-      font="1|Verdana|12.0|0|COCOA|1|"
-      fontColor="#000000"
+      font="1|Verdana|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Verdana"
       lineColor="#000000"
       fillColor="#c2e3f8">
     <bounds
@@ -179,8 +178,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-29434"
-      font="1|Verdana|12.0|0|COCOA|1|"
-      fontColor="#000000"
+      font="1|Verdana|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Verdana"
       lineColor="#000000"
       fillColor="#c2e3f8">
     <bounds
@@ -195,8 +193,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-29436"
-      font="1|Verdana|12.0|0|COCOA|1|"
-      fontColor="#000000"
+      font="1|Verdana|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Verdana"
       lineColor="#000000"
       fillColor="#c2e3f8">
     <bounds
@@ -211,8 +208,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-37692"
-      font="1|Verdana|12.0|0|COCOA|1|"
-      fontColor="#000000"
+      font="1|Verdana|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Verdana"
       lineColor="#000000"
       fillColor="#c2e3f8">
     <bounds
@@ -227,8 +223,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-29435"
-      font="1|Verdana|12.0|0|COCOA|1|"
-      fontColor="#000000"
+      font="1|Verdana|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Verdana"
       lineColor="#000000"
       fillColor="#c2e3f8">
     <bounds
@@ -832,5 +827,31 @@
     <referencedModel
         xsi:type="archimate:ArchimateDiagramModel"
         href="ArchimateDiagramModel_id-981f2f0c6a21447bb610cabe66d83eaf.xml#id-981f2f0c6a21447bb610cabe66d83eaf"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-4b4640830c814462b24e597405f8e3e2"
+      textAlignment="1"
+      fillColor="#ffffff"
+      content="NORA Implicaties per Architectuurprincpe per laag">
+    <bounds
+        x="38"
+        y="1308"
+        width="964"
+        height="109"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelReference"
+      id="id-3f6584085c014c75ac2c76349f853ede"
+      lineColor="#7459d9"
+      fillColor="#b3fde4">
+    <bounds
+        x="58"
+        y="1344"
+        width="924"
+        height="55"/>
+    <referencedModel
+        xsi:type="archimate:ArchimateDiagramModel"
+        href="ArchimateDiagramModel_id-104b2d24103d4244aa82b64be0b39d65.xml#id-104b2d24103d4244aa82b64be0b39d65"/>
   </children>
 </archimate:ArchimateDiagramModel>

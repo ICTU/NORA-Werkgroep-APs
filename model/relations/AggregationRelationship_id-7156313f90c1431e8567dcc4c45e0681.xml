@@ -1,12 +1,11 @@
 <archimate:AggregationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Aggregeert"
-    id="id-c6141384096b491c8a08d669d51d5a96">
+    id="id-7156313f90c1431e8567dcc4c45e0681">
   <source
       xsi:type="archimate:Grouping"
-      href="Grouping_id-0504999ce61e49df8699ef95d21fff88.xml#id-0504999ce61e49df8699ef95d21fff88"/>
+      href="Grouping_id-e28f6311e03a458d8160cc92b818e631.xml#id-e28f6311e03a458d8160cc92b818e631"/>
   <target
       xsi:type="archimate:Requirement"
-      href="Requirement_id-27773.xml#id-27773"/>
+      href="Requirement_id-c0272d979f36400e90a84ee41cc6115a.xml#id-c0272d979f36400e90a84ee41cc6115a"/>
 </archimate:AggregationRelationship>

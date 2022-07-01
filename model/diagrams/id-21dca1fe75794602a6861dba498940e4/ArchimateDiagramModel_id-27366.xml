@@ -80,8 +80,8 @@
           href="AssociationRelationship_id-28667.xml#id-28667"/>
     </sourceConnections>
     <bounds
-        x="735"
-        y="470"
+        x="688"
+        y="469"
         width="133"
         height="53"/>
     <archimateElement
@@ -94,8 +94,8 @@
       lineColor="#7459d9"
       fillColor="#a2eeb9">
     <bounds
-        x="1056"
-        y="470"
+        x="974"
+        y="312"
         width="133"
         height="53"/>
     <archimateElement
@@ -109,8 +109,8 @@
       textAlignment="1"
       fillColor="#e1e1e1">
     <bounds
-        x="1056"
-        y="552"
+        x="974"
+        y="384"
         width="133"
         height="53"/>
     <archimateElement
@@ -135,8 +135,8 @@
           href="RealizationRelationship_id-27777.xml#id-27777"/>
     </sourceConnections>
     <bounds
-        x="735"
-        y="376"
+        x="688"
+        y="375"
         width="133"
         height="53"/>
     <archimateElement
@@ -161,8 +161,8 @@
           href="InfluenceRelationship_id-27767.xml#id-27767"/>
     </sourceConnections>
     <bounds
-        x="735"
-        y="276"
+        x="688"
+        y="275"
         width="133"
         height="53"/>
     <archimateElement
@@ -200,8 +200,8 @@
           href="AssociationRelationship_id-27778.xml#id-27778"/>
     </sourceConnections>
     <bounds
-        x="732"
-        y="180"
+        x="685"
+        y="179"
         width="140"
         height="53"/>
     <archimateElement
@@ -225,8 +225,8 @@
           href="InfluenceRelationship_id-27779.xml#id-27779"/>
     </sourceConnections>
     <bounds
-        x="419"
-        y="276"
+        x="372"
+        y="275"
         width="133"
         height="53"/>
     <archimateElement
@@ -241,8 +241,8 @@
       textAlignment="1"
       fillColor="#e1e1e1">
     <bounds
-        x="420"
-        y="552"
+        x="373"
+        y="551"
         width="133"
         height="53"/>
     <archimateElement
@@ -609,8 +609,8 @@
       targetConnections="id-cc83247d286a43c8a839f746e10ef801"
       fillColor="#ccccff">
     <bounds
-        x="419"
-        y="469"
+        x="372"
+        y="468"
         width="133"
         height="55"/>
     <archimateElement
@@ -631,8 +631,8 @@
           href="AggregationRelationship_id-c6141384096b491c8a08d669d51d5a96.xml#id-c6141384096b491c8a08d669d51d5a96"/>
     </sourceConnections>
     <bounds
-        x="900"
-        y="470"
+        x="972"
+        y="469"
         width="137"
         height="54"/>
     <archimateElement
