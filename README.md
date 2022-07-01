@@ -1,5 +1,6 @@
 # NORA-Werkgroep-APs
 Werkmodel van de NORA werkgroep Architectuur Principes. Dit werkmodel is ontwikkeld in Archi en kan hiermee vanuit deze Github repository worden geopend (read only) en geauthoriseerde gebruikers kunnen het bijwerken. Hiervoor is het nodig om Archi te downloaden en de coArchi plugin te installeren. Hoe dit werkt, zie https://www.archimatetool.com/plugins/ en https://github.com/archimatetool/archi-modelrepository-plugin/wiki
+
 Gebruik niet de nieuwe Specialization feature van Archi, deze wordt nog niet ondersteund i.c.m. jArchi.
 
 Dit werkmodel is niet het officiële kanaal waarmee NORA wordt gecommuniceerd. Ga hiervoor naar https://www.noraonline.nl/wiki/NORA_online
