@@ -5,7 +5,7 @@ Gebruik niet de nieuwe Specialization feature van Archi, deze wordt nog niet ond
 
 Dit werkmodel is niet het officiële kanaal waarmee NORA wordt gecommuniceerd. Ga hiervoor naar https://www.noraonline.nl/wiki/NORA_online
 
-Deze repository bevat een drietal folders:
+Deze repository bevat een aantal folders. De [model] folder bevat het Archimate master model. De andere folders zijn exports / afgeleide producten uit dit model.
 
 ## model
 Deze bevat het Archimate werkmodel zelf en kan alleen vanuit Archi worden geopend. Dit is het meest actuele master model. Alle andere folders zijn handmatige exports en afgeleiden uit dit model en zijn daarom niet altijd 100% actueel met dit model. Pas bestanden in deze folder nooit handmatig aan!
