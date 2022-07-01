@@ -25,4 +25,4 @@ Export naar xml uit Archi (als Open Exchange Format). Dit formaat kan worden geo
 PNG export van alle Views uit het Archimate model.
 
 ## word
-Word mailmerge export van alle elementen uit het Aerchimate model.
+Word mailmerge export van alle elementen uit het Archimate model.
