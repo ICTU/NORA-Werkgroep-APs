@@ -6,7 +6,7 @@ Dit werkmodel is niet het officiële kanaal waarmee NORA wordt gecommuniceerd. G
 Deze repository bevat een drietal folders:
 
 ## model
-Deze bevat het Archi model zelf en kan vanuit Archi worden geopend. Dit is het meest actuele master bestand.
+Deze bevat het Archi model zelf en kan vanuit Archi worden geopend. Dit is het meest actuele master model. Alle andere folders zijn handmatige exports en afgeleiden uit dit model en zijn daarom niet altijd 100% actueel met dit model.
 
 ## csv
 Export naar csv uit Archi en kan gebruikt worden als basis voor analyse:
