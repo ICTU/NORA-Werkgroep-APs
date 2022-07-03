@@ -1,4 +1,17 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="TEMP"
-    id="id-51e465bb53a8498b9a6ff5e1d1f873bf"/>
+    id="id-51e465bb53a8498b9a6ff5e1d1f873bf">
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-fadaa58f41d843a193a20e03ddb6592b"
+      textAlignment="1"
+      content="Deze view is bedoeld als werkblad, niet voor publicatie.">
+    <bounds
+        x="60"
+        y="36"
+        width="185"
+        height="80"/>
+  </children>
+</archimate:ArchimateDiagramModel>
