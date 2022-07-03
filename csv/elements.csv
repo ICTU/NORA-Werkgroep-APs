@@ -272,14 +272,16 @@ Stel overheidsdata actief beschikbaar voor hergebruik door derden, bijvoorbeeld 
 RATIONALE
 Er zijn meerdere redenen om data actief beschikbaar te stellen. Zo kan het meer transparantie en inzicht geven in het overheidshandelen en zo de accountability vergroten. Bijvoorbeeld door begrotingen of inkoopgegevens als open data beschikbaar te stellen. Het kan ook economische en maatschappelijke innovatie stimuleren, zoals de ontwikkeling van apps en informatiediensten op basis van overheidsdata.
 En het kan zorgen dat de overheid effectiever en efficiënter opereert. Bijvoorbeeld door het actief benutten van data om de eigen bedrijfsvoerings- en dienstverleningsprocessen te verbeteren. Zo gaan de kosten omlaag en de prestaties omhoog.";""
-"id-26075e94bc3a45e5bd94f82ff94cb3df";"Requirement";"IM004 Minimaliseer gebruik data";"";""
+"id-26075e94bc3a45e5bd94f82ff94cb3df";"Requirement";"IM004 Minimaliseer gebruik data";"@@Marco: Overlap IM010";""
 "id-71b8e0371ba34570ae9cda01963b50f3";"Requirement";"IM005 Richt persoonlijke dienstverlening op maat en maak tijdreizen mogelijk";"";""
 "id-e0b7dec8ff264328bc9f4dbd5278ff97";"Requirement";"IM006 Doe het in één keer goed";"Bron: 'progrmma antwoord', gemeenten WAU, klantgericht zijn.";""
 "id-57294b05b026417d94a2e17ce25a1aeb";"Requirement";"IM007 Zorg voor één contactpunt";"EU Zorgen voor een centraal contactpunt, zodat de gebruiker niet met verschillende partijen moet handelen voor wat voor hem/haar één dienst is.";""
 "id-6239269a742e42d99db5fe7ae4cbe24f";"Requirement";"IM008 Bevorder regie op gegevens";"Bevorder Regie op gegevens door inwoners en ondernemers (bron: beleid, beweging waarop we op moeten aanpassen).";""
 "id-9c36647a4aba40bb9c9b219f8c4e81e8";"Requirement";"IM009 Weet waar afnemers naar zoeken";"[Organisatie] weet welke informatie afnemers doorgaans zoeken en waar ze deze zoeken. Deze informatie wordt aangemeld op de voor de afnemers bekende vindplaatsen, zoals zoekmachines, portals, catalogi en registers. Ook de dienst zelf wordt voorzien van de nodige zoekfuncties. Om te kunnen doorverwijzen, is [organisatie] op de hoogte van de andere plaatsen waar diensten te vinden zijn en kan de afnemers hiernaar verwijzen als dat nodig is.";""
-"id-151b2ada34ee47208197653ae3934cf0";"Requirement";"IM010 Data minimalisatie";"Data minimalisatie (organisatorische laag, informatielaag) - a.   Implicaties uit het reviewcommentaar";""
-"id-24b04309e2e84107a25391fa584d8f00";"Requirement";"IM011 Verwijzen naar de bron i.p.v. kopie uit die bron";"Verwijzen naar de bron heeft voorkeur boven een kopie uit die bron - Inzage   in de bron heeft  de voorkeur boven   zelf opslaan. Afspraken daarover worden vastgelegd en bekend gemaakt. Vanuit legitimiteitsperspectief kan het nodig zijn een kopie vast te leggen.";""
+"id-151b2ada34ee47208197653ae3934cf0";"Requirement";"IM010 Data minimalisatie";"Data minimalisatie (organisatorische laag, informatielaag)
+- a.   Implicaties uit het reviewcommentaar
+@@Marco: Overlap IM004";""
+"id-24b04309e2e84107a25391fa584d8f00";"Requirement";"IM011 Verwijzen naar de bron i.p.v. kopie uit die bron";"Verwijzen naar de bron heeft voorkeur boven een kopie uit die bron - Inzage   in de bron heeft  de voorkeur boven zelf opslaan. Afspraken daarover worden vastgelegd en bekend gemaakt. Vanuit legitimiteitsperspectief kan het nodig zijn een kopie vast te leggen.";""
 "id-b2d9cccd5ef34cab98351fe097267da6";"Requirement";"IM012 voor de afnemer relevante besluiten zijn traceerbaar en controleerbaar";"";""
 "id-3ce47667b4384c1fbe5aca987909db83";"Requirement";"IM013 Geef de afnemer duidelijkheid over rechten, voorwaarden en plichten";"";""
 "id-1aa55fb9beb44767ab9e63d2db0bca20";"Requirement";"IM014 Beschrijf de dienst en geef inzicht in de werking van de dienst (pdc)";"";""
@@ -351,7 +353,8 @@ Zorg voor een register van diensten die voor hergebruik geschikt zijn.";""
 8 Maak duidelijke afspraken over de gegarandeerde levensduur van de aangeboden dienst.
 13  De opzet van haar diensten heeft [organisatie] afgestemd met dienstverleners van verwante diensten om overlap en dubbel werk te voorkomen. Vraag en aanbod van diensten vind plaats door bundeling op Overheidsniveau. Voordat men een eigen dienst maakt, bekijk eerst of er al iets soortgelijks aanwezig is.
 ";""
-"id-7dbcc119c06e48348a6271e29f37477c";"Requirement";"IM058 Gebruik standaard oplossing zonder maatwerk";"40 [Organisatie] gebruikt een standaardoplossing [lees: pakketoplossing] zoveel mogelijk ongewijzigd, dus zonder maatwerkaanpassingen.";""
+"id-7dbcc119c06e48348a6271e29f37477c";"Requirement";"IM058 Gebruik standaard oplossing zonder maatwerk";"40 [Organisatie] gebruikt een standaardoplossing [lees: pakketoplossing] zoveel mogelijk ongewijzigd, dus zonder maatwerkaanpassingen.
+@@Marco: Deze tevens gerelateerd aan NAP16";""
 "id-a4558b4062b9462fa5bec72719c26e62";"Requirement";"IM059 Pas eigen proces en organisatie aan naar standaard oplossing i.p.v. omgekeerd";"39 [Organisatie] past haar processen en organisatie aan de standaard oplossingen aan, in plaats van het omgekeerde. (EIF principle 4 ""Reusability"", aanbeveling 6+7)";""
 "id-836447ef7eef45f88e3670ef06b955a5";"Requirement";"IM060 Gebruik open source";"19 Als een dienst wordt ontwikkeld gebruik dan open source. (EIF principle 2 ""Openness"", aanbeveling 3).";""
 "id-ebcec6c0cfda4092b4fac5e94076279f";"Requirement";"IM061 Diensten zijn herbruikbaar";"AP01 oud: Diensten zijn herbruikbaar
@@ -419,6 +422,175 @@ Naarmate er meer verschillende technische oplossingen bij elkaar komen, neemt de
 "id-9629a2e0d67046bcbe1918076bf70185";"Requirement";"IM099 Visualiseer informatieobjecten in samenhang";"Visualiseer informatieobjecten in samenhang - Uniforme   en betekenisvolle visualisatie van gegevens en gegevensmodellen - D1.IMP037";""
 "id-86e8b154b9574965aa3ffee1f647163f";"Requirement";"IM100 Publiceer data en metadata";"Publiceer data en metadata (en de relatie met het informatiemodel) - Publiceer   het gegevensmodel - D1.IMP021";""
 "id-86922981b68d4561967d69b2d378e698";"Requirement";"IM101 Publiceer het informatiemodel";"Publiceer het informatiemodel - Publiceer het gegevensmodel - D1.IMP038";""
+"id-2e98270fefb04495900fb9e5064b3742";"Requirement";"IM102 Leg vast hoe lang informatieobjecten bewaard worden";"Er moet een vastgestelde selectielijst zijn waarin is beschreven hoe lang informatieobjecten bewaard worden  - Gebruikers hebben inzage in de termijn dat informatieobjecten toegankelijk zijn. Op basis daarvan kunnen belanghebbenden, zo nodig, bezwaar maken bij de zorgdrager of zelf maatregelen nemen om informatie langer beschikbaar te houden. - DUTO eisen";""
+"id-3dbb108c2724422eabff3f95a0a0f6bc";"Requirement";"IM103 Breng informatieobjecten tijdig over naar archief";"Een blijvend te bewaren informatieobject wordt binnen de wettelijke termijn overgebracht naar een archiefbewaarplaats - Gebruikers kunnen er op vertrouwen dat blijvend te bewaren informatie ook in de toekomst toegankelijk is en, op termijn, openbaar wordt - DUTO eisen";""
+"id-ff7cddc5a89d41f383e5a554e89948bf";"Requirement";"IM104 De doelbinding is onderdeel van het gegeven";"De doelbinding is onderdeel van het gegeven - Zowel bij het vastleggen van gegevens als bij het opvragen van gegevens wordt vastgelegd waarom het gegeven is vastgelegd en waarom het gegeven is opgevraagd - ?";""
+"id-4a685cd11f1f417bbc2ac87ff1c26429";"Requirement";"IM105 Voor ieder gegeven één verantwoordelijke";"Voor ieder gegeven en voor iedere verwerking is er een verantwoordelijke - ?";""
+"id-35dbb2d39821403dab0cbe08286dc25c";"Requirement";"IM106 Gegevens worden beheerd op basis van gegevensmodellen";"Gegevens worden beheerd en gedeeld op basis van formele gegevensmodellen waarin betekenis, grondslag en structuur aan elkaar verbonden zijn - ?
+@@Marco: Overlap met IM098?";""
+"id-9854179b52c748b78e84f6b5b64968dc";"Requirement";"IM107 Maak afspraken met ketenpartners over identificeren informatieobjecten";"Maak afspraken met ketenpartners over identificeren informatieobjecten
+- Gegevensobjecten hebben een identiteit die gedurende de levenscyclus niet wijzigt - D1.IMP033";""
+"id-ed88c380081e4f9b9b77771fcd931352";"Requirement";"IM108 Beschouw het leveren van gegevens als dienst";"En beschouw data hierbij als eersteklas product.";""
+"id-945217efd17f4d1db57e5839e89e50f7";"Requirement";"IM109 Pas FAIR principes toe";"Pas de implicaties van de FAIR principes toe.
+- Informatie is vindbaar en toegankelijk - D1.IMP036
+https://www.go-fair.org/fair-principles/";""
+"id-bc49475d89e34a6dbd9515a8baa38e7c";"Requirement";"IM110 Gegevensverzaneling onafhankelijk van applicaties";"De gegevensverzameling is onafhankelijk van de beherende applicaties
+- De gegevensverzameling kan blijven bestaan als de applicatie wordt gewijzigd - ?";""
+"id-64908639b90b4c76a01978ea0fe86e15";"Requirement";"IM111 De context van een informatieobject is vastgelegd in metadata";"De context van een informatieobject moet zijn vastgelegd in metadata
+- Informatie en gegevens dienen duidelijk te plaatsen te zijn binnen een bepaalde context. Metadata is hiervoor het geëigende instrument 
+- Context (vastgelegd in metadata) is nodig om gegevens te begrijpen voor verwerking.
+- DUTO eisen (ISO 23801)";""
+"id-9a7486cb97a549d29082fc85601794bf";"Requirement";"IM112 Maak gebruik van authentieke bronnen";"Maak gebruik van authentieke bronnen
+- De informatie kan worden gevolgd vanaf de oorsprong tot aan het verwerken, opslaan, bewerken en beschikbaar stellen. (datalineage) - DUTO eisen";""
+"id-30413c6cc4154b95923b0bc2c7994487";"Requirement";"IM113 Gegevens zijn herleidbaar tot de bron";"@@Marco: deze toegevoegd: Roland, is deze besproken?";""
+"id-de1ac804ce454f41adf78d7919e1c050";"Requirement";"IM114 Van gedeelde data is de kwaliteit vastgesteld";"Van data die gedeeld worden moet de kwaliteit zijn vastgesteld
+- Afnemers van data van [organisatie] kunnen vertrouwen op een vastgestelde mate van kwaliteit - D1.IMP150";""
+"id-5c5398d644af4b12a83d9f4a9a736a1f";"Requirement";"IM115 Autorisaties horen bij metadata";"Autorisatie tot het gebruik van gegevens maakt onderdeel uit van de metadata van de gegevens.";""
+"id-450a6bedbac049f6b37d552554ea4451";"Requirement";"IM116 Leg auditlogs vast in metadata";"Leg auditlogs op toegang en inzage van gegevens vast in de metadata.";""
+"id-fd57b7ad95744b9b97fbf03006886291";"Requirement";"IM117 Sla gegevens op in een toekomstbestendig formaat";"Sla gegevens op in een toekomstbestendig standaardformaat. Zorg dat de gegevens zonder hulpmiddelen of speciale toepassingen zijn te gebruiken.
+- Informatie is nu en in de toekomst (gedurende de gehele levenscyclus) leesbaar zonder dat daarvoor speciale toepassingen of hulpmiddelen nodig zijn. Dit betekent dat er gebruik gemaakt wordt van duurzame en open standaarden en bestandsformaten voor de opslag van informatie. Bij doorontwikkeling van de gebruikte formaten blijft de in het oude gebruikte formaat opgeslagen informatie leesbaar of wordt deze actief gemigreerd naar het nieuwe formaat - DUTO eisen";""
+"id-2b1d503b361c40f392fca992a181686a";"Requirement";"IM118 Recht op inzage en correctie";"Recht op inzage en correctie
+- Burgers (etc) hebben recht op inzage en correctie.
+Extern: Burgers en bedrijven actief inzicht te geven in hun gegevens en hen regie te geven op eigen gegevens.";""
+"id-dbe15900a5944947a7460e166ee4e28d";"Requirement";"IM119 Transparant en aanspreekbaar op verwerking gegevens";"Transparant en aanspreekbaar op de verwerking van gegevens.
+Transparant over apparatuur en technologie in de openbare   ruimte.Marktpartijen, instellingen, overheden en inwoners zijn zoveel mogelijk transparant over apparatuur en technologie in de openbare ruimte.   Systemen en koppelingen worden bij oplevering getest op PSbD (privacy, security en duurzame toegankelijkheid by design).
+Bij de verwerving van SAAS/COTS oplossingen worden expliciete en toetsbare   PSbD criteria toegepast.
+Voor gegevens die verwerkt worden voor het trainen van modellen en   algoritmes gelden dezelfde bevoegdheden als voor productiedata.
+Voor gegevens die verwerkt worden voor training en opleiding gelden   dezelfde bevoegdheden als voor productiedata.";""
+"id-9f97d9f230ef4524b792409d413431b5";"Requirement";"IM120 Gegevens hebben een bewaartermijn";"IM120 Gegevens worden niet langer bewaard en niet eerder vernietigd dan wettelijk is toegestaan
+- Gegevens worden niet langer bewaard en niet eerder vernietigd dan wettelijk is toegestaan.
+";""
+"id-026e7a00fbef4273ab4b2a25667077dc";"Requirement";"IM121 Minimaliseer het gebruik van data";"Minimaliseer het gebruik van data. Vraag op en gebruik alleen die gegevens die noodzakelijk zijn voor het doel.";""
+"id-2eeb0b9e99c54f9fbedb448946a7993c";"Requirement";"IM122 De doelbinding is onderdeel van het gegeven";"De doelbinding is onderdeel van het gegeven
+- Zowel bij het vastleggen van gegevens als bij het opvragen van gegevens wordt vastgelegd waarom het gegeven is vastgelegd en waarom het gegeven is opgevraagd - ?";""
+"id-b189df1b3de54a308a8f67352b356dd3";"Requirement";"IM123 Informatie is toegankelijk met inachtneming evt restricties";"Gebruikers hebben toegang tot informatie, met inachtneming van eventuele restricties op de openbaarheid
+- Als een informatieobject slechts gedeeltelijk openbaar is, dan zijn er een gedeeltelijke weergave en export beschikbaar waarin alleen de openbare delen zijn opgenomen - DUTO eisen";""
+"id-0249f53f391e48b994a5b086b826b5af";"Requirement";"IM124 Betrokkenen op de hoogte van doel verzamelen gegevens";"Stel betrokkenen op de hoogte van doel verzamelen gegevens
+- Bij het verzamelen en opbvragen van persoonsgegevens stelt [organisatie] betrokkenen op de hoogte van het doel waarvoor de gegevens worden verzameld en de mogelijkheid van de rechten die ze kunnen uitoefenen - D1.IMP112";""
+"id-5abb23af8c924002a23372b82fa0d30b";"Requirement";"IM125 Leg grondslag en doel informatieverwerking vast";"Leg grondslag en doel informatieverwerking vast
+- [Organisatie] legt de grondslag en het doel waarvoor informatie wordt uitgevraagd bij afnemers vast. Aan het doel gekoppeld worden ook de eisen (kwaliteitscriteria) vastgelegd waaraan deze informatie moet voldoen. Het   doel kan in de loop der tijd wijzigen - D1.IMP131";""
+"id-ada71831db4c4a7ab8b2663cf9d6e426";"Requirement";"IM126 Informatieobjecten zijn ingedeeld naar risicoklasse";"De informatieobjecten moeten zijn ingedeeld in risicoklasse
+- Voor huidige en toekomstige gebruikers is het duidelijk welke mate van toegankelijkheid van informatie ze mogen verwachten en waar keuzes daarin op gebaseerd zijn. Op basis hiervan kan een gebruiker desgewenst bezwaar maken tegen de gemaakte keuzes en de eventuele gebreken in de implementatie van de   kwaliteitseisen voor toegankelijkheid.
+- DUTO eisen
+Classificeer informatie op basis van risico's !! BIO CHECK?? - [Organisatie] classificeert alle door haar verwerkte data, met niveaus die uiteenlopen van 'Publiek' tot en met 'Geheim'
+- D1.IMP127";""
+"id-ef1fc5ec81b74b8d85974cb4ebffc807";"Requirement";"IM127 Scheiding van datasets";"D-IAM003 Scheiding van datasets
+Verdeel de informatie in afgebakende datasets die elk afzonderlijk ook getoetst kunnen worden op voldoen aan de AVG.
+[Let op met de term ""datasegmentering"", dat betekent in de marketing precies het omgekeerde. Denk aan PseudoBSN]";""
+"id-e28a82a1949c4f2187da2eb308f5dd65";"Requirement";"IM128 Gegevensverwerking is proportioneel";"Proportionaliteit - Proportionaliteit: Gegevensverwerking is proportioneel (dataminimalisatie)
+@@MD Overlap IM010 en IM004";""
+"id-6c9551f2b91b46888d049eff6e55bbdc";"Requirement";"IM129 Leg gegevens niet meervoudig vast bij zelfde bron";"[Groep B] 16 ""Gegevens worden zo min mogelijk meervoudig vastgelegd in dezelfde bron (bijv. derde normaalvorm). Als technisch noodzakelijk is om ervan af te wijken is er de garantie dat synchronisatie met de bron plaatsvindt""";""
+"id-c7c15cc54fad447d9aaf3140730763da";"Requirement";"IM130 Ga uit van een federatief datastelsel";"Ga uit van een federatief datastelsel
+- Werk samen op basis van gedeelde databronnen";""
+"id-0ac207ede55749ae97b7c68657d5a2d4";"Requirement";"IM131 Ga na of gegevens reeds beschikbaar zijn in de keten";"Ga na of gegevens reeds beschikbaar zijn (in de keten)
+- Indien er behoefte is aan gegevens van afnemers gaat [organisatie] eerst na of die gegevens al in huis zijn of bij een van de ketenpartners waar [organisatie]   mee samenwerkt en of ze ook mogen worden gebruikt. Dit is mede afhankelijk van de doelbinding en - D1.IMP115";""
+"id-baaeb8e62776477687a5ab6600d78984";"Requirement";"IM132 Beperk opvragen gegevens bij afnemers";"[Groep b] 57 [Organisatie] vereenvoudigt regels, procedures, formulieren, en dergelijken zo veel mogelijk, om zo de noodzaak tot het opvragen van informatie (data) bij interne en externe afnemers tot het minimaal noodzakelijke te beperken. Daarna wordt onderzocht welk";""
+"id-fb4a3ab322104934ad2343215d88c349";"Requirement";"IM133 Vraag data niet opnieuw uit";"[Groep B] 14 [Organisatie] vraagt data die zij al bezit niet opnieuw uit. Verder deelt [organisatie] die data (en de bijbehorende meta-data zoals betekenis, eigenaar, etc.) met haar ketenpartners voor zover toegestaan, en voor zover de ketenpartners die data ook nodig";""
+"id-b13a2d4273874511a72b2af583c7f5c9";"Requirement";"IM134 Zelf soevereiniteit over gegevens waar het kan";"Zelf soevereiniteit over gegevens waar het kan (organisatorische laag, informatielaag)
+- a. Implicaties uit het reviewcommentaar";""
+"id-949650edda59447cbb078e1dcd0ed24c";"Requirement";"IM135 Enkelvoudig beheer, meervoudig gebruik";"Enkelvoudig beheer, meervoudig gebruik";""
+"id-1ac6f137d0d74a7dbb5eae16dc41be77";"Requirement";"IM136 Registratie bij de bron";"Registratie (zo dicht mogelijk) bij de bron (organisatorische laag, informatielaag)
+-a. Implicaties uit het reviewcommentaar";""
+"id-03000a1ad9d34eb5a141a4fef94466f8";"Requirement";"IM137 Weet welke (bron)gegevens in huis zijn";"Weet welke (bron)gegevens in huis zijn
+- [Organisatie] weet welke gegevens zij reeds in huis heeft in de bronadministraties en op welke manier deze gegevens hergebruikt kunnen worden - D1.IMP116";""
+"id-bf2053a5d5ca48439f87e6146e807cf1";"Requirement";"IM138 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt";"Gegevens worden eenmalig uitgevraagd, uniek opgeslagen, en meervoudig gebruikt
+- a. Implicaties uit het reviewcommentaar";""
+"id-bd763e3541bc4598bc8f412388a99a0a";"Requirement";"IM139 Alle data heeft een unieke bron en eigenaar";"Alle data heeft een unieke bron en een eigenaar
+- D1.IMP587";""
+"id-100e6e5157134564ae9b29317759632b";"Requirement";"IM140 Gegevens worden gehaald (pull) i.p.v. gebracht (push)";"Pull ipv push (gegevens worden gehaald ipv gebracht)
+- a. Implicaties uit het reviewcommentaar";""
+"id-3f279598e31f46378e11e4339758ebd9";"Requirement";"IM141 Autorisaties worden bepaald o.b.v. metadata";"Autorisatie voor het verstrekken en gebruik van gegevens kan worden bepaald op basis van metadata
+- De   beheerder die het gegeven beheert en het wil verstrekken voor verdere bewerking, voegt metadata toe aan de hand waarvan de beheerder en de afnemer een autorisatiebeslissing kan nemen
+- a. Implicaties uit het reviewcommentaar";""
+"id-1642fb37afeb43a1989dbca68c5d1c66";"Requirement";"IM142 Richt je op reduceren van rest-risico's";"D-EBA006b
+Richt je op reduceren van rest-risico's
+Besteed speciale aandacht aan de rest-risico's die overblijven na toepassen van de standaard maatregelen die op basis van de BIO of vanuit de AVG zijn ingericht en weeg de consequenties van de maatregelen af tegen het accepteren van het rest-risico. De verantwoordelijke voor het bedrijfsmiddel moet de rest-risico's accepteren.";""
+"id-921bf26a634d46579fa610860594b507";"Requirement";"IM143 Evalueer de risicoanalyse bij veranderingen";"D-EBA011
+Evalueer de risicoanalyse bij veranderingen
+Een verandering in het dreigingsprofiel, of in een bedrijfsproces of in de onderliggende voorzieningen kan een mogelijke kwetsbaarheid introduceren of gevolgen hebben voor de veiligheidsbelangen van stakeholders. Een verandering kan de kans of de impact van een dreiging veranderen.";""
+"id-ed44fb472eb84577842f50fa03a9d6a6";"Requirement";"IM144 Bepaal de continuïteitseisen";"D-EBA013
+Bepaal de continuïteitseisen
+Continuïteitseisen vormen de input voor het maken van een calamiteitenplan. Voorbeelden van continuïteitseisen zijn Maximum Tolerable Outage (MTO), Recovery Time Objective (RTO), Recovery Point Objective (RPO).";""
+"id-b0350c5c2b5549149e63ee751199623f";"Requirement";"IM145 Maak en test een calamiteitenplan";"D-EBA014
+Maak en test een calamiteitenplan
+Een calamiteitenplan omvat herstelplannen, noodplannen, crisiscommunicatieplan, continuïteitsplan en crisismanagementplan. Deze worden toegepast in geval van een calamiteit om de continuïteit van de bedrijfsvoering en de veiligheid van de medewerkers te waarborgen.
+Oefen en test regelmatig de werking van deze plannen.";""
+"id-8b85ceb5c5fd4b6aba3ada960eeb0ad7";"Requirement";"IM146 Onweerlegbaarheid";"D-D1.IMP187
+Onweerlegbaarheid
+Neem maatregelen om de onweerlegbaarheid van berichtenverkeer en transacties te garanderen als daartoe vanuit integriteitsvereisten en vanuit risicoafwegingen aanleiding toe is.
+
+[Integriteit van het dataobject gedurende de gehele lifecycle (denk ook aan authenticiteit van bijv videobeelden)]";""
+"id-9b30aa2ac7ae4a08821d29907469c493";"Requirement";"IM147 Verifieer de datakwaliteit";"D-IMP001
+Verifieer de datakwaliteit
+Controleer de kwaliteit van data bij invoer en op ieder koppelvlak aan de hand van de vastgestelde kwaliteitseisen. Eenmaal geverifieerd hoeft een verificatie niet opnieuw plaats te vinden als de eerder uitgevoerde verificatie nog betrouwbaar is. Betrouwbaar wil zeggen dat er zekerheid is dat de verificatie is uitgevoerd én dat is geverifieerd met de juiste kwaliteitscriteria én dat de uitkomst nog actueel is. ‘Actueel’ impliceert een houdbaarheidsdatum van de uitkomsten van de verificatie.";""
+"id-b94763afdba14657964f46d8309bb854";"Requirement";"IM148 Zelfstandige vertrouwensdiensten";"D-EIF002
+Zelfstandige vertrouwensdiensten
+Gebruik zelfstandige vertrouwensdiensten als middel om betrouwbare en uniforme gegevensbeveiliging te realiseren. Maak bijvoorbeeld gebruik van een SASE (secure access service edge).
+
+[Geinspireerd door: Use trust services according to the Regulation on eID and Trust Services as mechanisms that ensure secure and protected data exchange in public services.]";""
+"id-16931fb47aae4691b3d06050e3952626";"Requirement";"IM149 Richt een sterke logging en audit-trail in";"D-EBA008
+Richt een sterke logging en audit-trail in.
+Logbestanden en audit-trails spelen een sleutelrol in het detecteren van aanvallen en het afhandelen van incidenten. Zorg dat elke applicatie en elk systeem voldoende loginformatie genereert.";""
+"id-8f709fb8c0294e83968826833a01cf70";"Requirement";"IM150 Verifieer de werking van algoritmes";"D-IMP002
+Verifieer de werking van algoritmes
+Kijk doorlopend hoe applicaties functioneren en of uitkomsten van functies en modellen passen binnen de specificaties en dat er bijvoorbeeld geen ""modeldrift"" plaatsvindt, of ""bias"" ontstaat.";""
+"id-ad672ba04a3641e6835ff8508bc68b58";"Requirement";"IM151 Toegang tot applicaties en informatie afhankelijk van authenticatieniveau";"Toegang tot applicaties en informatie afhankelijk van het bereikte authenticatieniveau - D1.IMP609";""
+"id-c876131382024e349d08b1eb609d079c";"Requirement";"IM152 Hanteer het ""zero-trust"" model";"D-IMP003
+Hanteer het ""zero-trust""-model
+Ga nooit uit van een impliciet vertrouwen. Controleer overal het netwerkverkeer. Controleer toegang per sessie. Hanteer dynamische policies en gebruik daarbij de gedligheidsduur van de laatste authenticatie. Blijf continue monitoren. Dwing authenticatie en autorisatie strict af. Verzamel zoveel mogelijk gegevens om de beveiliging te blijven verbeteren.";""
+"id-0c18041c05284b56a3f559cd47257fd4";"Requirement";"IM153 Segmenteer het netwerk";"D-EBA012
+Segmenteer het netwerk
+Het segmenteren van het netwerk beperkt de gevolgen van een aanval. Segmenteren betekent dat een netwerk in meerdere zones wordt verdeeld, waartussen een inspectiepunt ontstaat. Netwerksegmentatie voorkomt dat een virus of aanvaller zich kan verspreiden in het gehele netwerk. Afhankelijk van de wijze van implementatie is netwerksegmentatie een maatregel die de gevolgen van ransomware-aanvallen of DDoS-aanvallen beperkt.";""
+"id-e4af2b0604d64a4cb050edffbf3696d7";"Requirement";"IM154 Zelfstandige verantwoordelijkheid";"D-IAM006
+Zelfstandige verantwoordelijkheid
+Elke voorziening is zelfstandig verantwoordelijk voor zijn beveiliging. Elke voorziening moet zijn deel van de toegangsregels implementeren en dus ook verifieren.
+[CASB, application level firewalling, etc]";""
+"id-fddee6f776ad462f8344d0307e81a3aa";"Requirement";"IM155 Schaalbaar contracteren";"D-LG001
+Schaalbaar contracteren
+Richt contracten met leveranciers in zonder limieten of beperkingen op toenemende gebruik. Monitor op het gebruik om onverwachte kostenstijgingen tijdig te signaleren. Borg dat bij afschaling de kosten ook weer gereduceerd worden.";""
+"id-eeae858aa7f046429eec882ef5003deb";"Requirement";"IM156 Ontwerp omgevingen elastisch";"D-D1.IMP068
+Elastisch
+Maak gebruik van voorzieningen om capaciteit real-time aan het benodigde gebruik aan te kunnen passen voor opschaling en voor afschaling.
+[(denk aan clouddiensten en virtualisatietechnieken)]";""
+"id-9d11a21182d64e87920af5711b4bc57d";"Requirement";"IM157 Identificeer zwakste schakel in schaalbaarheid";"D-LG002
+Zwakste schakel
+De schaalbaarheid van een dienst is beperkt tot de minst schaalbare component van de dienst of in de keten. Identificeer de componenten die het meest kritisch zijn voor opschaling om als eerste te verbeteren. Test de daadwerkelijke mate van schaalbaarheid.";""
+"id-7be46b9ca3b74837bdfe5fd235187504";"Requirement";"IM158 Voer uitvoeringstoets uit";"Benut uitvoeringstoetsen om complexiteit in de uitvoering tijdig te signaleren en bij te sturen.";""
+"id-44e29f139777435ca83892c44a1368e1";"Requirement";"IM159 Breng complexiteit in kaart";"D-AV001
+Breng complexiteit in kaart
+Benut gereedschap om de complexiteit van software te analyseren en zicht te krijgen op waar vereenvoudigingen mogelijk zijn.";""
+"id-a5521f119ac64e64bd6575057a557888";"Requirement";"IM160 Volg inrichtingsfilosofie leveranciers";"D-D1.IMP069
+Volg de inrichtingsfilosofie van leveranciers
+Pas bij de toepassing van een standaard oplossing je werkwijze aan bij de inrichtingsfilosofie en de best-practices die aan de oplossing ten grondslag liggen. Maak binnen een standaardoplossing geen maatwerk.
+[Combinatie van verschillende DNB-voorschriften.]
+47 [Organisatie] volgt de   inrichtingsfilosofie van de leveranciers en past zich aan de in de oplossing   besloten werkwijze en processen, in plaats van het omgekeerde, en accepteert   de consequenties van deze impliciete standaardisatie volgens de 'less is more'";""
+"id-1ecd9085f1cd49f38824fc7df2af1032";"Requirement";"IM161 Voer impactanalyse uit";"Impactanalyses
+Benut impactanalyses als IT-effect rapportage.";""
+"id-8d1439656d4f455a90753b7549d06394";"Requirement";"IM162 Taken en verantwoordelijkheden gegevensverwerking bekend";"Verantwoordelijkheden, bevoegdheden en taken bij gegevensverwerking zijn bepaald en bekend
+- ?";""
+"id-c4be97224eef4759b3826da261c9f67e";"Requirement";"IM163 Kwaliteit dienstverlening voldoet aan de norm";"De kwaliteit van de informatiediensten moet voldoen aan wet- en regelgeving, normen en standaarden
+- De kwaliteit van de informatiediensten moet voldoen aan wet- en regelgeving, normen en standaarden
+- DUTO eisen";""
+"id-218e7b3beeea455da20fdad7f1c9e4e6";"Requirement";"IM164 Data governance is geregeld";"Data governance is geregeld
+- [Organisatie] hanteert een aanpak voor de governance van informatie (en data).
+In deze aanpak is eigenaarschap en beheer van informatieobjecten geregeld
+- D1.IMP117";""
+"id-ddc18b09db2848098321270ba3d58ec0";"Requirement";"IM165 Wees transparent in gemaakte fouten";"Transparent in gemaakte fouten
+- [Organisatie] is transparant ten aanzien van fouten en consequenties in de intern ter beschikking gestelde data en tools
+- D1.IMP152
+@@Marco: Tevens gerelateerd aan NAP02";""
+"id-1f5f1c56d8c5460782b661fb4e005752";"Requirement";"IM166 Maak processen en gegevensstromen meetbaar";"Maak processen/gegevensstromen/etc. meetbaar (organisatorische laag, informatielaag, applicatielaag, netwerklaag)
+- a.   Implicaties uit het reviewcommentaar";""
+"id-18c654522d1a4d67869a90fabf0c87c9";"Requirement";"IM166 Van ieder gegeven is de kwaliteit bekend";"IM166 Van ieder gegeven kan de kwaliteit bepaald worden
+- Kwaliteit wordt bepaald door hoe het tot stand is gekomen - ?
+@@Marco: Overlap IM114";""
+"id-08876ad345dc4039967a0f43d4cf1ab9";"Requirement";"IM167 Periodieke controles op juistheid en volledigheid";"Er moeten periodieke controles worden uitgevoerd op juistheid en volledigheid
+- De gegevens worden tijdens de gehele levenscyclus gemonitord, gecontroleerd en gevalideerd
+- DUTO eisen";""
+"id-11e0e55958db4cbe94f5e75eb4ce3ba5";"Requirement";"IM168 Beheer gegevens als één logisch object";"Gegevens worden binnen een organisatie als 1 logisch object beheerd. Ongeacht de distributie er van over systemen, backups en intell - ?";""
+"id-5f4c4968a375462f9a04fb672b416a6c";"Requirement";"IM169 Van ieder gegeven is de herkomst en verwerkingen beschikbaar tot aan vernietiging";"Van ieder gegeven is de herkomst en verwerkingen beschikbaar tot aan vernietiging
+- ?
+@@Marco: Overlap IM113";""
 "id-28683";"Grouping";"#Bouwsteen";"";""
 "id-0504999ce61e49df8699ef95d21fff88";"Grouping";"#Laag (vijflaagsmodel)";"";""
 "id-ff64dbc7ec40487e9441bd0a379ec636";"Grouping";"#PDCA Cyclus Overheids diensten (in de keten)";"";""
