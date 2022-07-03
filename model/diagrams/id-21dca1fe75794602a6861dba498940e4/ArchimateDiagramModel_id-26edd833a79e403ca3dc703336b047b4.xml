@@ -124,10 +124,10 @@
         source="id-be15702542c846e08031ac5b22514da8"
         target="id-dad998bae4b047978cd272df33160901">
       <bendpoints
-          startX="210"
-          startY="-96"
-          endX="211"
-          endY="180"/>
+          startX="330"
+          startY="-84"
+          endX="330"
+          endY="192"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -155,6 +155,15 @@
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-35915.xml#id-35915"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b103254f9eea4f68a68e30a8656ab1a4"
+        source="id-be15702542c846e08031ac5b22514da8"
+        target="id-e58edca0e0874ba4865ab2a08acd7cf7">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-941a9ebbf817445bba1360928a8b4e85.xml#id-941a9ebbf817445bba1360928a8b4e85"/>
     </sourceConnections>
     <bounds
         x="61"
@@ -206,5 +215,18 @@
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-28639.xml#id-28639"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-e58edca0e0874ba4865ab2a08acd7cf7"
+      targetConnections="id-b103254f9eea4f68a68e30a8656ab1a4">
+    <bounds
+        x="684"
+        y="420"
+        width="132"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Goal"
+        href="Goal_id-28646.xml#id-28646"/>
   </children>
 </archimate:ArchimateDiagramModel>

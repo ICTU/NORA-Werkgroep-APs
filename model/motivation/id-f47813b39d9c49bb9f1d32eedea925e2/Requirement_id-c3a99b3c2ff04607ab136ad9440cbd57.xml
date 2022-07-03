@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM504 Deel applicaties op in lagen"
+    id="id-c3a99b3c2ff04607ab136ad9440cbd57"
+    documentation="Een applicatie is opgedeeld in lagen. Elke laag heeft zijn eigen functie. Denk bijvoorbeeld (maar niet uitsluitend) aan een laag voor presentatie, business logica en datatoegang. De gedachte achter deze multi-tier architectuur is om software op te delen in meerdere componenten die met elkaar samenwerken. Het gebruik van componenten stimuleert het ontkoppelen en hergebruik van functionalitieit. Iedere component heeft nu zijn eigen verantwoordelijkheden.&#xD;&#xA;Bron: _D1.IMP513 Een applicatie is gelaagd qua structuur "/>

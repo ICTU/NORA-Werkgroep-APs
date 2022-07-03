@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM519 Eigenaar in control over gegevens verzamelingen en -verwerkingen"
+    id="id-3583b4d61e13407dbd2ef1437a5d5f16"
+    documentation="Gegevens en/of systeem-eigenaren zijn ervoor verantwoordelijk controle te hebben en te houden op hun kritieke assets: gegevensverzamelingen en -verwerkingen. En zorg te dragen voor een beheerste en rechtmatige verwerking van gegevens. Voorkomen moet worden dat niet langer gebruikte gegevens achterblijven in systemen van bv. cloudproviders. Metadata dient daarom te worden vastgesteld voor data life cycle management. &#xD;&#xA;Bron:&#xD;&#xA;_D1.IMP596 Eigenaar in control over gegevens verzamelingen en -verwerkingen"/>

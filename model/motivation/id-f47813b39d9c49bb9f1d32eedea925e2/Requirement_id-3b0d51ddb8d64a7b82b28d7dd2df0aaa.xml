@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM508 Software is altijd up-to-date"
+    id="id-3b0d51ddb8d64a7b82b28d7dd2df0aaa"
+    documentation="Alle gebruikte software en software-componenten, van applicatief tot infrastructureel, worden actueel gehouden. De update-cyclus van leveranciers wordt strikt gevolgd: updates, patches en beveiligingsupdates worden zo snel mogelijk doorgevoerd op alle relevante systemen. Om dit te kunnen is van belang dat software-componenten niet te voorzien van maatwerk. Maatwerk weerhoudt het snel kunnen doorvoeren van (veiligheids)updates. &#xD;&#xA;_D1.IMP545 Smartphone OS en updates binnen mainstream support"/>

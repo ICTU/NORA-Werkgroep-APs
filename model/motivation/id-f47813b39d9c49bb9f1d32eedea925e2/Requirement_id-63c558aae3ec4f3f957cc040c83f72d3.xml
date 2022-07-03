@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM520 Least Privileged Principe binnen applicaties"
+    id="id-63c558aae3ec4f3f957cc040c83f72d3"
+    documentation="Het uitgangspunt voor Least Privileged Use voor applicaties houdt in dat er niet meer toegangsrechten worden toegekend dan strikt noodzakelijk. Daarbij geldt ook dat service-accounts noot meer dan één rol mogen hebben. Het toepassen van het Least Privileged Use principe heeft een aantal voordelen:&#xD;&#xA;-  Verbeterde stabiliteit: Door lage rechten te gebruiken bij het gebruik van software voorkom je abusievelijke aanpassingen aan de systemen.&#xD;&#xA;-  Verbeterde security: Het gebruik van lage rechten voorkomt dat er kwetsbaarheden in de software schade veroorzaken aan het onderliggende besturingssysteem.&#xD;&#xA;-  Eenvoudige deployment naar eindgebrukers: Hoe minder rechten nodig zijn, hoe eenvoudiger functionaliteit snel ter beschikking te stellen is.&#xD;&#xA;Bron:&#xD;&#xA;_D1.IMP634 Least Privileged Principe binnen applicaties"/>

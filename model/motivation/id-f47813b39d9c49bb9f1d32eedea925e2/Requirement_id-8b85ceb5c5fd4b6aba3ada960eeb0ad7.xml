@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM146 Onweerlegbaarheid"
     id="id-8b85ceb5c5fd4b6aba3ada960eeb0ad7"
-    documentation="D-D1.IMP187&#xD;&#xA;Onweerlegbaarheid&#xD;&#xA;Neem maatregelen om de onweerlegbaarheid van berichtenverkeer en transacties te garanderen als daartoe vanuit integriteitsvereisten en vanuit risicoafwegingen aanleiding toe is.&#xD;&#xA;&#xD;&#xA;[Integriteit van het dataobject gedurende de gehele lifecycle (denk ook aan authenticiteit van bijv videobeelden)]"/>
+    documentation="D-D1.IMP187&#xD;&#xA;Neem maatregelen om de onweerlegbaarheid van berichtenverkeer en transacties te garanderen als daartoe vanuit integriteitsvereisten en vanuit risicoafwegingen aanleiding toe is.&#xD;&#xA;[Integriteit van het dataobject gedurende de gehele lifecycle (denk ook aan authenticiteit van bijv videobeelden)]"/>

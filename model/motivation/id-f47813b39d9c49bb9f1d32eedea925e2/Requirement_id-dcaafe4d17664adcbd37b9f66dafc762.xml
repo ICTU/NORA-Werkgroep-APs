@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM512 Pas cloud-native componenten toe"
+    id="id-dcaafe4d17664adcbd37b9f66dafc762"
+    documentation="Ontwerp cloud oplossingen met de unieke mogelijkheden die dit biedt. Cloud-native componenten bieden mogelijkheden tot het opzetten van flexibele en schaalbare oplossingen. Alleen door de unieke mogelijkheden van de cloud te gebruiken zijn cloud-oplossingen kostenefficiënt. Het eenvoudigweg verplaatsen van on premise toepassingen naar de cloud 'lift en shift' levert niet de flexibiliteit, schaalbaarheid en kostenvoordelen op die de cloud potentieel biedt. Voorbeelden:&#xD;&#xA;Serverless computing maakt het mogelijk nog meer te concentreren op de business functies, daar de organisatie wordt bevrijd van de aandacht voor virtuele machines, server besturingssystemen en orchestrators.&#xD;&#xA;Bron:&#xD;&#xA;_D1.IMP575 Gebruik container technologie om grote schaalbaarheid te combineren met Cloud agnostiek&#xD;&#xA;_D1.IMP576 Gebruik serverless computing voor schaalbaarheid ten koste van Cloud agnostiek&#xD;&#xA;"/>
