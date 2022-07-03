@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM117 Sla gegevens op in een toekomstbestendig formaat"
+    id="id-fd57b7ad95744b9b97fbf03006886291"
+    documentation="Sla gegevens op in een toekomstbestendig standaardformaat. Zorg dat de gegevens zonder hulpmiddelen of speciale toepassingen zijn te gebruiken.&#xD;&#xA;- Informatie is nu en in de toekomst (gedurende de gehele levenscyclus) leesbaar zonder dat daarvoor speciale toepassingen of hulpmiddelen nodig zijn. Dit betekent dat er gebruik gemaakt wordt van duurzame en open standaarden en bestandsformaten voor de opslag van informatie. Bij doorontwikkeling van de gebruikte formaten blijft de in het oude gebruikte formaat opgeslagen informatie leesbaar of wordt deze actief gemigreerd naar het nieuwe formaat - DUTO eisen"/>

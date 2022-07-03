@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM104 De doelbinding is onderdeel van het gegeven"
+    id="id-ff7cddc5a89d41f383e5a554e89948bf"
+    documentation="De doelbinding is onderdeel van het gegeven - Zowel bij het vastleggen van gegevens als bij het opvragen van gegevens wordt vastgelegd waarom het gegeven is vastgelegd en waarom het gegeven is opgevraagd - ?"/>

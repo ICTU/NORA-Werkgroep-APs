@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM110 Gegevensverzaneling onafhankelijk van applicaties"
+    id="id-bc49475d89e34a6dbd9515a8baa38e7c"
+    documentation="De gegevensverzameling is onafhankelijk van de beherende applicaties&#xD;&#xA;- De gegevensverzameling kan blijven bestaan als de applicatie wordt gewijzigd - ?"/>
