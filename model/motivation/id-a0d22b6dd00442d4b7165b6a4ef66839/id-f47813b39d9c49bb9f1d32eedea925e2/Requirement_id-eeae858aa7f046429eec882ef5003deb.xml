@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM156 Ontwerp omgevingen elastisch"
+    id="id-eeae858aa7f046429eec882ef5003deb"
+    documentation="D-D1.IMP068&#xD;&#xA;Elastisch&#xD;&#xA;Maak gebruik van voorzieningen om capaciteit real-time aan het benodigde gebruik aan te kunnen passen voor opschaling en voor afschaling.&#xD;&#xA;[(denk aan clouddiensten en virtualisatietechnieken)]"/>

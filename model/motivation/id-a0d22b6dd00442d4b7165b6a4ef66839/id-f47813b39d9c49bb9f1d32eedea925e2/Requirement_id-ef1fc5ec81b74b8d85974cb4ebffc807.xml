@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM127 Scheiding van datasets"
+    id="id-ef1fc5ec81b74b8d85974cb4ebffc807"
+    documentation="D-IAM003 Scheiding van datasets&#xD;&#xA;Verdeel de informatie in afgebakende datasets die elk afzonderlijk ook getoetst kunnen worden op voldoen aan de AVG.&#xD;&#xA;[Let op met de term &quot;datasegmentering&quot;, dat betekent in de marketing precies het omgekeerde. Denk aan PseudoBSN]"/>

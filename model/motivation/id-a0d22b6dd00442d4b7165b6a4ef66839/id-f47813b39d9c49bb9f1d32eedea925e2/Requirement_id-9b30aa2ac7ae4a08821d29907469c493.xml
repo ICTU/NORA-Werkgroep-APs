@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM147 Verifieer de datakwaliteit"
+    id="id-9b30aa2ac7ae4a08821d29907469c493"
+    documentation="D-IMP001&#xD;&#xA;Verifieer de datakwaliteit&#xD;&#xA;Controleer de kwaliteit van data bij invoer en op ieder koppelvlak aan de hand van de vastgestelde kwaliteitseisen. Eenmaal geverifieerd hoeft een verificatie niet opnieuw plaats te vinden als de eerder uitgevoerde verificatie nog betrouwbaar is. Betrouwbaar wil zeggen dat er zekerheid is dat de verificatie is uitgevoerd én dat is geverifieerd met de juiste kwaliteitscriteria én dat de uitkomst nog actueel is. ‘Actueel’ impliceert een houdbaarheidsdatum van de uitkomsten van de verificatie."/>

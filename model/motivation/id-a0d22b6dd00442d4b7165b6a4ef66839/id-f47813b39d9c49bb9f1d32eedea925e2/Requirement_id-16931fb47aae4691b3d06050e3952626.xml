@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM149 Richt een sterke logging en audit-trail in"
+    id="id-16931fb47aae4691b3d06050e3952626"
+    documentation="D-EBA008&#xD;&#xA;Richt een sterke logging en audit-trail in.&#xD;&#xA;Logbestanden en audit-trails spelen een sleutelrol in het detecteren van aanvallen en het afhandelen van incidenten. Zorg dat elke applicatie en elk systeem voldoende loginformatie genereert."/>

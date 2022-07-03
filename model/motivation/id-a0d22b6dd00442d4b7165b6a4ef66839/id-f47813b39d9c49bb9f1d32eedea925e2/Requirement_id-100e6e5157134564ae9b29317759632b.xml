@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM140 Gegevens worden gehaald (pull) i.p.v. gebracht (push)"
+    id="id-100e6e5157134564ae9b29317759632b"
+    documentation="Pull ipv push (gegevens worden gehaald ipv gebracht)&#xD;&#xA;- a. Implicaties uit het reviewcommentaar"/>
