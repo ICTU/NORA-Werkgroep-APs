@@ -362,6 +362,63 @@ De dienst is zodanig opgezet, dat andere organisaties deze in eigen diensten kun
 "id-0411dadff7694a9eaec5db3b162c4236";"Requirement";"IM065 Ontwikkel diensten die voor hergebuik geschikt zijn";"6 Ontwikkel diensten die voor hergebruik geschikt zijn (schaalbaar, parameteriseerbaar).
 10 Herbruikbare software moet als dienst worden verpakt om volgens dit principe mee te doen.
 @@Marco: Gelijk aan IM061 denk ik.";""
+"id-b906d1f992fd492d8592e230a02b7560";"Requirement";"IM066 Motiveer ontwikkelaars voor hergebruik";"5 Motiveer ontwikkelaars voor hergebruik (houding, gedrag, voorschriften, beloning, ...)";""
+"id-f75cd369b59b46799d9cff195acb2246";"Requirement";"IM067 Ontsluit open data als dienst";"18 ""Ontsluit (open) data als dienst.  (EIF principle 2 """"Openness"""", aanbeveling 2) -> NAP07 Bouw diensten modulair op"". Zie Recommendation 2 | Joinup (europa.eu)";""
+"id-8be39489e0184a2bb8620708df9edf5e";"Requirement";"IM068 Zorg voor voldoende middelen voor modulair ontwerp";"27 Zorg bij modulair ontwerpen voor voldoende middelen om de initieel hogere kosten voor ontwikkeling te kunnen bekostigen. Tbv winst op langere termijn (moet in rationale staan).";""
+"id-dfb68bf85dac4e60b4527988b1cb24d6";"Requirement";"IM069 Ontwikkelaars beheersen modulair ontwerp";"24 Zorg voor ontwikkelaars die modulair ontwerpen binnen hun vakgebied beheersen (denk aan separation of concerns).";""
+"id-08abdf3d7bdf481898de2d78a34712b6";"Requirement";"IM070 Scheid proces van data";"25 Scheid proces van data, (data van software en zorg dat software hardware-agnostisch is).
+26 Omwille van de mogelijkheid tot   ontkoppeling zijn de afhankelijkheden tussen (proces)onderdelen bij voorkeur zo klein   als mogelijk.";""
+"id-8e30b65739da42f7a71bb7d8a80e5665";"Requirement";"IM071 Houd afhankelijkheid aanbieders hanteerbaar";"9 Neem maatregelen (zoals service level management) om de afhankelijkheid van aanbieders hanteerbaar te houden.";""
+"id-805c97d2838248049581f75f037bae5d";"Requirement";"IM072 Scheiding van datasets";"D-IAM003
+Scheiding van datasets
+Verdeel de informatie in afgebakende datasets die elk afzonderlijk ook getoetst kunnen worden op voldoen aan de AVG.
+[Let op met de term ""datasegmentering"", dat betekent in de marketing precies het omgekeerde. Denk aan PseudoBSN]";""
+"id-414d558b0a9b4c82b832bb36df014f6d";"Requirement";"IM073 Ontwerp op modulaire wijze";"23 Zorg voor een ontwerp waarin een optimale modulariteit, gegeven de requirements, wordt voorgeschreven";""
+"id-a3af6679714f44cabd8ae692e0904610";"Requirement";"IM074 De architectuur stimuleert modulaire diensten";"22 Zorg voor een architectuur die moduilaire diensten stimuleert binnen een landschap als geheel.";""
+"id-4c5b9e98e2fd4ed5af34d4e6c1cbc161";"Requirement";"IM075 Ontwerp diensten met oog voor doelbinding, data minimalisatie en grondslag";"30 [Organisatie] ontwerpt en implementeert haar diensten zodanig dat ze daarbij oog heeft voor doelbinding, data-minimalisatie en oorspronkelijke grondslag.
+@@Marco: overlap IM062, IM004?";""
+"id-eefe54057ba74c3d8982c311a5ed06c7";"Requirement";"IM076 Datacatalogus geeft inzicht in beschikbaarheid data";"3 De datacatalogus van de [organisatie] geeft (interne) afnemers inzicht in de beschikbaarheid van data. Open data van de overheid (https://data.overheid.nl/) biedt aan externe afnemers ondersteuning bij het vinden van herbruikbare data van de [organisatie]";""
+"id-b8d34ca5ff83472394f223e24cf13edc";"Requirement";"IM077 Bron minimaal zo beschikbaar als afnemers hiervan";"D-IAM004
+Beschikbaarheid van de dienst
+De bron kent minimaal een even hoge beschikbaarheid als alle afnemers van de bron.
+[I en V ook opnemen?]";""
+"id-24f9281e4e5c45b7961783be616c970f";"Requirement";"IM078 Gebruik standaard met meest specifieke werkingsgebied";"37 Gebruik de standaard met het meest specifieke werkingsgebied. Als deze conflicteert met bredere (internationale) standaarden, zorg dan in de sector voor afstemming daarmee. Gebruik PTLU bij uitzonderingen";""
+"id-f2fda048ae9949f78cb6fee722509dd1";"Requirement";"IM079 Maak afspraken met ketenpartners over het gebruik van standaarden";"D-D1.IMP170
+Maak afspraken met ketenpartners over het gebruik van standaarden
+Regel binnen de keten regie in op de toegepaste standaarden (voor zover dat aanvullend op Forum voor Standaardisatie nodig is).
+@@Marco: Overlap IM023?";""
+"id-37a52b10f4594241be687bb45c763146";"Requirement";"IM080 Maak stelselafspraken over authenticatie";"D-IAM005
+Maak stelselafspraken over authenticatie
+Maak een kanaaloverstijgend stelsel met afspraken over betrouwbaarheidsniveau's van authenticatie.
+[mijn ""substantieel"" = jouw ""substantieel""]";""
+"id-61ade99b0225475baa7617105fbb1faf";"Requirement";"IM081 Ontwikkelaars begrijpen standaarden";"35 Zorg voor ontwikkelaars die standaarden begrijpen en effectief kunnen toepassen";""
+"id-c39c58ebf8c74d31b7ec8b6d0330fb39";"Requirement";"IM082 Actueel register met standaarden";"33 Zorg voor een actueel register met standaarden per functioneel toepassingsgebied (gegevensuitwisseling, beveiliging, taalgebruik, ...) en organisatorisch werkingsgebied.
+Sluit aan en maak afspraken bij de relevante organisatorisch werkingsgebieden.";""
+"id-86d569e93581499fa9eb7babe7b7f61c";"Requirement";"IM083 Houd rekening met grote en kleine dienstverleners";"46 Bij stelselafspraken, standaarden en centrale voorzieningen [moet rekening worden gehouden met] gebruik door grote als kleine dienstverleners.";""
+"id-4bbd60dcf6b34f89b6916b81b04d49e0";"Requirement";"IM084 Open standaarden (tenzij)";"32 Verwerf producten in die aan de standaard(en) voldoen.
+36 Open standaarden tenzij: implementaties maken gebruik van de beschrijvingen uit de open standaarden om leveranciersonafhankelijkheid te behouden.";""
+"id-c79ea09a5b7b4cbeb0cd7444b1a71402";"Requirement";"IM085 Gebruik actuele standaarden (pas LCM toe)";"34 Zorg via lifeyclemanagement voor toepassing van voldoende actuele versies van standaarden
+41 Inventariseer de relevante  standaarden en neem dat mee in het ontwerp van de dienst/voorziening.";""
+"id-694a3da0ab474796a91b432fc8e8352b";"Requirement";"IM086 Conformeer je aan de te gebruiken syntax en semantiek";"Conformeer je aan de syntax en semantiek van de Gegevenswoordenboeken van het desbetreffende Werkingsgebied";""
+"id-61804e41b4ff42728f90400a1eb08662";"Requirement";"IM087 Gebruik gestandaardiseerde referentiedata";"Gebruik gestandaardiseerde referentiedata - D1.IMP034";""
+"id-56c79522a98245abbee18a4967c1efe9";"Requirement";"IM088 Hanteer standaard koppelvlakken";"42 Hanteer standaardkoppelvlakken (applicatielaag, informatielaag [?], netwerklaag). Als je een dienst kan afnemen   via verschillende koppelvlakken, gebruik dan het standaardkoppelvlak, ipv maatwerk koppelvlakken.";""
+"id-5fd562cf63344d13953ff9aadb24279b";"Requirement";"IM089 Harmoniseer in het gebruik van technische platformen";"D-IMP005
+Beperk het aantal verschillende technische platforms
+Naarmate er meer verschillende technische oplossingen bij elkaar komen, neemt de beheersbaarheid af, omdat verschillende kennis nodig is en meer leveranciers in beeld komen bij het oplossen van problemen.
+[Hoe verhoudt dit zich tot modulariteit? Best of Breed vs Best of Suite. Klling voor je wendbaarheid. Ook: vendor-lock-in]";""
+"id-bbc30912ad1a48aeb364b021f4ee919f";"Requirement";"IM090 SaaS voor PaaS voor IaaS voor on-prem";"@@Marco: Ik ben zo vrij geweest deze toe te voegen ... weet niet of dit een discussie is geweest.";""
+"id-fe25d01c5344433195a0f7d9a5453c8b";"Requirement";"IM091 Zorg voor open specificaties";"20 Zorg voor open specificaties.  (EIF principle 2   ""Openness"", aanbeveling 4).
+@@Marco: ook gekoppeld aan NAP06 Hergebruik en NAP07 Modulair";""
+"id-53a215ce41f7497b81285a2289a0c83e";"Requirement";"IM092 Beschrijf diensten op een standaard wijze";"50 Ontwikkel of kies een standaard voor het beschrijven van diensten. Hierin moeten minstens doel en toepassingsgebied zijn opgenomen.";""
+"id-4846853e8b3b479faa7ae3ef7f1713fc";"Requirement";"IM093 De dienst heeft een duidelijke Quality of Service (QoS)";"54 De dienst heeft een duidelijk beschreven 'Quality of Service'. Niet alleen op het technisch koppelvlak, maar juist ook op die aspecten die door de afnemers begrepen worden. Bijvoorbeeld in termen van beschikbaarheid, performance, supportniveau, etc.";""
+"id-e133b3a87b694d888144162bcdef1828";"Requirement";"IM094 Leg per dienst vast aan welke normen en standaarden deze voldoet";"61 Per dienst legt [organisatie]no vast aan welke normen en standaarden deze moet voldoen. Deze normen en   standaarden moeten op hun beurt voldoen aan wet- en regelgeving. De opzet van   de dienst is in overeenstemming met deze normen en standaarden. Afwijkingen van deze norm worden geïdentificeerd";""
+"id-ff0e901df78d4e3f81698411163cd3e1";"Requirement";"IM095 Leg SLA vast bij de dienst";"60 Indien nodig legt [organisatie] het akkoord op en de inhoud van de dienst schriftelijk vast in de vorm van een Service Level Agreement (SLA), Gegevens Leverings Overeenkomst (GLO) of in wet- en regelgeving.";""
+"id-c14dfd2770244e4982ad252caf656481";"Requirement";"IM096 Gegevens worden vastgelegd en gedeeld in een open standaard formaat";"Gegevens worden vastgelegd en gedeeld in een open standaard formaat - Gegevens worden beheerd en gedeeld op basis van formele gegevensmodellen waarin betekenis, grondslag en structuur aan elkaar verbonden zijn - ?";""
+"id-60e2fa6df4284a3da1cb5155eec32bec";"Requirement";"IM097 Neem diensten op in een producten- en dienstencatalogus (PDC)";"56 [Organisatie] beschrijft diensten in een producten- en dienstencatalogus (PDC) inclusief de daarbij   behorende spelregels. Datasets worden beschreven in de [organisatie] datacatalogus (interne afnemers). Open data van de overheid (data.overheid.nl) biedt dit inzicht aan externe afnemers.";""
+"id-1dbbfe43886f4931ad45e6a6d76a3cec";"Requirement";"IM098 Beschrijf informatieobjecten in een model";"Beschrijf informatieobjecten in een model - Beschrijf   de toegepaste informatieobjecten voor een dienst systematisch in een   informatiemodel en voorzie deze van metadata. - Voormalig   NORA Afgeleid Principe AP17";""
+"id-9629a2e0d67046bcbe1918076bf70185";"Requirement";"IM099 Visualiseer informatieobjecten in samenhang";"Visualiseer informatieobjecten in samenhang - Uniforme   en betekenisvolle visualisatie van gegevens en gegevensmodellen - D1.IMP037";""
+"id-86e8b154b9574965aa3ffee1f647163f";"Requirement";"IM100 Publiceer data en metadata";"Publiceer data en metadata (en de relatie met het informatiemodel) - Publiceer   het gegevensmodel - D1.IMP021";""
+"id-86922981b68d4561967d69b2d378e698";"Requirement";"IM101 Publiceer het informatiemodel";"Publiceer het informatiemodel - Publiceer het gegevensmodel - D1.IMP038";""
 "id-28683";"Grouping";"#Bouwsteen";"";""
 "id-0504999ce61e49df8699ef95d21fff88";"Grouping";"#Laag (vijflaagsmodel)";"";""
 "id-ff64dbc7ec40487e9441bd0a379ec636";"Grouping";"#PDCA Cyclus Overheids diensten (in de keten)";"";""

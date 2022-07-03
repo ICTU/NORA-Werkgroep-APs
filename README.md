@@ -1,12 +1,14 @@
 # NORA-Werkgroep-APs
 Werkmodel van de NORA werkgroep Architectuur Principes. Dit werkmodel is ontwikkeld in Archi en kan hiermee vanuit deze Github repository worden geopend (read only) en geauthoriseerde gebruikers kunnen het bijwerken. Hiervoor is het nodig om Archi te downloaden en de coArchi plugin te installeren. Hoe dit werkt, zie https://www.archimatetool.com/plugins/ en https://github.com/archimatetool/archi-modelrepository-plugin/wiki
 
+Gebruik niet de nieuwe Specialization feature van Archi, deze wordt nog niet ondersteund i.c.m. jArchi.
+
 Dit werkmodel is niet het officiële kanaal waarmee NORA wordt gecommuniceerd. Ga hiervoor naar https://www.noraonline.nl/wiki/NORA_online
 
-Deze repository bevat een drietal folders:
+Deze repository bevat een aantal folders. De [model] folder bevat het Archimate master model. De andere folders zijn exports / afgeleide producten uit dit model.
 
 ## model
-Deze bevat het Archi model zelf en kan vanuit Archi worden geopend. Dit is het meest actuele master bestand.
+Deze bevat het Archimate werkmodel zelf en kan alleen vanuit Archi worden geopend. Dit is het meest actuele master model. Alle andere folders zijn handmatige exports en afgeleiden uit dit model en zijn daarom niet altijd 100% actueel met dit model. Pas bestanden in deze folder nooit handmatig aan!
 
 ## csv
 Export naar csv uit Archi en kan gebruikt worden als basis voor analyse:
