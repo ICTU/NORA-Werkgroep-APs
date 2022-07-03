@@ -1,7 +1,7 @@
 <archimate:InfluenceRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Verbinden"
+    name="#Verbinden"
     id="id-27767">
   <source
       xsi:type="archimate:Goal"

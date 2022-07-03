@@ -1,7 +1,7 @@
 <archimate:AggregationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Aggregeert"
+    name="#Aggregeert"
     id="id-c6141384096b491c8a08d669d51d5a96">
   <source
       xsi:type="archimate:Grouping"
