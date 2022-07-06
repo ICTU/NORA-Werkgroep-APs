@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM103 Breng informatieobjecten tijdig over naar archief"
+    name="IM103 Breng informatieobjecten tijdig over naar archiefdienst"
     id="id-3dbb108c2724422eabff3f95a0a0f6bc"
-    documentation="Een blijvend te bewaren informatieobject wordt binnen de wettelijke termijn overgebracht naar een archiefbewaarplaats - Gebruikers kunnen er op vertrouwen dat blijvend te bewaren informatie ook in de toekomst toegankelijk is en, op termijn, openbaar wordt - DUTO eisen"/>
+    documentation="Een blijvend te bewaren informatieobject wordt binnen de wettelijke termijn overgebracht naar een archiefbewaarplaats&#xD;&#xA;- Gebruikers kunnen er op vertrouwen dat blijvend te bewaren informatie ook in de toekomst toegankelijk is en, op termijn, openbaar wordt&#xD;&#xA;- DUTO eisen&#xD;&#xA;@@Roland: archiefdienst is de term voor archiefbewaarplaats in de nieuwe Archiefwet."/>
