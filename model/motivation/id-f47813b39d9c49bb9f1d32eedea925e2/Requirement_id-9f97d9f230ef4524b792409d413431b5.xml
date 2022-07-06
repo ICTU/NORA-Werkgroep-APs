@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM120 Gegevens hebben een bewaartermijn"
+    name="IM120 Gegevens worden niet langer bewaard en niet eerder vernietigd dan wettelijk is toegestaan"
     id="id-9f97d9f230ef4524b792409d413431b5"
-    documentation="IM120 Gegevens worden niet langer bewaard en niet eerder vernietigd dan wettelijk is toegestaan&#xD;&#xA;- Gegevens worden niet langer bewaard en niet eerder vernietigd dan wettelijk is toegestaan.&#xD;&#xA;"/>
+    documentation="IM120 Gegevens worden niet langer bewaard en niet eerder vernietigd dan wettelijk is toegestaan&#xD;&#xA;- Gegevens worden niet langer bewaard en niet eerder vernietigd dan wettelijk is toegestaan.&#xD;&#xA;@@Roland: Relatie IM102"/>

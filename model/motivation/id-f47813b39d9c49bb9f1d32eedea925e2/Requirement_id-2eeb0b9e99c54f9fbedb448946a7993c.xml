@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM122 De doelbinding is onderdeel van het gegeven"
+    name="IM122 De doelbinding wordt vastgelegd bij de metadata van het gegeven"
     id="id-2eeb0b9e99c54f9fbedb448946a7993c"
     documentation="De doelbinding is onderdeel van het gegeven&#xD;&#xA;- Zowel bij het vastleggen van gegevens als bij het opvragen van gegevens wordt vastgelegd waarom het gegeven is vastgelegd en waarom het gegeven is opgevraagd - ?"/>

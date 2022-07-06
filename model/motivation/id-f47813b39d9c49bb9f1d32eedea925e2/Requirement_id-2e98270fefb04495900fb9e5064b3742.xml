@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM102 Leg vast hoe lang informatieobjecten bewaard worden"
+    name="IM102 Stel in selectielijst vast hoe lang gegevens bewaard worden"
     id="id-2e98270fefb04495900fb9e5064b3742"
-    documentation="Er moet een vastgestelde selectielijst zijn waarin is beschreven hoe lang informatieobjecten bewaard worden  - Gebruikers hebben inzage in de termijn dat informatieobjecten toegankelijk zijn. Op basis daarvan kunnen belanghebbenden, zo nodig, bezwaar maken bij de zorgdrager of zelf maatregelen nemen om informatie langer beschikbaar te houden. - DUTO eisen"/>
+    documentation="Er moet een vastgestelde selectielijst zijn waarin is beschreven hoe lang informatieobjecten bewaard worden.&#xD;&#xA;- Gebruikers hebben inzage in de termijn dat informatieobjecten toegankelijk zijn. Op basis daarvan kunnen belanghebbenden, zo nodig, bezwaar maken bij de zorgdrager of zelf maatregelen nemen om informatie langer beschikbaar te houden.&#xD;&#xA;- DUTO eisen&#xD;&#xA;@@Roland: Relatie IM120.&#xD;&#xA;@@Laurens: Opnemen in de begrippenlijst wat een selectielijst is."/>

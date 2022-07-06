@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM017 Sluit aan op het generiek digitaal stelsel voor identificatie"
     id="id-c72dde45c9ae417cbfa8cf9ae7781276"
-    documentation="Bron WDO.&#xD;&#xA;bv één voor bedrijven, één voor personen, één voor verenigingen en instellingen etc.&#xD;&#xA;EU: Europese wallet?"/>
+    documentation="Bron WDO.&#xD;&#xA;bv één voor bedrijven, één voor personen, één voor verenigingen en instellingen etc.&#xD;&#xA;EU: Europese wallet?&#xD;&#xA;@@Marco: Dubbeling / overlap met IM040 (al is identificatie is niet geheel hetzelfde als authenticatie)"/>
