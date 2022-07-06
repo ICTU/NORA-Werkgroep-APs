@@ -8,14 +8,14 @@ Dit werkmodel is niet het officiële kanaal waarmee NORA wordt gecommuniceerd. G
 Deze repository bevat een aantal folders. De [model] folder bevat het Archimate master model. De andere folders zijn exports / afgeleide producten uit dit model.
 
 ## model
-Deze bevat het Archimate werkmodel zelf en kan alleen vanuit Archi worden geopend. Dit is het meest actuele master model. Alle andere folders zijn handmatige exports en afgeleiden uit dit model en zijn daarom niet altijd 100% actueel met dit model. Pas bestanden in deze folder nooit handmatig aan!
+Deze bevat het Archimate model zelf en kan alleen vanuit Archi worden geopend. Dit is dus het meest actuele master model. Alle andere folders zijn handmatige exports en afgeleiden uit dit model en zijn daarom niet gegarandeerd geheel up to date. Pas bestanden in deze folder nooit handmatig aan!
 
 ## csv
 Export naar csv uit Archi en kan gebruikt worden als basis voor analyse:
 elements.csv bevat alle elementen (zoals architectuurprincipes).
 relations.csv bevat de relaties tussen de elementen.
 properties.csv bevat attributen voor de elementen (niet gebruikt in dit model).
-Deze export loopt mogelijk iets achter bij het actuele model. Let op, bij export, kies semicolon als separator (;) en codering UTF-8.
+Let op, bij export uit Archi, kies semicolon als separator (;) en codering UTF-8.
 
 ## excel
 Deze bevat een Excel sheet met data-koppelingen naar de drie bovengenoemde csv's, inclusief kruistabellen. Download deze Excel en ververs (Refresh) de data met de Refresh knop in de Data tab.
@@ -27,4 +27,4 @@ Export naar xml uit Archi (als Open Exchange Format). Dit formaat kan worden geo
 PNG export van alle Views uit het Archimate model.
 
 ## word
-Word mailmerge export van alle elementen uit het Archimate model.
+Word mailmerge exports. Bron hiervoor is de [excel].
