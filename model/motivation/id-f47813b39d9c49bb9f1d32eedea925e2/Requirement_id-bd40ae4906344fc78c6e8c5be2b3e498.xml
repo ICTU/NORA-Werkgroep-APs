@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM209 Ondersteun oude standaarden conform afspraken"
+    id="id-bd40ae4906344fc78c6e8c5be2b3e498"
+    documentation="Wanneer een nieuwe versie van een standaard geïmplementeerd wordt, blijft de aanbieder de oude versie ondersteunen zolang als dat volgens afspraak nodig is.&#xD;&#xA;@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs."/>

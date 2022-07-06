@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM220 Juiste werking achteraf te controleren"
+    id="id-109fb852881b4b748a490cb939d41269"
+    documentation="AP44:&#xD;&#xA;De dienstverlener zorgt ervoor dat de beoogde toegang tot gegevens en de juiste werking van zijn systemen continu alsook achteraf te controleren is.&#xD;&#xA;Dit impliceert AP44-1:&#xD;&#xA;De   controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door   registratie en bewaking van gebeurtenissen en door alarmering op het   overschrijden van toelaatbare drempels. Specifiek voor logging: analyseer   periodieke logbestanden om de juiste werking van het systeem vast te stellen   en beveiligingsincidenten te detecteren.&#xD;&#xA;@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs."/>

@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM225 Maatregelen borgen vertrouwelijkheid gegevens"
+    id="id-b481ef89fe6042c3af454bcb90bbe1af"
+    documentation="De vertrouwelijkheid van gegevens wordt gegarandeerd door scheiding van systeemfuncties, door controle op communicatiegedrag en gegevensuitwisseling, door validatie op toegang tot gegevens en systeemfuncties en door versleuteling van gegevens.&#xD;&#xA;@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;&#xA;@@Marco: Deze verwoorden naar concrete implicaties, dit stuurt niet echt en overlapt deels met andere."/>

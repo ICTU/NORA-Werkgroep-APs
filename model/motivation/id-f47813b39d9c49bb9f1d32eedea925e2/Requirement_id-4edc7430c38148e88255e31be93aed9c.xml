@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM223 Controleer de gegevensverwerking"
+    id="id-4edc7430c38148e88255e31be93aed9c"
+    documentation="AP42-1:&#xD;&#xA;Controle van gegevensverwerking:&#xD;&#xA;     * De criteria voor juistheid, en tijdigheid zijn vastgesteld&#xD;&#xA;     * controleren vanuit een systeemvreemde omgeving ingevoerde gegevens op   juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt.&#xD;&#xA;     * controleren te versturen gegevens op juistheid, volledigheid en   tijdigheid&#xD;&#xA;     * controleren ter verwerking aangeboden gegevens op juiste, volledig en   tijdige verwerking&#xD;&#xA;     * vergelijken periodiek kritieke gegevens die in verschillende   gegevensverzamelingen voorkomen met elkaar op consistentie. Dit geldt allee zolang als de gegevens niet frequent en integraal worden gesynchroniseerd met   de brongegevens.&#xD;&#xA;@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs."/>

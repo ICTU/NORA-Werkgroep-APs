@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IM206 Open standaard (proces)modellering"
+    id="id-b4d0362d9da84defb8e9598348b9ede6"
+    documentation="AP08-2:&#xD;&#xA;Organisaties werken volgens een open standaard voor procesmodellering die door alle samenwerkende partijen op uniforme wijze wordt toegepast. De gekozen open standaard is bepalend voor de keuze van modelleersystemen die deze standaard ondersteunen.&#xD;&#xA;@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;&#xA;@@Marco: Zou moeten gelden voor meer soorten modellering, data- maar ook architectuur! (ArchiMate)"/>
