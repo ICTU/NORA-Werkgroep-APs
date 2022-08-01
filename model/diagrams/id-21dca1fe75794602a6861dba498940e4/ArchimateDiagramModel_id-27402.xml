@@ -148,7 +148,7 @@
         x="100"
         y="659"
         width="173"
-        height="260"/>
+        height="290"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -159,28 +159,12 @@
       fillColor="#d9cfff">
     <bounds
         x="120"
-        y="832"
+        y="877"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-28636.xml#id-28636"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-29644"
-      font="1|Verdana|10.0|0|COCOA|1|"
-      fontColor="#000000"
-      lineColor="#7459d9"
-      fillColor="#d9cfff">
-    <bounds
-        x="120"
-        y="792"
-        width="133"
-        height="33"/>
-    <archimateElement
-        xsi:type="archimate:Goal"
-        href="Goal_id-28635.xml#id-28635"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -191,9 +175,9 @@
       fillColor="#d9cfff">
     <bounds
         x="120"
-        y="712"
+        y="732"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-37373.xml#id-37373"/>
@@ -207,9 +191,9 @@
       fillColor="#d9cfff">
     <bounds
         x="120"
-        y="672"
+        y="684"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-37375.xml#id-37375"/>
@@ -223,9 +207,9 @@
       fillColor="#d9cfff">
     <bounds
         x="120"
-        y="752"
+        y="781"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-28634.xml#id-28634"/>
@@ -246,7 +230,7 @@
         x="287"
         y="659"
         width="173"
-        height="260"/>
+        height="290"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -257,9 +241,9 @@
       fillColor="#d9cfff">
     <bounds
         x="307"
-        y="752"
+        y="781"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-37365.xml#id-37365"/>
@@ -273,9 +257,9 @@
       fillColor="#d9cfff">
     <bounds
         x="307"
-        y="712"
+        y="732"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-37369.xml#id-37369"/>
@@ -289,9 +273,9 @@
       fillColor="#d9cfff">
     <bounds
         x="307"
-        y="672"
+        y="684"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-37368.xml#id-37368"/>
@@ -312,7 +296,7 @@
         x="473"
         y="659"
         width="173"
-        height="260"/>
+        height="290"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -322,10 +306,10 @@
       lineColor="#7459d9"
       fillColor="#d9cfff">
     <bounds
-        x="493"
-        y="672"
+        x="490"
+        y="684"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-28637.xml#id-28637"/>
@@ -338,10 +322,10 @@
       lineColor="#7459d9"
       fillColor="#d9cfff">
     <bounds
-        x="493"
-        y="712"
+        x="490"
+        y="732"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-28639.xml#id-28639"/>
@@ -354,10 +338,10 @@
       lineColor="#7459d9"
       fillColor="#d9cfff">
     <bounds
-        x="493"
-        y="752"
+        x="490"
+        y="781"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-28640.xml#id-28640"/>
@@ -378,7 +362,7 @@
         x="660"
         y="659"
         width="173"
-        height="260"/>
+        height="290"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -389,9 +373,9 @@
       fillColor="#d9cfff">
     <bounds
         x="680"
-        y="792"
+        y="828"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-28649.xml#id-28649"/>
@@ -405,9 +389,9 @@
       fillColor="#d9cfff">
     <bounds
         x="680"
-        y="832"
+        y="875"
         width="133"
-        height="33"/>
+        height="42"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-37372.xml#id-37372"/>
@@ -421,9 +405,9 @@
       fillColor="#d9cfff">
     <bounds
         x="680"
-        y="712"
+        y="732"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-37366.xml#id-37366"/>
@@ -437,9 +421,9 @@
       fillColor="#d9cfff">
     <bounds
         x="680"
-        y="672"
+        y="684"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-37371.xml#id-37371"/>
@@ -453,9 +437,9 @@
       fillColor="#d9cfff">
     <bounds
         x="680"
-        y="752"
+        y="781"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-37374.xml#id-37374"/>
@@ -476,7 +460,7 @@
         x="847"
         y="659"
         width="173"
-        height="260"/>
+        height="290"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -487,9 +471,9 @@
       fillColor="#d9cfff">
     <bounds
         x="867"
-        y="792"
+        y="828"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-28646.xml#id-28646"/>
@@ -503,9 +487,9 @@
       fillColor="#d9cfff">
     <bounds
         x="867"
-        y="752"
+        y="781"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-37367.xml#id-37367"/>
@@ -519,9 +503,9 @@
       fillColor="#d9cfff">
     <bounds
         x="867"
-        y="712"
+        y="732"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-37364.xml#id-37364"/>
@@ -535,9 +519,9 @@
       fillColor="#d9cfff">
     <bounds
         x="867"
-        y="672"
+        y="684"
         width="133"
-        height="33"/>
+        height="40"/>
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-37370.xml#id-37370"/>
@@ -874,7 +858,7 @@
   <children
       xsi:type="archimate:DiagramModelNote"
       id="id-29765"
-      font="1|Verdana|12.0|0|COCOA|1|Verdana"
+      font="1|Verdana|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Verdana"
       fontColor="#004080"
       lineColor="#000000"
       textAlignment="1"
@@ -957,5 +941,21 @@
         y="1044"
         width="107"
         height="40"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-29644"
+      font="1|Verdana|10.0|0|COCOA|1|"
+      fontColor="#000000"
+      lineColor="#7459d9"
+      fillColor="#d9cfff">
+    <bounds
+        x="120"
+        y="828"
+        width="133"
+        height="40"/>
+    <archimateElement
+        xsi:type="archimate:Goal"
+        href="Goal_id-28635.xml#id-28635"/>
   </children>
 </archimate:ArchimateDiagramModel>

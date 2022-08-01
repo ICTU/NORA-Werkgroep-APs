@@ -252,7 +252,7 @@
   <children
       xsi:type="archimate:DiagramModelNote"
       id="id-28707"
-      font="1|Verdana|12.0|0|COCOA|1|Verdana"
+      font="1|Verdana|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Verdana"
       fontColor="#004080"
       lineColor="#000000"
       textAlignment="1"
@@ -620,7 +620,9 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-0d4ee6aec34942abba3a84bc8d771e72"
-      textAlignment="1">
+      lineColor="#808080"
+      textAlignment="1"
+      fillColor="#e1e1e1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-ee15b95a8c0a485dae4255211ac56bcd"
