@@ -6,16 +6,10 @@
 "id-92caf36be7774e41bbb217ee6d4b00e2";"Capability";"#Verbeteren";"";""
 "id-3e841ce2faa34258a2fc60ce7691e8d7";"Capability";"#Wijzigen (ontwerpen, realiseren)";"";""
 "id-451e011b3dee402b92b056a69008048f";"ValueStream";"#Leveren dienst";"";""
-"id-3fb78bf04b66463f95f8b7f063ef58e7";"BusinessProcess";"#Afspreken";"";""
-"id-88756c9d34004996ba68173b7beffeeb";"BusinessProcess";"#Herstellen";"";""
-"id-52039c5844964e82947a6851cd80901c";"BusinessProcess";"#Uitvoeren";"";""
-"id-11d72df663ce4225be42f400e0ca49da";"BusinessProcess";"#Verbeteren";"";""
-"id-f7b791ac7daa4926a8c9d1b1a1947a94";"BusinessProcess";"#Wijzigen (ontwerpen, realiseren)";"";""
 "id-29634";"BusinessRole";"#Bedrijven";"";""
 "id-29636";"BusinessRole";"#Burgers";"";""
 "id-29631";"BusinessRole";"#Overheids instelling";"";""
 "id-27464";"BusinessService";"#Bouwsteen";"";""
-"id-06308939466e4710a3ee5be4708f8b43";"BusinessService";"#Dienst";"";""
 "id-29630";"BusinessService";"#Dienst";"";""
 "id-27771";"Driver";"#Beleidskader";"DEFINITIE
 NORA is gebaseerd op bestaand overheidsbeleid (nationaal en Europees) en op de instrumenten die in het kader van dat beleid zijn ontwikkeld, zoals wetten, regels, kamerstukken en bestuursakkoorden.
@@ -185,7 +179,7 @@ Bundel de dienst met andere voor de afnemer relevante diensten binnen de keten, 
 
 RATIONALE 
 Door bundeling van diensten nemen gebruiksgemak en meerwaarde voor afnemers toe: waar voorheen meerdere aanvragen nodig waren, kan nu met één aanvraag worden volstaan. Tevens kunnen overheidsdienstverleners zo efficiënter samenwerken.";""
-"id-37354";"Principle";"NAP05 Bied de dienst proactief aan";"STELLING 
+"id-37354";"Principle";"NAP05 Bied de dienst proactief aan";"STELLING
 Bied de dienst aan wanneer dit in het belang is of zou kunnen zijn voor de afnemer. 
 
 RATIONALE 
