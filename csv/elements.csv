@@ -75,10 +75,10 @@ Niemand hoeft bij dienstverlening van de overheid te vrezen voor gevaren en bedr
 
 TOELICHTING 
 Onveilige situaties kunnen de vrijheid van burgers en bedrijven om voluit deel te nemen aan de samenleving belemmeren. Bijvoorbeeld als afnemers of aanbieders van diensten blootgesteld worden aan bedreigingen als misbruik, diefstal, afpersing, fraude of stigmatisering. En er ontstaan geen gevaren voor de veiligheid omdat de diensten waar politie, luchtverkeersleiding, douane, brandweer, inspecties of waterbeheerders van afhankelijk zijn, blijven functioneren. De overheid moet daarom een goed raamwerk hebben om diensten veilig aan te bieden met daarbij: 
--  analyse van risico's en effectiviteit van beschikbare veiligheidsmaatregelen; 
--  goede weging van de impact van risico's en maatregelen ten opzichte van andere maatschappelijke waarden; 
--  verantwoording van de gemaakte keuzes; 
--  controle op de uitvoering.";""
+* analyse van risico's en effectiviteit van beschikbare veiligheidsmaatregelen; 
+* goede weging van de impact van risico's en maatregelen ten opzichte van andere maatschappelijke waarden; 
+* verantwoording van de gemaakte keuzes; 
+* controle op de uitvoering.";""
 "id-28628";"Driver";"KW03 Toekomstgericht";"BESCHRIJVING 
 De dienstverlening van de overheid is op de toekomst voorbereid. 
 
@@ -250,151 +250,114 @@ BESCHRIJVING
 Implicaties zijn genummerd naar de relatie die ze hebben met het bovenliggend archtectuurprincipe. AP02.02 is dus implicatie nr. 2 behorend bij Architectuurprincipe AP02. Er is geen volgorde van belangrijkheid in de nummering van de implicaties zelf.
 Implicaties zijn gerelateerd aan 1 of meerdere architectuurlagen. Deze relatie is gelegd in de Properties (als attribuut) bij de betreffende implicatie. Implicaties worden gemodelleerd als ArchiMate element type Requirement.";""
 "id-d3a51b2dbc464391b29acebefaa5b212";"Requirement";"#Standaard";"";""
-"id-511fba2f031e442fb2aad7f5a5ba8ea5";"Requirement";"IM001 Beschrijf informatieobjecten in een model";"STELLING
-Beschrijf de toegepaste informatieobjecten voor een dienst systematisch in een informatiemodel en voorzie deze van metadata.
-
-RATIONALE
-Samenwerking in het leveren van diensten tussen en binnen overheidsorganisaties is alleen goed mogelijk wanneer de betrokkenen de relevante informatieobjecten kunnen vinden, toepassen, hergebruiken en duurzaam archiveren.";""
-"id-3bd2ac77dfb5476fa4a0e1922834efaa";"Requirement";"IM002 Gegevens zijn duurzaam toegankelijk";"STELLING
-Gegevens die via de dienst geleverd worden zijn 'duurzaam toegankelijk', voor iedereen die daar belang bij heeft en voor zo lang als noodzakelijk.
-
-RATIONALE
-Onder toegankelijk verstaan we dat gegevens vindbaar, beschikbaar, leesbaar, interpreteerbaar en betrouwbaar zijn, alsmede zijn beschermd tegen fysiek of technologisch verval. Duurzaam in deze context betekent dat de toegankelijkheid bestand is tegen veranderingen van welke aard dan ook. Het gaat hier bijvoorbeeld over de toegankelijkheid van gegevens over genomen besluiten, de herleidbaarheid van gegevensproducten naar de bron en overwegingen die hebben geleid tot besluitvorming, informatie over de dienstverlening van de overheid, wet- en regelgeving, rechten en plichten, correspondentie door en met de overheid en persoonlijke (zaak)gegevens.";""
-"id-83859412ff8349c99d5a8b08a8882444";"Requirement";"IM003 Deel open data";"STELLING
-Stel overheidsdata actief beschikbaar voor hergebruik door derden, bijvoorbeeld in de vorm van open data. De enige uitzondering zijn overheidsdata waarvoor wet- en regelgeving expliciet beperkingen oplegt, die stel je niet actief beschikbaar. 
-
-RATIONALE
-Er zijn meerdere redenen om data actief beschikbaar te stellen. Zo kan het meer transparantie en inzicht geven in het overheidshandelen en zo de accountability vergroten. Bijvoorbeeld door begrotingen of inkoopgegevens als open data beschikbaar te stellen. Het kan ook economische en maatschappelijke innovatie stimuleren, zoals de ontwikkeling van apps en informatiediensten op basis van overheidsdata.
-En het kan zorgen dat de overheid effectiever en efficiënter opereert. Bijvoorbeeld door het actief benutten van data om de eigen bedrijfsvoerings- en dienstverleningsprocessen te verbeteren. Zo gaan de kosten omlaag en de prestaties omhoog.";""
-"id-26075e94bc3a45e5bd94f82ff94cb3df";"Requirement";"IM004 Minimaliseer gebruik data";"@@Marco: Overlap IM010, IM121";""
-"id-71b8e0371ba34570ae9cda01963b50f3";"Requirement";"IM005 Richt persoonlijke dienstverlening op maat en maak tijdreizen mogelijk";"";""
-"id-e0b7dec8ff264328bc9f4dbd5278ff97";"Requirement";"IM006 Doe het in één keer goed";"Bron: 'progrmma antwoord', gemeenten WAU, klantgericht zijn.";""
-"id-57294b05b026417d94a2e17ce25a1aeb";"Requirement";"IM007 Zorg voor één contactpunt";"EU Zorgen voor een centraal contactpunt, zodat de gebruiker niet met verschillende partijen moet handelen voor wat voor hem/haar één dienst is.";""
-"id-6239269a742e42d99db5fe7ae4cbe24f";"Requirement";"IM008 Bevorder regie op gegevens";"Bevorder Regie op gegevens door inwoners en ondernemers (bron: beleid, beweging waarop we op moeten aanpassen).";""
-"id-9c36647a4aba40bb9c9b219f8c4e81e8";"Requirement";"IM009 Weet waar afnemers naar zoeken";"[Organisatie] weet welke informatie afnemers doorgaans zoeken en waar ze deze zoeken. Deze informatie wordt aangemeld op de voor de afnemers bekende vindplaatsen, zoals zoekmachines, portals, catalogi en registers. Ook de dienst zelf wordt voorzien van de nodige zoekfuncties. Om te kunnen doorverwijzen, is [organisatie] op de hoogte van de andere plaatsen waar diensten te vinden zijn en kan de afnemers hiernaar verwijzen als dat nodig is.
-Bron:
-_D1.IMP001 Ken je afnemers";""
-"id-151b2ada34ee47208197653ae3934cf0";"Requirement";"IM010 Data minimalisatie";"Data minimalisatie (organisatorische laag, informatielaag)
+"id-26075e94bc3a45e5bd94f82ff94cb3df";"Requirement";"?a IM004 Minimaliseer gebruik data";"@@Marco: Overlap IM010, IM121";""
+"id-151b2ada34ee47208197653ae3934cf0";"Requirement";"?a IM010 Data minimalisatie";"Data minimalisatie (organisatorische laag, informatielaag)
 - a.   Implicaties uit het reviewcommentaar
 @@Marco: Overlap IM004, IM121";""
-"id-24b04309e2e84107a25391fa584d8f00";"Requirement";"IM011 Verwijzen naar de bron i.p.v. kopie uit die bron";"Verwijzen naar de bron heeft voorkeur boven een kopie uit die bron - Inzage   in de bron heeft  de voorkeur boven zelf opslaan. Afspraken daarover worden vastgelegd en bekend gemaakt. Vanuit legitimiteitsperspectief kan het nodig zijn een kopie vast te leggen.";""
-"id-b2d9cccd5ef34cab98351fe097267da6";"Requirement";"IM012 voor de afnemer relevante besluiten zijn traceerbaar en controleerbaar";"";""
-"id-3ce47667b4384c1fbe5aca987909db83";"Requirement";"IM013 Geef de afnemer duidelijkheid over rechten, voorwaarden en plichten";"";""
-"id-1aa55fb9beb44767ab9e63d2db0bca20";"Requirement";"IM014 Beschrijf de dienst en geef inzicht in de werking van de dienst (pdc)";"";""
-"id-aed1f376194f4247921b812b4103a0b0";"Requirement";"IM015 Bied multi- en omni-channel dienstverlening";"";""
-"id-aef6522ea9cc44cd9303787b113ca5cf";"Requirement";"IM016 Sluit aan op kanaal voorkeurkeuze gebruiker";"";""
-"id-c72dde45c9ae417cbfa8cf9ae7781276";"Requirement";"IM017 Sluit aan op het generiek digitaal stelsel voor identificatie";"Bron WDO.
+"id-75c4386cc0fe47bb8e1c0f09bdb7b758";"Requirement";"?a IM062 Informatie inrichting voldoet aan doelbinding";"Informatie inrichting voldoet aan doelbinding (role based) en regelt rechten CRUD alsmede regie op gegevens
+@@Robert: Staat nu bij NAP06. NAP11 lijkt mij logischer. En IM004 staat al bij NAP11.
+Maar omdat er IM075 invulling geeft aan NAP07 IM062 ook koppelen aan NAP0";""
+"id-4c5b9e98e2fd4ed5af34d4e6c1cbc161";"Requirement";"?a IM075 Ontwerp diensten met oog voor doelbinding, data minimalisatie en grondslag";"30 [Organisatie] ontwerpt en implementeert haar diensten zodanig dat ze daarbij oog heeft voor doelbinding, data-minimalisatie en oorspronkelijke grondslag.
+@@Marco: overlap IM062, IM004?
+@@Robert: Inderdaad overlap met IM062. IM062+IM075 geven invulling aan zowel NAP07 als NAP11";""
+"id-aed1f376194f4247921b812b4103a0b0";"Requirement";"?b IM015 Bied multi- en omni-channel dienstverlening";"";""
+"id-71b8e0371ba34570ae9cda01963b50f3";"Requirement";"_IM005 Richt persoonlijke dienstverlening op maat en maak tijdreizen mogelijk";"";""
+"id-e0b7dec8ff264328bc9f4dbd5278ff97";"Requirement";"_IM006 Doe het in één keer goed";"Bron: 'progrmma antwoord', gemeenten WAU, klantgericht zijn.";""
+"id-6239269a742e42d99db5fe7ae4cbe24f";"Requirement";"_IM008 Bevorder regie op gegevens";"Bevorder Regie op gegevens door inwoners en ondernemers (bron: beleid, beweging waarop we op moeten aanpassen).";""
+"id-1aa55fb9beb44767ab9e63d2db0bca20";"Requirement";"_IM014 Beschrijf de dienst en geef inzicht in de werking van de dienst (pdc)";"";""
+"id-c72dde45c9ae417cbfa8cf9ae7781276";"Requirement";"_IM017 Sluit aan op het generiek digitaal stelsel voor identificatie";"Bron WDO.
 bv één voor bedrijven, één voor personen, één voor verenigingen en instellingen etc.
 EU: Europese wallet?
 @@Marco: Dubbeling / overlap met IM040 (al is identificatie is niet geheel hetzelfde als authenticatie)";""
-"id-fb1dcaad54144a9fa58b72d1043198cb";"Requirement";"IM018 Toegankelijk voor gebruikers met beperking";"EU: Zorg dat gebruiker met functiebeperking ook de dienst kan afnemen: Comply met standaard 'Digitoegankelijk";""
-"id-77695a81dc7049f3b4305589b898922b";"Requirement";"IM019 Toegankelijk voor anderstaligen";"EU: Zorg dat een eventueel anderstalige gebruiker de dienst ook kan afnemen, door deze ook in een algemeen toegankelijke taal aan te bieden.";""
-"id-b34b50ffce4d4f34bb38e1eecd72451f";"Requirement";"IM020 Elimineer overbodige processtappen (voor de afnemer)";"Stel bij iedere processtap de vraag of deze stap waarde toevoegt voor de afnemer of dat de processtap evengoed weggelaten kan worden.
-NB: let op voor de organisatie kunnen processtappen van belang zijn: die elimineer je niet";""
-"id-fb829492a6bb42ef9aa3c381d663abfa";"Requirement";"IM021 Organiseer keten uitwisseling rondom afnemer(s)";"";""
-"id-b387d9f7f51a4141976be4c9149c0d7b";"Requirement";"IM022 Ken je afnemers";"Vorm totaalbeeld van afnemers
+"id-fb829492a6bb42ef9aa3c381d663abfa";"Requirement";"_IM021 Organiseer keten uitwisseling rondom afnemer(s)";"";""
+"id-b387d9f7f51a4141976be4c9149c0d7b";"Requirement";"_IM022 Ken je afnemers";"Vorm totaalbeeld van afnemers
 hoort bij totaalbeeld: bouw info op en stel deze beschikbaar";""
-"id-975aa346a3da4ad393b24cae20b30160";"Requirement";"IM023 Maak afspraken met ketenpartners";"@@Marco: In hoeverre gelijk aan IM021?";""
-"id-de38cad5d09f4f5fac0db85b613692c6";"Requirement";"IM024 Organiseer (duurzame) regie op gegevens";"";""
-"id-fcd3e6c73fd44ca195e273f4a491f50c";"Requirement";"IM025 Beschrijf voor afnemer relevante voortgangsinformatie van een dienst";"59   [Organisatie] beschrijft de voor een afnemer relevante voortgangsinformatie van een dienst.
+"id-975aa346a3da4ad393b24cae20b30160";"Requirement";"_IM023 Maak afspraken met ketenpartners";"@@Marco: In hoeverre gelijk aan IM021?";""
+"id-de38cad5d09f4f5fac0db85b613692c6";"Requirement";"_IM024 Organiseer (duurzame) regie op gegevens";"";""
+"id-fcd3e6c73fd44ca195e273f4a491f50c";"Requirement";"_IM025 Beschrijf voor afnemer relevante voortgangsinformatie van een dienst";"59   [Organisatie] beschrijft de voor een afnemer relevante voortgangsinformatie van een dienst.
 @@Peter: Mogelijke overlap IM032 en IM035.";""
-"id-1ba9c2b219444e7395a8583cad63b22e";"Requirement";"IM026 Voorkomen dezelfde info meermaals moeten aanleveren";"IM026 EU: Voorkomen dat gebruikers dezelfde info meermaals moeten aanleveren, door deze informatie te (her)gebruiken uit een bronregistratie.
+"id-1ba9c2b219444e7395a8583cad63b22e";"Requirement";"_IM026 Voorkomen dezelfde info meermaals moeten aanleveren";"IM026 EU: Voorkomen dat gebruikers dezelfde info meermaals moeten aanleveren, door deze informatie te (her)gebruiken uit een bronregistratie.
 N.B. vraag data niet opnieuw uit
 NB 2 ga na of gegevens beschikbaar zijn in de keten";""
-"id-c0272d979f36400e90a84ee41cc6115a";"Requirement";"IM027 Maak beveilingingsmaatregelen transparant";"D-AV002
-Maak beveilingingsmaatregelen transparant voor de gebruiker. Verleid de gebruiker om veilig te werken.
-@@Marco: Tevens gerelateerd aan NAP13";""
-"id-869f6e85cc844f50acb627bfc1d3a8cb";"Requirement";"IM028 Richt in volgens ontwerpprincipes van UX";"EU: Richt in volgens ontwerpprincipes van UX (url)
-Optimaliseer gebruikersgemak
-Denk hierbij tevens aan performance!
-
-@@Marco - toegevoegd, is dit de juiste plek?: Voor websites geldt: Websites van [Organisatie] zijn toegankelijk voor iedereen en voldoen aan de standaarden zoals gedefinieerd in WCAG. Websites die door overheidsorganisaties worden gemaakt, of door derden in opdracht van de overheid, voldoen aan de richtlijnen zoals genoemd in de open standaard WCAG. De overheidsorganisatie is zelf verantwoordelijk voor het goed beschikbaar zijn van haar activiteiten voor burgers en bedrijven. Dit geldt met name voor websites die toegankelijk zijn voor het publiek, maar ook voor intern gerichte websites. WCAG staat voor 'Web Content Accessibility Guidelines'. Ontwikkeld door W3C in samenwerking met individuen en organisaties over de hele wereld. Met als doel een gedeelde standaard te bieden voor toegankelijkheid van web-content en content in het algemeen (documenten bijvoorbeeld). De wetgever heeft bepaald dat alle (semi-)overheids websites per 23 september 2020 aan deze WCAG standaard.
-_D1.IMP519 Websites van [Organisatie] zijn toegankelijk voor iedereen en voldoen aan de standaarden zoals gedefinieerd in WCAG
-";""
-"id-4a042c29ea1449a092b97a4242d46d33";"Requirement";"IM029 Overheidsinformatie eenvoudig te raadplegen";"Overheidsinformatie is voor iedere gebruiker eenvoudig te raadplegen. Gebruiker wordt niet gedwonen specifieke software aan te schaffen
-Bron: DUTO NA";""
-"id-200b8500b78348f7a5c90d29a6e83c9d";"Requirement";"IM030 Stel wijze van verantwoording vast";"Stel wijze van verantwoording vast (navolgbaarheid ook over hoe omgegaan met data)";""
-"id-ea6fb962571e4e359ae999c80ed2911b";"Requirement";"IM031 Eén organisatie is verantwoordelijk voor de dienst";"Oud AP27: Een verantwoordelijke organisatie 
-
-RATIONALE 
-Er kan maar één organisatie verantwoordelijk zijn voor de dienst, zodat burgers, bedrijven en medeoverheden er altijd iemand op kunnen aanspreken. Afnemers willen weten of de dienstaanbieder een bekende, betrouwbare partij is. Vervolgens wil men die partij kunnen aanspreken op de kwaliteit. Deze vraag geldt ook in hoge mate voor overheidsorganisaties die hun eigen dienstverlening baseren op diensten van anderen en van deze leveranciers afhankelijk zijn. Daarom is het noodzakelijk dat helder is voor welke prestatie de dienstverlener verantwoordelijk is. 
-
-“IMPLICATIE” 
-In de dienstbeschrijving is duidelijk op welke prestatie de dienst betrekking heeft en welke organisatie hiervoor verantwoordelijk is *In de vormgeving en communicatie van de dienst wordt de verantwoordelijke organisatie duidelijk gepresenteerd*Wanneer de dienst in een bundel wordt aangeboden die in één keer kan worden afgenomen, wordt helder gecommuniceerd dat het hier een bundel betreft, met per dienst de verantwoordelijke organisatie. 
-
-@@Peter: Overlap met IM007?";""
-"id-f470de2b314240338bbe820667adfcc1";"Requirement";"IM032 Stel vast welke informatie relevant is voor afnemers";"58 [Organisatie] stelt vast welke informatie relevant is voor afnemers. Hiervoor wordt betrouwbare informatie  vervolgens (duurzaam) beschikbaar gesteld aan degene die inzage verlangt. Het betreft informatie als de beschrijving van de dienst, leveringsvoorwaarden, ...
+"id-200b8500b78348f7a5c90d29a6e83c9d";"Requirement";"_IM030 Stel wijze van verantwoording vast";"Stel wijze van verantwoording vast (navolgbaarheid ook over hoe omgegaan met data)";""
+"id-f470de2b314240338bbe820667adfcc1";"Requirement";"_IM032 Stel vast welke informatie relevant is voor afnemers";"58 [Organisatie] stelt vast welke informatie relevant is voor afnemers. Hiervoor wordt betrouwbare informatie  vervolgens (duurzaam) beschikbaar gesteld aan degene die inzage verlangt. Het betreft informatie als de beschrijving van de dienst, leveringsvoorwaarden, ...
 @@Peter: Overlap met IM025 en IM035?";""
-"id-560fc8dfa6cd44bf91b50539fba0b6b1";"Requirement";"IM033 Hanteer unieke identificatienummers voor zaken";"";""
-"id-609a60cf87984a5dbf95f3014ffaabe4";"Requirement";"IM034 Geef afnemer 24/7 inzicht in voortgang";"";""
-"id-355a4933f05343eb9126cbbe186dc491";"Requirement";"IM035 Transparante dienstverlening";"AP25: OUD
+"id-560fc8dfa6cd44bf91b50539fba0b6b1";"Requirement";"_IM033 Hanteer unieke identificatienummers voor zaken";"";""
+"id-609a60cf87984a5dbf95f3014ffaabe4";"Requirement";"_IM034 Geef afnemer 24/7 inzicht in voortgang";"";""
+"id-355a4933f05343eb9126cbbe186dc491";"Requirement";"_IM035 Transparante dienstverlening";"AP25: OUD
 Transparante dienstverlening
 Afnemers worden geïnformeerd over de stand van zaken bij de gevraagde dienst.
 @@Peter: Overlap met IM025 en IM032?";""
-"id-28d5af919d424884a8036ce96f1a2dc6";"Requirement";"IM036 Visualiseer waar mogelijk";"Visualiseer waar mogelijk ('kaart', icoons etc)";""
-"id-e217da93488d40ee9bb645eb8c4f7a4a";"Requirement";"IM037 Afnemer heeft inzage";"AP26 oud: Afnemer heeft inzage
+"id-28d5af919d424884a8036ce96f1a2dc6";"Requirement";"_IM036 Visualiseer waar mogelijk";"Visualiseer waar mogelijk ('kaart', icoons etc)";""
+"id-e217da93488d40ee9bb645eb8c4f7a4a";"Requirement";"_IM037 Afnemer heeft inzage";"AP26 oud: Afnemer heeft inzage
 De afnemer heeft inzage in de eigen informatie en het gebruik er van
 @@Peter: Overlap met IM008 en IM024?";""
-"id-1be09f00bdec4042be71475bac513aaf";"Requirement";"IM038 Digitaal waar het kan, persoonlijk waar het moet";"Dienstverlening: digitaal waar het kan, persoonlijk waar het moet.";""
-"id-4bd3c4de811b45ef8f2ec2008fb18bb5";"Requirement";"IM039 Grensoverschrijdende diensten digitaal met alternatief";"EU: Bied grensoverschrijdende diensten in beginsel volledig digitaal aan (via internet), maar bied daarnaast ook altijd een alternatief kanaal.";""
-"id-1dc60d35935e42b1852fb9b0ba0eabe0";"Requirement";"IM040 Maak stelselafspraken over authenticatie";"D-IAM005
-Maak stelselafspraken over authenticatie
-Maak een kanaaloverstijgend stelsel met afspraken over betrouwbaarheidsniveau's van authenticatie.
-[mijn ""substantieel"" = jouw ""substantieel""]
-@@Peter / Marco: Dubbeling / overlap met IM017 (al is identificatie is niet geheel hetzelfde als authenticatie)";""
-"id-1890efdaadbb4f94881cd3adea40f55e";"Requirement";"IM042 Passende ontsluiting van diensten bij ketenpartners";"Passende ontsluiting van diensten bij ketenpartners
+"id-1be09f00bdec4042be71475bac513aaf";"Requirement";"_IM038 Digitaal waar het kan, persoonlijk waar het moet";"Dienstverlening: digitaal waar het kan, persoonlijk waar het moet.";""
+"id-4bd3c4de811b45ef8f2ec2008fb18bb5";"Requirement";"_IM039 Grensoverschrijdende diensten digitaal met alternatief";"EU: Bied grensoverschrijdende diensten in beginsel volledig digitaal aan (via internet), maar bied daarnaast ook altijd een alternatief kanaal.";""
+"id-1890efdaadbb4f94881cd3adea40f55e";"Requirement";"_IM042 Passende ontsluiting van diensten bij ketenpartners";"Passende ontsluiting van diensten bij ketenpartners
 ";""
-"id-afcce245fdf54a238929116287e8713a";"Requirement";"IM043 Defineer toegangsregels kanaal-onafhankelijk";"D-IAM002
-Defineer de toegangsregels kanaal-onafhankelijk
-Formuleer de regels die gelden voor toegang tot de entiteiten (dienst, informatie, object) onafhankelijk van het kanaal.";""
-"id-119261f09dac4aa8b904e031397ece7d";"Requirement";"IM044 Dienst afgestemd op (digi-)vaardigheden afnemers";"EU: Zorg dat de dienst is afgestemd op de (digi-)vaardigheden en -mogelijkheden van alle potentiële afnemers.";""
-"id-bc835a786a114cfbaa696359c0c5a830";"Requirement";"IM045 Grensoverschrijdend beschikbaar stellen herbruikbare services";"EU: (Grensoverschrijdend) Publiceren en beschikbaar stellen van herbruikbare services.
+"id-119261f09dac4aa8b904e031397ece7d";"Requirement";"_IM044 Dienst afgestemd op (digi-)vaardigheden afnemers";"EU: Zorg dat de dienst is afgestemd op de (digi-)vaardigheden en -mogelijkheden van alle potentiële afnemers.";""
+"id-bc835a786a114cfbaa696359c0c5a830";"Requirement";"_IM045 Grensoverschrijdend beschikbaar stellen herbruikbare services";"EU: (Grensoverschrijdend) Publiceren en beschikbaar stellen van herbruikbare services.
 @@Robert: Verwijs naar EIF Principle 4 “Reusability”, aanbeveling 7 voor mogelijke oplossingen.";""
-"id-1d3c929087384744a4e3085855f62e70";"Requirement";"IM046 Benut mijn overheid optimaal";"Benut mijn overheid optimaal";""
-"id-25b0530c716d41649380e8103fc59d9d";"Requirement";"IM047 Bied geïntegreerde dienstverlening";"Bied geïntegreerde dienstverlening.";""
-"id-dcbde17d87504c25b30cf4ed152768c6";"Requirement";"IM048 Richt procesketen optimaal in";"Richt procesketen optimaal in.
+"id-1d3c929087384744a4e3085855f62e70";"Requirement";"_IM046 Benut mijn overheid optimaal";"Benut mijn overheid optimaal";""
+"id-25b0530c716d41649380e8103fc59d9d";"Requirement";"_IM047 Bied geïntegreerde dienstverlening";"Bied geïntegreerde dienstverlening.";""
+"id-dcbde17d87504c25b30cf4ed152768c6";"Requirement";"_IM048 Richt procesketen optimaal in";"Richt procesketen optimaal in.
 @@Laurens: Deze stuurt niet, te dun verwoord zoals het hier staat.";""
-"id-5875803221af426f80620d07daabe855";"Requirement";"IM049 Gebruik waar mogelijk dezelfde loketten / portalen";"[Groep B] 12 Gebruik zoveel mogelijk {daar waar het de effectiviteit /   efficiëntie verhoogt?} dezelfde loketten/portalen (organisatorische laag,   informatielaag, applicatielaag, netwerklaag)";""
-"id-c4c21f1f1db44c49ae09d884fee203aa";"Requirement";"IM050 Stem diensten af met verwante diensten";"Stem diensten af met verwante diensten";""
-"id-1c7946d0e0fd4f679570f107ee58938e";"Requirement";"IM051 Bevorder hergebruik van gegevens";"Bevorder hergebruik van gegevens.
-@@Robert: Combineer met ""IM045 (Grensoverschrijdend) beschikbaar stellen herbruikbare services"".";""
-"id-02e3453a5c3c41598539dbdcc54df833";"Requirement";"IM052 Monitoring transactieverwerking als onderdeel optimale procesketen";"Monitoring transactieverwerking als onderdeel optimale procesketen";""
-"id-c568d140589d4ead9cd76c34d62d9523";"Requirement";"IM053 Bepaal per dienst pro-actief aanbod";"Bepaal per dienst pro-actief aanbod";""
-"id-c1a3401ae62b43909145f19a35aed9ef";"Requirement";"IM053 Lever diensten vanuit behoefte op het juiste moment";"Lever diensten vanuit behoefte op het juiste moment";""
-"id-38c3fd61e5714c9c8f45b5b0514c63f2";"Requirement";"IM054 Geef actief informatie";"Geef actief informatie en lever dienst/product o.b.v. regelingen en gegevens";""
-"id-c3d9cd541af74fb0a231562f974570d0";"Requirement";"IM055 Neem oorspronkelijke grondslag mee bij hergebruik diensten";"11 Bij hergebruik van diensten neemt zowel aanbieder als afnemer de oorspronkelijke grondslag en doelbinding in ogenschouw. Daar waar van toepassing is pseudonimisering dan wel anonymisering noodzakelijk.";""
-"id-028635c984794e51a1d3417497e8963e";"Requirement";"IM056 Regisseer hergebruik diensten in de keten";"2 [Hergebruik] zal onderling tussen de verschillende overheidsorganisaties georganiseerd en geregisseerd worden.
-Zorg voor een register van diensten die voor hergebruik geschikt zijn.
-@@Robert: Combineer met ""IM051 Bevorder hergebruik van gegevens"".";""
-"id-d6334dd0222a49b7b63aae639582af7e";"Requirement";"IM057 Maak afspraken over aanbieden en afnemen van diensten";"4 Maak afspraken over aanbieden en afnemen van diensten, waaronder eventueel van toepassing zijnde vergoedingen (afbakening van verantwoordelijkheden). Zowel vooraf als bij het afsluiten.
-8 Maak duidelijke afspraken over de gegarandeerde levensduur van de aangeboden dienst.
-13  De opzet van haar diensten heeft [organisatie] afgestemd met dienstverleners van verwante diensten om overlap en dubbel werk te voorkomen. Vraag en aanbod van diensten vind plaats door bundeling op Overheidsniveau. Voordat men een eigen dienst maakt, bekijk eerst of er al iets soortgelijks aanwezig is.
-";""
-"id-7dbcc119c06e48348a6271e29f37477c";"Requirement";"IM058 Gebruik standaard oplossing zonder maatwerk";"40 [Organisatie] gebruikt een standaardoplossing [lees: pakketoplossing] zoveel mogelijk ongewijzigd, dus zonder maatwerkaanpassingen.
-@@Marco: Deze tevens gerelateerd aan NAP16";""
-"id-a4558b4062b9462fa5bec72719c26e62";"Requirement";"IM059 Pas eigen proces en organisatie aan naar standaard oplossing i.p.v. omgekeerd";"39 [Organisatie] past haar processen en organisatie aan de standaard oplossingen aan, in plaats van het omgekeerde.
-@@Robert: Verwijs naar EIF Principle 4 “Reusability”, aanbeveling 6 en  7 voor mogelijke oplossingen.";""
-"id-836447ef7eef45f88e3670ef06b955a5";"Requirement";"IM060 Gebruik open source";"19 Als een dienst wordt ontwikkeld gebruik dan open source.
-@@Robert: Verwijs naar EIF Principle 2 “Openness”, aanbeveling 3 voor mogelijke oplossingen.";""
-"id-ebcec6c0cfda4092b4fac5e94076279f";"Requirement";"IM061 Diensten zijn herbruikbaar";"AP01 oud: Diensten zijn herbruikbaar
-De dienst is zodanig opgezet, dat andere organisaties deze in eigen diensten kunnen hergebruiken.
-“Rationale” 
-De opzet van de dienst anticipeert op onvoorziene afnemers en gebruik. Toepassing van dit principe maakt de dienst interoperabel en bruikbaar voor een zo groot mogelijke groep afnemers. Dit draagt bij aan een hoger rendement van de dienst. 
-“Implicaties” 
-De dienst:
-- is zó beschreven dat de resultaten en voorwaarden ook in een andere context begrepen kunnen worden
-- maakt maximaal gebruik gemaakt van (open) standaarden om zo min mogelijk drempels op te werpen voor gebruik
-- kent een minimum aan gebruiksvoorwaarden
-- is aangemeld bij een landelijk serviceregister.
-@@Marco + Marco: Gelijk aan IM065, moeten gecombineerd worden.";""
-"id-75c4386cc0fe47bb8e1c0f09bdb7b758";"Requirement";"IM062 Informatie inrichting voldoet aan doelbinding";"Informatie inrichting voldoet aan doelbinding (role based) en regelt rechten CRUD alsmede regie op gegevens
-@@Robert: Staat nu bij NAP06. NAP11 lijkt mij logischer. En IM004 staat al bij NAP11.
-Maar omdat er IM075 invulling geeft aan NAP07 IM062 ook koppelen aan NAP0";""
-"id-a82f5160e2a24dc5bbd7636306eedf4a";"Requirement";"IM063 Register van herbruikbare diensten";"1 Zorg voor een register van diensten die voor hergebruik geschikt zijn";""
-"id-a13c96b1831549e59cf8138c733117bd";"Requirement";"IM064 Ontwikkel, gebruik en deel generieke voorzieningen";"Ontwikkel, gebruik en deel generieke voorzieningen (applicatielaag)";""
-"id-0411dadff7694a9eaec5db3b162c4236";"Requirement";"IM065 Ontwikkel diensten die voor hergebuik geschikt zijn";"6 Ontwikkel diensten die voor hergebruik geschikt zijn (schaalbaar, parameteriseerbaar).
+"id-5875803221af426f80620d07daabe855";"Requirement";"_IM049 Gebruik waar mogelijk dezelfde loketten / portalen";"[Groep B] 12 Gebruik zoveel mogelijk {daar waar het de effectiviteit /   efficiëntie verhoogt?} dezelfde loketten/portalen (organisatorische laag,   informatielaag, applicatielaag, netwerklaag)";""
+"id-c4c21f1f1db44c49ae09d884fee203aa";"Requirement";"_IM050 Stem diensten af met verwante diensten";"Stem diensten af met verwante diensten";""
+"id-02e3453a5c3c41598539dbdcc54df833";"Requirement";"_IM052 Monitoring transactieverwerking als onderdeel optimale procesketen";"Monitoring transactieverwerking als onderdeel optimale procesketen";""
+"id-c568d140589d4ead9cd76c34d62d9523";"Requirement";"_IM053 Bepaal per dienst pro-actief aanbod";"Bepaal per dienst pro-actief aanbod";""
+"id-c1a3401ae62b43909145f19a35aed9ef";"Requirement";"_IM053 Lever diensten vanuit behoefte op het juiste moment";"Lever diensten vanuit behoefte op het juiste moment";""
+"id-38c3fd61e5714c9c8f45b5b0514c63f2";"Requirement";"_IM054 Geef actief informatie";"Geef actief informatie en lever dienst/product o.b.v. regelingen en gegevens";""
+"id-a82f5160e2a24dc5bbd7636306eedf4a";"Requirement";"_IM063 Register van herbruikbare diensten";"1 Zorg voor een register van diensten die voor hergebruik geschikt zijn";""
+"id-a13c96b1831549e59cf8138c733117bd";"Requirement";"_IM064 Ontwikkel, gebruik en deel generieke voorzieningen";"Ontwikkel, gebruik en deel generieke voorzieningen (applicatielaag)";""
+"id-0411dadff7694a9eaec5db3b162c4236";"Requirement";"_IM065 Ontwikkel diensten die voor hergebuik geschikt zijn";"6 Ontwikkel diensten die voor hergebruik geschikt zijn (schaalbaar, parameteriseerbaar).
 10 Herbruikbare software moet als dienst worden verpakt om volgens dit principe mee te doen.
 @@Marco + Marco: Gelijk aan IM061, moeten gecombineerd worden.";""
+"id-511fba2f031e442fb2aad7f5a5ba8ea5";"Requirement";"IM001 Beschrijf informatieobjecten in een model";"Voor een optimale dienstverlening aan de burgers en voor effectieve en efficiënte samenwerking in het leveren van diensten tussen en binnen overheidsorganisaties, is het belangrijk om een gezamenlijk beeld te hebben van de informatie die hierbinnen worden gebruikt en nodig zijn. Dit is alleen mogelijk door informatieobjecten, voor een dienst, systematisch te beschrijven met behulp van een informatiemodel dat de semantiek en syntax van de gegevens vastlegt. Zodat de betrokken gebruikers de relevante informatieobjecten kunnen vinden, toepassen, (her)gebruiken en archiveren.Dit betekent dat een informatiemodel minimaal bevat:
+*  Informatietypen (entiteiten) (een ordening van informatieobjecten in zogenaamde informatietypen, ook wel de hoofdstructuur (entiteiten) van het informatiemodel met hun onderlinge relaties
+*  Attributen (een ordening elementen die binnen de entiteiten zijn of worden opgenomen met de beschrijving daarvan).
+*  Regels (een opsomming van eisen waar de entiteiten en attributen aan moeten voldoen).";""
+"id-3bd2ac77dfb5476fa4a0e1922834efaa";"Requirement";"IM002 Voorkom informatieverlies";"";""
+"id-83859412ff8349c99d5a8b08a8882444";"Requirement";"IM003 Maak zoveel mogelijk data beschikbaar als open data";"Stel overheidsdata actief beschikbaar voor hergebruik door derden, bijvoorbeeld in de vorm van open data. De enige uitzondering zijn overheidsdata waarvoor wet- en regelgeving expliciet beperkingen oplegt, die stel je niet actief beschikbaar. 
+
+Vanuit o.a. de WOO richt de overheid zich op transparantie. Daarbij hoort het actief beschikbaar stellen dan wel delen van data. Wel met inachtneming van de beperkingen die daarbij gelden (bijv. vanuit de AVG). Er zijn meerdere redenen om data actief beschikbaar te stellen. Zo kan het meer transparantie en inzicht geven in het overheidshandelen en zo de accountability vergroten. Bijvoorbeeld door begrotingen of inkoopgegevens als open data beschikbaar te stellen. Het kan ook economische en maatschappelijke innovatie stimuleren, zoals de ontwikkeling van apps en informatiediensten op basis van overheidsdata.";""
+"id-57294b05b026417d94a2e17ce25a1aeb";"Requirement";"IM007 Single point of contact";"Bied de dienst zo veel mogelijk vanuit één contactpunt aan naar burgers en bedrijven. Dit met voorkomen dat burgers en bedrijven niet met verschillende partijen moeten schakelen om de dienst af te kunnen nemen.";""
+"id-9c36647a4aba40bb9c9b219f8c4e81e8";"Requirement";"IM009 Ken je afnemers en stem diensten hierop af";"Verdiep je in de achtergronden van je afnemers en de context waarin zij van de dienst gebruik maken en vergewis je van de digitale vaardigheden van je doelgroep. Zorg dat de dienst is afgestemd op de (digi)vaardigheden en mogelijkheden van alle (potentiële) afnemers. Weet welke informatie afnemers doorgaans zoeken en waar ze deze zoeken. Deze informatie wordt aangemeld op de voor de afnemers bekende vindplaatsen, zoals zoekmachines, portals, catalogi en registers. Ook de dienst zelf wordt voorzien van de nodige zoekfuncties. Om te kunnen doorverwijzen, is [organisatie] op de hoogte van de andere plaatsen waar diensten te vinden zijn en kan de afnemers hiernaar verwijzen als dat nodig is.";""
+"id-24b04309e2e84107a25391fa584d8f00";"Requirement";"IM011 Verwijs naar de bron";"Verwijzen naar de bron heeft voorkeur boven een kopie uit die bron - Inzage   in de bron heeft  de voorkeur boven zelf opslaan. Afspraken daarover worden vastgelegd en bekend gemaakt. Vanuit legitimiteitsperspectief kan het nodig zijn een kopie vast te leggen.";""
+"id-b2d9cccd5ef34cab98351fe097267da6";"Requirement";"IM012 Voor de afnemer relevante besluiten zijn traceerbaar en controleerbaar";"Besluiten genomen door de overheid die burgers en bedrijven raken dienen door deze burgers en bedrijven controleerbaar te zijn. Hierbij hebben zij de mogelijkheid om inzicht te krijgen op welke wijze en op basis van welke informatie besluiten tot stand zijn gekomen (traceerbaarheid).";""
+"id-3ce47667b4384c1fbe5aca987909db83";"Requirement";"IM013 Geef de afnemer duidelijkheid over rechten, voorwaarden en plichten";"De bij de dienst horende rechten, voorwaarden en plichten dienen op duidelijke en transparante wijze toegankelijk te worden gemaakt aan burgers en bedrijven die deze dienst af willen of moeten nemen.";""
+"id-aef6522ea9cc44cd9303787b113ca5cf";"Requirement";"IM016 Sluit aan op kanaal voorkeurkeuze gebruiker";"Sluit aan op kanaal voorkeurkeuze gebruiker. Digitale kanalen zijn hierin leidend, doch er mag niet voorbij worden gegaan aan het belang van burgers die geen of beperkte mogelijkheden hebben om digitaal te communiceren. ";""
+"id-fb1dcaad54144a9fa58b72d1043198cb";"Requirement";"IM018 De dienst is toegankelijk voor alle gebruikers";"Zorg dat alle gebruikers, ook die met functiebeperking, de volwaardige dienst kunnen afnemen. Het streven is digitale inclusiviteit voor iedereen (digitoegankelijk).";""
+"id-77695a81dc7049f3b4305589b898922b";"Requirement";"IM019 De dienst is toegankelijk voor anderstaligen";"Zorg dat een eventueel anderstalige gebruiker de dienst ook kan afnemen, door deze ook in een algemeen toegankelijke taal aan te bieden (bv. Engels).";""
+"id-b34b50ffce4d4f34bb38e1eecd72451f";"Requirement";"IM020 Elimineer overbodige processtappen (voor de afnemer)";"Stel bij iedere processtap de vraag of deze stap waarde toevoegt voor de afnemer of dat de processtap evengoed weggelaten kan worden.";""
+"id-c0272d979f36400e90a84ee41cc6115a";"Requirement";"IM027 Maak beveiligingsmaatregelen zo gebruiksvriendelijk mogelijk";"Maak beveilingingsmaatregelen transparant voor de gebruiker en richt deze zo gebruiksvriendelijk mogelijk in. Verleid de gebruiker zo veel mogelijk om veilig te werken: zo leidt het afdwingen van gebruikersonvriendelijke beveiligingsmaatregelen vaak tot onveilige workarounds en ander onveilig gedrag.";""
+"id-869f6e85cc844f50acb627bfc1d3a8cb";"Requirement";"IM028 Richt websites, portalen en apps in volgens ontwerprichtlijnen die de gebruikservaring bevorderen";"Elke overheidsorganisatie is verantwoordelijk voor het goed toegankelijk maken van haar activiteiten voor burgers en bedrijven. Voor websites geldt dat deze moeten voldoen aan de standaarden zoals gedefinieerd in WCAG. Dit geldt met name voor websites die toegankelijk zijn voor het publiek, maar ook voor intern gerichte websites. WCAG staat voor 'Web Content Accessibility Guidelines'. De wetgever heeft bepaald dat alle (semi-)overheids websites per 23 september 2020 aan deze WCAG standaard moeten voldoen.";""
+"id-4a042c29ea1449a092b97a4242d46d33";"Requirement";"IM029 Zorg dat overheidsinformatie eenvoudig te raadplegen is";"De informatiegebruiker (mens of machine) kan binnen redelijke tijd en inspanning een informatieobject of een verzameling informatieobjecten, nu en in de toekomst (gedurende de gehele levenscyclus) gebruiken (zoals inzien, exporteren, bewaren en verwerken in de eigen gebruiksomgeving). Daardoor is de informatiegebruiker, voor de toegang tot de informatie, zo min mogelijk afhankelijk van de beheeromgeving. Dit betekent dat:
+* Alle informatieobjecten op basis van classificatie en/of autorisatie & authenticatie (policies) beschikbaar en bruikbaar moet zijn voor diegene die daar recht toe hebben.
+* Onderscheid gemaakt moet worden in primaire en secundaire gebruikers op basis van doelbinding.
+* De informatie beschikbaar moet worden gesteld in een bestandsformaat dat samenhangt met het doel waarvoor de informatie wordt gebruikt. 
+* Een zoekfunctie beschikbaar moet zijn waarmee alle relevante informatieobjecten vindbaar zijn.
+* De informatie moet kunnen worden gevonden zonder dat er (specifieke) en/of kennis van de zoekfunctionaliteit of de gezochte informatie benodigd is. 
+* Van elk informatieobject een weergave en/of export beschikbaar moet zijn.";""
+"id-ea6fb962571e4e359ae999c80ed2911b";"Requirement";"IM031 Eén organisatie is verantwoordelijk voor de dienst";"Eén organisatie is verantwoordelijk en aanspreekbaar voor de geleverde dienst.";""
+"id-1dc60d35935e42b1852fb9b0ba0eabe0";"Requirement";"IM040 Maak stelselafspraken over identificatie en authenticatie";"Maak stelselafspraken om te komen tot één generiek digitaal stelsel voor identificatie en authenticatie of sluit aan bij een bestaand stelsel: kanaaloverstijgend stelsel met afspraken over betrouwbaarheidsniveau's.";""
+"id-afcce245fdf54a238929116287e8713a";"Requirement";"IM043 Defineer toegangsregels kanaalonafhankelijk";"Formuleer uniforme regels die gelden voor toegang tot de entiteiten (dienst, informatie, object) onafhankelijk van het kanaal.";""
+"id-1c7946d0e0fd4f679570f107ee58938e";"Requirement";"IM051 Bevorder hergebruik van gegevens";"Maak zo veel mogelijk gebruik van gegevens die reeds beschikbaar zijn in plaats van deze gegevens opnieuw te verzamelen of te creëren.";""
+"id-c3d9cd541af74fb0a231562f974570d0";"Requirement";"IM055 Neem oorspronkelijke grondslag mee bij hergebruik diensten";"Bij hergebruik van diensten neemt zowel aanbieder als afnemer de oorspronkelijke grondslag en doelbinding in ogenschouw. Daar waar van toepassing is pseudonimisering dan wel anonymisering noodzakelijk. Dit houdt in dat bij te ontwikkelen functionaliteit de oorspronkelijke grondslag bepalend is voor de hergebruikmogelijkheden.";""
+"id-028635c984794e51a1d3417497e8963e";"Requirement";"IM056 Regisseer hergebruik diensten in de keten";"Hergebruik van diensten in de keten zal onderling tussen de verschillende overheidsorganisaties georganiseerd en geregisseerd worden. Zorg voor een register van diensten die voor hergebruik geschikt en beschikbaar zijn.";""
+"id-d6334dd0222a49b7b63aae639582af7e";"Requirement";"IM057 Maak heldere afspraken over aanbieden en afnemen van diensten";"* Maak heldere afspraken over aanbieden en afnemen van diensten, waaronder eventueel van toepassing zijnde vergoedingen (afbakening van verantwoordelijkheden). Zowel vooraf als bij het afsluiten.
+* Maak duidelijke afspraken over de gegarandeerde levensduur van de aangeboden dienst.
+* Stem de opzet van je diensten af met dienstverleners van verwante diensten om overlap en dubbel werk te voorkomen. Voordat je een eigen dienst maakt, bekijk eerst of er al iets soortgelijks aanwezig is.
+* Vraag en aanbod van diensten vind plaats door bundeling op overheidsniveau.";""
+"id-7dbcc119c06e48348a6271e29f37477c";"Requirement";"IM058 Gebruik standaard oplossingen zonder maatwerk";"Gebruik een standaardoplossing [lees: pakketoplossing] zoveel mogelijk ongewijzigd, dus zonder maatwerkaanpassingen.";""
+"id-a4558b4062b9462fa5bec72719c26e62";"Requirement";"IM059 Pas eigen proces en organisatie aan naar standaard oplossing i.p.v. omgekeerd";"Pas je processen en organisatie aan de standaard oplossingen aan, in plaats van het omgekeerde. Zie ook EIF principle 4 ""Reusability"", aanbeveling 6+7.";""
+"id-836447ef7eef45f88e3670ef06b955a5";"Requirement";"IM060 Gebruik open source";"Bij gelijke geschiktheid heeft Open Source software de voorkeur bij het ontwikkelen van een dienst. Zie ook EIF principle 2 ""Openness"", aanbeveling 3.";""
+"id-ebcec6c0cfda4092b4fac5e94076279f";"Requirement";"IM061 Diensten zijn herbruikbaar";"De dienst is zodanig opgezet, dat andere organisaties deze in eigen diensten kunnen hergebruiken. De opzet van de dienst anticipeert op onvoorziene afnemers en gebruik. Deze implicatie beoogt de dienst interoperabel en bruikbaar voor een zo groot mogelijke groep afnemers te maken. Dit draagt bij aan een hoger rendement van de dienst. Hiervoor is het nodig dat de dienst:
+* zó is beschreven dat de resultaten en voorwaarden ook in een andere context begrepen kunnen worden
+* maximaal gebruik maakt van (open) standaarden om zo min mogelijk drempels op te werpen voor gebruik
+* een minimum aan gebruiksvoorwaarden kent
+* is aangemeld bij een landelijk serviceregister.";""
 "id-b906d1f992fd492d8592e230a02b7560";"Requirement";"IM066 Motiveer ontwikkelaars voor hergebruik";"5 Motiveer ontwikkelaars voor hergebruik (houding, gedrag, voorschriften, beloning, ...)";""
 "id-f75cd369b59b46799d9cff195acb2246";"Requirement";"IM067 Ontsluit open data als dienst";"18 ""Ontsluit (open) data als dienst.  (EIF principle 2 """"Openness"""", aanbeveling 2) -> NAP07 Bouw diensten modulair op"". Zie Recommendation 2 | Joinup (europa.eu)
 https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.3
@@ -413,9 +376,6 @@ Verdeel de informatie in afgebakende datasets die elk afzonderlijk ook getoetst 
 @@Robert: Combineren met IM069";""
 "id-a3af6679714f44cabd8ae692e0904610";"Requirement";"IM074 De architectuur stimuleert modulaire diensten";"22 Zorg voor een architectuur die moduilaire diensten stimuleert binnen een landschap als geheel.
 @@Robert: Combineren met IM070";""
-"id-4c5b9e98e2fd4ed5af34d4e6c1cbc161";"Requirement";"IM075 Ontwerp diensten met oog voor doelbinding, data minimalisatie en grondslag";"30 [Organisatie] ontwerpt en implementeert haar diensten zodanig dat ze daarbij oog heeft voor doelbinding, data-minimalisatie en oorspronkelijke grondslag.
-@@Marco: overlap IM062, IM004?
-@@Robert: Inderdaad overlap met IM062. IM062+IM075 geven invulling aan zowel NAP07 als NAP11";""
 "id-eefe54057ba74c3d8982c311a5ed06c7";"Requirement";"IM076 Datacatalogus geeft inzicht in beschikbaarheid data";"3 De datacatalogus van de [organisatie] geeft (interne) afnemers inzicht in de beschikbaarheid van data. Open data van de overheid (https://data.overheid.nl/) biedt aan externe afnemers ondersteuning bij het vinden van herbruikbare data van de [organisatie]";""
 "id-b8d34ca5ff83472394f223e24cf13edc";"Requirement";"IM077 Maak ketenafspraken over de BIV classificatie van informatiebronnen.";"Spreek in de keten af dat de bronsystemen een minimaal even hoge classificaties hebben als alle afnemers van de bron. Dit vereist dat BIV (CIA) classificaties van de systemen in de keten op elkaar moeten zijn afgestemd.
 D-IAM004
