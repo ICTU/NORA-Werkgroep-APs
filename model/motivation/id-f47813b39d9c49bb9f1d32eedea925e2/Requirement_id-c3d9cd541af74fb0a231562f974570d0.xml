@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM055 Neem oorspronkelijke grondslag mee bij hergebruik diensten"
     id="id-c3d9cd541af74fb0a231562f974570d0"
-    documentation="11 Bij hergebruik van diensten neemt zowel aanbieder als afnemer de oorspronkelijke grondslag en doelbinding in ogenschouw. Daar waar van toepassing is pseudonimisering dan wel anonymisering noodzakelijk."/>
+    documentation="Bij hergebruik van diensten neemt zowel aanbieder als afnemer de oorspronkelijke grondslag en doelbinding in ogenschouw. Daar waar van toepassing is pseudonimisering dan wel anonymisering noodzakelijk. Dit houdt in dat bij te ontwikkelen functionaliteit de oorspronkelijke grondslag bepalend is voor de hergebruikmogelijkheden."/>

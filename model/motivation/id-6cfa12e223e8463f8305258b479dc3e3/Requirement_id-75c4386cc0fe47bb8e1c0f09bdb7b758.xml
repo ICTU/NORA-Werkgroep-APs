@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="?a IM062 Informatie inrichting voldoet aan doelbinding"
+    id="id-75c4386cc0fe47bb8e1c0f09bdb7b758"
+    documentation="Informatie inrichting voldoet aan doelbinding (role based) en regelt rechten CRUD alsmede regie op gegevens&#xD;&#xA;@@Robert: Staat nu bij NAP06. NAP11 lijkt mij logischer. En IM004 staat al bij NAP11.&#xD;&#xA;Maar omdat er IM075 invulling geeft aan NAP07 IM062 ook koppelen aan NAP0"/>

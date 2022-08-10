@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM043 Defineer toegangsregels kanaal-onafhankelijk"
+    name="IM043 Defineer toegangsregels kanaalonafhankelijk"
     id="id-afcce245fdf54a238929116287e8713a"
-    documentation="D-IAM002&#xD;&#xA;Defineer de toegangsregels kanaal-onafhankelijk&#xD;&#xA;Formuleer de regels die gelden voor toegang tot de entiteiten (dienst, informatie, object) onafhankelijk van het kanaal."/>
+    documentation="Formuleer uniforme regels die gelden voor toegang tot de entiteiten (dienst, informatie, object) onafhankelijk van het kanaal."/>
