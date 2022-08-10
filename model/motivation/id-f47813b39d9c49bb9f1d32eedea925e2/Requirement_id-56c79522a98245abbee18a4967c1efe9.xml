@@ -1,5 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM088 Hanteer standaard koppelvlakken"
-    id="id-56c79522a98245abbee18a4967c1efe9"
-    documentation="42 Hanteer standaardkoppelvlakken (applicatielaag, informatielaag [?], netwerklaag). Als je een dienst kan afnemen   via verschillende koppelvlakken, gebruik dan het standaardkoppelvlak, ipv maatwerk koppelvlakken."/>

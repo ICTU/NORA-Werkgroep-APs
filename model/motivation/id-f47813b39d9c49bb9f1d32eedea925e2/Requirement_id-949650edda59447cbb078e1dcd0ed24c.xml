@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM135 Enkelvoudig beheer, meervoudig gebruik"
+    name="IM135 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt"
     id="id-949650edda59447cbb078e1dcd0ed24c"
-    documentation="Enkelvoudig beheer, meervoudig gebruik"/>
+    documentation="Gegevens worden eenmalig uitgevraagd of verzameld, uniek opgeslagen, en vervolgens meervoudig gebruikt."/>

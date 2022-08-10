@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM139 Alle data heeft een unieke bron en eigenaar"
     id="id-bd763e3541bc4598bc8f412388a99a0a"
-    documentation="Het niet hebben van een 'single point of truth (SPOT' kan leiden tot divergerende data en mogelijk tot inconsistente beslissingen die op basis van de verschillende databronnen worden genomen. Het eigenaarschap is een manier om te borgen dat de data eenduidig wordt bijgewerkt.&#xD;&#xA;Bron:&#xD;&#xA;_D1.IMP587 Alle data heeft een unieke bron en een eigenaar&#xD;&#xA;@@Marco: Dit lijkt op IM139, maar dit gaat ook over de applicatieve kant hiervan, namelijk het ook in control zijn op de verwerking."/>
+    documentation="Het niet hebben van een 'single point of truth (SPOT)' kan leiden tot divergerende data en mogelijk tot inconsistente beslissingen die op basis van de verschillende databronnen worden genomen. Het eigenaarschap is een manier om te borgen dat de data eenduidig wordt bijgewerkt."/>

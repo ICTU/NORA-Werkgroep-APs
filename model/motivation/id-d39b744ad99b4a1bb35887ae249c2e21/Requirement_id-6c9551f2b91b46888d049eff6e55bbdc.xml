@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="_IM129 Leg gegevens niet meervoudig vast bij zelfde bron"
+    id="id-6c9551f2b91b46888d049eff6e55bbdc"
+    documentation="[Groep B] 16 &quot;Gegevens worden zo min mogelijk meervoudig vastgelegd in dezelfde bron (bijv. derde normaalvorm). Als technisch noodzakelijk is om ervan af te wijken is er de garantie dat synchronisatie met de bron plaatsvindt&quot;"/>

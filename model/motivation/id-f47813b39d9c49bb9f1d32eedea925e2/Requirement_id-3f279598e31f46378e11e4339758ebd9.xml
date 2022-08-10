@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM141 Autorisaties worden bepaald o.b.v. metadata"
     id="id-3f279598e31f46378e11e4339758ebd9"
-    documentation="Autorisatie voor het verstrekken en gebruik van gegevens kan worden bepaald op basis van metadata&#xD;&#xA;- De   beheerder die het gegeven beheert en het wil verstrekken voor verdere bewerking, voegt metadata toe aan de hand waarvan de beheerder en de afnemer een autorisatiebeslissing kan nemen&#xD;&#xA;- a. Implicaties uit het reviewcommentaar"/>
+    documentation="Autorisaties voor het verstrekken en gebruik van gegevens kan worden bepaald op basis van metadata. De beheerder die het gegeven beheert en het wil verstrekken voor verdere bewerking, voegt metadata toe aan de hand waarvan de beheerder en de afnemer een autorisatiebeslissing kan nemen."/>

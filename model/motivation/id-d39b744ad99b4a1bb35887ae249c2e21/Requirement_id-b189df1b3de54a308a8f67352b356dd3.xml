@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="_IM123 Informatie is toegankelijk met inachtneming evt restricties"
+    id="id-b189df1b3de54a308a8f67352b356dd3"
+    documentation="Gebruikers hebben toegang tot informatie, met inachtneming van eventuele restricties op de openbaarheid&#xD;&#xA;- Als een informatieobject slechts gedeeltelijk openbaar is, dan zijn er een gedeeltelijke weergave en export beschikbaar waarin alleen de openbare delen zijn opgenomen - DUTO eisen"/>

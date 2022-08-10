@@ -1,5 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM089 Harmoniseer in het gebruik van technische platformen"
-    id="id-5fd562cf63344d13953ff9aadb24279b"
-    documentation="D-IMP005&#xD;&#xA;Beperk het aantal verschillende technische platforms&#xD;&#xA;Naarmate er meer verschillende technische oplossingen bij elkaar komen, neemt de beheersbaarheid af, omdat verschillende kennis nodig is en meer leveranciers in beeld komen bij het oplossen van problemen.&#xD;&#xA;[Hoe verhoudt dit zich tot modulariteit? Best of Breed vs Best of Suite. Klling voor je wendbaarheid. Ook: vendor-lock-in]"/>

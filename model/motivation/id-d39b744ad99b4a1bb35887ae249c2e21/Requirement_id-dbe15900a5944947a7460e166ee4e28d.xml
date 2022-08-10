@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="_IM119 Transparant en aanspreekbaar op verwerking gegevens"
+    id="id-dbe15900a5944947a7460e166ee4e28d"
+    documentation="Transparant en aanspreekbaar op de verwerking van gegevens.&#xD;&#xA;Transparant over apparatuur en technologie in de openbare   ruimte.Marktpartijen, instellingen, overheden en inwoners zijn zoveel mogelijk transparant over apparatuur en technologie in de openbare ruimte.   Systemen en koppelingen worden bij oplevering getest op PSbD (privacy, security en duurzame toegankelijkheid by design).&#xD;&#xA;Bij de verwerving van SAAS/COTS oplossingen worden expliciete en toetsbare   PSbD criteria toegepast.&#xD;&#xA;Voor gegevens die verwerkt worden voor het trainen van modellen en   algoritmes gelden dezelfde bevoegdheden als voor productiedata.&#xD;&#xA;Voor gegevens die verwerkt worden voor training en opleiding gelden   dezelfde bevoegdheden als voor productiedata."/>

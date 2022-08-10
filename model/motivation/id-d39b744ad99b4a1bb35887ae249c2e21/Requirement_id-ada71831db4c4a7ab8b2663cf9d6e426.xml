@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="_IM126 Informatieobjecten zijn ingedeeld naar risicoklasse"
+    id="id-ada71831db4c4a7ab8b2663cf9d6e426"
+    documentation="De informatieobjecten moeten zijn ingedeeld in risicoklasse&#xD;&#xA;- Voor huidige en toekomstige gebruikers is het duidelijk welke mate van toegankelijkheid van informatie ze mogen verwachten en waar keuzes daarin op gebaseerd zijn. Op basis hiervan kan een gebruiker desgewenst bezwaar maken tegen de gemaakte keuzes en de eventuele gebreken in de implementatie van de   kwaliteitseisen voor toegankelijkheid.&#xD;&#xA;- DUTO eisen&#xD;&#xA;Classificeer informatie op basis van risico's !! BIO CHECK?? - [Organisatie] classificeert alle door haar verwerkte data, met niveaus die uiteenlopen van 'Publiek' tot en met 'Geheim'&#xD;&#xA;- D1.IMP127"/>
