@@ -5,11 +5,11 @@
     <schema>Dublin Core</schema>
     <schemaversion>1.1</schemaversion>
     <dc:title>Werkmodel NORA Werkgroep APs</dc:title>
-    <dc:creator>Marco Deterink</dc:creator>
+    <dc:creator>NORA Werkgroep Architectuurprincipes</dc:creator>
     <dc:subject>Actualisering Architectuurprincipes NORA</dc:subject>
     <dc:description>Werkmodel ArchiMate van de werkgroep Actualisering NORA Architectuurprincipes</dc:description>
-    <dc:contributor>Marco Deterink</dc:contributor>
-    <dc:date>06-Jul-2022</dc:date>
+    <dc:contributor>NORA Werkgroep Architectuurprincipes</dc:contributor>
+    <dc:date>15-Aug-2022</dc:date>
     <dc:language>Dutch</dc:language>
   </metadata>
   <elements>
@@ -179,9 +179,6 @@ De dienstverlening van de overheid bereikt de gestelde doelen en voldoet zo aan 
 
 TOELICHTING 
 Burgers en bedrijven verwachten van de overheid dat haar dienstverlening effectief is. De overheid streeft ernaar om de dienstverlening te leveren zoals deze is bedoeld. De geplande doelen worden gerealiseerd door hiervoor prestatienormen vast te stellen, prestaties regelmatig te evalueren, uitkomsten duidelijk te communiceren en veranderingen door te voeren.</documentation>
-    </element>
-    <element identifier="id-aed1f376194f4247921b812b4103a0b0" xsi:type="Requirement">
-      <name xml:lang="en">?b IM015 Bied multi- en omni-channel dienstverlening</name>
     </element>
     <element identifier="id-27769" xsi:type="Driver">
       <name xml:lang="en">#NORA Kernwaarde</name>
@@ -1016,6 +1013,33 @@ _D1.IMP636 Alleen signed applicaties, drivers en scripts mogen worden uitgevoerd
 Schaalbaar contracteren&#xD;
 Richt contracten met leveranciers in zonder limieten of beperkingen op toenemende gebruik. Monitor op het gebruik om onverwachte kostenstijgingen tijdig te signaleren. Borg dat bij afschaling de kosten ook weer gereduceerd worden.</documentation>
     </element>
+    <element identifier="id-bf2053a5d5ca48439f87e6146e807cf1" xsi:type="Requirement">
+      <name xml:lang="en">_IM138 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt</name>
+      <documentation xml:lang="en">Gegevens worden eenmalig uitgevraagd, uniek opgeslagen, en meervoudig gebruikt.</documentation>
+    </element>
+    <element identifier="id-d4969c2e939b40b5887e7664c64ecf18" xsi:type="Requirement">
+      <name xml:lang="en">_IM214 De juistheid van gegevens wordt niet voor gebruik gecontroleerd</name>
+      <documentation xml:lang="en">AP21-5:&#xD;
+De juistheid van de gebruikte informatie-objecten wordt niet voor gebruik gecontroleerd&#xD;
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;
+@@Marco: ik vind dit een vreemde implicatie wanneer deze buiten de context is hiervan. Ik controleer vaak juist wél de gegevens voor gebruik (validaties etc.): https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend</documentation>
+    </element>
+    <element identifier="id-54eb2dbbe8a44eeaacf00bda0a642c31" xsi:type="Requirement">
+      <name xml:lang="en">_IM216 Beschikbaarheid</name>
+      <documentation xml:lang="en">AP41: Beschikbaarheid&#xD;
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;
+@@Marco: Dit is al een kwaliteitsdoel, nl. KD06 Beschikbaarheid. Dit niet hier herhalen zou ik zeggen (anders gaat het rondzingen en krijg je een oorverdovend geluid).</documentation>
+    </element>
+    <element identifier="id-c7efd8dfe4a3477ba23cd22ff91cbd05" xsi:type="Requirement">
+      <name xml:lang="en">_IM219 Wijzigingen in beheer dienst raken afnemer niet</name>
+      <documentation xml:lang="en">AP41-5:&#xD;
+De afnemer merkt niets van wijzigingen in het beheer van de dienst.&#xD;
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.</documentation>
+    </element>
+    <element identifier="id-0d3ae961cf99484c8f76951a89a32827" xsi:type="Requirement">
+      <name xml:lang="en">_IM224 Systemen voldoen aan eisen beschikbaarheid</name>
+      <documentation xml:lang="en">ICT-voorzieningen voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid,</documentation>
+    </element>
     <element identifier="id-185aa93fbd55485d8682022ba067609d" xsi:type="Principle">
       <name xml:lang="en">NAP10 Neem gegevens als fundament</name>
       <documentation xml:lang="en">STELLING 
@@ -1174,10 +1198,6 @@ Afnemers vragen overheidsorganisaties om transparantie ten aanzien van de geleve
       <name xml:lang="en">IM153 Segmenteer het netwerk</name>
       <documentation xml:lang="en">Het segmenteren van het netwerk beperkt de gevolgen van een aanval. Segmenteren betekent dat een netwerk in meerdere zones wordt verdeeld, waartussen een inspectiepunt ontstaat. Netwerksegmentatie voorkomt dat een virus of aanvaller zich kan verspreiden in het gehele netwerk. Afhankelijk van de wijze van implementatie is netwerksegmentatie een maatregel die de gevolgen van ransomware-aanvallen of DDoS-aanvallen beperkt.</documentation>
     </element>
-    <element identifier="id-0d3ae961cf99484c8f76951a89a32827" xsi:type="Requirement">
-      <name xml:lang="en">_IM224 Systemen voldoen aan eisen beschikbaarheid</name>
-      <documentation xml:lang="en">ICT-voorzieningen voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid,</documentation>
-    </element>
     <element identifier="id-100e6e5157134564ae9b29317759632b" xsi:type="Requirement">
       <name xml:lang="en">IM140 Gegevens worden gehaald (pull) i.p.v. gebracht (push)</name>
       <documentation xml:lang="en">Pull ipv push (gegevens worden gehaald ipv gebracht).</documentation>
@@ -1248,7 +1268,11 @@ De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door  
       <documentation xml:lang="en">Alle gebruikte software en software-componenten, van applicatief tot infrastructureel, worden actueel gehouden. De update-cyclus van leveranciers wordt strikt gevolgd: updates, patches en beveiligingsupdates worden zo snel mogelijk doorgevoerd op alle relevante systemen.</documentation>
     </element>
     <element identifier="id-3bd2ac77dfb5476fa4a0e1922834efaa" xsi:type="Requirement">
-      <name xml:lang="en">IM002 Voorkom informatieverlies</name>
+      <name xml:lang="en">IM002 Voorkom verlies van informatie</name>
+      <documentation xml:lang="en">Veranderingen in techniek, organisatie of gebruikerswensen mogen niet van negatieve invloed zijn op de duurzame toegankelijkheid van informatie. Hetzelfde geldt voor bitrot. Er worden vooraf maatregelen genomen om informatie toekomstbestendig te maken, zodat deze toegankelijk blijft voor de van toepassing zijnde vormen van (her)gebruik. Dit betekent dat:&#xD;
+* Leveranciersafhankelijkheid wordt voorkomen.&#xD;
+* Analyse wordt gemaakt van welke gevolgen veranderingen (in techniek, organisatie, of gebruikerswensen) hebben voor de duurzame toegankelijkheid van informatie.&#xD;
+* Bij het ontwerpen van informatiesystemen na wordt gedacht over de te gebruiken technologie voor het beheren van informatie.</documentation>
     </element>
     <element identifier="id-3ce47667b4384c1fbe5aca987909db83" xsi:type="Requirement">
       <name xml:lang="en">IM013 Geef de afnemer duidelijkheid over rechten, voorwaarden en plichten</name>
@@ -1318,12 +1342,6 @@ Zie ook https://www.forumstandaardisatie.nl/</documentation>
 * Regels (een opsomming van eisen waar de entiteiten en attributen aan moeten voldoen).&#xD;
 * Maak het informatiemodel bekend in een datacatalogus die inzicht geeft in de beschikbaarheid van data.&#xD;
 *  Benut visualistatiemiddelen om het model en de samenhang/relaties tussen de objecten visueel inzichtelijk te maken.</documentation>
-    </element>
-    <element identifier="id-54eb2dbbe8a44eeaacf00bda0a642c31" xsi:type="Requirement">
-      <name xml:lang="en">_IM216 Beschikbaarheid</name>
-      <documentation xml:lang="en">AP41: Beschikbaarheid&#xD;
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;
-@@Marco: Dit is al een kwaliteitsdoel, nl. KD06 Beschikbaarheid. Dit niet hier herhalen zou ik zeggen (anders gaat het rondzingen en krijg je een oorverdovend geluid).</documentation>
     </element>
     <element identifier="id-57294b05b026417d94a2e17ce25a1aeb" xsi:type="Requirement">
       <name xml:lang="en">IM007 Single point of contact</name>
@@ -1490,10 +1508,6 @@ Maak zonodig afspraken met de aanbieder om hun classificatie aan te passen en in
       <name xml:lang="en">IM139 Alle data heeft een unieke bron en eigenaar</name>
       <documentation xml:lang="en">Het niet hebben van een 'single point of truth (SPOT)' kan leiden tot divergerende data en mogelijk tot inconsistente beslissingen die op basis van de verschillende databronnen worden genomen. Het eigenaarschap is een manier om te borgen dat de data eenduidig wordt bijgewerkt.</documentation>
     </element>
-    <element identifier="id-bf2053a5d5ca48439f87e6146e807cf1" xsi:type="Requirement">
-      <name xml:lang="en">_IM138 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt</name>
-      <documentation xml:lang="en">Gegevens worden eenmalig uitgevraagd, uniek opgeslagen, en meervoudig gebruikt.</documentation>
-    </element>
     <element identifier="id-c0272d979f36400e90a84ee41cc6115a" xsi:type="Requirement">
       <name xml:lang="en">IM027 Maak beveiligingsmaatregelen zo gebruiksvriendelijk mogelijk</name>
       <documentation xml:lang="en">Maak beveilingingsmaatregelen transparant voor de gebruiker en richt deze zo gebruiksvriendelijk mogelijk in. Verleid de gebruiker zo veel mogelijk om veilig te werken: zo leidt het afdwingen van gebruikersonvriendelijke beveiligingsmaatregelen vaak tot onveilige workarounds en ander onveilig gedrag.</documentation>
@@ -1511,12 +1525,6 @@ Maak zonodig afspraken met de aanbieder om hun classificatie aan te passen en in
       <documentation xml:lang="en">* Zorg via lifeyclemanagement voor toepassing van voldoende actuele versies van standaarden.&#xD;
 * Inventariseer de relevante  standaarden en neem dat mee in het ontwerp van de dienst/voorziening.</documentation>
     </element>
-    <element identifier="id-c7efd8dfe4a3477ba23cd22ff91cbd05" xsi:type="Requirement">
-      <name xml:lang="en">_IM219 Wijzigingen in beheer dienst raken afnemer niet</name>
-      <documentation xml:lang="en">AP41-5:&#xD;
-De afnemer merkt niets van wijzigingen in het beheer van de dienst.&#xD;
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.</documentation>
-    </element>
     <element identifier="id-c876131382024e349d08b1eb609d079c" xsi:type="Requirement">
       <name xml:lang="en">IM152 Hanteer het "zero-trust" model</name>
       <documentation xml:lang="en">Ga nooit uit van een impliciet vertrouwen. Controleer overal het netwerkverkeer. Controleer toegang per sessie. Hanteer dynamische policies en gebruik daarbij de gedligheidsduur van de laatste authenticatie. Blijf continue monitoren. Dwing authenticatie en autorisatie strict af. Verzamel zoveel mogelijk gegevens om de beveiliging te blijven verbeteren.</documentation>
@@ -1524,13 +1532,6 @@ De afnemer merkt niets van wijzigingen in het beheer van de dienst.&#xD;
     <element identifier="id-c8876d20b1994d6eb578484c3fc93794" xsi:type="Requirement">
       <name xml:lang="en">IM208 Maak afspraken over nieuwe (en oude) versies van standaarden</name>
       <documentation xml:lang="en">De dienstverlener en de afnemers maken afspraken over de periode waarin overgegaan wordt op een nieuwe versie van de standaard. Wanneer een nieuwe versie van een standaard geïmplementeerd wordt, blijft de aanbieder de oude versie ondersteunen zolang als dat volgens afspraak nodig is.</documentation>
-    </element>
-    <element identifier="id-d4969c2e939b40b5887e7664c64ecf18" xsi:type="Requirement">
-      <name xml:lang="en">_IM214 De juistheid van gegevens wordt niet voor gebruik gecontroleerd</name>
-      <documentation xml:lang="en">AP21-5:&#xD;
-De juistheid van de gebruikte informatie-objecten wordt niet voor gebruik gecontroleerd&#xD;
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;
-@@Marco: ik vind dit een vreemde implicatie wanneer deze buiten de context is hiervan. Ik controleer vaak juist wél de gegevens voor gebruik (validaties etc.): https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend</documentation>
     </element>
     <element identifier="id-d573d86d1d0c45b7ad62df339a168b3d" xsi:type="Requirement">
       <name xml:lang="en">IM215 Authentieke gegevens uit wetgeving afgenomen uit basisregistraties</name>
@@ -1616,6 +1617,10 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
     <element identifier="id-ff7cddc5a89d41f383e5a554e89948bf" xsi:type="Requirement">
       <name xml:lang="en">IM104 Leg de doelbinding vast in de metadata van het gegevensobject</name>
       <documentation xml:lang="en">De verwerkingshistorie inclusief doel van verwerking wordt vastgelegd bij het gegegevensobject als metadata. Dit betekent dat de historie van acties waarin een gegevensobject wordt verwerkt (opvragen / vastleggen / wijzigen / verwijderen) inclusief het doel van de actie vastgelegd wordt bij het gegevenobject.</documentation>
+    </element>
+    <element identifier="id-aed1f376194f4247921b812b4103a0b0" xsi:type="Requirement">
+      <name xml:lang="en">IM015 Bied multi- en omni-channel dienstverlening</name>
+      <documentation xml:lang="en">Bied diensten aan via meerdere kanalen aan. Bij multichannel kunnen afnemers kiezen tussen enkele kanalen die niet direct op elkaar zijn afgestemd. Bij omnichannel gebruikt de afnemer heel veel verschillende kanalen die goed op elkaar zijn afgestemd.</documentation>
     </element>
     <element identifier="id-1d4a343462be40548c3b704b34ed0a04" xsi:type="Grouping">
       <name xml:lang="en">Laag 1 - Grondslagen en visie</name>
@@ -2458,10 +2463,6 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-28629" />
       </item>
       <item>
-        <label xml:lang="en">_NORA Implicaties vraagteken</label>
-        <item identifierRef="id-aed1f376194f4247921b812b4103a0b0" />
-      </item>
-      <item>
         <label xml:lang="en">NORA Metamodel</label>
         <item identifierRef="id-27769" />
         <item identifierRef="id-27771" />
@@ -2628,6 +2629,11 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-fb829492a6bb42ef9aa3c381d663abfa" />
         <item identifierRef="id-fcd3e6c73fd44ca195e273f4a491f50c" />
         <item identifierRef="id-fddee6f776ad462f8344d0307e81a3aa" />
+        <item identifierRef="id-bf2053a5d5ca48439f87e6146e807cf1" />
+        <item identifierRef="id-d4969c2e939b40b5887e7664c64ecf18" />
+        <item identifierRef="id-54eb2dbbe8a44eeaacf00bda0a642c31" />
+        <item identifierRef="id-c7efd8dfe4a3477ba23cd22ff91cbd05" />
+        <item identifierRef="id-0d3ae961cf99484c8f76951a89a32827" />
       </item>
       <item>
         <label xml:lang="en">NORA Architectuur Principes</label>
@@ -2656,7 +2662,6 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-03000a1ad9d34eb5a141a4fef94466f8" />
         <item identifierRef="id-08abdf3d7bdf481898de2d78a34712b6" />
         <item identifierRef="id-0c18041c05284b56a3f559cd47257fd4" />
-        <item identifierRef="id-0d3ae961cf99484c8f76951a89a32827" />
         <item identifierRef="id-100e6e5157134564ae9b29317759632b" />
         <item identifierRef="id-109fb852881b4b748a490cb939d41269" />
         <item identifierRef="id-1642fb37afeb43a1989dbca68c5d1c66" />
@@ -2687,7 +2692,6 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-4c5b9e98e2fd4ed5af34d4e6c1cbc161" />
         <item identifierRef="id-4edc7430c38148e88255e31be93aed9c" />
         <item identifierRef="id-511fba2f031e442fb2aad7f5a5ba8ea5" />
-        <item identifierRef="id-54eb2dbbe8a44eeaacf00bda0a642c31" />
         <item identifierRef="id-57294b05b026417d94a2e17ce25a1aeb" />
         <item identifierRef="id-5abb23af8c924002a23372b82fa0d30b" />
         <item identifierRef="id-60e2fa6df4284a3da1cb5155eec32bec" />
@@ -2725,15 +2729,12 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-b8d34ca5ff83472394f223e24cf13edc" />
         <item identifierRef="id-bbc30912ad1a48aeb364b021f4ee919f" />
         <item identifierRef="id-bd763e3541bc4598bc8f412388a99a0a" />
-        <item identifierRef="id-bf2053a5d5ca48439f87e6146e807cf1" />
         <item identifierRef="id-c0272d979f36400e90a84ee41cc6115a" />
         <item identifierRef="id-c39c58ebf8c74d31b7ec8b6d0330fb39" />
         <item identifierRef="id-c3d9cd541af74fb0a231562f974570d0" />
         <item identifierRef="id-c79ea09a5b7b4cbeb0cd7444b1a71402" />
-        <item identifierRef="id-c7efd8dfe4a3477ba23cd22ff91cbd05" />
         <item identifierRef="id-c876131382024e349d08b1eb609d079c" />
         <item identifierRef="id-c8876d20b1994d6eb578484c3fc93794" />
-        <item identifierRef="id-d4969c2e939b40b5887e7664c64ecf18" />
         <item identifierRef="id-d573d86d1d0c45b7ad62df339a168b3d" />
         <item identifierRef="id-d6334dd0222a49b7b63aae639582af7e" />
         <item identifierRef="id-e133b3a87b694d888144162bcdef1828" />
@@ -2749,6 +2750,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-fe25d01c5344433195a0f7d9a5453c8b" />
         <item identifierRef="id-ff0e901df78d4e3f81698411163cd3e1" />
         <item identifierRef="id-ff7cddc5a89d41f383e5a554e89948bf" />
+        <item identifierRef="id-aed1f376194f4247921b812b4103a0b0" />
       </item>
     </item>
     <item>
@@ -4822,7 +4824,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </node>
           <node identifier="id-ca4bcfdeb54f4ee98db52f91812b9352" elementRef="id-1890efdaadbb4f94881cd3adea40f55e" xsi:type="Element" x="1360" y="1200" w="183" h="55">
             <style>
-              <fillColor r="204" g="204" b="255" a="100" />
+              <fillColor r="255" g="128" b="128" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />
@@ -4831,7 +4833,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </node>
           <node identifier="id-104f1b691c4b4c259de24fb86c766191" elementRef="id-aed1f376194f4247921b812b4103a0b0" xsi:type="Element" x="1384" y="1101" w="164" h="55">
             <style>
-              <fillColor r="255" g="128" b="128" a="100" />
+              <fillColor r="204" g="204" b="255" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />
@@ -5776,7 +5778,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </node>
           <node identifier="id-63166f88ed764d4889bd3ff2491614b3" elementRef="id-aed1f376194f4247921b812b4103a0b0" xsi:type="Element" x="1360" y="1668" w="168" h="55">
             <style>
-              <fillColor r="255" g="128" b="128" a="100" />
+              <fillColor r="204" g="204" b="255" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />
@@ -6433,7 +6435,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </node>
           <node identifier="id-9c8e1f064bd84299b11237af93f65c5d" elementRef="id-aed1f376194f4247921b812b4103a0b0" xsi:type="Element" x="1272" y="2070" w="168" h="55">
             <style>
-              <fillColor r="255" g="128" b="128" a="100" />
+              <fillColor r="204" g="204" b="255" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />
@@ -6800,7 +6802,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
               </font>
             </style>
           </node>
-          <node identifier="id-0d7bdd262e4946a1b9bbf60c6b8dabe9" elementRef="id-3b0d51ddb8d64a7b82b28d7dd2df0aaa" xsi:type="Element" x="6062" y="2446" w="172" h="55">
+          <node identifier="id-0d7bdd262e4946a1b9bbf60c6b8dabe9" elementRef="id-3b0d51ddb8d64a7b82b28d7dd2df0aaa" xsi:type="Element" x="6047" y="2472" w="172" h="55">
             <style>
               <fillColor r="204" g="204" b="255" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
@@ -7018,7 +7020,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </style>
           <node identifier="id-313bd9f0c78244f693ce15bad32549c1" elementRef="id-aed1f376194f4247921b812b4103a0b0" xsi:type="Element" x="1332" y="2796" w="193" h="49">
             <style>
-              <fillColor r="255" g="128" b="128" a="100" />
+              <fillColor r="204" g="204" b="255" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />

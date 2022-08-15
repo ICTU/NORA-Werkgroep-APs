@@ -135,9 +135,6 @@ TOELICHTING
 Burgers en bedrijven verwachten van de overheid dat haar dienstverlening effectief is. De overheid streeft ernaar om de dienstverlening te leveren zoals deze is bedoeld. De geplande doelen worden gerealiseerd door hiervoor prestatienormen vast te stellen, prestaties regelmatig te evalueren, uitkomsten duidelijk te communiceren en veranderingen door te voeren. </documentation>
       </element>
     </folder>
-    <folder name="_NORA Implicaties vraagteken" id="id-6cfa12e223e8463f8305258b479dc3e3">
-      <element xsi:type="archimate:Requirement" name="?b IM015 Bied multi- en omni-channel dienstverlening" id="id-aed1f376194f4247921b812b4103a0b0"/>
-    </folder>
     <folder name="NORA Metamodel" id="id-964034b16da94ac298eb9bf5b97d9705">
       <element xsi:type="archimate:Driver" name="#NORA Kernwaarde" id="id-27769">
         <documentation>DEFINITIE
@@ -787,6 +784,28 @@ _D1.IMP636 Alleen signed applicaties, drivers en scripts mogen worden uitgevoerd
 Schaalbaar contracteren&#xD;
 Richt contracten met leveranciers in zonder limieten of beperkingen op toenemende gebruik. Monitor op het gebruik om onverwachte kostenstijgingen tijdig te signaleren. Borg dat bij afschaling de kosten ook weer gereduceerd worden.</documentation>
       </element>
+      <element xsi:type="archimate:Requirement" name="_IM138 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt" id="id-bf2053a5d5ca48439f87e6146e807cf1">
+        <documentation>Gegevens worden eenmalig uitgevraagd, uniek opgeslagen, en meervoudig gebruikt. </documentation>
+      </element>
+      <element xsi:type="archimate:Requirement" name="_IM214 De juistheid van gegevens wordt niet voor gebruik gecontroleerd" id="id-d4969c2e939b40b5887e7664c64ecf18">
+        <documentation>AP21-5:&#xD;
+De juistheid van de gebruikte informatie-objecten wordt niet voor gebruik gecontroleerd&#xD;
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;
+@@Marco: ik vind dit een vreemde implicatie wanneer deze buiten de context is hiervan. Ik controleer vaak juist wél de gegevens voor gebruik (validaties etc.): https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend</documentation>
+      </element>
+      <element xsi:type="archimate:Requirement" name="_IM216 Beschikbaarheid" id="id-54eb2dbbe8a44eeaacf00bda0a642c31">
+        <documentation>AP41: Beschikbaarheid&#xD;
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;
+@@Marco: Dit is al een kwaliteitsdoel, nl. KD06 Beschikbaarheid. Dit niet hier herhalen zou ik zeggen (anders gaat het rondzingen en krijg je een oorverdovend geluid).</documentation>
+      </element>
+      <element xsi:type="archimate:Requirement" name="_IM219 Wijzigingen in beheer dienst raken afnemer niet" id="id-c7efd8dfe4a3477ba23cd22ff91cbd05">
+        <documentation>AP41-5:&#xD;
+De afnemer merkt niets van wijzigingen in het beheer van de dienst.&#xD;
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.</documentation>
+      </element>
+      <element xsi:type="archimate:Requirement" name="_IM224 Systemen voldoen aan eisen beschikbaarheid" id="id-0d3ae961cf99484c8f76951a89a32827">
+        <documentation>ICT-voorzieningen voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid,</documentation>
+      </element>
     </folder>
     <folder name="NORA Architectuur Principes" id="id-efffc539e0f84bf98f7df59db61cd501">
       <element xsi:type="archimate:Principle" name="NAP10 Neem gegevens als fundament" id="id-185aa93fbd55485d8682022ba067609d">
@@ -927,9 +946,6 @@ Afnemers vragen overheidsorganisaties om transparantie ten aanzien van de geleve
       <element xsi:type="archimate:Requirement" name="IM153 Segmenteer het netwerk" id="id-0c18041c05284b56a3f559cd47257fd4">
         <documentation>Het segmenteren van het netwerk beperkt de gevolgen van een aanval. Segmenteren betekent dat een netwerk in meerdere zones wordt verdeeld, waartussen een inspectiepunt ontstaat. Netwerksegmentatie voorkomt dat een virus of aanvaller zich kan verspreiden in het gehele netwerk. Afhankelijk van de wijze van implementatie is netwerksegmentatie een maatregel die de gevolgen van ransomware-aanvallen of DDoS-aanvallen beperkt.</documentation>
       </element>
-      <element xsi:type="archimate:Requirement" name="_IM224 Systemen voldoen aan eisen beschikbaarheid" id="id-0d3ae961cf99484c8f76951a89a32827">
-        <documentation>ICT-voorzieningen voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid,</documentation>
-      </element>
       <element xsi:type="archimate:Requirement" name="IM140 Gegevens worden gehaald (pull) i.p.v. gebracht (push)" id="id-100e6e5157134564ae9b29317759632b">
         <documentation>Pull ipv push (gegevens worden gehaald ipv gebracht).</documentation>
       </element>
@@ -983,7 +999,12 @@ De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door  
       <element xsi:type="archimate:Requirement" name="IM508 Zorg dat software up-to-date is" id="id-3b0d51ddb8d64a7b82b28d7dd2df0aaa">
         <documentation>Alle gebruikte software en software-componenten, van applicatief tot infrastructureel, worden actueel gehouden. De update-cyclus van leveranciers wordt strikt gevolgd: updates, patches en beveiligingsupdates worden zo snel mogelijk doorgevoerd op alle relevante systemen.</documentation>
       </element>
-      <element xsi:type="archimate:Requirement" name="IM002 Voorkom informatieverlies" id="id-3bd2ac77dfb5476fa4a0e1922834efaa"/>
+      <element xsi:type="archimate:Requirement" name="IM002 Voorkom verlies van informatie" id="id-3bd2ac77dfb5476fa4a0e1922834efaa">
+        <documentation>Veranderingen in techniek, organisatie of gebruikerswensen mogen niet van negatieve invloed zijn op de duurzame toegankelijkheid van informatie. Hetzelfde geldt voor bitrot. Er worden vooraf maatregelen genomen om informatie toekomstbestendig te maken, zodat deze toegankelijk blijft voor de van toepassing zijnde vormen van (her)gebruik. Dit betekent dat:&#xD;
+* Leveranciersafhankelijkheid wordt voorkomen.&#xD;
+* Analyse wordt gemaakt van welke gevolgen veranderingen (in techniek, organisatie, of gebruikerswensen) hebben voor de duurzame toegankelijkheid van informatie.&#xD;
+* Bij het ontwerpen van informatiesystemen na wordt gedacht over de te gebruiken technologie voor het beheren van informatie.</documentation>
+      </element>
       <element xsi:type="archimate:Requirement" name="IM013 Geef de afnemer duidelijkheid over rechten, voorwaarden en plichten" id="id-3ce47667b4384c1fbe5aca987909db83">
         <documentation>De bij de dienst horende rechten, voorwaarden en plichten dienen op duidelijke en transparante wijze toegankelijk te worden gemaakt aan burgers en bedrijven die deze dienst af willen of moeten nemen.</documentation>
       </element>
@@ -1039,11 +1060,6 @@ Zie ook https://www.forumstandaardisatie.nl/</documentation>
 * Regels (een opsomming van eisen waar de entiteiten en attributen aan moeten voldoen).&#xD;
 * Maak het informatiemodel bekend in een datacatalogus die inzicht geeft in de beschikbaarheid van data.&#xD;
 *  Benut visualistatiemiddelen om het model en de samenhang/relaties tussen de objecten visueel inzichtelijk te maken.</documentation>
-      </element>
-      <element xsi:type="archimate:Requirement" name="_IM216 Beschikbaarheid" id="id-54eb2dbbe8a44eeaacf00bda0a642c31">
-        <documentation>AP41: Beschikbaarheid&#xD;
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;
-@@Marco: Dit is al een kwaliteitsdoel, nl. KD06 Beschikbaarheid. Dit niet hier herhalen zou ik zeggen (anders gaat het rondzingen en krijg je een oorverdovend geluid).</documentation>
       </element>
       <element xsi:type="archimate:Requirement" name="IM007 Single point of contact" id="id-57294b05b026417d94a2e17ce25a1aeb">
         <documentation>Bied de dienst zo veel mogelijk vanuit één contactpunt aan naar burgers en bedrijven. Dit met voorkomen dat burgers en bedrijven niet met verschillende partijen moeten schakelen om de dienst af te kunnen nemen.</documentation>
@@ -1173,9 +1189,6 @@ Maak zonodig afspraken met de aanbieder om hun classificatie aan te passen en in
       <element xsi:type="archimate:Requirement" name="IM139 Alle data heeft een unieke bron en eigenaar" id="id-bd763e3541bc4598bc8f412388a99a0a">
         <documentation>Het niet hebben van een 'single point of truth (SPOT)' kan leiden tot divergerende data en mogelijk tot inconsistente beslissingen die op basis van de verschillende databronnen worden genomen. Het eigenaarschap is een manier om te borgen dat de data eenduidig wordt bijgewerkt.</documentation>
       </element>
-      <element xsi:type="archimate:Requirement" name="_IM138 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt" id="id-bf2053a5d5ca48439f87e6146e807cf1">
-        <documentation>Gegevens worden eenmalig uitgevraagd, uniek opgeslagen, en meervoudig gebruikt. </documentation>
-      </element>
       <element xsi:type="archimate:Requirement" name="IM027 Maak beveiligingsmaatregelen zo gebruiksvriendelijk mogelijk" id="id-c0272d979f36400e90a84ee41cc6115a">
         <documentation>Maak beveilingingsmaatregelen transparant voor de gebruiker en richt deze zo gebruiksvriendelijk mogelijk in. Verleid de gebruiker zo veel mogelijk om veilig te werken: zo leidt het afdwingen van gebruikersonvriendelijke beveiligingsmaatregelen vaak tot onveilige workarounds en ander onveilig gedrag.</documentation>
       </element>
@@ -1189,22 +1202,11 @@ Maak zonodig afspraken met de aanbieder om hun classificatie aan te passen en in
         <documentation>* Zorg via lifeyclemanagement voor toepassing van voldoende actuele versies van standaarden.&#xD;
 * Inventariseer de relevante  standaarden en neem dat mee in het ontwerp van de dienst/voorziening.</documentation>
       </element>
-      <element xsi:type="archimate:Requirement" name="_IM219 Wijzigingen in beheer dienst raken afnemer niet" id="id-c7efd8dfe4a3477ba23cd22ff91cbd05">
-        <documentation>AP41-5:&#xD;
-De afnemer merkt niets van wijzigingen in het beheer van de dienst.&#xD;
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.</documentation>
-      </element>
       <element xsi:type="archimate:Requirement" name="IM152 Hanteer het &quot;zero-trust&quot; model" id="id-c876131382024e349d08b1eb609d079c">
         <documentation>Ga nooit uit van een impliciet vertrouwen. Controleer overal het netwerkverkeer. Controleer toegang per sessie. Hanteer dynamische policies en gebruik daarbij de gedligheidsduur van de laatste authenticatie. Blijf continue monitoren. Dwing authenticatie en autorisatie strict af. Verzamel zoveel mogelijk gegevens om de beveiliging te blijven verbeteren.</documentation>
       </element>
       <element xsi:type="archimate:Requirement" name="IM208 Maak afspraken over nieuwe (en oude) versies van standaarden" id="id-c8876d20b1994d6eb578484c3fc93794">
         <documentation>De dienstverlener en de afnemers maken afspraken over de periode waarin overgegaan wordt op een nieuwe versie van de standaard. Wanneer een nieuwe versie van een standaard geïmplementeerd wordt, blijft de aanbieder de oude versie ondersteunen zolang als dat volgens afspraak nodig is.</documentation>
-      </element>
-      <element xsi:type="archimate:Requirement" name="_IM214 De juistheid van gegevens wordt niet voor gebruik gecontroleerd" id="id-d4969c2e939b40b5887e7664c64ecf18">
-        <documentation>AP21-5:&#xD;
-De juistheid van de gebruikte informatie-objecten wordt niet voor gebruik gecontroleerd&#xD;
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;
-@@Marco: ik vind dit een vreemde implicatie wanneer deze buiten de context is hiervan. Ik controleer vaak juist wél de gegevens voor gebruik (validaties etc.): https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend</documentation>
       </element>
       <element xsi:type="archimate:Requirement" name="IM215 Authentieke gegevens uit wetgeving afgenomen uit basisregistraties" id="id-d573d86d1d0c45b7ad62df339a168b3d">
         <documentation>Authentieke gegevens, zoals beschreven in de wetgeving op basisregistraties, worden afgenomen van de daartoe ingerichte basisregistraties.</documentation>
@@ -1275,6 +1277,9 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
       </element>
       <element xsi:type="archimate:Requirement" name="IM104 Leg de doelbinding vast in de metadata van het gegevensobject" id="id-ff7cddc5a89d41f383e5a554e89948bf">
         <documentation>De verwerkingshistorie inclusief doel van verwerking wordt vastgelegd bij het gegegevensobject als metadata. Dit betekent dat de historie van acties waarin een gegevensobject wordt verwerkt (opvragen / vastleggen / wijzigen / verwijderen) inclusief het doel van de actie vastgelegd wordt bij het gegevenobject.</documentation>
+      </element>
+      <element xsi:type="archimate:Requirement" name="IM015 Bied multi- en omni-channel dienstverlening" id="id-aed1f376194f4247921b812b4103a0b0">
+        <documentation>Bied diensten aan via meerdere kanalen aan. Bij multichannel kunnen afnemers kiezen tussen enkele kanalen die niet direct op elkaar zijn afgestemd. Bij omnichannel gebruikt de afnemer heel veel verschillende kanalen die goed op elkaar zijn afgestemd.</documentation>
       </element>
     </folder>
   </folder>
@@ -2593,10 +2598,10 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           <child xsi:type="archimate:DiagramObject" id="id-cc4a43370bcc4317887b4a97acdbdf0d" targetConnections="id-15092cc58a1142f7a1b537c319eef032" archimateElement="id-1dc60d35935e42b1852fb9b0ba0eabe0">
             <bounds x="1236" y="84" width="184" height="55"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-ca4bcfdeb54f4ee98db52f91812b9352" targetConnections="id-bd6e392283814c27a3302184c4a28b10" archimateElement="id-1890efdaadbb4f94881cd3adea40f55e">
+          <child xsi:type="archimate:DiagramObject" id="id-ca4bcfdeb54f4ee98db52f91812b9352" targetConnections="id-bd6e392283814c27a3302184c4a28b10" fillColor="#ff8080" archimateElement="id-1890efdaadbb4f94881cd3adea40f55e">
             <bounds x="1332" y="324" width="183" height="55"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-104f1b691c4b4c259de24fb86c766191" targetConnections="id-c76da98c841c42be9cbe57c247a81e23" fillColor="#ff8080" archimateElement="id-aed1f376194f4247921b812b4103a0b0">
+          <child xsi:type="archimate:DiagramObject" id="id-104f1b691c4b4c259de24fb86c766191" targetConnections="id-c76da98c841c42be9cbe57c247a81e23" fillColor="#ccccff" archimateElement="id-aed1f376194f4247921b812b4103a0b0">
             <bounds x="1356" y="225" width="164" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-5a50b71349a04bd894c39909e5955a70" targetConnections="id-febe1444405d4a2e89f793b46493073d" fillColor="#ff8080" archimateElement="id-25b0530c716d41649380e8103fc59d9d">
@@ -2983,7 +2988,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           <child xsi:type="archimate:DiagramObject" id="id-bb29cbe6a8b74782b869375d8190d72d" targetConnections="id-2f27e0cc888746fb84466ea43d32e9f1" archimateElement="id-afcce245fdf54a238929116287e8713a">
             <bounds x="1294" y="120" width="171" height="55"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-63166f88ed764d4889bd3ff2491614b3" targetConnections="id-1a2873bb224b45b49c68858dbeb9922b" fillColor="#ff8080" archimateElement="id-aed1f376194f4247921b812b4103a0b0">
+          <child xsi:type="archimate:DiagramObject" id="id-63166f88ed764d4889bd3ff2491614b3" targetConnections="id-1a2873bb224b45b49c68858dbeb9922b" fillColor="#ccccff" archimateElement="id-aed1f376194f4247921b812b4103a0b0">
             <bounds x="1332" y="252" width="168" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-f435ae28959443ccbc4a8415d6ddc36a" targetConnections="id-d19d7c54e90d4e5eb7f4a6298c856682" archimateElement="id-1c7946d0e0fd4f679570f107ee58938e">
@@ -3274,7 +3279,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           <child xsi:type="archimate:DiagramObject" id="id-6c395b78a63c4fb5b0571ca158dc32aa" targetConnections="id-b3fcc09e4a4b4293a79eae5f5f888d87" fillColor="#ff8080" archimateElement="id-e217da93488d40ee9bb645eb8c4f7a4a">
             <bounds x="948" y="481" width="148" height="55"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-9c8e1f064bd84299b11237af93f65c5d" targetConnections="id-0bdb0b33bf4d4d35a17cb7cdfaf51c9b" fillColor="#ff8080" archimateElement="id-aed1f376194f4247921b812b4103a0b0">
+          <child xsi:type="archimate:DiagramObject" id="id-9c8e1f064bd84299b11237af93f65c5d" targetConnections="id-0bdb0b33bf4d4d35a17cb7cdfaf51c9b" fillColor="#ccccff" archimateElement="id-aed1f376194f4247921b812b4103a0b0">
             <bounds x="1248" y="150" width="168" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-b09cc123126f447d9be7d3c46a8d147d" targetConnections="id-dee213438301450abae602eb93c36250" fillColor="#ff8080" archimateElement="id-119261f09dac4aa8b904e031397ece7d">
@@ -3398,7 +3403,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
             <bounds x="6024" y="372" width="186" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-0d7bdd262e4946a1b9bbf60c6b8dabe9" targetConnections="id-2d5b3616441e4346b93f47376042e004" fillColor="#ccccff" archimateElement="id-3b0d51ddb8d64a7b82b28d7dd2df0aaa">
-            <bounds x="6038" y="526" width="172" height="55"/>
+            <bounds x="6023" y="552" width="172" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-43d4929df93b4cfeb023cc948b2285ad" targetConnections="id-b35db20494204925a3785072490491d3" fillColor="#ccccff" archimateElement="id-3b0d51ddb8d64a7b82b28d7dd2df0aaa">
             <bounds x="8052" y="570" width="158" height="55"/>
@@ -3498,7 +3503,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           <sourceConnection xsi:type="archimate:Connection" id="id-1cfa791e33ce4e52922db89e314f02df" source="id-63edbfa98ad349d5b24eae5c417e0278" target="id-39837789eb6d4ad4b4167bfb2c0a4328" archimateRelationship="id-e9bddb460d564749912a281cca90f87d"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-5e42603750fe475282f016369a20a587" source="id-63edbfa98ad349d5b24eae5c417e0278" target="id-c7bbb3ec27384e86b6088f809a9c5924" archimateRelationship="id-3d1b43a043514e8f8c0ebc4e577a423b"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-7312d5a2dead49cabf5327d319cc78d0" source="id-63edbfa98ad349d5b24eae5c417e0278" target="id-f23ae45774344b5fb2fd8b360ccefe47" archimateRelationship="id-35e0b98ad34d463c9dfc05f673bbd6f8"/>
-          <child xsi:type="archimate:DiagramObject" id="id-313bd9f0c78244f693ce15bad32549c1" targetConnections="id-7b03594454e7452d835fe3a033b96bbc" fillColor="#ff8080" archimateElement="id-aed1f376194f4247921b812b4103a0b0">
+          <child xsi:type="archimate:DiagramObject" id="id-313bd9f0c78244f693ce15bad32549c1" targetConnections="id-7b03594454e7452d835fe3a033b96bbc" fillColor="#ccccff" archimateElement="id-aed1f376194f4247921b812b4103a0b0">
             <bounds x="1308" y="192" width="193" height="49"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-be4361ab22274f73a81a3cde61225044" targetConnections="id-1a4217c952c844c68ad3bcc0c8125ec4" archimateElement="id-869f6e85cc844f50acb627bfc1d3a8cb">
