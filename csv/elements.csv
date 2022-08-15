@@ -418,6 +418,7 @@ Verdeel de informatie in afgebakende datasets die elk afzonderlijk ook getoetst 
 "id-fb4a3ab322104934ad2343215d88c349";"Requirement";"_IM133 Vraag dezelfde gegevens niet opnieuw uit";"[Groep B] 14 [Organisatie] vraagt gegevens die zij al bezit niet opnieuw uit. Verder deelt [organisatie] die data (en de bijbehorende meta-data zoals betekenis, eigenaar, etc.) met haar ketenpartners voor zover toegestaan, en voor zover de ketenpartners die data ook nodig.";""
 "id-b13a2d4273874511a72b2af583c7f5c9";"Requirement";"_IM134 Zelf soevereiniteit over gegevens waar het kan";"Zelf soevereiniteit over gegevens waar het kan (organisatorische laag, informatielaag)
 - a. Implicaties uit het reviewcommentaar";""
+"id-bf2053a5d5ca48439f87e6146e807cf1";"Requirement";"_IM138 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt";"Gegevens worden eenmalig uitgevraagd, uniek opgeslagen, en meervoudig gebruikt. ";""
 "id-b0350c5c2b5549149e63ee751199623f";"Requirement";"_IM145 Maak en test een calamiteitenplan";"D-EBA014
 Maak en test een calamiteitenplan
 Een calamiteitenplan omvat herstelplannen, noodplannen, crisiscommunicatieplan, continuïteitsplan en crisismanagementplan. Deze worden toegepast in geval van een calamiteit om de continuïteit van de bedrijfsvoering en de veiligheid van de medewerkers te waarborgen.
@@ -462,6 +463,48 @@ Benut impactanalyses als IT-effect rapportage.";""
 - DUTO eisen";""
 "id-11e0e55958db4cbe94f5e75eb4ce3ba5";"Requirement";"_IM168 Beheer gegevens als één logisch object";"Gegevens worden binnen een organisatie als 1 logisch object beheerd. Ongeacht de distributie er van over systemen, backups en intell - ?";""
 "id-5f4c4968a375462f9a04fb672b416a6c";"Requirement";"_IM169 Van ieder gegeven is de herkomst en verwerkingen beschikbaar tot aan vernietiging";"Van ieder gegeven is de herkomst en verwerkingen beschikbaar tot aan vernietiging.";""
+"id-598e6ba80d3b49b49b5be37feb655e0c";"Requirement";"_IM200 Afstemming is gezocht met de andere relevante (overheids)dienstverleners.";"AP21-2
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
+"id-4cd5b0638c69416ca264f875b776f3eb";"Requirement";"_IM201 De aanbod- en vraagzijde van de markt zijn in kaart gebracht";"AP21-1 De aanbod- en vraagzijde van de markt zijn in kaart gebracht:
+     * doelgroepen en hun perspectief
+     * aanverwante diensten en dienstverleners
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
+"id-9cde0b61b93d40b4bf6b5fd3edb46a4b";"Requirement";"_IM204 De voor de dienst relevante bouwstenen zijn beoordeeld";"AP06-2:
+*De voor de dienst relevante bouwstenen zijn geïnventariseerd en op geschiktheid   beoordeeld;
+     * Bij geschiktheid zijn ze opgenomen in de opzet van de dienst.
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
+"id-7fd3b5dc8ed54850a8cfba729ee34b18";"Requirement";"_IM205 Maak met afnemers afspraken over open standaarden";"AP08-1:
+* Met afnemers zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden.
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
+"id-9f39f996d53b4bc4962554fe51051e0f";"Requirement";"_IM207 Volgens (open) standaarden zijn beschreven";"AP08-3:
+*   Volgens (open) standaarden zijn beschreven:
+     ** de interactieprocessen
+     ** het berichtenverkeer
+     ** Applicatieportfolio
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
+"id-bd40ae4906344fc78c6e8c5be2b3e498";"Requirement";"_IM209 Ondersteun oude standaarden conform afspraken";"AP41-6:
+Wanneer een nieuwe versie van een standaard geïmplementeerd wordt, blijft de aanbieder de oude versie ondersteunen zolang als dat volgens afspraak nodig is.
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
+"id-54083821a1cd4894bcf9547a25c10cd0";"Requirement";"_IM210 Schriftelijk vastleggen bedrijfskritische diensten";"Bij bedrijfskritische diensten of diensten met een zeer vertrouwelijk karakter is het akkoord en de inhoud daarvan schriftelijk vastgelegd. Denk hierbij aan Service Level Agreements (SLA) en Gegevens Levering Overeenkomsten (GLO).
+De dienstverlener geeft hierbij ook aan welk betrouwbaarheidsniveau geldt voor de identificatie van de afnemer.
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
+"id-5e5805baf03e4509a1e061055e04e6e4";"Requirement";"_IM211 Informatie-objecten worden beheerd";"AP21-2:
+informatie-objecten worden beheerd.
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.vv";""
+"id-cb8e962ae9024de3b4f795b2d3b6df6b";"Requirement";"_IM212 Alle relevante informatie-objecten zijn geïnventariseerd";"AP21-1:
+Alle relevante informatie-objecten zijn geïnventariseerd
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
+"id-d4969c2e939b40b5887e7664c64ecf18";"Requirement";"_IM214 De juistheid van gegevens wordt niet voor gebruik gecontroleerd";"AP21-5:
+De juistheid van de gebruikte informatie-objecten wordt niet voor gebruik gecontroleerd
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.
+@@Marco: ik vind dit een vreemde implicatie wanneer deze buiten de context is hiervan. Ik controleer vaak juist wél de gegevens voor gebruik (validaties etc.): https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend";""
+"id-54eb2dbbe8a44eeaacf00bda0a642c31";"Requirement";"_IM216 Beschikbaarheid";"AP41: Beschikbaarheid
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.
+@@Marco: Dit is al een kwaliteitsdoel, nl. KD06 Beschikbaarheid. Dit niet hier herhalen zou ik zeggen (anders gaat het rondzingen en krijg je een oorverdovend geluid).";""
+"id-c7efd8dfe4a3477ba23cd22ff91cbd05";"Requirement";"_IM219 Wijzigingen in beheer dienst raken afnemer niet";"AP41-5:
+De afnemer merkt niets van wijzigingen in het beheer van de dienst.
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
+"id-0d3ae961cf99484c8f76951a89a32827";"Requirement";"_IM224 Systemen voldoen aan eisen beschikbaarheid";"ICT-voorzieningen voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid,";""
 "id-4397defde48b4a5ba4964ab779492125";"Requirement";"_IM501 Beheer broncode centraal en automatiseer het proces van ontwerp naar productie";"Dit draagt ertoe bij dat de doorontwikkeling van applicaties en infrastructurele oplossingen kwalitatief en structureel de juiste stappen doorloopt. Dit draagt tevens bij het versnellen van de doorontwikkeling van oplossingen (kortere time to market). Dit betekent dat broncode wordt bewaard en beheerd in een centraal source code management systeem en dat deze code geautomatiseerd wordt ge-build en ge-released met (CI/CD) pipelines. Aan deze pipelines woden eisen gesteld, o.a. m.b.t. code quality, secrets en tests. De gehele ketenvoortgang is te zien: van user-story, code commit en de releae van software. Gedurende dit proces wordt de code geautomatiseerd gecontroleerd op kwaliteit ('Continuous Code Quality'). Dit bestaat uit checks op kwetsbaarheden, exploits, licentiegebruik en robuustheid. Het bovenstaande geldt niet alleen voor applicatieve, maar ook voor infrastructurele componenten (infrastructure by code) in cloud omgevingen.
 Bron: _D1.IMP500 Builds en releases zijn geautomatiseerd met pipelines
 Bron: _D1.IMP518 Source code wordt beheerd in een source code management systeem
@@ -578,8 +621,7 @@ Vanuit o.a. de WOO richt de overheid zich op transparantie. Daarbij hoort het ac
 Maak zonodig afspraken met de aanbieder om hun classificatie aan te passen en in hun dienst bijpassende maatregelen daarvoor te implementeren.";""
 "id-24f9281e4e5c45b7961783be616c970f";"Requirement";"IM078 Gebruik de standaard met het meest specifieke werkingsgebied";"Gebruik de standaard met het meest specifieke werkingsgebied. Als deze conflicteert met bredere (internationale) standaarden, zorg dan in de sector voor afstemming daarmee.";""
 "id-c39c58ebf8c74d31b7ec8b6d0330fb39";"Requirement";"IM082 Actueel register met standaarden";"Zorg voor een actueel register met standaarden per functioneel toepassingsgebied (gegevensuitwisseling, beveiliging, taalgebruik, ...) en organisatorisch werkingsgebied. Sluit aan en maak afspraken bij de relevante organisatorisch werkingsgebieden. Zie ook https://www.forumstandaardisatie.nl/";""
-"id-4bbd60dcf6b34f89b6916b81b04d49e0";"Requirement";"IM084 Open standaarden (tenzij)";"* Verwerf producten in die aan de standaard(en) voldoen.
-* Open standaarden tenzij: implementaties maken gebruik van de beschrijvingen uit de open standaarden om leveranciersonafhankelijkheid te behouden.
+"id-4bbd60dcf6b34f89b6916b81b04d49e0";"Requirement";"IM084 Open standaarden (tenzij)";"Verwerf producten in die aan de standaard(en) voldoen. Hierbij geldt: Open standaarden tenzij. Implementaties maken gebruik van de beschrijvingen uit de open standaarden om leveranciersonafhankelijkheid te behouden. Maak met afnemers afspraken over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden.
 Zie ook https://www.forumstandaardisatie.nl/";""
 "id-c79ea09a5b7b4cbeb0cd7444b1a71402";"Requirement";"IM085 Pleeg onderhoud op de toegepaste standaarden";"* Zorg via lifeyclemanagement voor toepassing van voldoende actuele versies van standaarden.
 * Inventariseer de relevante  standaarden en neem dat mee in het ontwerp van de dienst/voorziening.";""
@@ -588,7 +630,7 @@ Zie ook het CBS: https://www.cbs.nl/nl-nl/onze-diensten/open-data/referentiedata
 "id-fe25d01c5344433195a0f7d9a5453c8b";"Requirement";"IM091 Zorg voor open specificaties";"Zorg voor open specificaties. Zodat deze hergebruikt kunnen worden over instellingen heen. Dit voorkomt dat verschillende organisaties hetzelfde wiel moeten uitvinden. Zie ook EIF principle 2: ""Openness"", aanbeveling 4. https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf";""
 "id-4846853e8b3b479faa7ae3ef7f1713fc";"Requirement";"IM093 De dienst heeft een duidelijke Quality of Service (QoS)";"De dienst heeft een duidelijk beschreven 'Quality of Service'. Niet alleen op het technisch koppelvlak, maar juist ook op die aspecten die door de afnemers begrepen worden. Bijvoorbeeld in termen van beschikbaarheid, performance, supportniveau, etc.";""
 "id-e133b3a87b694d888144162bcdef1828";"Requirement";"IM094 Leg per dienst vast aan welke standaarden deze voldoet";"Leg per dienst vast aan welke normen en standaarden je (moet of wilt) voldoen. Deze normen en standaarden moeten op hun beurt voldoen aan wet- en regelgeving. De opzet van   de dienst is in overeenstemming met deze normen en standaarden. Afwijkingen van deze norm worden geïdentificeerd.";""
-"id-ff0e901df78d4e3f81698411163cd3e1";"Requirement";"IM095 Leg SLA vast bij de dienst";"Leg het akkoord op en de inhoud van de dienst schriftelijk vast in de vorm van een Service Level Agreement (SLA), Gegevens Leverings Overeenkomst (GLO) of in wet- en regelgeving.";""
+"id-ff0e901df78d4e3f81698411163cd3e1";"Requirement";"IM095 Leg SLA vast bij de dienst";"Leg het akkoord op en de inhoud van de dienst schriftelijk vast in de vorm van een Service Level Agreement (SLA), Gegevens Leverings Overeenkomst (GLO) of in wet- en regelgeving. Dit is in elk geval noodzakelijk voor bedrijfskritische diensten of diensten met een zeer vertrouwelijk karakter. Hierbij is het akkoord en de inhoud daarvan schriftelijk vastgelegd. De dienstverlener geeft hierbij ook aan welk betrouwbaarheidsniveau geldt voor de identificatie van de afnemer.";""
 "id-60e2fa6df4284a3da1cb5155eec32bec";"Requirement";"IM097 Neem diensten op in een producten- en dienstencatalogus (PDC)";"Beschrijf diensten in een producten- en dienstencatalogus (PDC) inclusief de daarbij behorende spelregels. Datasets worden beschreven in een datacatalogus (interne afnemers). Open data van de overheid biedt dit inzicht aan externe afnemers. Zie https://data.overheid.nl/";""
 "id-2e98270fefb04495900fb9e5064b3742";"Requirement";"IM102 Hanteer bewaartermijnen voor informatie";"Informatie wordt niet langer bewaard en niet eerder vernietigd dan wettelijk is toegestaan. Dit betekent dat:
 * Er een selectielijst is, waarin opgenomen de te vernietigen informatieobjecten of onderdelen daarvan.
@@ -596,11 +638,11 @@ Zie ook het CBS: https://www.cbs.nl/nl-nl/onze-diensten/open-data/referentiedata
 * Bevoegdheden, rollen en verantwoordelijkheden en beleid rondom vernietigen zijn belegd. 
 * De organisatie inzicht heeft in informatieobjecten, bewaartermijnen, processen, informatiesystemen en hun onderlinge samenhang.";""
 "id-ff7cddc5a89d41f383e5a554e89948bf";"Requirement";"IM104 Leg de doelbinding vast in de metadata van het gegevensobject";"De verwerkingshistorie inclusief doel van verwerking wordt vastgelegd bij het gegegevensobject als metadata. Dit betekent dat de historie van acties waarin een gegevensobject wordt verwerkt (opvragen / vastleggen / wijzigen / verwijderen) inclusief het doel van de actie vastgelegd wordt bij het gegevenobject.";""
-"id-4a685cd11f1f417bbc2ac87ff1c26429";"Requirement";"IM105 Voor ieder gegeven één verantwoordelijke";"Voor ieder gegeven en voor iedere verwerking is er een verantwoordelijke gegevenseigenaar.";""
+"id-4a685cd11f1f417bbc2ac87ff1c26429";"Requirement";"IM105 Voor ieder gegeven één verantwoordelijke";"Voor ieder gegeven en voor iedere verwerking is er een verantwoordelijke gegevenseigenaar. Alle relevante gegevensobjecten dienen hiervoor te worden geïnventariseerd.";""
 "id-945217efd17f4d1db57e5839e89e50f7";"Requirement";"IM109 Pas de FAIR dataprincipes toe";"Pas de implicaties van de FAIR dataprincipes toe. Zie ook
 https://www.go-fair.org/fair-principles/";""
-"id-64908639b90b4c76a01978ea0fe86e15";"Requirement";"IM111 De context van een informatieobject is vastgelegd in metadata";"De context van een informatieobject moet zijn vastgelegd in metadata
-* Informatie en gegevens dienen duidelijk te plaatsen te zijn binnen een bepaalde context. Metadata is hiervoor het geëigende instrument 
+"id-64908639b90b4c76a01978ea0fe86e15";"Requirement";"IM111 De context van een informatieobject is vastgelegd in metadata";"Informatie-objecten dienen goed te worden beheerd. Onderdeel hiervan is dat de context van een informatieobject goed moet zijn vastgelegd in metadata.
+* Informatie en gegevens dienen duidelijk te plaatsen te zijn binnen een bepaalde context. Metadata is hiervoor het geëigende instrument.
 * Context (vastgelegd in metadata) is nodig om gegevens te begrijpen voor verwerking.
 * Zie DUTO eisen (ISO 23801)";""
 "id-9a7486cb97a549d29082fc85601794bf";"Requirement";"IM112 Draag zorg voor juiste, actuele en volledige informatie";"Een gebruiker kan er op vertrouwen dat een informatieobject is zoals deze in de bron is vastgelegd juist, actueel en volledig is. Fouten kunnen worden gemeld en hersteld. Daarbij is het van belang dat herstelwijzigingen worden gelogd, zodat traceerbaar is hoe foutieve gegevens zijn verwerkt en wat het effect daarvan is. Dit betekent dat:
@@ -623,12 +665,10 @@ https://www.go-fair.org/fair-principles/";""
 * Het formaat op grote schaal gebruikt wordt.";""
 "id-0249f53f391e48b994a5b086b826b5af";"Requirement";"IM124 Betrokkenen op de hoogte van doel verzamelen gegevens";"Stel bij het verzamelen en opvragen van persoonsgegevens betrokkenen op de hoogte van het doel waarvoor de gegevens worden verzameld en de mogelijkheid van de rechten die ze kunnen uitoefenen.";""
 "id-5abb23af8c924002a23372b82fa0d30b";"Requirement";"IM125 Leg grondslag en doel informatieverwerking vast";"Leg de grondslag en het doel waarvoor informatie wordt uitgevraagd bij burgers en bedrijven vast. Aan het doel gekoppeld worden ook de eisen (kwaliteitscriteria) vastgelegd waaraan deze informatie moet voldoen. Houd er rekening mee dat het doel kan in de loop der tijd kan wijzigen.";""
-"id-949650edda59447cbb078e1dcd0ed24c";"Requirement";"IM135 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt";"Gegevens worden eenmalig uitgevraagd of verzameld, uniek opgeslagen, en vervolgens meervoudig gebruikt.";""
+"id-949650edda59447cbb078e1dcd0ed24c";"Requirement";"IM135 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt";"Gegevens worden eenmalig uitgevraagd of verzameld, uniek opgeslagen, en vervolgens meervoudig gebruikt. Dit impliceert tevens dat de juistheid van de gebruikte informatie-objecten uit een bronregistratie niet voor gebruik opnieuw hoeft te worden gecontroleerd.";""
 "id-1ac6f137d0d74a7dbb5eae16dc41be77";"Requirement";"IM136 Registreer gegevens bij de bron";"Registreer gegevens (zo dicht mogelijk) bij de bron, daar waar de gegevens ontstaan. Dit verhoogt de volledigheid, kwaliteit en de actualiteit van de gegevens aanzienlijk en voorkomt fouten. De vastgelegde gegevens kunnen daarna voor verschillende doeleinden worden gebruikt. Een ander belangrijk voordeel is dat het achteraf registreren van gegevens die eerder zijn ontstaan wordt voorkomen hetgeen de registratielast vermindert. Waar mogelijk, leg gegevens geautomatiseerd vast.";""
 "id-03000a1ad9d34eb5a141a4fef94466f8";"Requirement";"IM137 Weet welke (bron)gegevens in huis zijn";"Weet welke (bron)gegevens in huis zijn
 - [Organisatie] weet welke gegevens zij reeds in huis heeft in de bronadministraties en op welke manier deze gegevens hergebruikt kunnen worden - D1.IMP116";""
-"id-bf2053a5d5ca48439f87e6146e807cf1";"Requirement";"IM138 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt";"Gegevens worden eenmalig uitgevraagd, uniek opgeslagen, en meervoudig gebruikt
-- a. Implicaties uit het reviewcommentaar";""
 "id-bd763e3541bc4598bc8f412388a99a0a";"Requirement";"IM139 Alle data heeft een unieke bron en eigenaar";"Het niet hebben van een 'single point of truth (SPOT)' kan leiden tot divergerende data en mogelijk tot inconsistente beslissingen die op basis van de verschillende databronnen worden genomen. Het eigenaarschap is een manier om te borgen dat de data eenduidig wordt bijgewerkt.";""
 "id-100e6e5157134564ae9b29317759632b";"Requirement";"IM140 Gegevens worden gehaald (pull) i.p.v. gebracht (push)";"Pull ipv push (gegevens worden gehaald ipv gebracht).";""
 "id-3f279598e31f46378e11e4339758ebd9";"Requirement";"IM141 Autorisaties worden bepaald o.b.v. metadata";"Autorisaties voor het verstrekken en gebruik van gegevens kan worden bepaald op basis van metadata. De beheerder die het gegeven beheert en het wil verstrekken voor verdere bewerking, voegt metadata toe aan de hand waarvan de beheerder en de afnemer een autorisatiebeslissing kan nemen.";""
@@ -645,100 +685,36 @@ https://www.go-fair.org/fair-principles/";""
 "id-8d1439656d4f455a90753b7549d06394";"Requirement";"IM162 Taken en verantwoordelijkheden gegevensverwerking bekend";"Verantwoordelijkheden, bevoegdheden en taken bij gegevensverwerking zijn bepaald en bekend.";""
 "id-218e7b3beeea455da20fdad7f1c9e4e6";"Requirement";"IM164 Richt data governance in";"Data governance staat aan de basis van goed gegevenbeheer. Het betreft alle afspraken (en structuren) waarmee je vastlegt hoe gebruik te maken van de beschikbare gegevens en de gegevenskwaliteit en veiligheid hiervan te waarborgen. Hierbij hoort ook het vastleggen van datastandaarden, visie en strategie. Inclusief wie welke verantwoordelijkheid hierin heeft. Zie ook https://www.dama.org/cpages/body-of-knowledge";""
 "id-18c654522d1a4d67869a90fabf0c87c9";"Requirement";"IM166 Van ieder gegeven is de kwaliteit bekend";"Stel voor ieder gegeven de kwaliteit vast volgens kenmerken van compleetheid, actualiteit en tijdigheid.";""
-"id-598e6ba80d3b49b49b5be37feb655e0c";"Requirement";"IM200 Afstemming is gezocht met de andere relevante (overheids)dienstverleners.";"AP21-2
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-4cd5b0638c69416ca264f875b776f3eb";"Requirement";"IM201 De aanbod- en vraagzijde van de markt zijn in kaart gebracht";"AP21-1 De aanbod- en vraagzijde van de markt zijn in kaart gebracht:
-     * doelgroepen en hun perspectief
-     * aanverwante diensten en dienstverleners
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-f84a8a28ea7a470fba3e9676220d1ad6";"Requirement";"IM202 De dienst wordt gebundeld aangeboden";"AP21-3: De dienst wordt (vanuit perspectief van de afnemer) gebundeld aangeboden met een of meer diensten van andere organisaties.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-fcfb3e6dc9364279a0656871a10e0b09";"Requirement";"IM203 De voor de dienst relevante standaardoplossingen zijn geïnventariseerd";"AP06-1:
-* De voor de dienst relevante standaardoplossingen zijn geïnventariseerd voor gebieden zoals:
-** identificatie
-** authenticatie
-** autorisatie
-** onweerlegbaarheid
-** encryptie
-** semantiek
-** toegankelijkheid
-** presentatie en vormgeving
-*Oplossingen zijn op geschiktheid beoordeeld. Bij geschiktheid zijn ze opgenomen in de opzet van de dienst
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-9cde0b61b93d40b4bf6b5fd3edb46a4b";"Requirement";"IM204 De voor de dienst relevante bouwstenen zijn beoordeeld";"AP06-2:
-*De voor de dienst relevante bouwstenen zijn geïnventariseerd en op geschiktheid   beoordeeld;
-     * Bij geschiktheid zijn ze opgenomen in de opzet van de dienst.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-7fd3b5dc8ed54850a8cfba729ee34b18";"Requirement";"IM205 Maak met afnemers afspraken over open standaarden";"AP08-1:
-* Met afnemers zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-b4d0362d9da84defb8e9598348b9ede6";"Requirement";"IM206 Open standaard (proces)modellering";"AP08-2:
-Organisaties werken volgens een open standaard voor procesmodellering die door alle samenwerkende partijen op uniforme wijze wordt toegepast. De gekozen open standaard is bepalend voor de keuze van modelleersystemen die deze standaard ondersteunen.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.
-@@Marco: Zou moeten gelden voor meer soorten modellering, data- maar ook architectuur! (ArchiMate)";""
-"id-9f39f996d53b4bc4962554fe51051e0f";"Requirement";"IM207 Volgens (open) standaarden zijn beschreven";"AP08-3:
-*   Volgens (open) standaarden zijn beschreven:
-     ** de interactieprocessen
-     ** het berichtenverkeer
-     ** Applicatieportfolio
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-c8876d20b1994d6eb578484c3fc93794";"Requirement";"IM208 Afspraken over nieuwe versies standaard";"De dienstverlener en de afnemers maken afspraken over de periode waarin overgegaan wordt op een nieuwe versie van de standaard.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-bd40ae4906344fc78c6e8c5be2b3e498";"Requirement";"IM209 Ondersteun oude standaarden conform afspraken";"Wanneer een nieuwe versie van een standaard geïmplementeerd wordt, blijft de aanbieder de oude versie ondersteunen zolang als dat volgens afspraak nodig is.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-54083821a1cd4894bcf9547a25c10cd0";"Requirement";"IM210 Schriftelijk vastleggen bedrijfskritische diensten";"AP28-1: Bij bedrijfskritische diensten of diensten met een zeer vertrouwelijk karakter is het akkoord en de inhoud daarvan schriftelijk vastgelegd. Denk hierbij aan Service Level Agreements (SLA) en Gegevens Levering Overeenkomsten (GLO).
-De dienstverlener geeft hierbij ook aan welk betrouwbaarheidsniveau geldt voor de identificatie van de afnemer.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-5e5805baf03e4509a1e061055e04e6e4";"Requirement";"IM211 Informatie-objecten worden beheerd";"AP21-2:
-informatie-objecten worden beheerd.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.vv";""
-"id-cb8e962ae9024de3b4f795b2d3b6df6b";"Requirement";"IM212 Alle relevante informatie-objecten zijn geïnventariseerd";"AP21-1:
-Alle relevante informatie-objecten zijn geïnventariseerd
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-ede0e3ebec144e3cb84fe745d377d439";"Requirement";"IM213 Stel de juridische aansprakelijkheid per gegevensobject vast";"AP21-3:
-Per informatie-object is de bron en daarmee de juridische aansprakelijkheid voor de juistheid van het object vastgesteld.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-d4969c2e939b40b5887e7664c64ecf18";"Requirement";"IM214 De juistheid van gegevens wordt niet voor gebruik gecontroleerd";"AP21-5:
-De juistheid van de gebruikte informatie-objecten wordt niet voor gebruik gecontroleerd
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.
-@@Marco: ik vind dit een vreemde implicatie wanneer deze buiten de context is hiervan. Ik controleer vaak juist wél de gegevens voor gebruik (validaties etc.): https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend";""
-"id-d573d86d1d0c45b7ad62df339a168b3d";"Requirement";"IM215 Authentieke gegevens uit wetgeving afgenomen uit basisregistraties";"AP21-4:
-Authentieke gegevens, zoals beschreven in de wetgeving op basisregistraties, worden afgenomen van de basisregistraties.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-54eb2dbbe8a44eeaacf00bda0a642c31";"Requirement";"IM216 Beschikbaarheid";"AP41: Beschikbaarheid
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.
-@@Marco: Dit is al een kwaliteitsdoel, nl. KD06 Beschikbaarheid. Dit niet hier herhalen zou ik zeggen (anders gaat het rondzingen en krijg je een oorverdovend geluid).";""
-"id-92f4b88393b24998a2e34b21362f7566";"Requirement";"IM217 Niveau beschikbaarheid in overleg vastgesteld";"Het niveau van beschikbaarheid is in overleg met de afnemers vastgesteld.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.
-@@Marco: Overlap IM144";""
-"id-b2be0675b4f24218ac7ac5f23f3e3f2d";"Requirement";"IM218 Bewaak continuïteit en heb calamiteitenplan";"De continuïteit van voorzieningen wordt bewaakt, bij bedreiging van de continuïteit wordt alarm geslagen en er is voorzien in een calamiteitenplan.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.
-@@Marco: Overlap IM144 en IM145.";""
-"id-c7efd8dfe4a3477ba23cd22ff91cbd05";"Requirement";"IM219 Wijzigingen in beheer dienst raken afnemer niet";"De afnemer merkt niets van wijzigingen in het beheer van de dienst.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-109fb852881b4b748a490cb939d41269";"Requirement";"IM220 Juiste werking achteraf te controleren";"AP44:
-De dienstverlener zorgt ervoor dat de beoogde toegang tot gegevens en de juiste werking van zijn systemen continu alsook achteraf te controleren is.
-Dit impliceert AP44-1:
-De   controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door   registratie en bewaking van gebeurtenissen en door alarmering op het   overschrijden van toelaatbare drempels. Specifiek voor logging: analyseer   periodieke logbestanden om de juiste werking van het systeem vast te stellen   en beveiligingsincidenten te detecteren.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-20ac4649faa844848eb56dd200a17474";"Requirement";"IM221 Garandeer beschikbaarheid van systemen";"De beschikbaarheid van gegevens en systeemfuncties wordt gegarandeerd door vermeervoudiging van systeemfuncties, door herstelbaarheid en beheersing van verwerkingen, door voorspelling van discontinuïteit en handhaving van functionaliteit. 
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-3e2d1d11ff844077b190fd7dcdc83867";"Requirement";"IM222 Toegankelijkheid gewaarborgd";"De toegankelijkheid van openbare informatie en informatie die die relevant is voor vertrouwelijke- en zaakgerelateerde diensten, is gewaarborgd. Wanneer informatie verplaatst is, of niet meer (online) beschikbaar, worden bezoekers doorverwezen naar de plaats waar deze wel te vinden is.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-4edc7430c38148e88255e31be93aed9c";"Requirement";"IM223 Controleer de gegevensverwerking";"AP42-1:
-Controle van gegevensverwerking:
-     * De criteria voor juistheid, en tijdigheid zijn vastgesteld
-     * controleren vanuit een systeemvreemde omgeving ingevoerde gegevens op   juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt.
-     * controleren te versturen gegevens op juistheid, volledigheid en   tijdigheid
-     * controleren ter verwerking aangeboden gegevens op juiste, volledig en   tijdige verwerking
-     * vergelijken periodiek kritieke gegevens die in verschillende   gegevensverzamelingen voorkomen met elkaar op consistentie. Dit geldt allee zolang als de gegevens niet frequent en integraal worden gesynchroniseerd met   de brongegevens.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
-"id-0d3ae961cf99484c8f76951a89a32827";"Requirement";"IM224 Systemen voldoen aan eisen beschikbaarheid";"ICT-voorzieningen voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.
-@@Marco: Dit is geen implicatie, maar een kwaliteitsdoel (KD06). Hier niet herhalen.";""
-"id-b481ef89fe6042c3af454bcb90bbe1af";"Requirement";"IM225 Maatregelen borgen vertrouwelijkheid gegevens";"De vertrouwelijkheid van gegevens wordt gegarandeerd door scheiding van systeemfuncties, door controle op communicatiegedrag en gegevensuitwisseling, door validatie op toegang tot gegevens en systeemfuncties en door versleuteling van gegevens.
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.
-@@Marco: Deze verwoorden naar concrete implicaties, dit stuurt niet echt en overlapt deels met andere.";""
+"id-f84a8a28ea7a470fba3e9676220d1ad6";"Requirement";"IM202 De dienst wordt gebundeld aangeboden vanuit perspectief afnemer";"De dienst wordt (vanuit perspectief van de afnemer) gebundeld aangeboden met een of meer diensten van andere organisaties. Breng hierbij de aanbod- en vraagzijde van de markt zijn in kaart:
+* Doelgroepen en hun perspectief
+* Aanverwante diensten en dienstverleners";""
+"id-fcfb3e6dc9364279a0656871a10e0b09";"Requirement";"IM203 Identificeer de voor de dienst relevante standaardoplossingen";"Inventariseer de voor de dienst relevante standaardoplossingen voor gebieden zoals:
+* identificatie
+* authenticatie
+* autorisatie
+* onweerlegbaarheid
+* encryptie
+* semantiek
+* toegankelijkheid
+* presentatie en vormgeving
+Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen in de opzet van de dienst.";""
+"id-b4d0362d9da84defb8e9598348b9ede6";"Requirement";"IM206 Gebruik open standaarden voor modellering";"Organisaties werken volgens een open standaard voor o.a. architectuur-, data- en procesmodellering die door alle samenwerkende partijen op uniforme wijze wordt toegepast. De gekozen open standaard is bepalend voor de keuze van modelleersystemen die deze standaard ondersteunen. Wissel modellen uit tussen organisaties op basis van open standaarden. Voorbeelden van modelleerstandaarden zijn ArchiMate (architectuur), UML (data) en BPMN (processen).";""
+"id-c8876d20b1994d6eb578484c3fc93794";"Requirement";"IM208 Maak afspraken over nieuwe (en oude) versies van standaarden";"De dienstverlener en de afnemers maken afspraken over de periode waarin overgegaan wordt op een nieuwe versie van de standaard. Wanneer een nieuwe versie van een standaard geïmplementeerd wordt, blijft de aanbieder de oude versie ondersteunen zolang als dat volgens afspraak nodig is.";""
+"id-ede0e3ebec144e3cb84fe745d377d439";"Requirement";"IM213 Stel de juridische aansprakelijkheid per gegevensobject vast";"Per informatie-object is de bron en daarmee de juridische aansprakelijkheid voor de juistheid van het object vastgesteld.";""
+"id-d573d86d1d0c45b7ad62df339a168b3d";"Requirement";"IM215 Authentieke gegevens uit wetgeving afgenomen uit basisregistraties";"Authentieke gegevens, zoals beschreven in de wetgeving op basisregistraties, worden afgenomen van de daartoe ingerichte basisregistraties.";""
+"id-92f4b88393b24998a2e34b21362f7566";"Requirement";"IM217 Niveau beschikbaarheid in overleg vastgesteld";"Het niveau van beschikbaarheid is in overleg met de afnemers vastgesteld.";""
+"id-b2be0675b4f24218ac7ac5f23f3e3f2d";"Requirement";"IM218 Bewaak continuïteit en heb calamiteitenplan";"De continuïteit van voorzieningen wordt bewaakt, bij bedreiging van de continuïteit wordt alarm geslagen en er is voorzien in een calamiteitenplan. Dit plan wordt op regelmatige basis getest en geëvalueerd.";""
+"id-109fb852881b4b748a490cb939d41269";"Requirement";"IM220 Juiste werking achteraf te controleren";"De dienstverlener zorgt ervoor dat de beoogde toegang tot gegevens en de juiste werking van zijn systemen continu alsook achteraf te controleren is.
+De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door  registratie en bewaking van gebeurtenissen en door alarmering op het overschrijden van toelaatbare drempels. Specifiek voor logging: analyseer periodieke logbestanden om de juiste werking van het systeem vast te stellen en beveiligingsincidenten te detecteren.";""
+"id-20ac4649faa844848eb56dd200a17474";"Requirement";"IM221 Garandeer de beschikbaarheid van systemen";"ICT-voorzieningen voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid. De beschikbaarheid van gegevens en systeemfuncties wordt gegarandeerd door vermeervoudiging van systeemfuncties, door herstelbaarheid en beheersing van verwerkingen, door voorspelling van discontinuïteit en handhaving van functionaliteit.";""
+"id-3e2d1d11ff844077b190fd7dcdc83867";"Requirement";"IM222 Toegankelijkheid gewaarborgd";"De toegankelijkheid van openbare informatie en informatie die die relevant is voor vertrouwelijke- en zaakgerelateerde diensten, is gewaarborgd. Wanneer informatie verplaatst is, of niet meer (online) beschikbaar, worden bezoekers doorverwezen naar de plaats waar deze wel te vinden is.";""
+"id-4edc7430c38148e88255e31be93aed9c";"Requirement";"IM223 Controleer de verwerking van gegevens";"Controleer de verwerking van gegevens:
+* De criteria voor juistheid, en tijdigheid zijn vastgesteld
+* controleren vanuit een systeemvreemde omgeving ingevoerde gegevens op   juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt.
+* controleren te versturen gegevens op juistheid, volledigheid en   tijdigheid
+* controleren ter verwerking aangeboden gegevens op juiste, volledig en tijdige verwerking
+* vergelijken periodiek kritieke gegevens die in verschillende gegevensverzamelingen voorkomen met elkaar op consistentie. Dit geldt allee zolang als de gegevens niet frequent en integraal worden gesynchroniseerd met de brongegevens.";""
+"id-b481ef89fe6042c3af454bcb90bbe1af";"Requirement";"IM225 Maatregelen borgen vertrouwelijkheid gegevens";"De vertrouwelijkheid van gegevens wordt gegarandeerd door scheiding van systeemfuncties, door controle op communicatiegedrag en gegevensuitwisseling, door validatie op toegang tot gegevens en systeemfuncties en door versleuteling van gegevens.";""
 "id-732a124b6a2e4ebb986d443300db8812";"Requirement";"IM500 Maak technische schuld inzichtelijk";"Technische schuld (technical debt) treedt op als er - al dan niet bewust - voor een oplossing wordt gekozen die op de korte termijn voordelig is (of lijkt) en gelijktijdig op de langere termijn extra kosten met zich meebrengt en de algehele complexiteit verhoogt. Maak technische schuld zichtbaar en stuur op het oplossen van technische schulden.";""
 "id-e1c8ddbb70684bc0849ce98f84fdc32a";"Requirement";"IM505 Gegevensuitwisseling tussen (web)applicaties met API's";"Gegevensuitwisseling tussen (web)applicaties gebeurt via Restful API's, De broneigenaar levert API's die voldoen aan de moderne RESTful standaarden. API's dienen centraal te worden beheerd in een API management systeem.";""
 "id-3f0c4005c9e345b596133770cd57d892";"Requirement";"IM506 Gegevens in rust en transport zijn versleuteld";"Alle gegevensdragers waaronder smartphones en laptops, waarop niet-publieke informatie staat, zijn versleuteld conform de laatst bekende en geldende richtlijnen. Dit reduceert het risico op een gegevenslek bij verlies van een dergelijk apparaat. Ook niet-publieke gegevens in transit worden beschermd door adequate beveiligingsmaatregelen. Dit kan door de verbinding zelf te beveiligen danwel door encryptie van de informatie zelf. Dit laatste heeft de voorkeur.";""
@@ -747,10 +723,7 @@ Controle van gegevensverwerking:
 "id-ae7659c577784ce2aed2e9589e36510b";"Requirement";"IM511 Bericht-interactie persistent verwerken";"Een bericht dat een mutatie tot gevolg heeft, bijvoorbeeld een bericht dat een betalingsopdracht representeert, mag niet verloren gaan. Een dergelijk 'transactioneel' bericht moet een incident als uitwijk of storing kunnen overleven. Alle onderdelen van een verwerkingsketen nemen verantwoordelijkheid voor het bericht en zorgen ervoor dat het bericht niet verloren gaat. Correcte verwerking heeft prioriteit boven verwerkingssnelheid. Persistentie houdt in dat een (transport)transactie pas is voltooid als het bericht is opgeslagen in een 'persistent store', zoals een bestand of database.
 Een opvragingsbericht daarentegen heeft geen mutatie tot gevolg. Responsetijd heeft hier meer prioriteit. Bij verlies van een opvragingsbericht (door bv. een storing) wordt de opvraging opnieuw gedaan. Een opvragingsbericht wordt daarom niet-persistent verwerkt.";""
 "id-63c558aae3ec4f3f957cc040c83f72d3";"Requirement";"IM520 Ken niet meer toegangrechten toe dan strikt noodzakelijk ";"Ken geen rollen en toegangsrechten toe aan accounts van gebruikers en services tenzij dat strikt noodzakelijk is (Least Privilege).";""
-"id-b27fa746203f46689f60e25284bc52f9";"Requirement";"IM522 Gebruik standaard oplossingen";"Ontwikkel geen eigen processen, systemen en technieken wanneer deze ergens anders al beschikbaar zijn. Stel je actief op de hoogte van beschikbare en geplande standaardoplossingen, om daar bij het maken van plannen rekening mee te houden. De bruikbare elementen van beschikbare standaardoplossingen zullen moeten worden ingepast in de eigen organisatie. Geen enkele standaardoplossing past altijd voor de volle honderd procent. Daarom zal de bereidheid tot het sluiten van compromissen aanwezig moeten zijn.
-Bron: 
-_D1.IMP061 Gebruik standaard oplossingen
-@@Laurens: te weinig onderscheidend met principe erboven.";""
+"id-b27fa746203f46689f60e25284bc52f9";"Requirement";"IM522 Gebruik standaard oplossingen";"Ontwikkel geen eigen processen, systemen en technieken wanneer deze ergens anders al beschikbaar zijn. Stel je actief op de hoogte van beschikbare en geplande standaardoplossingen, om daar bij het maken van plannen rekening mee te houden. De bruikbare elementen van beschikbare standaardoplossingen zullen moeten worden ingepast in de eigen organisatie. Geen enkele standaardoplossing past altijd voor de volle honderd procent. Daarom zal de bereidheid tot het sluiten van compromissen aanwezig moeten zijn.";""
 "id-28683";"Grouping";"#Bouwsteen";"";""
 "id-0504999ce61e49df8699ef95d21fff88";"Grouping";"#Laag (vijflaagsmodel)";"";""
 "id-ff64dbc7ec40487e9441bd0a379ec636";"Grouping";"#PDCA Cyclus Overheids diensten (in de keten)";"";""
