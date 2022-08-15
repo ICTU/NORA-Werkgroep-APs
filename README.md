@@ -27,4 +27,4 @@ Export naar xml uit Archi (als Open Exchange Format). Dit formaat kan worden geo
 PNG export van alle Views uit het Archimate model.
 
 ## word
-Word mailmerge exports. Bron hiervoor is de [excel].
+Word mailmerge exports. Bron hiervoor is de [excel]. Bestanden eindigend op [...Output.docx] bevatten de export.
