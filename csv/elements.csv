@@ -418,6 +418,109 @@ Verdeel de informatie in afgebakende datasets die elk afzonderlijk ook getoetst 
 "id-fb4a3ab322104934ad2343215d88c349";"Requirement";"_IM133 Vraag dezelfde gegevens niet opnieuw uit";"[Groep B] 14 [Organisatie] vraagt gegevens die zij al bezit niet opnieuw uit. Verder deelt [organisatie] die data (en de bijbehorende meta-data zoals betekenis, eigenaar, etc.) met haar ketenpartners voor zover toegestaan, en voor zover de ketenpartners die data ook nodig.";""
 "id-b13a2d4273874511a72b2af583c7f5c9";"Requirement";"_IM134 Zelf soevereiniteit over gegevens waar het kan";"Zelf soevereiniteit over gegevens waar het kan (organisatorische laag, informatielaag)
 - a. Implicaties uit het reviewcommentaar";""
+"id-b0350c5c2b5549149e63ee751199623f";"Requirement";"_IM145 Maak en test een calamiteitenplan";"D-EBA014
+Maak en test een calamiteitenplan
+Een calamiteitenplan omvat herstelplannen, noodplannen, crisiscommunicatieplan, continuïteitsplan en crisismanagementplan. Deze worden toegepast in geval van een calamiteit om de continuïteit van de bedrijfsvoering en de veiligheid van de medewerkers te waarborgen.
+Oefen en test regelmatig de werking van deze plannen.";""
+"id-b94763afdba14657964f46d8309bb854";"Requirement";"_IM148 Zelfstandige vertrouwensdiensten";"D-EIF002
+Zelfstandige vertrouwensdiensten
+Gebruik zelfstandige vertrouwensdiensten als middel om betrouwbare en uniforme gegevensbeveiliging te realiseren. Maak bijvoorbeeld gebruik van een SASE (secure access service edge).
+
+[Geinspireerd door: Use trust services according to the Regulation on eID and Trust Services as mechanisms that ensure secure and protected data exchange in public services.]";""
+"id-e4af2b0604d64a4cb050edffbf3696d7";"Requirement";"_IM154 Zelfstandige verantwoordelijkheid";"D-IAM006
+Zelfstandige verantwoordelijkheid
+Elke voorziening is zelfstandig verantwoordelijk voor zijn beveiliging. Elke voorziening moet zijn deel van de toegangsregels implementeren en dus ook verifieren.
+[CASB, application level firewalling, etc]";""
+"id-fddee6f776ad462f8344d0307e81a3aa";"Requirement";"_IM155 Schaalbaar contracteren";"D-LG001
+Schaalbaar contracteren
+Richt contracten met leveranciers in zonder limieten of beperkingen op toenemende gebruik. Monitor op het gebruik om onverwachte kostenstijgingen tijdig te signaleren. Borg dat bij afschaling de kosten ook weer gereduceerd worden.";""
+"id-eeae858aa7f046429eec882ef5003deb";"Requirement";"_IM156 Ontwerp omgevingen elastisch";"D-D1.IMP068
+Elastisch
+Maak gebruik van voorzieningen om capaciteit real-time aan het benodigde gebruik aan te kunnen passen voor opschaling en voor afschaling.
+[(denk aan clouddiensten en virtualisatietechnieken)]";""
+"id-9d11a21182d64e87920af5711b4bc57d";"Requirement";"_IM157 Identificeer zwakste schakel in schaalbaarheid";"D-LG002
+Zwakste schakel
+De schaalbaarheid van een dienst is beperkt tot de minst schaalbare component van de dienst of in de keten. Identificeer de componenten die het meest kritisch zijn voor opschaling om als eerste te verbeteren. Test de daadwerkelijke mate van schaalbaarheid.";""
+"id-7be46b9ca3b74837bdfe5fd235187504";"Requirement";"_IM158 Voer uitvoeringstoets uit";"Benut uitvoeringstoetsen om complexiteit in de uitvoering tijdig te signaleren en bij te sturen.";""
+"id-44e29f139777435ca83892c44a1368e1";"Requirement";"_IM159 Breng complexiteit in kaart";"D-AV001
+Breng complexiteit in kaart
+Benut gereedschap om de complexiteit van software te analyseren en zicht te krijgen op waar vereenvoudigingen mogelijk zijn.";""
+"id-a5521f119ac64e64bd6575057a557888";"Requirement";"_IM160 Geen maatwerk in standaardoplossingen";"Pas bij de toepassing van een standaardoplossing je werkwijze aan bij de standaarden en de best-practices die aan de oplossing ten grondslag liggen. Maak binnen een standaardoplossing geen maatwerk. Volg waar het kan de inrichtingsfilosofie van leveranciers.";""
+"id-1ecd9085f1cd49f38824fc7df2af1032";"Requirement";"_IM161 Voer impactanalyse uit";"Impactanalyses
+Benut impactanalyses als IT-effect rapportage.";""
+"id-c4be97224eef4759b3826da261c9f67e";"Requirement";"_IM163 Kwaliteit dienstverlening voldoet aan de norm";"De kwaliteit van de informatiediensten moet voldoen aan wet- en regelgeving, normen en standaarden
+- De kwaliteit van de informatiediensten moet voldoen aan wet- en regelgeving, normen en standaarden
+- DUTO eisen";""
+"id-ddc18b09db2848098321270ba3d58ec0";"Requirement";"_IM165 Wees transparent in gemaakte fouten";"Transparent in gemaakte fouten
+- [Organisatie] is transparant ten aanzien van fouten en consequenties in de intern ter beschikking gestelde data en tools
+- D1.IMP152
+@@Marco: Tevens gerelateerd aan NAP02";""
+"id-1f5f1c56d8c5460782b661fb4e005752";"Requirement";"_IM166 Maak processen en gegevensstromen meetbaar";"Maak processen/gegevensstromen/etc. meetbaar (organisatorische laag, informatielaag, applicatielaag, netwerklaag)
+- a.   Implicaties uit het reviewcommentaar";""
+"id-08876ad345dc4039967a0f43d4cf1ab9";"Requirement";"_IM167 Periodieke controles op juistheid en volledigheid";"Er moeten periodieke controles worden uitgevoerd op juistheid en volledigheid
+- De gegevens worden tijdens de gehele levenscyclus gemonitord, gecontroleerd en gevalideerd
+- DUTO eisen";""
+"id-11e0e55958db4cbe94f5e75eb4ce3ba5";"Requirement";"_IM168 Beheer gegevens als één logisch object";"Gegevens worden binnen een organisatie als 1 logisch object beheerd. Ongeacht de distributie er van over systemen, backups en intell - ?";""
+"id-5f4c4968a375462f9a04fb672b416a6c";"Requirement";"_IM169 Van ieder gegeven is de herkomst en verwerkingen beschikbaar tot aan vernietiging";"Van ieder gegeven is de herkomst en verwerkingen beschikbaar tot aan vernietiging.";""
+"id-4397defde48b4a5ba4964ab779492125";"Requirement";"_IM501 Beheer broncode centraal en automatiseer het proces van ontwerp naar productie";"Dit draagt ertoe bij dat de doorontwikkeling van applicaties en infrastructurele oplossingen kwalitatief en structureel de juiste stappen doorloopt. Dit draagt tevens bij het versnellen van de doorontwikkeling van oplossingen (kortere time to market). Dit betekent dat broncode wordt bewaard en beheerd in een centraal source code management systeem en dat deze code geautomatiseerd wordt ge-build en ge-released met (CI/CD) pipelines. Aan deze pipelines woden eisen gesteld, o.a. m.b.t. code quality, secrets en tests. De gehele ketenvoortgang is te zien: van user-story, code commit en de releae van software. Gedurende dit proces wordt de code geautomatiseerd gecontroleerd op kwaliteit ('Continuous Code Quality'). Dit bestaat uit checks op kwetsbaarheden, exploits, licentiegebruik en robuustheid. Het bovenstaande geldt niet alleen voor applicatieve, maar ook voor infrastructurele componenten (infrastructure by code) in cloud omgevingen.
+Bron: _D1.IMP500 Builds en releases zijn geautomatiseerd met pipelines
+Bron: _D1.IMP518 Source code wordt beheerd in een source code management systeem
+_D1.IMP568 Cloud Infrastructuur wordt met Infrastructure as Code beheerd
+_D1.IMP655 Applicaties worden tijdens het ontwikkelproces geautomatiseerd gecontroleerd op kwaliteit";""
+"id-0c357f038acc4ba1bd879d6ad09e6944";"Requirement";"_IM503 Security-maatregelen worden vanaf het begin ingebouwd";"Zelfgebouwde applicaties dienen ontwikkeld te worden met beveiliging in het achterhoofd. Onder security wordt alles op beveiligingsgebied bedoeld. Dus access-control, data- en transportencryptie, input validation, enz. Voor oplevering in productie moet de applicatie tegen actuale policies en richtlijnen gevalideerd worden. OWASP is hiervan een voorbeeld.
+Bron: _D1.IMP508 Security wordt vanaf het begin ingebouwd in applicaties";""
+"id-c3a99b3c2ff04607ab136ad9440cbd57";"Requirement";"_IM504 Deel applicaties op in lagen";"Een applicatie is opgedeeld in lagen. Elke laag heeft zijn eigen functie. Denk bijvoorbeeld (maar niet uitsluitend) aan een laag voor presentatie, business logica en datatoegang. De gedachte achter deze multi-tier architectuur is om software op te delen in meerdere componenten die met elkaar samenwerken. Het gebruik van componenten stimuleert het ontkoppelen en hergebruik van functionalitieit. Iedere component heeft nu zijn eigen verantwoordelijkheden.
+Bron: _D1.IMP513 Een applicatie is gelaagd qua structuur ";""
+"id-f58883c728e64af5b965c3578aed48ad";"Requirement";"_IM509 Controleer het beheer van certificaten, keys in";"Applicaties en software-componenten vereisen dat certificaten, keys worden geconfigureerd. De meeste certificaten hebben een beperkte geldigheidsduur. Wanneer niet adequaat beheerd (b.v. in een centrale omgeving) verdwijnt het overzicht met mogelijk het uitvallen van systemen tot gevolg. Toegang tot deze secrets dient te worden beperkt tot beheerders hiervan.
+Uitgegeven certificaten moeten zijn uitgegeven door een vertrouwde Certificate Authority (CA). De infrastructuur is vervolgens in staat om de door een vertrouwde CA uitgegeven certificaten te controleren op geldigheid.
+Bron:
+_D1.IMP612 Certificaten die gebruikt worden, moeten zijn uitgegeven door een vertrouwde CA
+";""
+"id-3cabfe29bbe8414997a5c09df85b1fe6";"Requirement";"_IM510 Cloud Infrastructuur wordt met Infrastructure as Code beheerd";"Cloud infrastructuur inrichting moet herhaalbaar zijn en wijzigingen moeten herleidbaar zijn. Configuratiedrift moet worden tegengegaan en inzichtelijk zijn. Dit kan door deze infrastructuur inrichting vast te leggen in code (IaC). Deze code (vaak grotendeels declaratief, in templates) zit in een source code management systeem en is voorzien van build- en releasedefinities.
+_D1.IMP568 Cloud Infrastructuur wordt met Infrastructure as Code beheerd";""
+"id-dcaafe4d17664adcbd37b9f66dafc762";"Requirement";"_IM512 Pas cloud-native componenten toe";"Ontwerp cloud oplossingen met de unieke mogelijkheden die dit biedt. Cloud-native componenten bieden mogelijkheden tot het opzetten van flexibele en schaalbare oplossingen. Alleen door de unieke mogelijkheden van de cloud te gebruiken zijn cloud-oplossingen kostenefficiënt. Het eenvoudigweg verplaatsen van on premise toepassingen naar de cloud 'lift en shift' levert niet de flexibiliteit, schaalbaarheid en kostenvoordelen op die de cloud potentieel biedt. Voorbeelden: Serverless computing maakt het mogelijk nog meer te concentreren op de business functies, daar de organisatie wordt bevrijd van de aandacht voor virtuele machines, server besturingssystemen en orchestrators. Houd rekening met het risico op vendor-lock-in.
+Bron:
+_D1.IMP575 Gebruik container technologie om grote schaalbaarheid te combineren met Cloud agnostiek
+_D1.IMP576 Gebruik serverless computing voor schaalbaarheid ten koste van Cloud agnostiek
+";""
+"id-511000fd8034476b8dbf7bf05de60985";"Requirement";"_IM513 Elke keten is benoemd en heeft een eigenaar";"Een keten is een combinatie van meerdere diensten of applicaties ('schakels') die op de één of andere manier geïntegreerd worden. Deze keten moet een eigenaar hebben met bijbehorende rechten en plichten. De keten moet:
+- voorzien zijn van een beschrijving
+- een eigenaar hebben
+- beschreven hebben welk doel deze ondersteunt
+- een dataclassificatie hebben
+- een budget hebben voor beheer en gealloceerd bij de eigenaar
+Veelal worden applicaties aan eigenaren toegewezen. Het komt vaak voor dat een applicatie in een keten van applicaties en tussenliggende koppelingen ligt. Bij verschillende eigenaren in de keten moet er iemand zijn die verantwoordelijk is voor het geheel en de 'ondereigenaren' kan aanspreken.
+_D1.IMP577 Elke keten is benoemd en heeft een eigenaar";""
+"id-6d08d756b71f434f86703f0aa6169b44";"Requirement";"_IM514 Berichten in een keten zijn herleidbaar tot hun ketenfunctie";"Elk bericht heeft een initiator en één (of meerdere) eindontvanger(s). In een keten zijn er meerdere tussenstations. Indien een bericht niet herkenbaar is waar deze vanuit geïnitieerd wordt, kan de verkeerde interpretatie worden gegeven en moet het bericht als ongeldig behandeld worden. Door aan te geven welke (initiërende) functie het bericht initieert, kan worden vastgesteld wie verantwoordelijk is voor de creatie van het bericht. Het maakt hierbij niet uit waar het bericht zich bevindt. Het kan op een queue staan, in een REST call belanden, bij de orchestrator staan, ook in een bestand. Zie ook https://www.enterpriseintegrationpatterns.com/
+Bron:
+_D1.IMP590 Berichten in een keten zijn herleidbaar tot hun ketenfunctie";""
+"id-35d1a44071ae4f6caab55dc5ff97036d";"Requirement";"_IM515 Cloud resources hebben herleidbaarheids kenmerken";"Cloud resources kosten geld. Deze kosten moeten kunnen worden doorbelast, bij voorkeur zo direct mogelijk aan het bedrijfsonderdeel die deze cloudresources gebruikt. Dit vereist dat cloud resources worden 'getagd'. Bij verstoringen of security incident is door middel van tags veel sneller duidelijk met welke belanghebbenden contact moet worden opgenomen. Ook andere informatie kan aan deze tags worden gekoppeld, zoals welke resources de status 'in productie' hebben.
+Bron:
+_D1.IMP592 Cloud resources hebben herleidbaarheids kenmerken";""
+"id-847d2125a2624b08997dc0f0befefc9e";"Requirement";"_IM516 Iedere kritische workload heeft een continuïteits- en exit plan";"Voor iedere kritische (cloud) workload is zowel een continuïteits als exit plan beschikbaar. Als overheidsorganisatie blijf je zelf eindverantwoordelijk voor de uitwijk en samenhang daarvan, ook als operationele verantwoordelijkheden worden overgebracht naar verschillende (cloud) leveranciers. Het continuïteits- of beveiligingsrisico wordt altijd per workload bekeken. Indien het continuïteits of beveiligingsrisico onaanvaardbaar groot wordt, kan het exit plan worden uitgevoerd waarmee de overheidsorganisatie de controle over de workload terugkrijgt en daardoor de risico's beheerst. Denk hierbij aan bijvoorbeeld serieuze problemen in de bedrijfsvoering van/bij de cloudprovider of overname van de cloudprovider door een andere partij.
+Bron:
+_D1.IMP595 Iedere kritische workload heeft een continuiteits- en exit-plan
+@@Marco: Deze lijkt op IM144 en IM145 maar is niet hetzelfde. Beteft vooral aanvullend op deze lagen. Met name hebben exit strategie per workload is belangrijk om expliciet te noemen!";""
+"id-89204dba1fde40f08737a8ddab16166c";"Requirement";"_IM517 Alle data van een workload is te exporteren naar een standaard formaat";"Alle data die wordt verwerkt door een cloudprovider als onderdeel van één of meer workloads (applicaties) is te exporeren naar een open industrie-standaard formaat, zodat deze data eenvoudig kan worden verplaatst. Dit is noodzakelijk voor het gebruik in een exit strategie of voor andere doeleinden. Naast het praktische nut voor de eigen data mobiliteit kan voor sommige gegevensverzamelingen gelden dat individuen een recht hebben op data-overdraagbaarheid (in het geval deze persoonsgegevens hebben verstrekt).
+Bron:
+_D1.IMP600 Alle data van een workload is te exporteren naar een standaard formaat
+@@Laurens: Mogelijk overeenkomst met andere implicaties over standaard formaten (voor DUTO).";""
+"id-25079aad4b6047d782516239bee7ce03";"Requirement";"_IM518 Om toegang te krijgen heeft een gebruiker een unieke identiteit";"Om toegang te krijgen tot applicaties en informatie dient een gebruiker zich kenbaar te maken met zijn unieke identiteit wat resulteert in een behaald authenticatieniveau.
+Authenticatie is het proces waarbij iemand nagaat of een gebruiker, device of applicatie daadwerkelijk is wie hij, zij of het beweert te zijn. Bij de authenticatie wordt gecontroleerd of een opgegeven bewijs van identiteit overeenkomt met de geregistreerde echtheidskenmerken, bijvoorbeeld een in het systeem geregistreerd bewijs. De authenticiteit van het object moet worden nagegaan. Authenticatie is de tweede stap in het toegangscontroleproces. De eerste stap is identificatie, de derde en laatste stap is autorisatie.
+Bron:
+_D1.IMP607 Om toegang te krijgen heeft een gebruiker een unieke identiteit";""
+"id-3583b4d61e13407dbd2ef1437a5d5f16";"Requirement";"_IM519 Eigenaar in control over gegevens verzamelingen en -verwerkingen";"Gegevens en/of systeem-eigenaren zijn ervoor verantwoordelijk controle te hebben en te houden op hun kritieke assets: gegevensverzamelingen en -verwerkingen. En zorg te dragen voor een beheerste en rechtmatige verwerking van gegevens. Voorkomen moet worden dat niet langer gebruikte gegevens achterblijven in systemen van bv. cloudproviders. Metadata dient daarom te worden vastgesteld voor data life cycle management. 
+Bron:
+_D1.IMP596 Eigenaar in control over gegevens verzamelingen en -verwerkingen";""
+"id-eb5637431cc64aaba94406e6958cae60";"Requirement";"_IM520 Ontwikkelomgeving is gescheiden van productie en acceptatie";"Productie, acceptatie, test en ontwikkelomgevingen zijn altijd van elkaar gescheiden. In principe wordt er niet in een productie-omgeving ontwikkeld. Ontwikkel- en testactiviteiten mogen de productie- en acceptatie-omgevingen nooit verstoren. Onbedoelde uitwisseling van verkeer tussen deze omgevingen is niet mogelijk. Dit geldt voor zowel on premise (lokaal) als cloud omgevingen. 
+Bron:
+_D1.IMP628 Ontwikkelomgeving is gescheiden van productie en acceptatie";""
+"id-f988e383812942e2ba246773b9f93c56";"Requirement";"_IM521 Applicaties zijn signed";"Applicaties, drivers, scripts en macro's worden - na testen - gesigned. Door deze signing zijn wijzigingen in deze software direct te detecteren en te blokkeren. De werkstations en servers voeren alleen signed applicaties, drivers, macro's en scripts uit, waarvan de signature/hash bekend is. De ondertekening wordt gedaan door vertrouwde leveranciers of door de organisatie zelf.
+Bron:
+_D1.IMP636 Alleen signed applicaties, drivers en scripts mogen worden uitgevoerd in de [Organisatie] omgeving";""
+"id-3d8e01c87acc4bfba5b28d0d0ec4d825";"Requirement";"_IM523 Uniformiteit in presentatie";"Uniformiteit (en standaardisatie) heeft ook betrekking op de presentatie en gebruikservaring (look & feel) voor de afnemers van overheidsdiensten.
+Bron:
+_D1.IMP062 Uniformiteit in presentatie (look & feel)";""
 "id-511fba2f031e442fb2aad7f5a5ba8ea5";"Requirement";"IM001 Beschrijf informatieobjecten in een model";"Voor een optimale dienstverlening aan de burgers en voor effectieve en efficiënte samenwerking in het leveren van diensten tussen en binnen overheidsorganisaties, is het belangrijk om een gezamenlijk beeld te hebben van de informatie die hierbinnen worden gebruikt en nodig zijn. Dit is alleen mogelijk door informatieobjecten, voor een dienst, systematisch te beschrijven met behulp van een informatiemodel dat de semantiek en syntax van de gegevens vastlegt. Zodat de betrokken gebruikers de relevante informatieobjecten kunnen vinden, toepassen, (her)gebruiken en archiveren.Dit betekent dat een informatiemodel minimaal bevat:
 * Informatietypen (entiteiten) (een ordening van informatieobjecten in zogenaamde informatietypen, ook wel de hoofdstructuur (entiteiten) van het informatiemodel met hun onderlinge relaties.
 * Attributen (een ordening elementen die binnen de entiteiten zijn of worden opgenomen met de beschrijving daarvan).
@@ -457,7 +560,7 @@ Vanuit o.a. de WOO richt de overheid zich op transparantie. Daarbij hoort het ac
 * Maak duidelijke afspraken over de gegarandeerde levensduur van de aangeboden dienst.
 * Stem de opzet van je diensten af met dienstverleners van verwante diensten om overlap en dubbel werk te voorkomen. Voordat je een eigen dienst maakt, bekijk eerst of er al iets soortgelijks aanwezig is.
 * Vraag en aanbod van diensten vind plaats door bundeling op overheidsniveau.";""
-"id-7dbcc119c06e48348a6271e29f37477c";"Requirement";"IM058 Gebruik standaard oplossingen zonder maatwerk";"Gebruik een standaardoplossing [lees: pakketoplossing] zoveel mogelijk ongewijzigd, dus zonder maatwerkaanpassingen.";""
+"id-7dbcc119c06e48348a6271e29f37477c";"Requirement";"IM058 Gebruik standaard oplossingen zonder maatwerk";"Gebruik een standaardoplossing [zoals bijvoorbeeld een pakketoplossing] zoveel mogelijk ongewijzigd, dus zonder maatwerkaanpassingen. Pas bij de toepassing van een standaardoplossing je werkwijze aan bij de standaarden en de best-practices die aan de oplossing ten grondslag liggen. Volg waar het kan de inrichtingsfilosofie van leveranciers.";""
 "id-a4558b4062b9462fa5bec72719c26e62";"Requirement";"IM059 Pas eigen proces en organisatie aan naar standaard oplossing i.p.v. omgekeerd";"Pas je processen en organisatie aan de standaard oplossingen aan, in plaats van het omgekeerde. Zie ook EIF principle 4 ""Reusability"", aanbeveling 6+7.";""
 "id-836447ef7eef45f88e3670ef06b955a5";"Requirement";"IM060 Gebruik open source";"Bij gelijke geschiktheid heeft Open Source software de voorkeur bij het ontwikkelen van een dienst. Zie ook EIF principle 2 ""Openness"", aanbeveling 3.";""
 "id-ebcec6c0cfda4092b4fac5e94076279f";"Requirement";"IM061 Diensten zijn herbruikbaar";"De dienst is zodanig opgezet, dat andere organisaties deze in eigen diensten kunnen hergebruiken. De opzet van de dienst anticipeert op onvoorziene afnemers en gebruik. Deze implicatie beoogt de dienst interoperabel en bruikbaar voor een zo groot mogelijke groep afnemers te maken. Dit draagt bij aan een hoger rendement van de dienst. Hiervoor is het nodig dat de dienst:
@@ -508,7 +611,7 @@ https://www.go-fair.org/fair-principles/";""
 * Er cyclisch gerapporteerd moet worden over de kwaliteit van de gegevens. Voor afwijkingen moeten de juiste maatregelen worden getroffen om de betrouwbaarheid en de kwaliteit van de informatie te kunnen waarborgen.
 * De informatie moet door de gehele lifecycle gevolgd kunnen worden vanaf de oorsprong tot aan het verwerken, opslaan, bewerken en beschikbaar stellen en/of vernietigen. (data-lineage).
 * Er gebruik moet worden gemaakt van authentieke- en/of kwalitatieve bronnen.";""
-"id-30413c6cc4154b95923b0bc2c7994487";"Requirement";"IM113 Gegevens zijn herleidbaar tot de bron (herkomst)";"Dit betekent dat inzichtelijk gemaakt moet worden hoe gegevens tot stand zijn gekomen, over de gehele verwerking in de keten heen. Dus van bronnen tot eindproduct.";""
+"id-30413c6cc4154b95923b0bc2c7994487";"Requirement";"IM113 Gegevens zijn herleidbaar tot de bron (herkomst)";"Dit betekent dat inzichtelijk gemaakt moet worden hoe gegevens tot stand zijn gekomen, over de gehele verwerking in de keten heen. Dus van bronnen tot eindproduct. Van ieder gegeven zijn de herkomst en verwerkingen beschikbaar tot aan vernietiging";""
 "id-450a6bedbac049f6b37d552554ea4451";"Requirement";"IM116 Leg auditlogs vast bij de bronregistratie van het gegeven";"Als eigenaar van de bron wil je inzicht hebben in de toegang en inzage (CRUD) van de gegevens die vanuit de bron worden gebruikt. Voorkom dat auditgegevens verspreid raken over afnemende applicaties.";""
 "id-fd57b7ad95744b9b97fbf03006886291";"Requirement";"IM117 Sla informatie op in een duurzaam toegankelijk bestandsformaat";"Informatie moet toegankelijk zijn voor gebruikers, zowel mens als machine. Hiervoor moeten de gebruikers geen speciale toepassingen of hulpmiddelen nodig hebben. Daarbij moet het formaat waar de informatie in wordt opgeslagen toekomstbestendig zijn, zodat de informatie ook in de toekomst nog toegankelijk is. Dit betekent dat:
 * Gebruik wordt gemaakt van een open standaard.
@@ -530,96 +633,18 @@ https://www.go-fair.org/fair-principles/";""
 "id-100e6e5157134564ae9b29317759632b";"Requirement";"IM140 Gegevens worden gehaald (pull) i.p.v. gebracht (push)";"Pull ipv push (gegevens worden gehaald ipv gebracht).";""
 "id-3f279598e31f46378e11e4339758ebd9";"Requirement";"IM141 Autorisaties worden bepaald o.b.v. metadata";"Autorisaties voor het verstrekken en gebruik van gegevens kan worden bepaald op basis van metadata. De beheerder die het gegeven beheert en het wil verstrekken voor verdere bewerking, voegt metadata toe aan de hand waarvan de beheerder en de afnemer een autorisatiebeslissing kan nemen.";""
 "id-1642fb37afeb43a1989dbca68c5d1c66";"Requirement";"IM142 Richt je op reduceren van rest-risico's";"Besteed speciale aandacht aan de rest-risico's die overblijven na toepassen van de standaard maatregelen die op basis van de BIO of vanuit de AVG zijn ingericht en weeg de consequenties van de maatregelen af tegen het accepteren van het rest-risico. De verantwoordelijke voor het bedrijfsmiddel moet de rest-risico's accepteren.";""
-"id-921bf26a634d46579fa610860594b507";"Requirement";"IM143 Evalueer de risicoanalyse bij veranderingen";"D-EBA011
-Evalueer de risicoanalyse bij veranderingen
-Een verandering in het dreigingsprofiel, of in een bedrijfsproces of in de onderliggende voorzieningen kan een mogelijke kwetsbaarheid introduceren of gevolgen hebben voor de veiligheidsbelangen van stakeholders. Een verandering kan de kans of de impact van een dreiging veranderen.";""
-"id-ed44fb472eb84577842f50fa03a9d6a6";"Requirement";"IM144 Bepaal de continuïteitseisen";"D-EBA013
-Bepaal de continuïteitseisen
-Continuïteitseisen vormen de input voor het maken van een calamiteitenplan. Voorbeelden van continuïteitseisen zijn Maximum Tolerable Outage (MTO), Recovery Time Objective (RTO), Recovery Point Objective (RPO).";""
-"id-b0350c5c2b5549149e63ee751199623f";"Requirement";"IM145 Maak en test een calamiteitenplan";"D-EBA014
-Maak en test een calamiteitenplan
-Een calamiteitenplan omvat herstelplannen, noodplannen, crisiscommunicatieplan, continuïteitsplan en crisismanagementplan. Deze worden toegepast in geval van een calamiteit om de continuïteit van de bedrijfsvoering en de veiligheid van de medewerkers te waarborgen.
-Oefen en test regelmatig de werking van deze plannen.";""
-"id-8b85ceb5c5fd4b6aba3ada960eeb0ad7";"Requirement";"IM146 Onweerlegbaarheid";"D-D1.IMP187
-Neem maatregelen om de onweerlegbaarheid van berichtenverkeer en transacties te garanderen als daartoe vanuit integriteitsvereisten en vanuit risicoafwegingen aanleiding toe is.
-[Integriteit van het dataobject gedurende de gehele lifecycle (denk ook aan authenticiteit van bijv videobeelden)]";""
-"id-9b30aa2ac7ae4a08821d29907469c493";"Requirement";"IM147 Verifieer de datakwaliteit";"D-IMP001
-Verifieer de datakwaliteit
-Controleer de kwaliteit van data bij invoer en op ieder koppelvlak aan de hand van de vastgestelde kwaliteitseisen. Eenmaal geverifieerd hoeft een verificatie niet opnieuw plaats te vinden als de eerder uitgevoerde verificatie nog betrouwbaar is. Betrouwbaar wil zeggen dat er zekerheid is dat de verificatie is uitgevoerd én dat is geverifieerd met de juiste kwaliteitscriteria én dat de uitkomst nog actueel is. ‘Actueel’ impliceert een houdbaarheidsdatum van de uitkomsten van de verificatie.";""
-"id-b94763afdba14657964f46d8309bb854";"Requirement";"IM148 Zelfstandige vertrouwensdiensten";"D-EIF002
-Zelfstandige vertrouwensdiensten
-Gebruik zelfstandige vertrouwensdiensten als middel om betrouwbare en uniforme gegevensbeveiliging te realiseren. Maak bijvoorbeeld gebruik van een SASE (secure access service edge).
-
-[Geinspireerd door: Use trust services according to the Regulation on eID and Trust Services as mechanisms that ensure secure and protected data exchange in public services.]";""
-"id-16931fb47aae4691b3d06050e3952626";"Requirement";"IM149 Richt een sterke logging en audit-trail in";"D-EBA008
-Logging is fundamenteel in applicaties. Richt een sterke logging en audit-trail in.
-Logbestanden en audit-trails spelen een sleutelrol in het detecteren van aanvallen en het afhandelen van incidenten. Zorg dat elke applicatie en elk systeem voldoende loginformatie genereert.
-@@Marco - hier nog wat meer concretisering: Gebruik standaard componenten of libraries voor logging. Maak een ontwerp voor je log-systeem. Hierin moet duidelijk worden wat gelogd wordt en wanneer. Logberichten moeten zo veel mogelijk informatie bevatten over hetgeen er gebeurd is (wie, wat, waar, wanneer) en moeten op het juiste niveau gelogd worden. Let op: logberichten mogen GEEN persoonlijke kenmerken (AVG/GDPR) en security kenmerken (zoals wachtwoorden) bevatten.
-";""
-"id-8f709fb8c0294e83968826833a01cf70";"Requirement";"IM150 Verifieer de werking van algoritmes";"D-IMP002
-Verifieer de werking van algoritmes
-Kijk doorlopend hoe applicaties functioneren en of uitkomsten van functies en modellen passen binnen de specificaties en dat er bijvoorbeeld geen ""modeldrift"" plaatsvindt, of ""bias"" ontstaat.";""
-"id-ad672ba04a3641e6835ff8508bc68b58";"Requirement";"IM151 Toegang tot applicaties en informatie afhankelijk van authenticatieniveau";"Een gebruiker dient allereerst geautoriseerd te zijn om een applicatie te mogen gebruiken of gegevens te mogen inzien. Hierbij speelt het behaalde niveau van authenticatie een rol. Als bijvoorbeeld informatie met een tweede factor (MFA) moet zijn afgeschermd krijgt de gebruiker geen toegang als hij/zij slechts met een gebruikersnaam/wachtwoord combinatie kan authenticeren.
-Na succesvolle authenticatie kan bepaald worden of een gebruiker de applicatie mag gebruiken (of informatie mag inzien) aan de hand van autorisatieregels.
-Bron:
-_D1.IMP609 Toegang tot applicaties en informatie afhankelijk van het bereikte authenticatieniveau
-";""
-"id-c876131382024e349d08b1eb609d079c";"Requirement";"IM152 Hanteer het ""zero-trust"" model";"D-IMP003
-Hanteer het ""zero-trust""-model
-Ga nooit uit van een impliciet vertrouwen. Controleer overal het netwerkverkeer. Controleer toegang per sessie. Hanteer dynamische policies en gebruik daarbij de gedligheidsduur van de laatste authenticatie. Blijf continue monitoren. Dwing authenticatie en autorisatie strict af. Verzamel zoveel mogelijk gegevens om de beveiliging te blijven verbeteren.";""
-"id-0c18041c05284b56a3f559cd47257fd4";"Requirement";"IM153 Segmenteer het netwerk";"D-EBA012
-Het segmenteren van het netwerk beperkt de gevolgen van een aanval. Segmenteren betekent dat een netwerk in meerdere zones wordt verdeeld, waartussen een inspectiepunt ontstaat. Netwerksegmentatie voorkomt dat een virus of aanvaller zich kan verspreiden in het gehele netwerk. Afhankelijk van de wijze van implementatie is netwerksegmentatie een maatregel die de gevolgen van ransomware-aanvallen of DDoS-aanvallen beperkt.
-Bron: _D1.IMP557 Netwerksegmentatie moet worden uitgevoerd";""
-"id-e4af2b0604d64a4cb050edffbf3696d7";"Requirement";"IM154 Zelfstandige verantwoordelijkheid";"D-IAM006
-Zelfstandige verantwoordelijkheid
-Elke voorziening is zelfstandig verantwoordelijk voor zijn beveiliging. Elke voorziening moet zijn deel van de toegangsregels implementeren en dus ook verifieren.
-[CASB, application level firewalling, etc]";""
-"id-fddee6f776ad462f8344d0307e81a3aa";"Requirement";"IM155 Schaalbaar contracteren";"D-LG001
-Schaalbaar contracteren
-Richt contracten met leveranciers in zonder limieten of beperkingen op toenemende gebruik. Monitor op het gebruik om onverwachte kostenstijgingen tijdig te signaleren. Borg dat bij afschaling de kosten ook weer gereduceerd worden.";""
-"id-eeae858aa7f046429eec882ef5003deb";"Requirement";"IM156 Ontwerp omgevingen elastisch";"D-D1.IMP068
-Elastisch
-Maak gebruik van voorzieningen om capaciteit real-time aan het benodigde gebruik aan te kunnen passen voor opschaling en voor afschaling.
-[(denk aan clouddiensten en virtualisatietechnieken)]";""
-"id-9d11a21182d64e87920af5711b4bc57d";"Requirement";"IM157 Identificeer zwakste schakel in schaalbaarheid";"D-LG002
-Zwakste schakel
-De schaalbaarheid van een dienst is beperkt tot de minst schaalbare component van de dienst of in de keten. Identificeer de componenten die het meest kritisch zijn voor opschaling om als eerste te verbeteren. Test de daadwerkelijke mate van schaalbaarheid.";""
-"id-7be46b9ca3b74837bdfe5fd235187504";"Requirement";"IM158 Voer uitvoeringstoets uit";"Benut uitvoeringstoetsen om complexiteit in de uitvoering tijdig te signaleren en bij te sturen.";""
-"id-44e29f139777435ca83892c44a1368e1";"Requirement";"IM159 Breng complexiteit in kaart";"D-AV001
-Breng complexiteit in kaart
-Benut gereedschap om de complexiteit van software te analyseren en zicht te krijgen op waar vereenvoudigingen mogelijk zijn.";""
-"id-a5521f119ac64e64bd6575057a557888";"Requirement";"IM160 Volg inrichtingsfilosofie leveranciers";"D-D1.IMP069
-Volg de inrichtingsfilosofie van leveranciers
-Pas bij de toepassing van een standaard oplossing je werkwijze aan bij de inrichtingsfilosofie en de best-practices die aan de oplossing ten grondslag liggen. Maak binnen een standaardoplossing geen maatwerk.
-[Combinatie van verschillende DNB-voorschriften.]
-47 [Organisatie] volgt de   inrichtingsfilosofie van de leveranciers en past zich aan de in de oplossing   besloten werkwijze en processen, in plaats van het omgekeerde, en accepteert   de consequenties van deze impliciete standaardisatie volgens de 'less is more'";""
-"id-1ecd9085f1cd49f38824fc7df2af1032";"Requirement";"IM161 Voer impactanalyse uit";"Impactanalyses
-Benut impactanalyses als IT-effect rapportage.";""
-"id-8d1439656d4f455a90753b7549d06394";"Requirement";"IM162 Taken en verantwoordelijkheden gegevensverwerking bekend";"Verantwoordelijkheden, bevoegdheden en taken bij gegevensverwerking zijn bepaald en bekend
-- ?";""
-"id-c4be97224eef4759b3826da261c9f67e";"Requirement";"IM163 Kwaliteit dienstverlening voldoet aan de norm";"De kwaliteit van de informatiediensten moet voldoen aan wet- en regelgeving, normen en standaarden
-- De kwaliteit van de informatiediensten moet voldoen aan wet- en regelgeving, normen en standaarden
-- DUTO eisen";""
-"id-218e7b3beeea455da20fdad7f1c9e4e6";"Requirement";"IM164 Data governance is geregeld";"Data governance is geregeld
-- [Organisatie] hanteert een aanpak voor de governance van informatie (en data).
-In deze aanpak is eigenaarschap en beheer van informatieobjecten geregeld
-- D1.IMP117";""
-"id-ddc18b09db2848098321270ba3d58ec0";"Requirement";"IM165 Wees transparent in gemaakte fouten";"Transparent in gemaakte fouten
-- [Organisatie] is transparant ten aanzien van fouten en consequenties in de intern ter beschikking gestelde data en tools
-- D1.IMP152
-@@Marco: Tevens gerelateerd aan NAP02";""
-"id-1f5f1c56d8c5460782b661fb4e005752";"Requirement";"IM166 Maak processen en gegevensstromen meetbaar";"Maak processen/gegevensstromen/etc. meetbaar (organisatorische laag, informatielaag, applicatielaag, netwerklaag)
-- a.   Implicaties uit het reviewcommentaar";""
-"id-18c654522d1a4d67869a90fabf0c87c9";"Requirement";"IM166 Van ieder gegeven is de kwaliteit bekend";"IM166 Van ieder gegeven kan de kwaliteit bepaald worden
-- Kwaliteit wordt bepaald door hoe het tot stand is gekomen - ?
-@@Marco: Overlap IM114";""
-"id-08876ad345dc4039967a0f43d4cf1ab9";"Requirement";"IM167 Periodieke controles op juistheid en volledigheid";"Er moeten periodieke controles worden uitgevoerd op juistheid en volledigheid
-- De gegevens worden tijdens de gehele levenscyclus gemonitord, gecontroleerd en gevalideerd
-- DUTO eisen";""
-"id-11e0e55958db4cbe94f5e75eb4ce3ba5";"Requirement";"IM168 Beheer gegevens als één logisch object";"Gegevens worden binnen een organisatie als 1 logisch object beheerd. Ongeacht de distributie er van over systemen, backups en intell - ?";""
-"id-5f4c4968a375462f9a04fb672b416a6c";"Requirement";"IM169 Van ieder gegeven is de herkomst en verwerkingen beschikbaar tot aan vernietiging";"Van ieder gegeven is de herkomst en verwerkingen beschikbaar tot aan vernietiging
-- ?
-@@Marco: Overlap IM113";""
+"id-921bf26a634d46579fa610860594b507";"Requirement";"IM143 Evalueer de risicoanalyse bij veranderingen";"Een verandering in het dreigingsprofiel, of in een bedrijfsproces of in de onderliggende voorzieningen kan een mogelijke kwetsbaarheid introduceren of gevolgen hebben voor de veiligheidsbelangen van stakeholders. Een verandering kan de kans of de impact van een dreiging veranderen.";""
+"id-ed44fb472eb84577842f50fa03a9d6a6";"Requirement";"IM144 Bepaal de continuïteitseisen";"Continuïteitseisen vormen de input voor het maken van een calamiteitenplan. Voorbeelden van continuïteitseisen zijn Maximum Tolerable Outage (MTO), Recovery Time Objective (RTO), Recovery Point Objective (RPO).";""
+"id-8b85ceb5c5fd4b6aba3ada960eeb0ad7";"Requirement";"IM146 Onweerlegbaarheid";"Stel vast voor welke berichtenstromen of transacties onweerlegbaarheid van gegevens vereist is om daarvoor aanvullende maatregelen te kunnen nemen.";""
+"id-9b30aa2ac7ae4a08821d29907469c493";"Requirement";"IM147 Verifieer de kwaliteit van gegevens van het begin tot het einde van het proces";"Controleer de kwaliteit van gegevens vanaf invoer en op ieder koppelvlak aan de hand van de vastgestelde kwaliteitseisen. Eenmaal geverifieerd hoeft een verificatie niet opnieuw plaats te vinden als de eerder uitgevoerde verificatie nog betrouwbaar is.";""
+"id-16931fb47aae4691b3d06050e3952626";"Requirement";"IM149 Richt een sterke logging en audit-trail in";"Logging is fundamenteel in applicaties. Richt een sterke logging en audit-trail in. Logbestanden en audit-trails spelen een sleutelrol in het detecteren van aanvallen en het afhandelen van incidenten. Zorg dat elke applicatie en elk systeem voldoende Logberichten moeten zo veel mogelijk informatie bevatten over hetgeen er gebeurd is (wie, wat, waar, wanneer) en moeten op het juiste niveau gelogd worden. Let op dat logberichten mogen geen persoonlijke (AVG/GDPR) en security kenmerken (zoals wachtwoorden) bevatten.";""
+"id-8f709fb8c0294e83968826833a01cf70";"Requirement";"IM150 Verifieer de werking van algoritmes";"Kijk doorlopend hoe applicaties functioneren en of uitkomsten van functies en modellen passen binnen de specificaties en dat er bijvoorbeeld geen ""modeldrift"" plaatsvindt, of ""bias"" ontstaat.";""
+"id-ad672ba04a3641e6835ff8508bc68b58";"Requirement";"IM151 Toegang tot applicaties en informatie afhankelijk van authenticatieniveau";"Een gebruiker dient allereerst geautoriseerd te zijn om een applicatie te mogen gebruiken of gegevens te mogen inzien. Hierbij speelt het behaalde niveau van authenticatie een rol. Als bijvoorbeeld informatie met een tweede factor (MFA) moet zijn afgeschermd krijgt de gebruiker geen toegang als hij/zij slechts met een gebruikersnaam/wachtwoord combinatie kan authenticeren. Na succesvolle authenticatie kan bepaald worden of een gebruiker de applicatie mag gebruiken (of informatie mag inzien) aan de hand van autorisatieregels.";""
+"id-c876131382024e349d08b1eb609d079c";"Requirement";"IM152 Hanteer het ""zero-trust"" model";"Ga nooit uit van een impliciet vertrouwen. Controleer overal het netwerkverkeer. Controleer toegang per sessie. Hanteer dynamische policies en gebruik daarbij de gedligheidsduur van de laatste authenticatie. Blijf continue monitoren. Dwing authenticatie en autorisatie strict af. Verzamel zoveel mogelijk gegevens om de beveiliging te blijven verbeteren.";""
+"id-0c18041c05284b56a3f559cd47257fd4";"Requirement";"IM153 Segmenteer het netwerk";"Het segmenteren van het netwerk beperkt de gevolgen van een aanval. Segmenteren betekent dat een netwerk in meerdere zones wordt verdeeld, waartussen een inspectiepunt ontstaat. Netwerksegmentatie voorkomt dat een virus of aanvaller zich kan verspreiden in het gehele netwerk. Afhankelijk van de wijze van implementatie is netwerksegmentatie een maatregel die de gevolgen van ransomware-aanvallen of DDoS-aanvallen beperkt.";""
+"id-8d1439656d4f455a90753b7549d06394";"Requirement";"IM162 Taken en verantwoordelijkheden gegevensverwerking bekend";"Verantwoordelijkheden, bevoegdheden en taken bij gegevensverwerking zijn bepaald en bekend.";""
+"id-218e7b3beeea455da20fdad7f1c9e4e6";"Requirement";"IM164 Richt data governance in";"Data governance staat aan de basis van goed gegevenbeheer. Het betreft alle afspraken (en structuren) waarmee je vastlegt hoe gebruik te maken van de beschikbare gegevens en de gegevenskwaliteit en veiligheid hiervan te waarborgen. Hierbij hoort ook het vastleggen van datastandaarden, visie en strategie. Inclusief wie welke verantwoordelijkheid hierin heeft. Zie ook https://www.dama.org/cpages/body-of-knowledge";""
+"id-18c654522d1a4d67869a90fabf0c87c9";"Requirement";"IM166 Van ieder gegeven is de kwaliteit bekend";"Stel voor ieder gegeven de kwaliteit vast volgens kenmerken van compleetheid, actualiteit en tijdigheid.";""
 "id-598e6ba80d3b49b49b5be37feb655e0c";"Requirement";"IM200 Afstemming is gezocht met de andere relevante (overheids)dienstverleners.";"AP21-2
 @@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.";""
 "id-4cd5b0638c69416ca264f875b776f3eb";"Requirement";"IM201 De aanbod- en vraagzijde van de markt zijn in kaart gebracht";"AP21-1 De aanbod- en vraagzijde van de markt zijn in kaart gebracht:
@@ -714,96 +739,18 @@ Controle van gegevensverwerking:
 "id-b481ef89fe6042c3af454bcb90bbe1af";"Requirement";"IM225 Maatregelen borgen vertrouwelijkheid gegevens";"De vertrouwelijkheid van gegevens wordt gegarandeerd door scheiding van systeemfuncties, door controle op communicatiegedrag en gegevensuitwisseling, door validatie op toegang tot gegevens en systeemfuncties en door versleuteling van gegevens.
 @@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.
 @@Marco: Deze verwoorden naar concrete implicaties, dit stuurt niet echt en overlapt deels met andere.";""
-"id-732a124b6a2e4ebb986d443300db8812";"Requirement";"IM500 Houd technical debt transparant";"Bron: _D1.IMP503 Technical debt in applicaties is transparant
-Technical debt treedt op als er - al dan niet bewust - voor een oplossing wordt gekozen die op de korte termijn voordelig is (of lijkt) en gelijktijdig op de langere termijn extra kosten met zich meebrengt en de algehele complexiteit verhoogt. Technische schuld moet transparant zijn en actief worden tegengegaan.";""
-"id-4397defde48b4a5ba4964ab779492125";"Requirement";"IM501 Beheer broncode centraal en automatiseer het proces van ontwerp naar productie";"Dit draagt ertoe bij dat de doorontwikkeling van applicaties en infrastructurele oplossingen kwalitatief en structureel de juiste stappen doorloopt. Dit draagt tevens bij het versnellen van de doorontwikkeling van oplossingen (kortere time to market). Dit betekent dat broncode wordt bewaard en beheerd in een centraal source code management systeem en dat deze code geautomatiseerd wordt ge-build en ge-released met (CI/CD) pipelines. Aan deze pipelines woden eisen gesteld, o.a. m.b.t. code quality, secrets en tests. De gehele ketenvoortgang is te zien: van user-story, code commit en de releae van software. Gedurende dit proces wordt de code geautomatiseerd gecontroleerd op kwaliteit ('Continuous Code Quality'). Dit bestaat uit checks op kwetsbaarheden, exploits, licentiegebruik en robuustheid. Het bovenstaande geldt niet alleen voor applicatieve, maar ook voor infrastructurele componenten (infrastructure by code) in cloud omgevingen.
-Bron: _D1.IMP500 Builds en releases zijn geautomatiseerd met pipelines
-Bron: _D1.IMP518 Source code wordt beheerd in een source code management systeem
-_D1.IMP568 Cloud Infrastructuur wordt met Infrastructure as Code beheerd
-_D1.IMP655 Applicaties worden tijdens het ontwikkelproces geautomatiseerd gecontroleerd op kwaliteit";""
-"id-0c357f038acc4ba1bd879d6ad09e6944";"Requirement";"IM503 Security-maatregelen worden vanaf het begin ingebouwd";"Zelfgebouwde applicaties dienen ontwikkeld te worden met beveiliging in het achterhoofd. Onder security wordt alles op beveiligingsgebied bedoeld. Dus access-control, data- en transportencryptie, input validation, enz. Voor oplevering in productie moet de applicatie tegen actuale policies en richtlijnen gevalideerd worden. OWASP is hiervan een voorbeeld.
-Bron: _D1.IMP508 Security wordt vanaf het begin ingebouwd in applicaties";""
-"id-c3a99b3c2ff04607ab136ad9440cbd57";"Requirement";"IM504 Deel applicaties op in lagen";"Een applicatie is opgedeeld in lagen. Elke laag heeft zijn eigen functie. Denk bijvoorbeeld (maar niet uitsluitend) aan een laag voor presentatie, business logica en datatoegang. De gedachte achter deze multi-tier architectuur is om software op te delen in meerdere componenten die met elkaar samenwerken. Het gebruik van componenten stimuleert het ontkoppelen en hergebruik van functionalitieit. Iedere component heeft nu zijn eigen verantwoordelijkheden.
-Bron: _D1.IMP513 Een applicatie is gelaagd qua structuur ";""
-"id-e1c8ddbb70684bc0849ce98f84fdc32a";"Requirement";"IM505 Gegevensuitwisseling tussen (web)applicaties met API's";"Gegevensuitwisseling tussen (web)applicaties gebeurt via Restful API's,
-De broneigenaar levert API's die voldoen aan de moderne RESTful standaarden. API's dienen centraal te worden beheerd in een API management systeem.
-Bron: _D1.IMP516 Datauitwisseling tussen applicaties gebeurt via Restful API's";""
-"id-3f0c4005c9e345b596133770cd57d892";"Requirement";"IM506 Gegevens in rust en transport zijn versleuteld";"Alle gegevensdragers waaronder smartphones en laptops, waarop niet-publieke infomratie staat, zijn versleuteld conform de laatst bekende en geldende richtlijnen. Dit reduceert het risico op een gegevenslek bij verlies van een dergelijk apparaat. Ook niet-publieke gegevens in transit worden beschermd door adequate beveiligingsmaatregelen. Dit kan door de verbinding zelf te beveiligen danwel door enryptie van de informatie zelf. Dit laatste heeft de voorkeur.
-_D1.IMP631 Data at Rest en Data in Transit - [Organisatie] informatie is altijd encrypt";""
-"id-bbc30912ad1a48aeb364b021f4ee919f";"Requirement";"IM507 SaaS voor PaaS voor IaaS voor on-prem";"Voor cloudoplossingen pas toe: Saas over Paas en Paas over IaaS. Dat wil zeggen dat, mits verkrijgbaar en voldoend aan redelijke eisen en wensen van de overheidsorganisatie, SaaS oplossingen de voorkeur krijgen boven PaaS oplossingen, en PaaS oplossingen de voorkeur hebben boven IaaS oplossingen. Binnen deze voorkeur van cloudvormen geldt de volgende: public cloud before community cloud en community cloud voor private cloud.
-Wanneer voor een on-premise oplossing gekozen wordt, virtualiseer dan zo veel mogelijk om een eventuele latere gang naar de cloud zo eenvoudig mogelijk te maken (ontwerp on-prem oplossingen ""cloud-ready"").
-Bron:
-_D1.IMP541 Virtualisatie servers tenzij
-_D1.IMP167 SaaS before PaaS before IaaS / Public before Community before Private Cloud
-
-@@Marco: Ik ben zo vrij geweest deze toe te voegen ... weet niet of dit een discussie is geweest.";""
-"id-3b0d51ddb8d64a7b82b28d7dd2df0aaa";"Requirement";"IM508 Houd software altijd up-to-date";"Alle gebruikte software en software-componenten, van applicatief tot infrastructureel, worden actueel gehouden. De update-cyclus van leveranciers wordt strikt gevolgd: updates, patches en beveiligingsupdates worden zo snel mogelijk doorgevoerd op alle relevante systemen. Om dit te kunnen is van belang dat software-componenten niet te voorzien van maatwerk. Maatwerk weerhoudt het snel kunnen doorvoeren van (veiligheids)updates. 
-_D1.IMP545 Smartphone OS en updates binnen mainstream support";""
-"id-f58883c728e64af5b965c3578aed48ad";"Requirement";"IM509 Controleer het beheer van certificaten, keys in";"Applicaties en software-componenten vereisen dat certificaten, keys worden geconfigureerd. De meeste certificaten hebben een beperkte geldigheidsduur. Wanneer niet adequaat beheerd (b.v. in een centrale omgeving) verdwijnt het overzicht met mogelijk het uitvallen van systemen tot gevolg. Toegang tot deze secrets dient te worden beperkt tot beheerders hiervan.
-Uitgegeven certificaten moeten zijn uitgegeven door een vertrouwde Certificate Authority (CA). De infrastructuur is vervolgens in staat om de door een vertrouwde CA uitgegeven certificaten te controleren op geldigheid.
-Bron:
-_D1.IMP612 Certificaten die gebruikt worden, moeten zijn uitgegeven door een vertrouwde CA
-";""
-"id-3cabfe29bbe8414997a5c09df85b1fe6";"Requirement";"IM510 Cloud Infrastructuur wordt met Infrastructure as Code beheerd";"Cloud infrastructuur inrichting moet herhaalbaar zijn en wijzigingen moeten herleidbaar zijn. Configuratiedrift moet worden tegengegaan en inzichtelijk zijn. Dit kan door deze infrastructuur inrichting vast te leggen in code (IaC). Deze code (vaak grotendeels declaratief, in templates) zit in een source code management systeem en is voorzien van build- en releasedefinities.
-_D1.IMP568 Cloud Infrastructuur wordt met Infrastructure as Code beheerd";""
+"id-732a124b6a2e4ebb986d443300db8812";"Requirement";"IM500 Maak technische schuld inzichtelijk";"Technische schuld (technical debt) treedt op als er - al dan niet bewust - voor een oplossing wordt gekozen die op de korte termijn voordelig is (of lijkt) en gelijktijdig op de langere termijn extra kosten met zich meebrengt en de algehele complexiteit verhoogt. Maak technische schuld zichtbaar en stuur op het oplossen van technische schulden.";""
+"id-e1c8ddbb70684bc0849ce98f84fdc32a";"Requirement";"IM505 Gegevensuitwisseling tussen (web)applicaties met API's";"Gegevensuitwisseling tussen (web)applicaties gebeurt via Restful API's, De broneigenaar levert API's die voldoen aan de moderne RESTful standaarden. API's dienen centraal te worden beheerd in een API management systeem.";""
+"id-3f0c4005c9e345b596133770cd57d892";"Requirement";"IM506 Gegevens in rust en transport zijn versleuteld";"Alle gegevensdragers waaronder smartphones en laptops, waarop niet-publieke informatie staat, zijn versleuteld conform de laatst bekende en geldende richtlijnen. Dit reduceert het risico op een gegevenslek bij verlies van een dergelijk apparaat. Ook niet-publieke gegevens in transit worden beschermd door adequate beveiligingsmaatregelen. Dit kan door de verbinding zelf te beveiligen danwel door encryptie van de informatie zelf. Dit laatste heeft de voorkeur.";""
+"id-bbc30912ad1a48aeb364b021f4ee919f";"Requirement";"IM507 Cloud: SaaS voor PaaS voor IaaS";"SaaS oplossingen hebben de voorkeur boven PaaS oplossingen, en PaaS oplossingen hebben de voorkeur boven IaaS oplossingen. Aanvullend geldt: public cloud boven community cloud en community cloud boven private cloud.";""
+"id-3b0d51ddb8d64a7b82b28d7dd2df0aaa";"Requirement";"IM508 Zorg dat software up-to-date is";"Alle gebruikte software en software-componenten, van applicatief tot infrastructureel, worden actueel gehouden. De update-cyclus van leveranciers wordt strikt gevolgd: updates, patches en beveiligingsupdates worden zo snel mogelijk doorgevoerd op alle relevante systemen.";""
 "id-ae7659c577784ce2aed2e9589e36510b";"Requirement";"IM511 Bericht-interactie persistent verwerken";"Een bericht dat een mutatie tot gevolg heeft, bijvoorbeeld een bericht dat een betalingsopdracht representeert, mag niet verloren gaan. Een dergelijk 'transactioneel' bericht moet een incident als uitwijk of storing kunnen overleven. Alle onderdelen van een verwerkingsketen nemen verantwoordelijkheid voor het bericht en zorgen ervoor dat het bericht niet verloren gaat. Correcte verwerking heeft prioriteit boven verwerkingssnelheid. Persistentie houdt in dat een (transport)transactie pas is voltooid als het bericht is opgeslagen in een 'persistent store', zoals een bestand of database.
-Een opvragingsbericht daarentegen heeft geen mutatie tot gevolg. Responsetijd heeft hier meer prioriteit. Bij verlies van een opvragingsbericht (door bv. een storing) wordt de opvraging opnieuw gedaan. Een opvragingsbericht wordt daarom niet-persistent verwerkt.
-Bron:
-_D1.IMP570 Bericht interactie die leidt tot een mutatie in een back-end systeem moet persistent worden verwerkt
-_D1.IMP571 Bericht interactie die tot een opvraging leidt wordt niet-persistent verwerkt.";""
-"id-dcaafe4d17664adcbd37b9f66dafc762";"Requirement";"IM512 Pas cloud-native componenten toe";"Ontwerp cloud oplossingen met de unieke mogelijkheden die dit biedt. Cloud-native componenten bieden mogelijkheden tot het opzetten van flexibele en schaalbare oplossingen. Alleen door de unieke mogelijkheden van de cloud te gebruiken zijn cloud-oplossingen kostenefficiënt. Het eenvoudigweg verplaatsen van on premise toepassingen naar de cloud 'lift en shift' levert niet de flexibiliteit, schaalbaarheid en kostenvoordelen op die de cloud potentieel biedt. Voorbeelden: Serverless computing maakt het mogelijk nog meer te concentreren op de business functies, daar de organisatie wordt bevrijd van de aandacht voor virtuele machines, server besturingssystemen en orchestrators. Houd rekening met het risico op vendor-lock-in.
-Bron:
-_D1.IMP575 Gebruik container technologie om grote schaalbaarheid te combineren met Cloud agnostiek
-_D1.IMP576 Gebruik serverless computing voor schaalbaarheid ten koste van Cloud agnostiek
-";""
-"id-511000fd8034476b8dbf7bf05de60985";"Requirement";"IM513 Elke keten is benoemd en heeft een eigenaar";"Een keten is een combinatie van meerdere diensten of applicaties ('schakels') die op de één of andere manier geïntegreerd worden. Deze keten moet een eigenaar hebben met bijbehorende rechten en plichten. De keten moet:
-- voorzien zijn van een beschrijving
-- een eigenaar hebben
-- beschreven hebben welk doel deze ondersteunt
-- een dataclassificatie hebben
-- een budget hebben voor beheer en gealloceerd bij de eigenaar
-Veelal worden applicaties aan eigenaren toegewezen. Het komt vaak voor dat een applicatie in een keten van applicaties en tussenliggende koppelingen ligt. Bij verschillende eigenaren in de keten moet er iemand zijn die verantwoordelijk is voor het geheel en de 'ondereigenaren' kan aanspreken.
-_D1.IMP577 Elke keten is benoemd en heeft een eigenaar";""
-"id-6d08d756b71f434f86703f0aa6169b44";"Requirement";"IM514 Berichten in een keten zijn herleidbaar tot hun ketenfunctie";"Elk bericht heeft een initiator en één (of meerdere) eindontvanger(s). In een keten zijn er meerdere tussenstations. Indien een bericht niet herkenbaar is waar deze vanuit geïnitieerd wordt, kan de verkeerde interpretatie worden gegeven en moet het bericht als ongeldig behandeld worden. Door aan te geven welke (initiërende) functie het bericht initieert, kan worden vastgesteld wie verantwoordelijk is voor de creatie van het bericht. Het maakt hierbij niet uit waar het bericht zich bevindt. Het kan op een queue staan, in een REST call belanden, bij de orchestrator staan, ook in een bestand. Zie ook https://www.enterpriseintegrationpatterns.com/
-Bron:
-_D1.IMP590 Berichten in een keten zijn herleidbaar tot hun ketenfunctie";""
-"id-35d1a44071ae4f6caab55dc5ff97036d";"Requirement";"IM515 Cloud resources hebben herleidbaarheids kenmerken";"Cloud resources kosten geld. Deze kosten moeten kunnen worden doorbelast, bij voorkeur zo direct mogelijk aan het bedrijfsonderdeel die deze cloudresources gebruikt. Dit vereist dat cloud resources worden 'getagd'. Bij verstoringen of security incident is door middel van tags veel sneller duidelijk met welke belanghebbenden contact moet worden opgenomen. Ook andere informatie kan aan deze tags worden gekoppeld, zoals welke resources de status 'in productie' hebben.
-Bron:
-_D1.IMP592 Cloud resources hebben herleidbaarheids kenmerken";""
-"id-847d2125a2624b08997dc0f0befefc9e";"Requirement";"IM516 Iedere kritische workload heeft een continuïteits- en exit plan";"Voor iedere kritische (cloud) workload is zowel een continuïteits als exit plan beschikbaar. Als overheidsorganisatie blijf je zelf eindverantwoordelijk voor de uitwijk en samenhang daarvan, ook als operationele verantwoordelijkheden worden overgebracht naar verschillende (cloud) leveranciers. Het continuïteits- of beveiligingsrisico wordt altijd per workload bekeken. Indien het continuïteits of beveiligingsrisico onaanvaardbaar groot wordt, kan het exit plan worden uitgevoerd waarmee de overheidsorganisatie de controle over de workload terugkrijgt en daardoor de risico's beheerst. Denk hierbij aan bijvoorbeeld serieuze problemen in de bedrijfsvoering van/bij de cloudprovider of overname van de cloudprovider door een andere partij.
-Bron:
-_D1.IMP595 Iedere kritische workload heeft een continuiteits- en exit-plan
-@@Marco: Deze lijkt op IM144 en IM145 maar is niet hetzelfde. Beteft vooral aanvullend op deze lagen. Met name hebben exit strategie per workload is belangrijk om expliciet te noemen!";""
-"id-89204dba1fde40f08737a8ddab16166c";"Requirement";"IM517 Alle data van een workload is te exporteren naar een standaard formaat";"Alle data die wordt verwerkt door een cloudprovider als onderdeel van één of meer workloads (applicaties) is te exporeren naar een open industrie-standaard formaat, zodat deze data eenvoudig kan worden verplaatst. Dit is noodzakelijk voor het gebruik in een exit strategie of voor andere doeleinden. Naast het praktische nut voor de eigen data mobiliteit kan voor sommige gegevensverzamelingen gelden dat individuen een recht hebben op data-overdraagbaarheid (in het geval deze persoonsgegevens hebben verstrekt).
-Bron:
-_D1.IMP600 Alle data van een workload is te exporteren naar een standaard formaat
-@@Laurens: Mogelijk overeenkomst met andere implicaties over standaard formaten (voor DUTO).";""
-"id-25079aad4b6047d782516239bee7ce03";"Requirement";"IM518 Om toegang te krijgen heeft een gebruiker een unieke identiteit";"Om toegang te krijgen tot applicaties en informatie dient een gebruiker zich kenbaar te maken met zijn unieke identiteit wat resulteert in een behaald authenticatieniveau.
-Authenticatie is het proces waarbij iemand nagaat of een gebruiker, device of applicatie daadwerkelijk is wie hij, zij of het beweert te zijn. Bij de authenticatie wordt gecontroleerd of een opgegeven bewijs van identiteit overeenkomt met de geregistreerde echtheidskenmerken, bijvoorbeeld een in het systeem geregistreerd bewijs. De authenticiteit van het object moet worden nagegaan. Authenticatie is de tweede stap in het toegangscontroleproces. De eerste stap is identificatie, de derde en laatste stap is autorisatie.
-Bron:
-_D1.IMP607 Om toegang te krijgen heeft een gebruiker een unieke identiteit";""
-"id-3583b4d61e13407dbd2ef1437a5d5f16";"Requirement";"IM519 Eigenaar in control over gegevens verzamelingen en -verwerkingen";"Gegevens en/of systeem-eigenaren zijn ervoor verantwoordelijk controle te hebben en te houden op hun kritieke assets: gegevensverzamelingen en -verwerkingen. En zorg te dragen voor een beheerste en rechtmatige verwerking van gegevens. Voorkomen moet worden dat niet langer gebruikte gegevens achterblijven in systemen van bv. cloudproviders. Metadata dient daarom te worden vastgesteld voor data life cycle management. 
-Bron:
-_D1.IMP596 Eigenaar in control over gegevens verzamelingen en -verwerkingen";""
-"id-63c558aae3ec4f3f957cc040c83f72d3";"Requirement";"IM520 Least Privileged Principe binnen applicaties";"Het uitgangspunt voor Least Privileged Use voor applicaties houdt in dat er niet meer toegangsrechten worden toegekend dan strikt noodzakelijk. Daarbij geldt ook dat service-accounts noot meer dan één rol mogen hebben. Het toepassen van het Least Privileged Use principe heeft een aantal voordelen:
--  Verbeterde stabiliteit: Door lage rechten te gebruiken bij het gebruik van software voorkom je abusievelijke aanpassingen aan de systemen.
--  Verbeterde security: Het gebruik van lage rechten voorkomt dat er kwetsbaarheden in de software schade veroorzaken aan het onderliggende besturingssysteem.
--  Eenvoudige deployment naar eindgebrukers: Hoe minder rechten nodig zijn, hoe eenvoudiger functionaliteit snel ter beschikking te stellen is.
-Bron:
-_D1.IMP634 Least Privileged Principe binnen applicaties";""
-"id-eb5637431cc64aaba94406e6958cae60";"Requirement";"IM520 Ontwikkelomgeving is gescheiden van productie en acceptatie";"Productie, acceptatie, test en ontwikkelomgevingen zijn altijd van elkaar gescheiden. In principe wordt er niet in een productie-omgeving ontwikkeld. Ontwikkel- en testactiviteiten mogen de productie- en acceptatie-omgevingen nooit verstoren. Onbedoelde uitwisseling van verkeer tussen deze omgevingen is niet mogelijk. Dit geldt voor zowel on premise (lokaal) als cloud omgevingen. 
-Bron:
-_D1.IMP628 Ontwikkelomgeving is gescheiden van productie en acceptatie";""
-"id-f988e383812942e2ba246773b9f93c56";"Requirement";"IM521 Applicaties zijn signed";"Applicaties, drivers, scripts en macro's worden - na testen - gesigned. Door deze signing zijn wijzigingen in deze software direct te detecteren en te blokkeren. De werkstations en servers voeren alleen signed applicaties, drivers, macro's en scripts uit, waarvan de signature/hash bekend is. De ondertekening wordt gedaan door vertrouwde leveranciers of door de organisatie zelf.
-Bron:
-_D1.IMP636 Alleen signed applicaties, drivers en scripts mogen worden uitgevoerd in de [Organisatie] omgeving";""
+Een opvragingsbericht daarentegen heeft geen mutatie tot gevolg. Responsetijd heeft hier meer prioriteit. Bij verlies van een opvragingsbericht (door bv. een storing) wordt de opvraging opnieuw gedaan. Een opvragingsbericht wordt daarom niet-persistent verwerkt.";""
+"id-63c558aae3ec4f3f957cc040c83f72d3";"Requirement";"IM520 Ken niet meer toegangrechten toe dan strikt noodzakelijk ";"Ken geen rollen en toegangsrechten toe aan accounts van gebruikers en services tenzij dat strikt noodzakelijk is (Least Privilege).";""
 "id-b27fa746203f46689f60e25284bc52f9";"Requirement";"IM522 Gebruik standaard oplossingen";"Ontwikkel geen eigen processen, systemen en technieken wanneer deze ergens anders al beschikbaar zijn. Stel je actief op de hoogte van beschikbare en geplande standaardoplossingen, om daar bij het maken van plannen rekening mee te houden. De bruikbare elementen van beschikbare standaardoplossingen zullen moeten worden ingepast in de eigen organisatie. Geen enkele standaardoplossing past altijd voor de volle honderd procent. Daarom zal de bereidheid tot het sluiten van compromissen aanwezig moeten zijn.
 Bron: 
 _D1.IMP061 Gebruik standaard oplossingen
 @@Laurens: te weinig onderscheidend met principe erboven.";""
-"id-3d8e01c87acc4bfba5b28d0d0ec4d825";"Requirement";"IM523 Uniformiteit in presentatie";"Uniformiteit (en standaardisatie) heeft ook betrekking op de presentatie en gebruikservaring (look & feel) voor de afnemers van overheidsdiensten.
-Bron:
-_D1.IMP062 Uniformiteit in presentatie (look & feel)";""
 "id-28683";"Grouping";"#Bouwsteen";"";""
 "id-0504999ce61e49df8699ef95d21fff88";"Grouping";"#Laag (vijflaagsmodel)";"";""
 "id-ff64dbc7ec40487e9441bd0a379ec636";"Grouping";"#PDCA Cyclus Overheids diensten (in de keten)";"";""
