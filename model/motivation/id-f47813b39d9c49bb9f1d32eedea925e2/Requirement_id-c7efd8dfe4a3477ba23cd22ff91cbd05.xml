@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM219 Wijzigingen in beheer dienst raken afnemer niet"
+    name="_IM219 Wijzigingen in beheer dienst raken afnemer niet"
     id="id-c7efd8dfe4a3477ba23cd22ff91cbd05"
-    documentation="De afnemer merkt niets van wijzigingen in het beheer van de dienst.&#xD;&#xA;@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs."/>
+    documentation="AP41-5:&#xD;&#xA;De afnemer merkt niets van wijzigingen in het beheer van de dienst.&#xD;&#xA;@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs."/>

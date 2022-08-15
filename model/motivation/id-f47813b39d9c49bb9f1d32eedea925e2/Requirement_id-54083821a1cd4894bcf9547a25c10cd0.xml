@@ -1,5 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM210 Schriftelijk vastleggen bedrijfskritische diensten"
-    id="id-54083821a1cd4894bcf9547a25c10cd0"
-    documentation="AP28-1: Bij bedrijfskritische diensten of diensten met een zeer vertrouwelijk karakter is het akkoord en de inhoud daarvan schriftelijk vastgelegd. Denk hierbij aan Service Level Agreements (SLA) en Gegevens Levering Overeenkomsten (GLO).&#xD;&#xA;De dienstverlener geeft hierbij ook aan welk betrouwbaarheidsniveau geldt voor de identificatie van de afnemer.&#xD;&#xA;@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs."/>

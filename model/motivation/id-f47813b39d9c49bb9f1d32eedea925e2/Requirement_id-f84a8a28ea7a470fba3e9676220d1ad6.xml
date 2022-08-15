@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM202 De dienst wordt gebundeld aangeboden"
+    name="IM202 De dienst wordt gebundeld aangeboden vanuit perspectief afnemer"
     id="id-f84a8a28ea7a470fba3e9676220d1ad6"
-    documentation="AP21-3: De dienst wordt (vanuit perspectief van de afnemer) gebundeld aangeboden met een of meer diensten van andere organisaties.&#xD;&#xA;@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs."/>
+    documentation="De dienst wordt (vanuit perspectief van de afnemer) gebundeld aangeboden met een of meer diensten van andere organisaties. Breng hierbij de aanbod- en vraagzijde van de markt zijn in kaart:&#xD;&#xA;* Doelgroepen en hun perspectief&#xD;&#xA;* Aanverwante diensten en dienstverleners"/>

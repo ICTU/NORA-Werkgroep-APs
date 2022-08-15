@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM203 De voor de dienst relevante standaardoplossingen zijn geïnventariseerd"
+    name="IM203 Identificeer de voor de dienst relevante standaardoplossingen"
     id="id-fcfb3e6dc9364279a0656871a10e0b09"
-    documentation="AP06-1:&#xD;&#xA;* De voor de dienst relevante standaardoplossingen zijn geïnventariseerd voor gebieden zoals:&#xD;&#xA;** identificatie&#xD;&#xA;** authenticatie&#xD;&#xA;** autorisatie&#xD;&#xA;** onweerlegbaarheid&#xD;&#xA;** encryptie&#xD;&#xA;** semantiek&#xD;&#xA;** toegankelijkheid&#xD;&#xA;** presentatie en vormgeving&#xD;&#xA;*Oplossingen zijn op geschiktheid beoordeeld. Bij geschiktheid zijn ze opgenomen in de opzet van de dienst&#xD;&#xA;@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs."/>
+    documentation="Inventariseer de voor de dienst relevante standaardoplossingen voor gebieden zoals:&#xD;&#xA;* identificatie&#xD;&#xA;* authenticatie&#xD;&#xA;* autorisatie&#xD;&#xA;* onweerlegbaarheid&#xD;&#xA;* encryptie&#xD;&#xA;* semantiek&#xD;&#xA;* toegankelijkheid&#xD;&#xA;* presentatie en vormgeving&#xD;&#xA;Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen in de opzet van de dienst."/>

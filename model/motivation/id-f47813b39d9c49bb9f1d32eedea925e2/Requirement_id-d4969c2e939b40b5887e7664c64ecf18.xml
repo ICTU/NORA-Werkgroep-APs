@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM214 De juistheid van gegevens wordt niet voor gebruik gecontroleerd"
+    name="_IM214 De juistheid van gegevens wordt niet voor gebruik gecontroleerd"
     id="id-d4969c2e939b40b5887e7664c64ecf18"
     documentation="AP21-5:&#xD;&#xA;De juistheid van de gebruikte informatie-objecten wordt niet voor gebruik gecontroleerd&#xD;&#xA;@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;&#xA;@@Marco: ik vind dit een vreemde implicatie wanneer deze buiten de context is hiervan. Ik controleer vaak juist wél de gegevens voor gebruik (validaties etc.): https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend"/>
