@@ -1,5 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM157 Identificeer zwakste schakel in schaalbaarheid"
-    id="id-9d11a21182d64e87920af5711b4bc57d"
-    documentation="D-LG002&#xD;&#xA;Zwakste schakel&#xD;&#xA;De schaalbaarheid van een dienst is beperkt tot de minst schaalbare component van de dienst of in de keten. Identificeer de componenten die het meest kritisch zijn voor opschaling om als eerste te verbeteren. Test de daadwerkelijke mate van schaalbaarheid."/>

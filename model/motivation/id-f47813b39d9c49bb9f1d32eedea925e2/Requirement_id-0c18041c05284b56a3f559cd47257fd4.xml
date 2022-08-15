@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM153 Segmenteer het netwerk"
     id="id-0c18041c05284b56a3f559cd47257fd4"
-    documentation="D-EBA012&#xD;&#xA;Het segmenteren van het netwerk beperkt de gevolgen van een aanval. Segmenteren betekent dat een netwerk in meerdere zones wordt verdeeld, waartussen een inspectiepunt ontstaat. Netwerksegmentatie voorkomt dat een virus of aanvaller zich kan verspreiden in het gehele netwerk. Afhankelijk van de wijze van implementatie is netwerksegmentatie een maatregel die de gevolgen van ransomware-aanvallen of DDoS-aanvallen beperkt.&#xD;&#xA;Bron: _D1.IMP557 Netwerksegmentatie moet worden uitgevoerd"/>
+    documentation="Het segmenteren van het netwerk beperkt de gevolgen van een aanval. Segmenteren betekent dat een netwerk in meerdere zones wordt verdeeld, waartussen een inspectiepunt ontstaat. Netwerksegmentatie voorkomt dat een virus of aanvaller zich kan verspreiden in het gehele netwerk. Afhankelijk van de wijze van implementatie is netwerksegmentatie een maatregel die de gevolgen van ransomware-aanvallen of DDoS-aanvallen beperkt."/>

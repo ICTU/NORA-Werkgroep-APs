@@ -1,5 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM513 Elke keten is benoemd en heeft een eigenaar"
-    id="id-511000fd8034476b8dbf7bf05de60985"
-    documentation="Een keten is een combinatie van meerdere diensten of applicaties ('schakels') die op de één of andere manier geïntegreerd worden. Deze keten moet een eigenaar hebben met bijbehorende rechten en plichten. De keten moet:&#xD;&#xA;- voorzien zijn van een beschrijving&#xD;&#xA;- een eigenaar hebben&#xD;&#xA;- beschreven hebben welk doel deze ondersteunt&#xD;&#xA;- een dataclassificatie hebben&#xD;&#xA;- een budget hebben voor beheer en gealloceerd bij de eigenaar&#xD;&#xA;Veelal worden applicaties aan eigenaren toegewezen. Het komt vaak voor dat een applicatie in een keten van applicaties en tussenliggende koppelingen ligt. Bij verschillende eigenaren in de keten moet er iemand zijn die verantwoordelijk is voor het geheel en de 'ondereigenaren' kan aanspreken.&#xD;&#xA;_D1.IMP577 Elke keten is benoemd en heeft een eigenaar"/>

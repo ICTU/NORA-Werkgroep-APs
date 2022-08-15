@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="_IM518 Om toegang te krijgen heeft een gebruiker een unieke identiteit"
+    id="id-25079aad4b6047d782516239bee7ce03"
+    documentation="Om toegang te krijgen tot applicaties en informatie dient een gebruiker zich kenbaar te maken met zijn unieke identiteit wat resulteert in een behaald authenticatieniveau.&#xD;&#xA;Authenticatie is het proces waarbij iemand nagaat of een gebruiker, device of applicatie daadwerkelijk is wie hij, zij of het beweert te zijn. Bij de authenticatie wordt gecontroleerd of een opgegeven bewijs van identiteit overeenkomt met de geregistreerde echtheidskenmerken, bijvoorbeeld een in het systeem geregistreerd bewijs. De authenticiteit van het object moet worden nagegaan. Authenticatie is de tweede stap in het toegangscontroleproces. De eerste stap is identificatie, de derde en laatste stap is autorisatie.&#xD;&#xA;Bron:&#xD;&#xA;_D1.IMP607 Om toegang te krijgen heeft een gebruiker een unieke identiteit"/>

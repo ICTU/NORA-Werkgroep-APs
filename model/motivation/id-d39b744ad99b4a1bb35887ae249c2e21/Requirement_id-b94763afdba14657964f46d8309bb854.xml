@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="_IM148 Zelfstandige vertrouwensdiensten"
+    id="id-b94763afdba14657964f46d8309bb854"
+    documentation="D-EIF002&#xD;&#xA;Zelfstandige vertrouwensdiensten&#xD;&#xA;Gebruik zelfstandige vertrouwensdiensten als middel om betrouwbare en uniforme gegevensbeveiliging te realiseren. Maak bijvoorbeeld gebruik van een SASE (secure access service edge).&#xD;&#xA;&#xD;&#xA;[Geinspireerd door: Use trust services according to the Regulation on eID and Trust Services as mechanisms that ensure secure and protected data exchange in public services.]"/>

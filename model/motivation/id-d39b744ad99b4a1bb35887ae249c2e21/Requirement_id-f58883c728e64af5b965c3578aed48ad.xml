@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="_IM509 Controleer het beheer van certificaten, keys in"
+    id="id-f58883c728e64af5b965c3578aed48ad"
+    documentation="Applicaties en software-componenten vereisen dat certificaten, keys worden geconfigureerd. De meeste certificaten hebben een beperkte geldigheidsduur. Wanneer niet adequaat beheerd (b.v. in een centrale omgeving) verdwijnt het overzicht met mogelijk het uitvallen van systemen tot gevolg. Toegang tot deze secrets dient te worden beperkt tot beheerders hiervan.&#xD;&#xA;Uitgegeven certificaten moeten zijn uitgegeven door een vertrouwde Certificate Authority (CA). De infrastructuur is vervolgens in staat om de door een vertrouwde CA uitgegeven certificaten te controleren op geldigheid.&#xD;&#xA;Bron:&#xD;&#xA;_D1.IMP612 Certificaten die gebruikt worden, moeten zijn uitgegeven door een vertrouwde CA&#xD;&#xA;"/>

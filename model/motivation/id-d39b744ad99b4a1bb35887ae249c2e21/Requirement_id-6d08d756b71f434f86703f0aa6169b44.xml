@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="_IM514 Berichten in een keten zijn herleidbaar tot hun ketenfunctie"
+    id="id-6d08d756b71f434f86703f0aa6169b44"
+    documentation="Elk bericht heeft een initiator en één (of meerdere) eindontvanger(s). In een keten zijn er meerdere tussenstations. Indien een bericht niet herkenbaar is waar deze vanuit geïnitieerd wordt, kan de verkeerde interpretatie worden gegeven en moet het bericht als ongeldig behandeld worden. Door aan te geven welke (initiërende) functie het bericht initieert, kan worden vastgesteld wie verantwoordelijk is voor de creatie van het bericht. Het maakt hierbij niet uit waar het bericht zich bevindt. Het kan op een queue staan, in een REST call belanden, bij de orchestrator staan, ook in een bestand. Zie ook https://www.enterpriseintegrationpatterns.com/&#xD;&#xA;Bron:&#xD;&#xA;_D1.IMP590 Berichten in een keten zijn herleidbaar tot hun ketenfunctie"/>

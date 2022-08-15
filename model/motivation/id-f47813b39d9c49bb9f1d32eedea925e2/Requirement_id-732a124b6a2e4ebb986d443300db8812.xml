@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM500 Houd technical debt transparant"
+    name="IM500 Maak technische schuld inzichtelijk"
     id="id-732a124b6a2e4ebb986d443300db8812"
-    documentation="Bron: _D1.IMP503 Technical debt in applicaties is transparant&#xD;&#xA;Technical debt treedt op als er - al dan niet bewust - voor een oplossing wordt gekozen die op de korte termijn voordelig is (of lijkt) en gelijktijdig op de langere termijn extra kosten met zich meebrengt en de algehele complexiteit verhoogt. Technische schuld moet transparant zijn en actief worden tegengegaan."/>
+    documentation="Technische schuld (technical debt) treedt op als er - al dan niet bewust - voor een oplossing wordt gekozen die op de korte termijn voordelig is (of lijkt) en gelijktijdig op de langere termijn extra kosten met zich meebrengt en de algehele complexiteit verhoogt. Maak technische schuld zichtbaar en stuur op het oplossen van technische schulden."/>

@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="_IM521 Applicaties zijn signed"
+    id="id-f988e383812942e2ba246773b9f93c56"
+    documentation="Applicaties, drivers, scripts en macro's worden - na testen - gesigned. Door deze signing zijn wijzigingen in deze software direct te detecteren en te blokkeren. De werkstations en servers voeren alleen signed applicaties, drivers, macro's en scripts uit, waarvan de signature/hash bekend is. De ondertekening wordt gedaan door vertrouwde leveranciers of door de organisatie zelf.&#xD;&#xA;Bron:&#xD;&#xA;_D1.IMP636 Alleen signed applicaties, drivers en scripts mogen worden uitgevoerd in de [Organisatie] omgeving"/>

@@ -1,5 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM515 Cloud resources hebben herleidbaarheids kenmerken"
-    id="id-35d1a44071ae4f6caab55dc5ff97036d"
-    documentation="Cloud resources kosten geld. Deze kosten moeten kunnen worden doorbelast, bij voorkeur zo direct mogelijk aan het bedrijfsonderdeel die deze cloudresources gebruikt. Dit vereist dat cloud resources worden 'getagd'. Bij verstoringen of security incident is door middel van tags veel sneller duidelijk met welke belanghebbenden contact moet worden opgenomen. Ook andere informatie kan aan deze tags worden gekoppeld, zoals welke resources de status 'in productie' hebben.&#xD;&#xA;Bron:&#xD;&#xA;_D1.IMP592 Cloud resources hebben herleidbaarheids kenmerken"/>

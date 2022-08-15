@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="_IM503 Security-maatregelen worden vanaf het begin ingebouwd"
+    id="id-0c357f038acc4ba1bd879d6ad09e6944"
+    documentation="Zelfgebouwde applicaties dienen ontwikkeld te worden met beveiliging in het achterhoofd. Onder security wordt alles op beveiligingsgebied bedoeld. Dus access-control, data- en transportencryptie, input validation, enz. Voor oplevering in productie moet de applicatie tegen actuale policies en richtlijnen gevalideerd worden. OWASP is hiervan een voorbeeld.&#xD;&#xA;Bron: _D1.IMP508 Security wordt vanaf het begin ingebouwd in applicaties"/>

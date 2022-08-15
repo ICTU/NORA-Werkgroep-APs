@@ -1,5 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM520 Ontwikkelomgeving is gescheiden van productie en acceptatie"
-    id="id-eb5637431cc64aaba94406e6958cae60"
-    documentation="Productie, acceptatie, test en ontwikkelomgevingen zijn altijd van elkaar gescheiden. In principe wordt er niet in een productie-omgeving ontwikkeld. Ontwikkel- en testactiviteiten mogen de productie- en acceptatie-omgevingen nooit verstoren. Onbedoelde uitwisseling van verkeer tussen deze omgevingen is niet mogelijk. Dit geldt voor zowel on premise (lokaal) als cloud omgevingen. &#xD;&#xA;Bron:&#xD;&#xA;_D1.IMP628 Ontwikkelomgeving is gescheiden van productie en acceptatie"/>
