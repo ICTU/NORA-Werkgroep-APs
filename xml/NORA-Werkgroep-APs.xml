@@ -9,7 +9,7 @@
     <dc:subject>Actualisering Architectuurprincipes NORA</dc:subject>
     <dc:description>Werkmodel ArchiMate van de werkgroep Actualisering NORA Architectuurprincipes</dc:description>
     <dc:contributor>NORA Werkgroep Architectuurprincipes</dc:contributor>
-    <dc:date>15-Aug-2022</dc:date>
+    <dc:date>17-Aug-2022</dc:date>
     <dc:language>Dutch</dc:language>
   </metadata>
   <elements>
@@ -391,6 +391,14 @@ https://www.noraonline.nl/wiki/Data_Agenda_Overheid</documentation>
       <documentation xml:lang="en">Zelfgebouwde applicaties dienen ontwikkeld te worden met beveiliging in het achterhoofd. Onder security wordt alles op beveiligingsgebied bedoeld. Dus access-control, data- en transportencryptie, input validation, enz. Voor oplevering in productie moet de applicatie tegen actuale policies en richtlijnen gevalideerd worden. OWASP is hiervan een voorbeeld.&#xD;
 Bron: _D1.IMP508 Security wordt vanaf het begin ingebouwd in applicaties</documentation>
     </element>
+    <element identifier="id-0d3ae961cf99484c8f76951a89a32827" xsi:type="Requirement">
+      <name xml:lang="en">_IM224 Systemen voldoen aan eisen beschikbaarheid</name>
+      <documentation xml:lang="en">ICT-voorzieningen voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid,</documentation>
+    </element>
+    <element identifier="id-109fb852881b4b748a490cb939d41269" xsi:type="Requirement">
+      <name xml:lang="en">_IM220 Juiste werking achteraf te controleren</name>
+      <documentation xml:lang="en">De dienstverlener zorgt ervoor dat de beoogde toegang tot gegevens en de juiste werking van zijn systemen continu alsook achteraf te controleren is. De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door  registratie en bewaking van gebeurtenissen en door alarmering op het overschrijden van toelaatbare drempels. Specifiek voor logging: analyseer periodieke logbestanden om de juiste werking van het systeem vast te stellen en beveiligingsincidenten te detecteren.</documentation>
+    </element>
     <element identifier="id-119261f09dac4aa8b904e031397ece7d" xsi:type="Requirement">
       <name xml:lang="en">_IM044 Dienst afgestemd op (digi-)vaardigheden afnemers</name>
       <documentation xml:lang="en">EU: Zorg dat de dienst is afgestemd op de (digi-)vaardigheden en -mogelijkheden van alle potentiële afnemers.</documentation>
@@ -539,6 +547,10 @@ _D1.IMP062 Uniformiteit in presentatie (look &amp; feel)</documentation>
 - DUTO eisen&#xD;
 @@Roland: archiefdienst is de term voor archiefbewaarplaats in de nieuwe Archiefwet.</documentation>
     </element>
+    <element identifier="id-3e2d1d11ff844077b190fd7dcdc83867" xsi:type="Requirement">
+      <name xml:lang="en">_IM222 Waarborg de toegankelijkheid van informatie</name>
+      <documentation xml:lang="en">De toegankelijkheid van openbare informatie en informatie die die relevant is voor vertrouwelijke- en zaakgerelateerde diensten, is gewaarborgd. Wanneer informatie verplaatst is, of niet meer (online) beschikbaar, worden bezoekers doorverwezen naar de plaats waar deze wel te vinden is.</documentation>
+    </element>
     <element identifier="id-4397defde48b4a5ba4964ab779492125" xsi:type="Requirement">
       <name xml:lang="en">_IM501 Beheer broncode centraal en automatiseer het proces van ontwerp naar productie</name>
       <documentation xml:lang="en">Dit draagt ertoe bij dat de doorontwikkeling van applicaties en infrastructurele oplossingen kwalitatief en structureel de juiste stappen doorloopt. Dit draagt tevens bij het versnellen van de doorontwikkeling van oplossingen (kortere time to market). Dit betekent dat broncode wordt bewaard en beheerd in een centraal source code management systeem en dat deze code geautomatiseerd wordt ge-build en ge-released met (CI/CD) pipelines. Aan deze pipelines woden eisen gesteld, o.a. m.b.t. code quality, secrets en tests. De gehele ketenvoortgang is te zien: van user-story, code commit en de releae van software. Gedurende dit proces wordt de code geautomatiseerd gecontroleerd op kwaliteit ('Continuous Code Quality'). Dit bestaat uit checks op kwetsbaarheden, exploits, licentiegebruik en robuustheid. Het bovenstaande geldt niet alleen voor applicatieve, maar ook voor infrastructurele componenten (infrastructure by code) in cloud omgevingen.&#xD;
@@ -584,6 +596,12 @@ _D1.IMP577 Elke keten is benoemd en heeft een eigenaar</documentation>
       <documentation xml:lang="en">Bij bedrijfskritische diensten of diensten met een zeer vertrouwelijk karakter is het akkoord en de inhoud daarvan schriftelijk vastgelegd. Denk hierbij aan Service Level Agreements (SLA) en Gegevens Levering Overeenkomsten (GLO).&#xD;
 De dienstverlener geeft hierbij ook aan welk betrouwbaarheidsniveau geldt voor de identificatie van de afnemer.&#xD;
 @@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.</documentation>
+    </element>
+    <element identifier="id-54eb2dbbe8a44eeaacf00bda0a642c31" xsi:type="Requirement">
+      <name xml:lang="en">_IM216 Beschikbaarheid</name>
+      <documentation xml:lang="en">AP41: Beschikbaarheid&#xD;
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;
+@@Marco: Dit is al een kwaliteitsdoel, nl. KD06 Beschikbaarheid. Dit niet hier herhalen zou ik zeggen (anders gaat het rondzingen en krijg je een oorverdovend geluid).</documentation>
     </element>
     <element identifier="id-560fc8dfa6cd44bf91b50539fba0b6b1" xsi:type="Requirement">
       <name xml:lang="en">_IM033 Hanteer unieke identificatienummers voor zaken</name>
@@ -705,6 +723,10 @@ _D1.IMP600 Alle data van een workload is te exporteren naar een standaard formaa
     <element identifier="id-8e30b65739da42f7a71bb7d8a80e5665" xsi:type="Requirement">
       <name xml:lang="en">_IM071 Houd afhankelijkheid aanbieders hanteerbaar</name>
       <documentation xml:lang="en">9 Neem maatregelen (zoals service level management) om de afhankelijkheid van aanbieders hanteerbaar te houden.</documentation>
+    </element>
+    <element identifier="id-92f4b88393b24998a2e34b21362f7566" xsi:type="Requirement">
+      <name xml:lang="en">_IM217 Stel het niveau van beschikbaarheid in overleg vast</name>
+      <documentation xml:lang="en">Het niveau van beschikbaarheid is in overleg met de afnemers vastgesteld.</documentation>
     </element>
     <element identifier="id-9629a2e0d67046bcbe1918076bf70185" xsi:type="Requirement">
       <name xml:lang="en">_IM099 Visualiseer informatieobjecten in samenhang</name>
@@ -828,6 +850,10 @@ Gebruik zelfstandige vertrouwensdiensten als middel om betrouwbare en uniforme g
 Wanneer een nieuwe versie van een standaard geïmplementeerd wordt, blijft de aanbieder de oude versie ondersteunen zolang als dat volgens afspraak nodig is.&#xD;
 @@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.</documentation>
     </element>
+    <element identifier="id-bf2053a5d5ca48439f87e6146e807cf1" xsi:type="Requirement">
+      <name xml:lang="en">_IM138 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt</name>
+      <documentation xml:lang="en">Gegevens worden eenmalig uitgevraagd, uniek opgeslagen, en meervoudig gebruikt.</documentation>
+    </element>
     <element identifier="id-c14dfd2770244e4982ad252caf656481" xsi:type="Requirement">
       <name xml:lang="en">_IM096 Gegevens worden vastgelegd en gedeeld volgens een open standaard</name>
       <documentation xml:lang="en">Gegevens worden vastgelegd en gedeeld volgens een open standaard.&#xD;
@@ -868,11 +894,28 @@ EU: Europese wallet?&#xD;
       <documentation xml:lang="en">Ga uit van een federatief datastelsel&#xD;
 - Werk samen op basis van gedeelde databronnen</documentation>
     </element>
+    <element identifier="id-c7efd8dfe4a3477ba23cd22ff91cbd05" xsi:type="Requirement">
+      <name xml:lang="en">_IM219 Wijzigingen in beheer dienst raken afnemer niet</name>
+      <documentation xml:lang="en">AP41-5:&#xD;
+De afnemer merkt niets van wijzigingen in het beheer van de dienst.&#xD;
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.</documentation>
+    </element>
     <element identifier="id-cb8e962ae9024de3b4f795b2d3b6df6b" xsi:type="Requirement">
       <name xml:lang="en">_IM212 Alle relevante informatie-objecten zijn geïnventariseerd</name>
       <documentation xml:lang="en">AP21-1:&#xD;
 Alle relevante informatie-objecten zijn geïnventariseerd&#xD;
 @@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.</documentation>
+    </element>
+    <element identifier="id-d4969c2e939b40b5887e7664c64ecf18" xsi:type="Requirement">
+      <name xml:lang="en">_IM214 De juistheid van gegevens wordt niet voor gebruik gecontroleerd</name>
+      <documentation xml:lang="en">AP21-5:&#xD;
+De juistheid van de gebruikte informatie-objecten wordt niet voor gebruik gecontroleerd&#xD;
+@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;
+@@Marco: ik vind dit een vreemde implicatie wanneer deze buiten de context is hiervan. Ik controleer vaak juist wél de gegevens voor gebruik (validaties etc.): https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend</documentation>
+    </element>
+    <element identifier="id-d573d86d1d0c45b7ad62df339a168b3d" xsi:type="Requirement">
+      <name xml:lang="en">_IM215 Authentieke gegevens uit wetgeving afgenomen uit basisregistraties</name>
+      <documentation xml:lang="en">Authentieke gegevens, zoals beschreven in de wetgeving op basisregistraties, worden afgenomen van de daartoe ingerichte basisregistraties.</documentation>
     </element>
     <element identifier="id-dbe15900a5944947a7460e166ee4e28d" xsi:type="Requirement">
       <name xml:lang="en">_IM119 Transparant en aanspreekbaar op verwerking gegevens</name>
@@ -989,6 +1032,12 @@ _D1.IMP612 Certificaten die gebruikt worden, moeten zijn uitgegeven door een ver
 https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.3&#xD;
 @@Robert: Verwijs naar EIF Principle 2 “Openness”, aanbeveling 2 voor mogelijke oplossingen</documentation>
     </element>
+    <element identifier="id-f84a8a28ea7a470fba3e9676220d1ad6" xsi:type="Requirement">
+      <name xml:lang="en">_IM202 Bied de dienst gebundeld aan vanuit perspectief afnemer</name>
+      <documentation xml:lang="en">De dienst wordt (vanuit perspectief van de afnemer) gebundeld aangeboden met een of meer diensten van andere organisaties. Breng hierbij de aanbod- en vraagzijde van de markt zijn in kaart:&#xD;
+* Doelgroepen en hun perspectief&#xD;
+* Aanverwante diensten en dienstverleners</documentation>
+    </element>
     <element identifier="id-f988e383812942e2ba246773b9f93c56" xsi:type="Requirement">
       <name xml:lang="en">_IM521 Applicaties zijn signed</name>
       <documentation xml:lang="en">Applicaties, drivers, scripts en macro's worden - na testen - gesigned. Door deze signing zijn wijzigingen in deze software direct te detecteren en te blokkeren. De werkstations en servers voeren alleen signed applicaties, drivers, macro's en scripts uit, waarvan de signature/hash bekend is. De ondertekening wordt gedaan door vertrouwde leveranciers of door de organisatie zelf.&#xD;
@@ -1012,33 +1061,6 @@ _D1.IMP636 Alleen signed applicaties, drivers en scripts mogen worden uitgevoerd
       <documentation xml:lang="en">D-LG001&#xD;
 Schaalbaar contracteren&#xD;
 Richt contracten met leveranciers in zonder limieten of beperkingen op toenemende gebruik. Monitor op het gebruik om onverwachte kostenstijgingen tijdig te signaleren. Borg dat bij afschaling de kosten ook weer gereduceerd worden.</documentation>
-    </element>
-    <element identifier="id-bf2053a5d5ca48439f87e6146e807cf1" xsi:type="Requirement">
-      <name xml:lang="en">_IM138 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt</name>
-      <documentation xml:lang="en">Gegevens worden eenmalig uitgevraagd, uniek opgeslagen, en meervoudig gebruikt.</documentation>
-    </element>
-    <element identifier="id-d4969c2e939b40b5887e7664c64ecf18" xsi:type="Requirement">
-      <name xml:lang="en">_IM214 De juistheid van gegevens wordt niet voor gebruik gecontroleerd</name>
-      <documentation xml:lang="en">AP21-5:&#xD;
-De juistheid van de gebruikte informatie-objecten wordt niet voor gebruik gecontroleerd&#xD;
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;
-@@Marco: ik vind dit een vreemde implicatie wanneer deze buiten de context is hiervan. Ik controleer vaak juist wél de gegevens voor gebruik (validaties etc.): https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend</documentation>
-    </element>
-    <element identifier="id-54eb2dbbe8a44eeaacf00bda0a642c31" xsi:type="Requirement">
-      <name xml:lang="en">_IM216 Beschikbaarheid</name>
-      <documentation xml:lang="en">AP41: Beschikbaarheid&#xD;
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.&#xD;
-@@Marco: Dit is al een kwaliteitsdoel, nl. KD06 Beschikbaarheid. Dit niet hier herhalen zou ik zeggen (anders gaat het rondzingen en krijg je een oorverdovend geluid).</documentation>
-    </element>
-    <element identifier="id-c7efd8dfe4a3477ba23cd22ff91cbd05" xsi:type="Requirement">
-      <name xml:lang="en">_IM219 Wijzigingen in beheer dienst raken afnemer niet</name>
-      <documentation xml:lang="en">AP41-5:&#xD;
-De afnemer merkt niets van wijzigingen in het beheer van de dienst.&#xD;
-@@Toegevoegd door Joris Dirks, check implicaties uit oude _APs.</documentation>
-    </element>
-    <element identifier="id-0d3ae961cf99484c8f76951a89a32827" xsi:type="Requirement">
-      <name xml:lang="en">_IM224 Systemen voldoen aan eisen beschikbaarheid</name>
-      <documentation xml:lang="en">ICT-voorzieningen voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid,</documentation>
     </element>
     <element identifier="id-185aa93fbd55485d8682022ba067609d" xsi:type="Principle">
       <name xml:lang="en">NAP10 Neem gegevens als fundament</name>
@@ -1177,7 +1199,7 @@ RATIONALE
 Afnemers vragen overheidsorganisaties om transparantie ten aanzien van de geleverde kwaliteit van de dienst en de sturing daarop. De overheidsdienstverlener legt over deze sturing verantwoording af en geeft aan of zij 'in control' is. Voor alle diensten gelden leveringsvoorwaarden en kwaliteitscriteria (Quality of Service). Afspraken hierover zorgen ervoor dat overheidsdienstverlener en afnemer weten waar zij aan toe zijn en elkaar kunnen vertrouwen. Voor afnemers is het van belang om snel inzicht te kunnen krijgen in een pakket van maatregelen voor de borging van de kwaliteit. Dit is ook in het kader van samenwerking tussen organisaties van belang. Op basis van inzicht in deze maatregelen ontstaat vertrouwen en het vermogen om snel samenwerking te realiseren. De overheidsdienstverlener werkt daarom op methodische wijze aan de kwaliteit van de dienst. Dit veronderstelt een cyclische terugkoppeling of Plan-Do-Check-Act-cyclus (Deming-cirkel) op de kwaliteit van de dienst.</documentation>
     </element>
     <element identifier="id-0249f53f391e48b994a5b086b826b5af" xsi:type="Requirement">
-      <name xml:lang="en">IM124 Betrokkenen op de hoogte van doel verzamelen gegevens</name>
+      <name xml:lang="en">IM124 Stel betrokkenen op de hoogte van het doel waarvoor gegevens verzameld worden</name>
       <documentation xml:lang="en">Stel bij het verzamelen en opvragen van persoonsgegevens betrokkenen op de hoogte van het doel waarvoor de gegevens worden verzameld en de mogelijkheid van de rechten die ze kunnen uitoefenen.</documentation>
     </element>
     <element identifier="id-028635c984794e51a1d3417497e8963e" xsi:type="Requirement">
@@ -1186,8 +1208,7 @@ Afnemers vragen overheidsorganisaties om transparantie ten aanzien van de geleve
     </element>
     <element identifier="id-03000a1ad9d34eb5a141a4fef94466f8" xsi:type="Requirement">
       <name xml:lang="en">IM137 Weet welke (bron)gegevens in huis zijn</name>
-      <documentation xml:lang="en">Weet welke (bron)gegevens in huis zijn&#xD;
-- [Organisatie] weet welke gegevens zij reeds in huis heeft in de bronadministraties en op welke manier deze gegevens hergebruikt kunnen worden - D1.IMP116</documentation>
+      <documentation xml:lang="en">Weet welke gegevens zij reeds in huis heeft in de bronadministraties en op welke manier deze gegevens hergebruikt kunnen worden.</documentation>
     </element>
     <element identifier="id-08abdf3d7bdf481898de2d78a34712b6" xsi:type="Requirement">
       <name xml:lang="en">IM070 Scheid proces van data</name>
@@ -1199,16 +1220,11 @@ Afnemers vragen overheidsorganisaties om transparantie ten aanzien van de geleve
       <documentation xml:lang="en">Het segmenteren van het netwerk beperkt de gevolgen van een aanval. Segmenteren betekent dat een netwerk in meerdere zones wordt verdeeld, waartussen een inspectiepunt ontstaat. Netwerksegmentatie voorkomt dat een virus of aanvaller zich kan verspreiden in het gehele netwerk. Afhankelijk van de wijze van implementatie is netwerksegmentatie een maatregel die de gevolgen van ransomware-aanvallen of DDoS-aanvallen beperkt.</documentation>
     </element>
     <element identifier="id-100e6e5157134564ae9b29317759632b" xsi:type="Requirement">
-      <name xml:lang="en">IM140 Gegevens worden gehaald (pull) i.p.v. gebracht (push)</name>
-      <documentation xml:lang="en">Pull ipv push (gegevens worden gehaald ipv gebracht).</documentation>
-    </element>
-    <element identifier="id-109fb852881b4b748a490cb939d41269" xsi:type="Requirement">
-      <name xml:lang="en">IM220 Juiste werking achteraf te controleren</name>
-      <documentation xml:lang="en">De dienstverlener zorgt ervoor dat de beoogde toegang tot gegevens en de juiste werking van zijn systemen continu alsook achteraf te controleren is.&#xD;
-De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door  registratie en bewaking van gebeurtenissen en door alarmering op het overschrijden van toelaatbare drempels. Specifiek voor logging: analyseer periodieke logbestanden om de juiste werking van het systeem vast te stellen en beveiligingsincidenten te detecteren.</documentation>
+      <name xml:lang="en">IM140 Geef de voorkeur aan halen i.p.v. brengen van gegevens</name>
+      <documentation xml:lang="en">Geef de voorkeur aan het halen (pull) i.p.v. het brengen van gegevens (push).</documentation>
     </element>
     <element identifier="id-1642fb37afeb43a1989dbca68c5d1c66" xsi:type="Requirement">
-      <name xml:lang="en">IM142 Richt je op reduceren van rest-risico's</name>
+      <name xml:lang="en">IM142 Reduceer rest-risico's</name>
       <documentation xml:lang="en">Besteed speciale aandacht aan de rest-risico's die overblijven na toepassen van de standaard maatregelen die op basis van de BIO of vanuit de AVG zijn ingericht en weeg de consequenties van de maatregelen af tegen het accepteren van het rest-risico. De verantwoordelijke voor het bedrijfsmiddel moet de rest-risico's accepteren.</documentation>
     </element>
     <element identifier="id-16931fb47aae4691b3d06050e3952626" xsi:type="Requirement">
@@ -1216,7 +1232,7 @@ De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door  
       <documentation xml:lang="en">Logging is fundamenteel in applicaties. Richt een sterke logging en audit-trail in. Logbestanden en audit-trails spelen een sleutelrol in het detecteren van aanvallen en het afhandelen van incidenten. Zorg dat elke applicatie en elk systeem voldoende Logberichten moeten zo veel mogelijk informatie bevatten over hetgeen er gebeurd is (wie, wat, waar, wanneer) en moeten op het juiste niveau gelogd worden. Let op dat logberichten mogen geen persoonlijke (AVG/GDPR) en security kenmerken (zoals wachtwoorden) bevatten.</documentation>
     </element>
     <element identifier="id-18c654522d1a4d67869a90fabf0c87c9" xsi:type="Requirement">
-      <name xml:lang="en">IM166 Van ieder gegeven is de kwaliteit bekend</name>
+      <name xml:lang="en">IM166 Stel van ieder gegeven de kwaliteit vast</name>
       <documentation xml:lang="en">Stel voor ieder gegeven de kwaliteit vast volgens kenmerken van compleetheid, actualiteit en tijdigheid.</documentation>
     </element>
     <element identifier="id-1ac6f137d0d74a7dbb5eae16dc41be77" xsi:type="Requirement">
@@ -1248,7 +1264,7 @@ De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door  
       <documentation xml:lang="en">Gebruik de standaard met het meest specifieke werkingsgebied. Als deze conflicteert met bredere (internationale) standaarden, zorg dan in de sector voor afstemming daarmee.</documentation>
     </element>
     <element identifier="id-26075e94bc3a45e5bd94f82ff94cb3df" xsi:type="Requirement">
-      <name xml:lang="en">IM004 Minimaliseer gebruik data</name>
+      <name xml:lang="en">IM004 Minimaliseer het gebruik gegevens</name>
       <documentation xml:lang="en">Vraag op of verzamel alleen die gegevens op die nodig zijn voor het strikte doel van de dienstverlening. En houd de gegevensverwerking die hierop volgt in proportie met het doel. Dit voorkomt dat vertrouwelijke of privacygevoelige gegevens onnodig worden verwerkt.</documentation>
     </element>
     <element identifier="id-2e98270fefb04495900fb9e5064b3742" xsi:type="Requirement">
@@ -1260,7 +1276,7 @@ De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door  
 * De organisatie inzicht heeft in informatieobjecten, bewaartermijnen, processen, informatiesystemen en hun onderlinge samenhang.</documentation>
     </element>
     <element identifier="id-30413c6cc4154b95923b0bc2c7994487" xsi:type="Requirement">
-      <name xml:lang="en">IM113 Gegevens zijn herleidbaar tot de bron (herkomst)</name>
+      <name xml:lang="en">IM113 Maak gegevens herleidbaar tot de bron (herkomst)</name>
       <documentation xml:lang="en">Dit betekent dat inzichtelijk gemaakt moet worden hoe gegevens tot stand zijn gekomen, over de gehele verwerking in de keten heen. Dus van bronnen tot eindproduct. Van ieder gegeven zijn de herkomst en verwerkingen beschikbaar tot aan vernietiging</documentation>
     </element>
     <element identifier="id-3b0d51ddb8d64a7b82b28d7dd2df0aaa" xsi:type="Requirement">
@@ -1275,19 +1291,15 @@ De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door  
 * Bij het ontwerpen van informatiesystemen na wordt gedacht over de te gebruiken technologie voor het beheren van informatie.</documentation>
     </element>
     <element identifier="id-3ce47667b4384c1fbe5aca987909db83" xsi:type="Requirement">
-      <name xml:lang="en">IM013 Geef de afnemer duidelijkheid over rechten, voorwaarden en plichten</name>
+      <name xml:lang="en">IM013 Geef de afnemer inzage in rechten en voorwaarden en plichten</name>
       <documentation xml:lang="en">De bij de dienst horende rechten, voorwaarden en plichten dienen op duidelijke en transparante wijze toegankelijk te worden gemaakt aan burgers en bedrijven die deze dienst af willen of moeten nemen.</documentation>
     </element>
-    <element identifier="id-3e2d1d11ff844077b190fd7dcdc83867" xsi:type="Requirement">
-      <name xml:lang="en">IM222 Toegankelijkheid gewaarborgd</name>
-      <documentation xml:lang="en">De toegankelijkheid van openbare informatie en informatie die die relevant is voor vertrouwelijke- en zaakgerelateerde diensten, is gewaarborgd. Wanneer informatie verplaatst is, of niet meer (online) beschikbaar, worden bezoekers doorverwezen naar de plaats waar deze wel te vinden is.</documentation>
-    </element>
     <element identifier="id-3f0c4005c9e345b596133770cd57d892" xsi:type="Requirement">
-      <name xml:lang="en">IM506 Gegevens in rust en transport zijn versleuteld</name>
+      <name xml:lang="en">IM506 Versleutel gegevens in rust en transport</name>
       <documentation xml:lang="en">Alle gegevensdragers waaronder smartphones en laptops, waarop niet-publieke informatie staat, zijn versleuteld conform de laatst bekende en geldende richtlijnen. Dit reduceert het risico op een gegevenslek bij verlies van een dergelijk apparaat. Ook niet-publieke gegevens in transit worden beschermd door adequate beveiligingsmaatregelen. Dit kan door de verbinding zelf te beveiligen danwel door encryptie van de informatie zelf. Dit laatste heeft de voorkeur.</documentation>
     </element>
     <element identifier="id-3f279598e31f46378e11e4339758ebd9" xsi:type="Requirement">
-      <name xml:lang="en">IM141 Autorisaties worden bepaald o.b.v. metadata</name>
+      <name xml:lang="en">IM141 Bepaal autorisaties met metadata</name>
       <documentation xml:lang="en">Autorisaties voor het verstrekken en gebruik van gegevens kan worden bepaald op basis van metadata. De beheerder die het gegeven beheert en het wil verstrekken voor verdere bewerking, voegt metadata toe aan de hand waarvan de beheerder en de afnemer een autorisatiebeslissing kan nemen.</documentation>
     </element>
     <element identifier="id-414d558b0a9b4c82b832bb36df014f6d" xsi:type="Requirement">
@@ -1299,7 +1311,7 @@ De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door  
       <documentation xml:lang="en">Als eigenaar van de bron wil je inzicht hebben in de toegang en inzage (CRUD) van de gegevens die vanuit de bron worden gebruikt. Voorkom dat auditgegevens verspreid raken over afnemende applicaties.</documentation>
     </element>
     <element identifier="id-4846853e8b3b479faa7ae3ef7f1713fc" xsi:type="Requirement">
-      <name xml:lang="en">IM093 De dienst heeft een duidelijke Quality of Service (QoS)</name>
+      <name xml:lang="en">IM093 Stel een duidelijke Quality of Service (QoS) vast voor de dienst</name>
       <documentation xml:lang="en">De dienst heeft een duidelijk beschreven 'Quality of Service'. Niet alleen op het technisch koppelvlak, maar juist ook op die aspecten die door de afnemers begrepen worden. Bijvoorbeeld in termen van beschikbaarheid, performance, supportniveau, etc.</documentation>
     </element>
     <element identifier="id-4a042c29ea1449a092b97a4242d46d33" xsi:type="Requirement">
@@ -1309,17 +1321,16 @@ De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door  
 * Onderscheid gemaakt moet worden in primaire en secundaire gebruikers op basis van doelbinding.&#xD;
 * De informatie beschikbaar moet worden gesteld in een bestandsformaat dat samenhangt met het doel waarvoor de informatie wordt gebruikt. &#xD;
 * Een zoekfunctie beschikbaar moet zijn waarmee alle relevante informatieobjecten vindbaar zijn.&#xD;
-* De informatie moet kunnen worden gevonden zonder dat er (specifieke) en/of kennis van de zoekfunctionaliteit of de gezochte informatie benodigd is. &#xD;
+* De informatie moet kunnen worden gevonden zonder dat er (specifieke) en/of kennis van de zoekfunctionaliteit of de gezochte informatie benodigd is.&#xD;
 * Van elk informatieobject een weergave en/of export beschikbaar moet zijn.</documentation>
     </element>
     <element identifier="id-4a685cd11f1f417bbc2ac87ff1c26429" xsi:type="Requirement">
-      <name xml:lang="en">IM105 Voor ieder gegeven één verantwoordelijke</name>
+      <name xml:lang="en">IM105 Stel één verantwoordelijke vast voor ieder gegeven</name>
       <documentation xml:lang="en">Voor ieder gegeven en voor iedere verwerking is er een verantwoordelijke gegevenseigenaar. Alle relevante gegevensobjecten dienen hiervoor te worden geïnventariseerd.</documentation>
     </element>
     <element identifier="id-4bbd60dcf6b34f89b6916b81b04d49e0" xsi:type="Requirement">
-      <name xml:lang="en">IM084 Open standaarden (tenzij)</name>
-      <documentation xml:lang="en">Verwerf producten in die aan de standaard(en) voldoen. Hierbij geldt: Open standaarden tenzij. Implementaties maken gebruik van de beschrijvingen uit de open standaarden om leveranciersonafhankelijkheid te behouden. Maak met afnemers afspraken over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden.&#xD;
-Zie ook https://www.forumstandaardisatie.nl/</documentation>
+      <name xml:lang="en">IM084 Pas open standaarden toe</name>
+      <documentation xml:lang="en">Verwerf producten in die aan de standaard(en) voldoen. Hierbij geldt: Open standaarden tenzij. Implementaties maken gebruik van de beschrijvingen uit de open standaarden om leveranciersonafhankelijkheid te behouden. Maak met afnemers afspraken over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden. Zie ook https://www.forumstandaardisatie.nl/</documentation>
     </element>
     <element identifier="id-4c5b9e98e2fd4ed5af34d4e6c1cbc161" xsi:type="Requirement">
       <name xml:lang="en">IM075 Ontwerp diensten met oog voor doelbinding en grondslag</name>
@@ -1330,7 +1341,7 @@ Zie ook https://www.forumstandaardisatie.nl/</documentation>
       <documentation xml:lang="en">Controleer de verwerking van gegevens:&#xD;
 * De criteria voor juistheid, en tijdigheid zijn vastgesteld&#xD;
 * controleren vanuit een systeemvreemde omgeving ingevoerde gegevens op   juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt.&#xD;
-* controleren te versturen gegevens op juistheid, volledigheid en   tijdigheid&#xD;
+* controleren te versturen gegevens op juistheid, volledigheid en tijdigheid&#xD;
 * controleren ter verwerking aangeboden gegevens op juiste, volledig en tijdige verwerking&#xD;
 * vergelijken periodiek kritieke gegevens die in verschillende gegevensverzamelingen voorkomen met elkaar op consistentie. Dit geldt allee zolang als de gegevens niet frequent en integraal worden gesynchroniseerd met de brongegevens.</documentation>
     </element>
@@ -1344,11 +1355,11 @@ Zie ook https://www.forumstandaardisatie.nl/</documentation>
 *  Benut visualistatiemiddelen om het model en de samenhang/relaties tussen de objecten visueel inzichtelijk te maken.</documentation>
     </element>
     <element identifier="id-57294b05b026417d94a2e17ce25a1aeb" xsi:type="Requirement">
-      <name xml:lang="en">IM007 Single point of contact</name>
+      <name xml:lang="en">IM007 Bied één contactpunt (Single point of contact)</name>
       <documentation xml:lang="en">Bied de dienst zo veel mogelijk vanuit één contactpunt aan naar burgers en bedrijven. Dit met voorkomen dat burgers en bedrijven niet met verschillende partijen moeten schakelen om de dienst af te kunnen nemen.</documentation>
     </element>
     <element identifier="id-5abb23af8c924002a23372b82fa0d30b" xsi:type="Requirement">
-      <name xml:lang="en">IM125 Leg grondslag en doel informatieverwerking vast</name>
+      <name xml:lang="en">IM125 Leg de grondslag en het doel van de gegevensverwerking vast</name>
       <documentation xml:lang="en">Leg de grondslag en het doel waarvoor informatie wordt uitgevraagd bij burgers en bedrijven vast. Aan het doel gekoppeld worden ook de eisen (kwaliteitscriteria) vastgelegd waaraan deze informatie moet voldoen. Houd er rekening mee dat het doel kan in de loop der tijd kan wijzigen.</documentation>
     </element>
     <element identifier="id-60e2fa6df4284a3da1cb5155eec32bec" xsi:type="Requirement">
@@ -1357,15 +1368,14 @@ Zie ook https://www.forumstandaardisatie.nl/</documentation>
     </element>
     <element identifier="id-61804e41b4ff42728f90400a1eb08662" xsi:type="Requirement">
       <name xml:lang="en">IM087 Gebruik gestandaardiseerde referentiedata</name>
-      <documentation xml:lang="en">Gebruik gestandaardiseerde referentiedata.&#xD;
-Zie ook het CBS: https://www.cbs.nl/nl-nl/onze-diensten/open-data/referentiedata of domeinspecifieke bronnen voor referentiedata.</documentation>
+      <documentation xml:lang="en">Gebruik gestandaardiseerde referentiedata. Zie ook het CBS: https://www.cbs.nl/nl-nl/onze-diensten/open-data/referentiedata of domeinspecifieke bronnen voor referentiedata.</documentation>
     </element>
     <element identifier="id-63c558aae3ec4f3f957cc040c83f72d3" xsi:type="Requirement">
-      <name xml:lang="en">IM520 Ken niet meer toegangrechten toe dan strikt noodzakelijk</name>
+      <name xml:lang="en">IM520 Verleen alleen strikt noodzakelijke toegangsrechten</name>
       <documentation xml:lang="en">Ken geen rollen en toegangsrechten toe aan accounts van gebruikers en services tenzij dat strikt noodzakelijk is (Least Privilege).</documentation>
     </element>
     <element identifier="id-64908639b90b4c76a01978ea0fe86e15" xsi:type="Requirement">
-      <name xml:lang="en">IM111 De context van een informatieobject is vastgelegd in metadata</name>
+      <name xml:lang="en">IM111 Leg de context van een informatieobject vast in metadata</name>
       <documentation xml:lang="en">Informatie-objecten dienen goed te worden beheerd. Onderdeel hiervan is dat de context van een informatieobject goed moet zijn vastgelegd in metadata.&#xD;
 * Informatie en gegevens dienen duidelijk te plaatsen te zijn binnen een bepaalde context. Metadata is hiervoor het geëigende instrument.&#xD;
 * Context (vastgelegd in metadata) is nodig om gegevens te begrijpen voor verwerking.&#xD;
@@ -1393,20 +1403,18 @@ Zie ook het CBS: https://www.cbs.nl/nl-nl/onze-diensten/open-data/referentiedata
     </element>
     <element identifier="id-83859412ff8349c99d5a8b08a8882444" xsi:type="Requirement">
       <name xml:lang="en">IM003 Maak zoveel mogelijk data beschikbaar als open data</name>
-      <documentation xml:lang="en">Stel overheidsdata actief beschikbaar voor hergebruik door derden, bijvoorbeeld in de vorm van open data. Beschouw dit  aanbod als een dienst. De enige uitzondering zijn overheidsdata waarvoor wet- en regelgeving expliciet beperkingen oplegt, die stel je niet actief beschikbaar. &#xD;
-&#xD;
-Vanuit o.a. de WOO richt de overheid zich op transparantie. Daarbij hoort het actief beschikbaar stellen dan wel delen van data. Wel met inachtneming van de beperkingen die daarbij gelden (bijv. vanuit de AVG). Er zijn meerdere redenen om data actief beschikbaar te stellen. Zo kan het meer transparantie en inzicht geven in het overheidshandelen en zo de accountability vergroten. Bijvoorbeeld door begrotingen of inkoopgegevens als open data beschikbaar te stellen. Het kan ook economische en maatschappelijke innovatie stimuleren, zoals de ontwikkeling van apps en informatiediensten op basis van overheidsdata.</documentation>
+      <documentation xml:lang="en">Stel overheidsdata actief beschikbaar voor hergebruik door derden, bijvoorbeeld in de vorm van open data. Beschouw dit  aanbod als een dienst. De enige uitzondering zijn overheidsdata waarvoor wet- en regelgeving expliciet beperkingen oplegt, die stel je niet actief beschikbaar. Vanuit o.a. de WOO richt de overheid zich op transparantie. Daarbij hoort het actief beschikbaar stellen dan wel delen van data. Wel met inachtneming van de beperkingen die daarbij gelden (bijv. vanuit de AVG). Er zijn meerdere redenen om data actief beschikbaar te stellen. Zo kan het meer transparantie en inzicht geven in het overheidshandelen en zo de accountability vergroten. Bijvoorbeeld door begrotingen of inkoopgegevens als open data beschikbaar te stellen. Het kan ook economische en maatschappelijke innovatie stimuleren, zoals de ontwikkeling van apps en informatiediensten op basis van overheidsdata.</documentation>
     </element>
     <element identifier="id-869f6e85cc844f50acb627bfc1d3a8cb" xsi:type="Requirement">
-      <name xml:lang="en">IM028 Richt websites, portalen en apps in volgens ontwerprichtlijnen die de gebruikservaring bevorderen</name>
+      <name xml:lang="en">IM028 Pas ontwerprichtlijen toe bij websites en portalen en apps</name>
       <documentation xml:lang="en">Elke overheidsorganisatie is verantwoordelijk voor het goed toegankelijk maken van haar activiteiten voor burgers en bedrijven. Voor websites geldt dat deze moeten voldoen aan de standaarden zoals gedefinieerd in WCAG. Dit geldt met name voor websites die toegankelijk zijn voor het publiek, maar ook voor intern gerichte websites. WCAG staat voor 'Web Content Accessibility Guidelines'. De wetgever heeft bepaald dat alle (semi-)overheids websites per 23 september 2020 aan deze WCAG standaard moeten voldoen.</documentation>
     </element>
     <element identifier="id-8b85ceb5c5fd4b6aba3ada960eeb0ad7" xsi:type="Requirement">
-      <name xml:lang="en">IM146 Onweerlegbaarheid</name>
+      <name xml:lang="en">IM146 Stel onweerlegbaarheid vast</name>
       <documentation xml:lang="en">Stel vast voor welke berichtenstromen of transacties onweerlegbaarheid van gegevens vereist is om daarvoor aanvullende maatregelen te kunnen nemen.</documentation>
     </element>
     <element identifier="id-8d1439656d4f455a90753b7549d06394" xsi:type="Requirement">
-      <name xml:lang="en">IM162 Taken en verantwoordelijkheden gegevensverwerking bekend</name>
+      <name xml:lang="en">IM162 Bepaal taken en verantwoordelijkheden van de gegevensverwerking</name>
       <documentation xml:lang="en">Verantwoordelijkheden, bevoegdheden en taken bij gegevensverwerking zijn bepaald en bekend.</documentation>
     </element>
     <element identifier="id-8f709fb8c0294e83968826833a01cf70" xsi:type="Requirement">
@@ -1417,21 +1425,16 @@ Vanuit o.a. de WOO richt de overheid zich op transparantie. Daarbij hoort het ac
       <name xml:lang="en">IM143 Evalueer de risicoanalyse bij veranderingen</name>
       <documentation xml:lang="en">Een verandering in het dreigingsprofiel, of in een bedrijfsproces of in de onderliggende voorzieningen kan een mogelijke kwetsbaarheid introduceren of gevolgen hebben voor de veiligheidsbelangen van stakeholders. Een verandering kan de kans of de impact van een dreiging veranderen.</documentation>
     </element>
-    <element identifier="id-92f4b88393b24998a2e34b21362f7566" xsi:type="Requirement">
-      <name xml:lang="en">IM217 Niveau beschikbaarheid in overleg vastgesteld</name>
-      <documentation xml:lang="en">Het niveau van beschikbaarheid is in overleg met de afnemers vastgesteld.</documentation>
-    </element>
     <element identifier="id-945217efd17f4d1db57e5839e89e50f7" xsi:type="Requirement">
       <name xml:lang="en">IM109 Pas de FAIR dataprincipes toe</name>
-      <documentation xml:lang="en">Pas de implicaties van de FAIR dataprincipes toe. Zie ook&#xD;
-https://www.go-fair.org/fair-principles/</documentation>
+      <documentation xml:lang="en">Pas de implicaties van de FAIR dataprincipes toe. Zie ook https://www.go-fair.org/fair-principles/</documentation>
     </element>
     <element identifier="id-949650edda59447cbb078e1dcd0ed24c" xsi:type="Requirement">
       <name xml:lang="en">IM135 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt</name>
       <documentation xml:lang="en">Gegevens worden eenmalig uitgevraagd of verzameld, uniek opgeslagen, en vervolgens meervoudig gebruikt. Dit impliceert tevens dat de juistheid van de gebruikte informatie-objecten uit een bronregistratie niet voor gebruik opnieuw hoeft te worden gecontroleerd.</documentation>
     </element>
     <element identifier="id-9a7486cb97a549d29082fc85601794bf" xsi:type="Requirement">
-      <name xml:lang="en">IM112 Draag zorg voor juiste, actuele en volledige informatie</name>
+      <name xml:lang="en">IM112 Draag zorg voor juiste en actuele en volledige informatie</name>
       <documentation xml:lang="en">Een gebruiker kan er op vertrouwen dat een informatieobject is zoals deze in de bron is vastgelegd juist, actueel en volledig is. Fouten kunnen worden gemeld en hersteld. Daarbij is het van belang dat herstelwijzigingen worden gelogd, zodat traceerbaar is hoe foutieve gegevens zijn verwerkt en wat het effect daarvan is. Dit betekent dat:&#xD;
 * De kwaliteit van de informatie transparant, verankerd en geborgd moet zijn binnen de processen van de verantwoordelijke en leverende organisatie (datamanagement).&#xD;
 * Er gebruik moet worden gemaakt van gestandaardiseerde gegevensmodellen, gegevenswoordenboeken en catalogussen ten behoeve van machinematige verwerking van gegevens.&#xD;
@@ -1447,27 +1450,30 @@ https://www.go-fair.org/fair-principles/</documentation>
     </element>
     <element identifier="id-9c36647a4aba40bb9c9b219f8c4e81e8" xsi:type="Requirement">
       <name xml:lang="en">IM009 Ken je afnemers en stem diensten hierop af</name>
-      <documentation xml:lang="en">Verdiep je in de achtergronden van je afnemers en de context waarin zij van de dienst gebruik maken en vergewis je van de digitale vaardigheden van je doelgroep. Zorg dat de dienst is afgestemd op de (digi)vaardigheden en mogelijkheden van alle (potentiële) afnemers. Weet welke informatie afnemers doorgaans zoeken en waar ze deze zoeken. Deze informatie wordt aangemeld op de voor de afnemers bekende vindplaatsen, zoals zoekmachines, portals, catalogi en registers. Ook de dienst zelf wordt voorzien van de nodige zoekfuncties. Om te kunnen doorverwijzen, is [organisatie] op de hoogte van de andere plaatsen waar diensten te vinden zijn en kan de afnemers hiernaar verwijzen als dat nodig is.</documentation>
+      <documentation xml:lang="en">Verdiep je in de achtergronden van je afnemers en de context waarin zij van de dienst gebruik maken en vergewis je van de digitale vaardigheden van je doelgroep. Zorg dat de dienst is afgestemd op de (digi)vaardigheden en mogelijkheden van alle (potentiële) afnemers. Weet welke informatie afnemers doorgaans zoeken en waar ze deze zoeken. Deze informatie wordt aangemeld op de voor de afnemers bekende vindplaatsen, zoals zoekmachines, portals, catalogi en registers. Ook de dienst zelf wordt voorzien van de nodige zoekfuncties. Om te kunnen doorverwijzen, wees op de hoogte van de andere plaatsen waar diensten te vinden zijn zodat je de afnemers hiernaar kunt verwijzen als dat nodig is.</documentation>
     </element>
     <element identifier="id-a4558b4062b9462fa5bec72719c26e62" xsi:type="Requirement">
-      <name xml:lang="en">IM059 Pas eigen proces en organisatie aan naar standaard oplossing i.p.v. omgekeerd</name>
+      <name xml:lang="en">IM059 Pas je eigen proces en organisatie aan aan de standaard oplossing</name>
       <documentation xml:lang="en">Pas je processen en organisatie aan de standaard oplossingen aan, in plaats van het omgekeerde. Zie ook EIF principle 4 "Reusability", aanbeveling 6+7.</documentation>
     </element>
     <element identifier="id-ad672ba04a3641e6835ff8508bc68b58" xsi:type="Requirement">
-      <name xml:lang="en">IM151 Toegang tot applicaties en informatie afhankelijk van authenticatieniveau</name>
+      <name xml:lang="en">IM151 Maak toegang tot applicaties en gegevens afhankelijk van authenticatieniveau</name>
       <documentation xml:lang="en">Een gebruiker dient allereerst geautoriseerd te zijn om een applicatie te mogen gebruiken of gegevens te mogen inzien. Hierbij speelt het behaalde niveau van authenticatie een rol. Als bijvoorbeeld informatie met een tweede factor (MFA) moet zijn afgeschermd krijgt de gebruiker geen toegang als hij/zij slechts met een gebruikersnaam/wachtwoord combinatie kan authenticeren. Na succesvolle authenticatie kan bepaald worden of een gebruiker de applicatie mag gebruiken (of informatie mag inzien) aan de hand van autorisatieregels.</documentation>
     </element>
     <element identifier="id-ae7659c577784ce2aed2e9589e36510b" xsi:type="Requirement">
-      <name xml:lang="en">IM511 Bericht-interactie persistent verwerken</name>
-      <documentation xml:lang="en">Een bericht dat een mutatie tot gevolg heeft, bijvoorbeeld een bericht dat een betalingsopdracht representeert, mag niet verloren gaan. Een dergelijk 'transactioneel' bericht moet een incident als uitwijk of storing kunnen overleven. Alle onderdelen van een verwerkingsketen nemen verantwoordelijkheid voor het bericht en zorgen ervoor dat het bericht niet verloren gaat. Correcte verwerking heeft prioriteit boven verwerkingssnelheid. Persistentie houdt in dat een (transport)transactie pas is voltooid als het bericht is opgeslagen in een 'persistent store', zoals een bestand of database.&#xD;
-Een opvragingsbericht daarentegen heeft geen mutatie tot gevolg. Responsetijd heeft hier meer prioriteit. Bij verlies van een opvragingsbericht (door bv. een storing) wordt de opvraging opnieuw gedaan. Een opvragingsbericht wordt daarom niet-persistent verwerkt.</documentation>
+      <name xml:lang="en">IM511 Verwerk bericht-interactie persistent</name>
+      <documentation xml:lang="en">Een bericht dat een mutatie tot gevolg heeft, bijvoorbeeld een bericht dat een betalingsopdracht representeert, mag niet verloren gaan. Een dergelijk 'transactioneel' bericht moet een incident als uitwijk of storing kunnen overleven. Alle onderdelen van een verwerkingsketen nemen verantwoordelijkheid voor het bericht en zorgen ervoor dat het bericht niet verloren gaat. Correcte verwerking heeft prioriteit boven verwerkingssnelheid. Persistentie houdt in dat een (transport)transactie pas is voltooid als het bericht is opgeslagen in een 'persistent store', zoals een bestand of database. Een opvragingsbericht daarentegen heeft geen mutatie tot gevolg. Responsetijd heeft hier meer prioriteit. Bij verlies van een opvragingsbericht (door bv. een storing) wordt de opvraging opnieuw gedaan. Een opvragingsbericht wordt daarom niet-persistent verwerkt.</documentation>
+    </element>
+    <element identifier="id-aed1f376194f4247921b812b4103a0b0" xsi:type="Requirement">
+      <name xml:lang="en">IM015 Bied multi- en omni-channel dienstverlening</name>
+      <documentation xml:lang="en">Bied diensten aan via meerdere kanalen aan. Bij multichannel kunnen afnemers kiezen tussen enkele kanalen die niet direct op elkaar zijn afgestemd. Bij omnichannel gebruikt de afnemer heel veel verschillende kanalen die goed op elkaar zijn afgestemd.</documentation>
     </element>
     <element identifier="id-aef6522ea9cc44cd9303787b113ca5cf" xsi:type="Requirement">
-      <name xml:lang="en">IM016 Sluit aan op kanaal voorkeurkeuze gebruiker</name>
+      <name xml:lang="en">IM016 Sluit aan op het voorkeurskanaal van de gebruiker</name>
       <documentation xml:lang="en">Sluit aan op kanaal voorkeurkeuze gebruiker. Digitale kanalen zijn hierin leidend, doch er mag niet voorbij worden gegaan aan het belang van burgers die geen of beperkte mogelijkheden hebben om digitaal te communiceren.</documentation>
     </element>
     <element identifier="id-afcce245fdf54a238929116287e8713a" xsi:type="Requirement">
-      <name xml:lang="en">IM043 Defineer toegangsregels kanaalonafhankelijk</name>
+      <name xml:lang="en">IM043 Defineer de toegangsregels kanaalonafhankelijk</name>
       <documentation xml:lang="en">Formuleer uniforme regels die gelden voor toegang tot de entiteiten (dienst, informatie, object) onafhankelijk van het kanaal.</documentation>
     </element>
     <element identifier="id-b27fa746203f46689f60e25284bc52f9" xsi:type="Requirement">
@@ -1475,11 +1481,11 @@ Een opvragingsbericht daarentegen heeft geen mutatie tot gevolg. Responsetijd he
       <documentation xml:lang="en">Ontwikkel geen eigen processen, systemen en technieken wanneer deze ergens anders al beschikbaar zijn. Stel je actief op de hoogte van beschikbare en geplande standaardoplossingen, om daar bij het maken van plannen rekening mee te houden. De bruikbare elementen van beschikbare standaardoplossingen zullen moeten worden ingepast in de eigen organisatie. Geen enkele standaardoplossing past altijd voor de volle honderd procent. Daarom zal de bereidheid tot het sluiten van compromissen aanwezig moeten zijn.</documentation>
     </element>
     <element identifier="id-b2be0675b4f24218ac7ac5f23f3e3f2d" xsi:type="Requirement">
-      <name xml:lang="en">IM218 Bewaak continuïteit en heb calamiteitenplan</name>
+      <name xml:lang="en">IM218 Bewaak de continuïteit en stel een calamiteitenplan op</name>
       <documentation xml:lang="en">De continuïteit van voorzieningen wordt bewaakt, bij bedreiging van de continuïteit wordt alarm geslagen en er is voorzien in een calamiteitenplan. Dit plan wordt op regelmatige basis getest en geëvalueerd.</documentation>
     </element>
     <element identifier="id-b2d9cccd5ef34cab98351fe097267da6" xsi:type="Requirement">
-      <name xml:lang="en">IM012 Voor de afnemer relevante besluiten zijn traceerbaar en controleerbaar</name>
+      <name xml:lang="en">IM012 Maak besluiten traceerbaar en controleerbaar</name>
       <documentation xml:lang="en">Besluiten genomen door de overheid die burgers en bedrijven raken dienen door deze burgers en bedrijven controleerbaar te zijn. Hierbij hebben zij de mogelijkheid om inzicht te krijgen op welke wijze en op basis van welke informatie besluiten tot stand zijn gekomen (traceerbaarheid).</documentation>
     </element>
     <element identifier="id-b34b50ffce4d4f34bb38e1eecd72451f" xsi:type="Requirement">
@@ -1487,7 +1493,7 @@ Een opvragingsbericht daarentegen heeft geen mutatie tot gevolg. Responsetijd he
       <documentation xml:lang="en">Stel bij iedere processtap de vraag of deze stap waarde toevoegt voor de afnemer of dat de processtap evengoed weggelaten kan worden.</documentation>
     </element>
     <element identifier="id-b481ef89fe6042c3af454bcb90bbe1af" xsi:type="Requirement">
-      <name xml:lang="en">IM225 Maatregelen borgen vertrouwelijkheid gegevens</name>
+      <name xml:lang="en">IM225 Borg de vertrouwelijkheid van gegevens in maatregelen</name>
       <documentation xml:lang="en">De vertrouwelijkheid van gegevens wordt gegarandeerd door scheiding van systeemfuncties, door controle op communicatiegedrag en gegevensuitwisseling, door validatie op toegang tot gegevens en systeemfuncties en door versleuteling van gegevens.</documentation>
     </element>
     <element identifier="id-b4d0362d9da84defb8e9598348b9ede6" xsi:type="Requirement">
@@ -1496,16 +1502,14 @@ Een opvragingsbericht daarentegen heeft geen mutatie tot gevolg. Responsetijd he
     </element>
     <element identifier="id-b8d34ca5ff83472394f223e24cf13edc" xsi:type="Requirement">
       <name xml:lang="en">IM077 Koppel bronsystemen op basis van een passende classificatie</name>
-      <documentation xml:lang="en">Verwerk als afnemer gegevens uit een bronsysteem niet met een hogere classificatie voor beschikbaarheid en integriteit, of een met lagere classificatie voor vertrouwlijkheid, dan waarvoor de bron geclassificeerd is. &#xD;
-&#xD;
-Maak zonodig afspraken met de aanbieder om hun classificatie aan te passen en in hun dienst bijpassende maatregelen daarvoor te implementeren.</documentation>
+      <documentation xml:lang="en">Verwerk als afnemer gegevens uit een bronsysteem niet met een hogere classificatie voor beschikbaarheid en integriteit, of een met lagere classificatie voor vertrouwlijkheid, dan waarvoor de bron geclassificeerd is. Maak zonodig afspraken met de aanbieder om hun classificatie aan te passen en in hun dienst bijpassende maatregelen daarvoor te implementeren.</documentation>
     </element>
     <element identifier="id-bbc30912ad1a48aeb364b021f4ee919f" xsi:type="Requirement">
-      <name xml:lang="en">IM507 Cloud: SaaS voor PaaS voor IaaS</name>
+      <name xml:lang="en">IM507 Kies bij cloudoplossingen SaaS boven PaaS boven IaaS</name>
       <documentation xml:lang="en">SaaS oplossingen hebben de voorkeur boven PaaS oplossingen, en PaaS oplossingen hebben de voorkeur boven IaaS oplossingen. Aanvullend geldt: public cloud boven community cloud en community cloud boven private cloud.</documentation>
     </element>
     <element identifier="id-bd763e3541bc4598bc8f412388a99a0a" xsi:type="Requirement">
-      <name xml:lang="en">IM139 Alle data heeft een unieke bron en eigenaar</name>
+      <name xml:lang="en">IM139 Stel voor ieder gegeven de unieke bron en eigenaar vast</name>
       <documentation xml:lang="en">Het niet hebben van een 'single point of truth (SPOT)' kan leiden tot divergerende data en mogelijk tot inconsistente beslissingen die op basis van de verschillende databronnen worden genomen. Het eigenaarschap is een manier om te borgen dat de data eenduidig wordt bijgewerkt.</documentation>
     </element>
     <element identifier="id-c0272d979f36400e90a84ee41cc6115a" xsi:type="Requirement">
@@ -1513,7 +1517,7 @@ Maak zonodig afspraken met de aanbieder om hun classificatie aan te passen en in
       <documentation xml:lang="en">Maak beveilingingsmaatregelen transparant voor de gebruiker en richt deze zo gebruiksvriendelijk mogelijk in. Verleid de gebruiker zo veel mogelijk om veilig te werken: zo leidt het afdwingen van gebruikersonvriendelijke beveiligingsmaatregelen vaak tot onveilige workarounds en ander onveilig gedrag.</documentation>
     </element>
     <element identifier="id-c39c58ebf8c74d31b7ec8b6d0330fb39" xsi:type="Requirement">
-      <name xml:lang="en">IM082 Actueel register met standaarden</name>
+      <name xml:lang="en">IM082 Gebruik een actueel register met standaarden</name>
       <documentation xml:lang="en">Zorg voor een actueel register met standaarden per functioneel toepassingsgebied (gegevensuitwisseling, beveiliging, taalgebruik, ...) en organisatorisch werkingsgebied. Sluit aan en maak afspraken bij de relevante organisatorisch werkingsgebieden. Zie ook https://www.forumstandaardisatie.nl/</documentation>
     </element>
     <element identifier="id-c3d9cd541af74fb0a231562f974570d0" xsi:type="Requirement">
@@ -1526,16 +1530,12 @@ Maak zonodig afspraken met de aanbieder om hun classificatie aan te passen en in
 * Inventariseer de relevante  standaarden en neem dat mee in het ontwerp van de dienst/voorziening.</documentation>
     </element>
     <element identifier="id-c876131382024e349d08b1eb609d079c" xsi:type="Requirement">
-      <name xml:lang="en">IM152 Hanteer het "zero-trust" model</name>
+      <name xml:lang="en">IM152 Hanteer het zero-trust model</name>
       <documentation xml:lang="en">Ga nooit uit van een impliciet vertrouwen. Controleer overal het netwerkverkeer. Controleer toegang per sessie. Hanteer dynamische policies en gebruik daarbij de gedligheidsduur van de laatste authenticatie. Blijf continue monitoren. Dwing authenticatie en autorisatie strict af. Verzamel zoveel mogelijk gegevens om de beveiliging te blijven verbeteren.</documentation>
     </element>
     <element identifier="id-c8876d20b1994d6eb578484c3fc93794" xsi:type="Requirement">
       <name xml:lang="en">IM208 Maak afspraken over nieuwe (en oude) versies van standaarden</name>
       <documentation xml:lang="en">De dienstverlener en de afnemers maken afspraken over de periode waarin overgegaan wordt op een nieuwe versie van de standaard. Wanneer een nieuwe versie van een standaard geïmplementeerd wordt, blijft de aanbieder de oude versie ondersteunen zolang als dat volgens afspraak nodig is.</documentation>
-    </element>
-    <element identifier="id-d573d86d1d0c45b7ad62df339a168b3d" xsi:type="Requirement">
-      <name xml:lang="en">IM215 Authentieke gegevens uit wetgeving afgenomen uit basisregistraties</name>
-      <documentation xml:lang="en">Authentieke gegevens, zoals beschreven in de wetgeving op basisregistraties, worden afgenomen van de daartoe ingerichte basisregistraties.</documentation>
     </element>
     <element identifier="id-d6334dd0222a49b7b63aae639582af7e" xsi:type="Requirement">
       <name xml:lang="en">IM057 Maak heldere afspraken over aanbieden en afnemen van diensten</name>
@@ -1549,15 +1549,15 @@ Maak zonodig afspraken met de aanbieder om hun classificatie aan te passen en in
       <documentation xml:lang="en">Leg per dienst vast aan welke normen en standaarden je (moet of wilt) voldoen. Deze normen en standaarden moeten op hun beurt voldoen aan wet- en regelgeving. De opzet van   de dienst is in overeenstemming met deze normen en standaarden. Afwijkingen van deze norm worden geïdentificeerd.</documentation>
     </element>
     <element identifier="id-e1c8ddbb70684bc0849ce98f84fdc32a" xsi:type="Requirement">
-      <name xml:lang="en">IM505 Gegevensuitwisseling tussen (web)applicaties met API's</name>
+      <name xml:lang="en">IM505 Wissel gegevens tussen (web)applicaties uit met API's</name>
       <documentation xml:lang="en">Gegevensuitwisseling tussen (web)applicaties gebeurt via Restful API's, De broneigenaar levert API's die voldoen aan de moderne RESTful standaarden. API's dienen centraal te worden beheerd in een API management systeem.</documentation>
     </element>
     <element identifier="id-ea6fb962571e4e359ae999c80ed2911b" xsi:type="Requirement">
-      <name xml:lang="en">IM031 Eén organisatie is verantwoordelijk voor de dienst</name>
+      <name xml:lang="en">IM031 Maak één organisatie verantwoordelijk voor de dienst</name>
       <documentation xml:lang="en">Eén organisatie is verantwoordelijk en aanspreekbaar voor de geleverde dienst.</documentation>
     </element>
     <element identifier="id-ebcec6c0cfda4092b4fac5e94076279f" xsi:type="Requirement">
-      <name xml:lang="en">IM061 Diensten zijn herbruikbaar</name>
+      <name xml:lang="en">IM061 Maak diensten herbruikbaar</name>
       <documentation xml:lang="en">De dienst is zodanig opgezet, dat andere organisaties deze in eigen diensten kunnen hergebruiken. De opzet van de dienst anticipeert op onvoorziene afnemers en gebruik. Deze implicatie beoogt de dienst interoperabel en bruikbaar voor een zo groot mogelijke groep afnemers te maken. Dit draagt bij aan een hoger rendement van de dienst. Hiervoor is het nodig dat de dienst:&#xD;
 * zó is beschreven dat de resultaten en voorwaarden ook in een andere context begrepen kunnen worden&#xD;
 * maximaal gebruik maakt van (open) standaarden om zo min mogelijk drempels op te werpen voor gebruik&#xD;
@@ -1572,14 +1572,8 @@ Maak zonodig afspraken met de aanbieder om hun classificatie aan te passen en in
       <name xml:lang="en">IM213 Stel de juridische aansprakelijkheid per gegevensobject vast</name>
       <documentation xml:lang="en">Per informatie-object is de bron en daarmee de juridische aansprakelijkheid voor de juistheid van het object vastgesteld.</documentation>
     </element>
-    <element identifier="id-f84a8a28ea7a470fba3e9676220d1ad6" xsi:type="Requirement">
-      <name xml:lang="en">IM202 De dienst wordt gebundeld aangeboden vanuit perspectief afnemer</name>
-      <documentation xml:lang="en">De dienst wordt (vanuit perspectief van de afnemer) gebundeld aangeboden met een of meer diensten van andere organisaties. Breng hierbij de aanbod- en vraagzijde van de markt zijn in kaart:&#xD;
-* Doelgroepen en hun perspectief&#xD;
-* Aanverwante diensten en dienstverleners</documentation>
-    </element>
     <element identifier="id-fb1dcaad54144a9fa58b72d1043198cb" xsi:type="Requirement">
-      <name xml:lang="en">IM018 De dienst is toegankelijk voor alle gebruikers</name>
+      <name xml:lang="en">IM018 Maak de dienst toegankelijk voor alle gebruikers</name>
       <documentation xml:lang="en">Zorg dat alle gebruikers, ook die met functiebeperking, de volwaardige dienst kunnen afnemen. Het streven is digitale inclusiviteit voor iedereen (digitoegankelijk).</documentation>
     </element>
     <element identifier="id-fcfb3e6dc9364279a0656871a10e0b09" xsi:type="Requirement">
@@ -1600,9 +1594,9 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
       <documentation xml:lang="en">Informatie moet toegankelijk zijn voor gebruikers, zowel mens als machine. Hiervoor moeten de gebruikers geen speciale toepassingen of hulpmiddelen nodig hebben. Daarbij moet het formaat waar de informatie in wordt opgeslagen toekomstbestendig zijn, zodat de informatie ook in de toekomst nog toegankelijk is. Dit betekent dat:&#xD;
 * Gebruik wordt gemaakt van een open standaard.&#xD;
 * Bij doorontwikkeling van de gebruikte formaten, het originele bronbestand opgeslagen blijft in zijn huidige formaat en het voorlaatste bestandformaat actief wordt gemigreerd naar het nieuwe formaat.&#xD;
-* Voor het gebruik van het bestandsformaat geen afhankelijkheid is van één (1) leverancier en onafhankelijk van hulpmiddelen of speciale toepassingen is te gebruiken. &#xD;
+* Voor het gebruik van het bestandsformaat geen afhankelijkheid is van één (1) leverancier en onafhankelijk van hulpmiddelen of speciale toepassingen is te gebruiken.&#xD;
 * Het bestandsformaat goed is gedocumenteerd.&#xD;
-* Het formaat het eenvoudig uitwisselen met andere platforms en apparaten ondersteunt. &#xD;
+* Het formaat het eenvoudig uitwisselen met andere platforms en apparaten ondersteunt.&#xD;
 * Fouten in de bitopslag automatisch gedetecteerd kunnen worden en te herstellen zijn.&#xD;
 * Het formaat op grote schaal gebruikt wordt.</documentation>
     </element>
@@ -1611,16 +1605,12 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
       <documentation xml:lang="en">Zorg voor open specificaties. Zodat deze hergebruikt kunnen worden over instellingen heen. Dit voorkomt dat verschillende organisaties hetzelfde wiel moeten uitvinden. Zie ook EIF principle 2: "Openness", aanbeveling 4. https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf</documentation>
     </element>
     <element identifier="id-ff0e901df78d4e3f81698411163cd3e1" xsi:type="Requirement">
-      <name xml:lang="en">IM095 Leg SLA vast bij de dienst</name>
+      <name xml:lang="en">IM095 Leg een SLA vast bij de dienst</name>
       <documentation xml:lang="en">Leg het akkoord op en de inhoud van de dienst schriftelijk vast in de vorm van een Service Level Agreement (SLA), Gegevens Leverings Overeenkomst (GLO) of in wet- en regelgeving. Dit is in elk geval noodzakelijk voor bedrijfskritische diensten of diensten met een zeer vertrouwelijk karakter. Hierbij is het akkoord en de inhoud daarvan schriftelijk vastgelegd. De dienstverlener geeft hierbij ook aan welk betrouwbaarheidsniveau geldt voor de identificatie van de afnemer.</documentation>
     </element>
     <element identifier="id-ff7cddc5a89d41f383e5a554e89948bf" xsi:type="Requirement">
       <name xml:lang="en">IM104 Leg de doelbinding vast in de metadata van het gegevensobject</name>
       <documentation xml:lang="en">De verwerkingshistorie inclusief doel van verwerking wordt vastgelegd bij het gegegevensobject als metadata. Dit betekent dat de historie van acties waarin een gegevensobject wordt verwerkt (opvragen / vastleggen / wijzigen / verwijderen) inclusief het doel van de actie vastgelegd wordt bij het gegevenobject.</documentation>
-    </element>
-    <element identifier="id-aed1f376194f4247921b812b4103a0b0" xsi:type="Requirement">
-      <name xml:lang="en">IM015 Bied multi- en omni-channel dienstverlening</name>
-      <documentation xml:lang="en">Bied diensten aan via meerdere kanalen aan. Bij multichannel kunnen afnemers kiezen tussen enkele kanalen die niet direct op elkaar zijn afgestemd. Bij omnichannel gebruikt de afnemer heel veel verschillende kanalen die goed op elkaar zijn afgestemd.</documentation>
     </element>
     <element identifier="id-1d4a343462be40548c3b704b34ed0a04" xsi:type="Grouping">
       <name xml:lang="en">Laag 1 - Grondslagen en visie</name>
@@ -2515,6 +2505,8 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-08876ad345dc4039967a0f43d4cf1ab9" />
         <item identifierRef="id-0ac207ede55749ae97b7c68657d5a2d4" />
         <item identifierRef="id-0c357f038acc4ba1bd879d6ad09e6944" />
+        <item identifierRef="id-0d3ae961cf99484c8f76951a89a32827" />
+        <item identifierRef="id-109fb852881b4b748a490cb939d41269" />
         <item identifierRef="id-119261f09dac4aa8b904e031397ece7d" />
         <item identifierRef="id-11e0e55958db4cbe94f5e75eb4ce3ba5" />
         <item identifierRef="id-151b2ada34ee47208197653ae3934cf0" />
@@ -2541,6 +2533,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-3cabfe29bbe8414997a5c09df85b1fe6" />
         <item identifierRef="id-3d8e01c87acc4bfba5b28d0d0ec4d825" />
         <item identifierRef="id-3dbb108c2724422eabff3f95a0a0f6bc" />
+        <item identifierRef="id-3e2d1d11ff844077b190fd7dcdc83867" />
         <item identifierRef="id-4397defde48b4a5ba4964ab779492125" />
         <item identifierRef="id-44e29f139777435ca83892c44a1368e1" />
         <item identifierRef="id-4bd3c4de811b45ef8f2ec2008fb18bb5" />
@@ -2548,6 +2541,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-511000fd8034476b8dbf7bf05de60985" />
         <item identifierRef="id-53a215ce41f7497b81285a2289a0c83e" />
         <item identifierRef="id-54083821a1cd4894bcf9547a25c10cd0" />
+        <item identifierRef="id-54eb2dbbe8a44eeaacf00bda0a642c31" />
         <item identifierRef="id-560fc8dfa6cd44bf91b50539fba0b6b1" />
         <item identifierRef="id-56c79522a98245abbee18a4967c1efe9" />
         <item identifierRef="id-5875803221af426f80620d07daabe855" />
@@ -2573,6 +2567,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-89204dba1fde40f08737a8ddab16166c" />
         <item identifierRef="id-8be39489e0184a2bb8620708df9edf5e" />
         <item identifierRef="id-8e30b65739da42f7a71bb7d8a80e5665" />
+        <item identifierRef="id-92f4b88393b24998a2e34b21362f7566" />
         <item identifierRef="id-9629a2e0d67046bcbe1918076bf70185" />
         <item identifierRef="id-975aa346a3da4ad393b24cae20b30160" />
         <item identifierRef="id-9854179b52c748b78e84f6b5b64968dc" />
@@ -2595,6 +2590,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-bc49475d89e34a6dbd9515a8baa38e7c" />
         <item identifierRef="id-bc835a786a114cfbaa696359c0c5a830" />
         <item identifierRef="id-bd40ae4906344fc78c6e8c5be2b3e498" />
+        <item identifierRef="id-bf2053a5d5ca48439f87e6146e807cf1" />
         <item identifierRef="id-c14dfd2770244e4982ad252caf656481" />
         <item identifierRef="id-c1a3401ae62b43909145f19a35aed9ef" />
         <item identifierRef="id-c3a99b3c2ff04607ab136ad9440cbd57" />
@@ -2603,7 +2599,10 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-c568d140589d4ead9cd76c34d62d9523" />
         <item identifierRef="id-c72dde45c9ae417cbfa8cf9ae7781276" />
         <item identifierRef="id-c7c15cc54fad447d9aaf3140730763da" />
+        <item identifierRef="id-c7efd8dfe4a3477ba23cd22ff91cbd05" />
         <item identifierRef="id-cb8e962ae9024de3b4f795b2d3b6df6b" />
+        <item identifierRef="id-d4969c2e939b40b5887e7664c64ecf18" />
+        <item identifierRef="id-d573d86d1d0c45b7ad62df339a168b3d" />
         <item identifierRef="id-dbe15900a5944947a7460e166ee4e28d" />
         <item identifierRef="id-dcaafe4d17664adcbd37b9f66dafc762" />
         <item identifierRef="id-dcbde17d87504c25b30cf4ed152768c6" />
@@ -2624,16 +2623,12 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-f470de2b314240338bbe820667adfcc1" />
         <item identifierRef="id-f58883c728e64af5b965c3578aed48ad" />
         <item identifierRef="id-f75cd369b59b46799d9cff195acb2246" />
+        <item identifierRef="id-f84a8a28ea7a470fba3e9676220d1ad6" />
         <item identifierRef="id-f988e383812942e2ba246773b9f93c56" />
         <item identifierRef="id-fb4a3ab322104934ad2343215d88c349" />
         <item identifierRef="id-fb829492a6bb42ef9aa3c381d663abfa" />
         <item identifierRef="id-fcd3e6c73fd44ca195e273f4a491f50c" />
         <item identifierRef="id-fddee6f776ad462f8344d0307e81a3aa" />
-        <item identifierRef="id-bf2053a5d5ca48439f87e6146e807cf1" />
-        <item identifierRef="id-d4969c2e939b40b5887e7664c64ecf18" />
-        <item identifierRef="id-54eb2dbbe8a44eeaacf00bda0a642c31" />
-        <item identifierRef="id-c7efd8dfe4a3477ba23cd22ff91cbd05" />
-        <item identifierRef="id-0d3ae961cf99484c8f76951a89a32827" />
       </item>
       <item>
         <label xml:lang="en">NORA Architectuur Principes</label>
@@ -2663,7 +2658,6 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-08abdf3d7bdf481898de2d78a34712b6" />
         <item identifierRef="id-0c18041c05284b56a3f559cd47257fd4" />
         <item identifierRef="id-100e6e5157134564ae9b29317759632b" />
-        <item identifierRef="id-109fb852881b4b748a490cb939d41269" />
         <item identifierRef="id-1642fb37afeb43a1989dbca68c5d1c66" />
         <item identifierRef="id-16931fb47aae4691b3d06050e3952626" />
         <item identifierRef="id-18c654522d1a4d67869a90fabf0c87c9" />
@@ -2680,7 +2674,6 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-3b0d51ddb8d64a7b82b28d7dd2df0aaa" />
         <item identifierRef="id-3bd2ac77dfb5476fa4a0e1922834efaa" />
         <item identifierRef="id-3ce47667b4384c1fbe5aca987909db83" />
-        <item identifierRef="id-3e2d1d11ff844077b190fd7dcdc83867" />
         <item identifierRef="id-3f0c4005c9e345b596133770cd57d892" />
         <item identifierRef="id-3f279598e31f46378e11e4339758ebd9" />
         <item identifierRef="id-414d558b0a9b4c82b832bb36df014f6d" />
@@ -2709,7 +2702,6 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-8d1439656d4f455a90753b7549d06394" />
         <item identifierRef="id-8f709fb8c0294e83968826833a01cf70" />
         <item identifierRef="id-921bf26a634d46579fa610860594b507" />
-        <item identifierRef="id-92f4b88393b24998a2e34b21362f7566" />
         <item identifierRef="id-945217efd17f4d1db57e5839e89e50f7" />
         <item identifierRef="id-949650edda59447cbb078e1dcd0ed24c" />
         <item identifierRef="id-9a7486cb97a549d29082fc85601794bf" />
@@ -2718,6 +2710,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-a4558b4062b9462fa5bec72719c26e62" />
         <item identifierRef="id-ad672ba04a3641e6835ff8508bc68b58" />
         <item identifierRef="id-ae7659c577784ce2aed2e9589e36510b" />
+        <item identifierRef="id-aed1f376194f4247921b812b4103a0b0" />
         <item identifierRef="id-aef6522ea9cc44cd9303787b113ca5cf" />
         <item identifierRef="id-afcce245fdf54a238929116287e8713a" />
         <item identifierRef="id-b27fa746203f46689f60e25284bc52f9" />
@@ -2735,7 +2728,6 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-c79ea09a5b7b4cbeb0cd7444b1a71402" />
         <item identifierRef="id-c876131382024e349d08b1eb609d079c" />
         <item identifierRef="id-c8876d20b1994d6eb578484c3fc93794" />
-        <item identifierRef="id-d573d86d1d0c45b7ad62df339a168b3d" />
         <item identifierRef="id-d6334dd0222a49b7b63aae639582af7e" />
         <item identifierRef="id-e133b3a87b694d888144162bcdef1828" />
         <item identifierRef="id-e1c8ddbb70684bc0849ce98f84fdc32a" />
@@ -2743,14 +2735,12 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
         <item identifierRef="id-ebcec6c0cfda4092b4fac5e94076279f" />
         <item identifierRef="id-ed44fb472eb84577842f50fa03a9d6a6" />
         <item identifierRef="id-ede0e3ebec144e3cb84fe745d377d439" />
-        <item identifierRef="id-f84a8a28ea7a470fba3e9676220d1ad6" />
         <item identifierRef="id-fb1dcaad54144a9fa58b72d1043198cb" />
         <item identifierRef="id-fcfb3e6dc9364279a0656871a10e0b09" />
         <item identifierRef="id-fd57b7ad95744b9b97fbf03006886291" />
         <item identifierRef="id-fe25d01c5344433195a0f7d9a5453c8b" />
         <item identifierRef="id-ff0e901df78d4e3f81698411163cd3e1" />
         <item identifierRef="id-ff7cddc5a89d41f383e5a554e89948bf" />
-        <item identifierRef="id-aed1f376194f4247921b812b4103a0b0" />
       </item>
     </item>
     <item>
@@ -5436,7 +5426,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </node>
           <node identifier="id-471f14b9770f498b9d4ffdc9bf2f0c8f" elementRef="id-f84a8a28ea7a470fba3e9676220d1ad6" xsi:type="Element" x="1828" y="1281" w="192" h="55">
             <style>
-              <fillColor r="204" g="204" b="255" a="100" />
+              <fillColor r="255" g="128" b="128" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />
@@ -5499,7 +5489,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </node>
           <node identifier="id-93c0d10e6e4a407783facd6566812445" elementRef="id-54083821a1cd4894bcf9547a25c10cd0" xsi:type="Element" x="4171" y="1320" w="192" h="55">
             <style>
-              <fillColor r="204" g="204" b="255" a="100" />
+              <fillColor r="255" g="128" b="128" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />
@@ -5553,7 +5543,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </node>
           <node identifier="id-c8b52bcdcf074b0db5541e07aa5b2b1a" elementRef="id-92f4b88393b24998a2e34b21362f7566" xsi:type="Element" x="6285" y="933" w="156" h="55">
             <style>
-              <fillColor r="204" g="204" b="255" a="100" />
+              <fillColor r="255" g="128" b="128" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />
@@ -5580,7 +5570,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </node>
           <node identifier="id-3272c51733564e8eb1ba53a36a24bdae" elementRef="id-109fb852881b4b748a490cb939d41269" xsi:type="Element" x="6266" y="1312" w="172" h="55">
             <style>
-              <fillColor r="204" g="204" b="255" a="100" />
+              <fillColor r="255" g="128" b="128" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />
@@ -5814,7 +5804,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </node>
           <node identifier="id-4cbb1e00dc3a4789ade6fb7d9cf3681b" elementRef="id-38c3fd61e5714c9c8f45b5b0514c63f2" xsi:type="Element" x="2260" y="1590" w="169" h="55">
             <style>
-              <fillColor r="204" g="204" b="255" a="100" />
+              <fillColor r="255" g="128" b="128" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />
@@ -6273,7 +6263,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </node>
           <node identifier="id-779650c2aa0a4a7db4f247bc717be9a7" elementRef="id-d573d86d1d0c45b7ad62df339a168b3d" xsi:type="Element" x="5772" y="1776" w="202" h="55">
             <style>
-              <fillColor r="204" g="204" b="255" a="100" />
+              <fillColor r="255" g="128" b="128" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />
@@ -6291,7 +6281,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </node>
           <node identifier="id-d10d84358c7d4c679af1e2bcc51d58a4" elementRef="id-3e2d1d11ff844077b190fd7dcdc83867" xsi:type="Element" x="6052" y="1493" w="140" h="55">
             <style>
-              <fillColor r="204" g="204" b="255" a="100" />
+              <fillColor r="255" g="128" b="128" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />
@@ -6849,7 +6839,7 @@ Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen i
           </node>
           <node identifier="id-a17835aec11b4ecba0814993e6cca297" elementRef="id-847d2125a2624b08997dc0f0befefc9e" xsi:type="Element" x="6264" y="2292" w="196" h="55">
             <style>
-              <fillColor r="204" g="204" b="255" a="100" />
+              <fillColor r="255" g="128" b="128" a="100" />
               <lineColor r="92" g="92" b="92" a="100" />
               <font name="Segoe UI" size="9">
                 <color r="0" g="0" b="0" />
