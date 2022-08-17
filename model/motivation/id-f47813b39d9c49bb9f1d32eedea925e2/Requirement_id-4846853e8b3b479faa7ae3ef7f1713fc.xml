@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM093 De dienst heeft een duidelijke Quality of Service (QoS)"
+    name="IM093 Stel een duidelijke Quality of Service (QoS) vast voor de dienst"
     id="id-4846853e8b3b479faa7ae3ef7f1713fc"
     documentation="De dienst heeft een duidelijk beschreven 'Quality of Service'. Niet alleen op het technisch koppelvlak, maar juist ook op die aspecten die door de afnemers begrepen worden. Bijvoorbeeld in termen van beschikbaarheid, performance, supportniveau, etc."/>

@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM146 Onweerlegbaarheid"
+    name="IM146 Stel onweerlegbaarheid vast"
     id="id-8b85ceb5c5fd4b6aba3ada960eeb0ad7"
     documentation="Stel vast voor welke berichtenstromen of transacties onweerlegbaarheid van gegevens vereist is om daarvoor aanvullende maatregelen te kunnen nemen."/>

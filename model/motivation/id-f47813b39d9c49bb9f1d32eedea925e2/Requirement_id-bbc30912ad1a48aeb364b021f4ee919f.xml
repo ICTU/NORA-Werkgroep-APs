@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM507 Cloud: SaaS voor PaaS voor IaaS"
+    name="IM507 Kies bij cloudoplossingen SaaS boven PaaS boven IaaS"
     id="id-bbc30912ad1a48aeb364b021f4ee919f"
     documentation="SaaS oplossingen hebben de voorkeur boven PaaS oplossingen, en PaaS oplossingen hebben de voorkeur boven IaaS oplossingen. Aanvullend geldt: public cloud boven community cloud en community cloud boven private cloud."/>

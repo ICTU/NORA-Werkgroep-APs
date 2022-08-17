@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM511 Bericht-interactie persistent verwerken"
+    name="IM511 Verwerk bericht-interactie persistent"
     id="id-ae7659c577784ce2aed2e9589e36510b"
     documentation="Een bericht dat een mutatie tot gevolg heeft, bijvoorbeeld een bericht dat een betalingsopdracht representeert, mag niet verloren gaan. Een dergelijk 'transactioneel' bericht moet een incident als uitwijk of storing kunnen overleven. Alle onderdelen van een verwerkingsketen nemen verantwoordelijkheid voor het bericht en zorgen ervoor dat het bericht niet verloren gaat. Correcte verwerking heeft prioriteit boven verwerkingssnelheid. Persistentie houdt in dat een (transport)transactie pas is voltooid als het bericht is opgeslagen in een 'persistent store', zoals een bestand of database. Een opvragingsbericht daarentegen heeft geen mutatie tot gevolg. Responsetijd heeft hier meer prioriteit. Bij verlies van een opvragingsbericht (door bv. een storing) wordt de opvraging opnieuw gedaan. Een opvragingsbericht wordt daarom niet-persistent verwerkt."/>

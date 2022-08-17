@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM113 Gegevens zijn herleidbaar tot de bron (herkomst)"
+    name="IM113 Maak gegevens herleidbaar tot de bron (herkomst)"
     id="id-30413c6cc4154b95923b0bc2c7994487"
     documentation="Dit betekent dat inzichtelijk gemaakt moet worden hoe gegevens tot stand zijn gekomen, over de gehele verwerking in de keten heen. Dus van bronnen tot eindproduct. Van ieder gegeven zijn de herkomst en verwerkingen beschikbaar tot aan vernietiging"/>

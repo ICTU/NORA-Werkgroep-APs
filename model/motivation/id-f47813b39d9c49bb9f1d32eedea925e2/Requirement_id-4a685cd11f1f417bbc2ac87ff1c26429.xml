@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM105 Voor ieder gegeven één verantwoordelijke"
+    name="IM105 Stel één verantwoordelijke vast voor ieder gegeven"
     id="id-4a685cd11f1f417bbc2ac87ff1c26429"
     documentation="Voor ieder gegeven en voor iedere verwerking is er een verantwoordelijke gegevenseigenaar. Alle relevante gegevensobjecten dienen hiervoor te worden geïnventariseerd."/>

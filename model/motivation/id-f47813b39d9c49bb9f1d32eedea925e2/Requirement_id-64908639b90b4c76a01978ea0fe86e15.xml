@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM111 De context van een informatieobject is vastgelegd in metadata"
+    name="IM111 Leg de context van een informatieobject vast in metadata"
     id="id-64908639b90b4c76a01978ea0fe86e15"
     documentation="Informatie-objecten dienen goed te worden beheerd. Onderdeel hiervan is dat de context van een informatieobject goed moet zijn vastgelegd in metadata.&#xD;&#xA;* Informatie en gegevens dienen duidelijk te plaatsen te zijn binnen een bepaalde context. Metadata is hiervoor het geëigende instrument.&#xD;&#xA;* Context (vastgelegd in metadata) is nodig om gegevens te begrijpen voor verwerking.&#xD;&#xA;* Zie DUTO eisen (ISO 23801)"/>

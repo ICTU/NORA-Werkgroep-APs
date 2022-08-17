@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM061 Diensten zijn herbruikbaar"
+    name="IM061 Maak diensten herbruikbaar"
     id="id-ebcec6c0cfda4092b4fac5e94076279f"
     documentation="De dienst is zodanig opgezet, dat andere organisaties deze in eigen diensten kunnen hergebruiken. De opzet van de dienst anticipeert op onvoorziene afnemers en gebruik. Deze implicatie beoogt de dienst interoperabel en bruikbaar voor een zo groot mogelijke groep afnemers te maken. Dit draagt bij aan een hoger rendement van de dienst. Hiervoor is het nodig dat de dienst:&#xD;&#xA;* zó is beschreven dat de resultaten en voorwaarden ook in een andere context begrepen kunnen worden&#xD;&#xA;* maximaal gebruik maakt van (open) standaarden om zo min mogelijk drempels op te werpen voor gebruik&#xD;&#xA;* een minimum aan gebruiksvoorwaarden kent&#xD;&#xA;* is aangemeld bij een landelijk serviceregister."/>
