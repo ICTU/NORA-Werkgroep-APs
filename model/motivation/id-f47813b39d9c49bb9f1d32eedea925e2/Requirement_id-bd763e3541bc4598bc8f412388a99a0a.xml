@@ -1,5 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM139 Stel voor ieder gegeven de unieke bron en eigenaar vast"
+    name="IM139 Stel voor ieder gegeven de unieke bron vast"
     id="id-bd763e3541bc4598bc8f412388a99a0a"
-    documentation="Het niet hebben van een 'single point of truth (SPOT)' kan leiden tot divergerende data en mogelijk tot inconsistente beslissingen die op basis van de verschillende databronnen worden genomen. Het eigenaarschap is een manier om te borgen dat de data eenduidig wordt bijgewerkt."/>
+    documentation="Het niet hebben van een 'single point of truth (SPOT)' kan leiden tot divergerende data en mogelijk tot inconsistente beslissingen die op basis van de verschillende databronnen worden genomen."/>
