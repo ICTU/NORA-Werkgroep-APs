@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM150 Verifieer de werking van algoritmes"
     id="id-8f709fb8c0294e83968826833a01cf70"
-    documentation="Kijk doorlopend hoe applicaties functioneren en of uitkomsten van functies en modellen passen binnen de specificaties en dat er bijvoorbeeld geen &quot;modeldrift&quot; plaatsvindt, of &quot;bias&quot; ontstaat.">
+    documentation="Kijk doorlopend hoe applicaties functioneren en of uitkomsten van functies en modellen passen binnen de specificaties en dat er geen sprake is van zaken als model drift, of het ontstaan van bias.">
   <properties
       key="WerkgroepID"
       value="IM150"/>

@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM223 Controleer de verwerking van gegevens"
     id="id-4edc7430c38148e88255e31be93aed9c"
-    documentation="Controleer de verwerking van gegevens:&#xD;&#xA;* De criteria voor juistheid, en tijdigheid zijn vastgesteld&#xD;&#xA;* controleren vanuit een systeemvreemde omgeving ingevoerde gegevens op   juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt.&#xD;&#xA;* controleren te versturen gegevens op juistheid, volledigheid en tijdigheid&#xD;&#xA;* controleren ter verwerking aangeboden gegevens op juiste, volledig en tijdige verwerking&#xD;&#xA;* vergelijken periodiek kritieke gegevens die in verschillende gegevensverzamelingen voorkomen met elkaar op consistentie. Dit geldt allee zolang als de gegevens niet frequent en integraal worden gesynchroniseerd met de brongegevens.">
+    documentation="Controleer de verwerking van gegevens: &#xD;&#xA;&#xD;&#xA;* Zijn de criteria voor juistheid, en tijdigheid vastgesteld? &#xD;&#xA;* Worden gegevens die vanuit een systeemvreemde omgeving ingevoerd zijn eerst gecontroleerd op juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt? &#xD;&#xA;* Worden te versturen gegevens gecontroleerd op juistheid, volledigheid en tijdigheid?&#xD;&#xA;* Worden ter verwerking aangeboden gegevens gecontroleerd op juiste, volledig en tijdige verwerking?&#xD;&#xA;* Worden kritieke gegevens die in verschillende gegevensverzamelingen voorkomen periodiek met elkaar vergeleken op consistentie? (Dit geldt alleen zolang de gegevens niet frequent en integraal worden gesynchroniseerd met de brongegevens)">
   <properties
       key="WerkgroepID"
       value="IM223"/>

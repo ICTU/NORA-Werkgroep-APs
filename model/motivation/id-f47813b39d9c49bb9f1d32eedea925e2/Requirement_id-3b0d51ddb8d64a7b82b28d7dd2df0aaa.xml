@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM508 Zorg dat software up-to-date is"
     id="id-3b0d51ddb8d64a7b82b28d7dd2df0aaa"
-    documentation="Alle gebruikte software en software-componenten, van applicatief tot infrastructureel, worden actueel gehouden. De update-cyclus van leveranciers wordt strikt gevolgd: updates, patches en beveiligingsupdates worden zo snel mogelijk doorgevoerd op alle relevante systemen.">
+    documentation="Houd alle gebruikte software en software-componenten, van applicatief tot infrastructureel, actueel. Volg de update-cyclus van leveranciers strikt: voer updates, patches en beveiligingsupdates zo snel mogelijk door op alle relevante systemen.">
   <properties
       key="WerkgroepID"
       value="IM508"/>

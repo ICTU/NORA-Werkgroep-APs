@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM164 Richt data governance in"
     id="id-218e7b3beeea455da20fdad7f1c9e4e6"
-    documentation="Data governance staat aan de basis van goed gegevenbeheer. Het betreft alle afspraken (en structuren) waarmee je vastlegt hoe gebruik te maken van de beschikbare gegevens en de gegevenskwaliteit en veiligheid hiervan te waarborgen. Hierbij hoort ook het vastleggen van datastandaarden, visie en strategie. Inclusief wie welke verantwoordelijkheid hierin heeft. Zie ook https://www.dama.org/cpages/body-of-knowledge">
+    documentation="Data governance staat aan de basis van goed gegevenbeheer. Het betreft alle afspraken (en structuren) waarmee je vastlegt hoe gebruik te maken van de beschikbare gegevens en de gegevenskwaliteit en veiligheid hiervan te waarborgen. Hierbij hoort ook het vastleggen van datastandaarden, visie en strategie. Inclusief wie welke verantwoordelijkheid hierin heeft. Zie ook [https://www.dama.org/cpages/body-of-knowledge]">
   <properties
       key="WerkgroepID"
       value="IM164"/>

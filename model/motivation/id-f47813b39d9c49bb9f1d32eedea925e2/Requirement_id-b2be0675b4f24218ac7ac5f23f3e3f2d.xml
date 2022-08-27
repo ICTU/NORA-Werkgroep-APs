@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM218 Bewaak de continuïteit en stel een calamiteitenplan op"
     id="id-b2be0675b4f24218ac7ac5f23f3e3f2d"
-    documentation="De continuïteit van voorzieningen wordt bewaakt, bij bedreiging van de continuïteit wordt alarm geslagen en er is voorzien in een calamiteitenplan. Dit plan wordt op regelmatige basis getest en geëvalueerd.">
+    documentation="Bewaak de continuïteit van voorzieningen zodat bij bedreiging van de continuïteit alarm geslagen wordt en er voorzien is in een calamiteitenplan. Test en evalueer dit plan op regelmatige basis.">
   <properties
       key="WerkgroepID"
       value="IM218"/>

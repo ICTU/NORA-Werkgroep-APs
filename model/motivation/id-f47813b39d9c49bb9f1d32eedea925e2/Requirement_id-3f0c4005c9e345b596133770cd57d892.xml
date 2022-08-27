@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM506 Versleutel gegevens in rust en transport"
     id="id-3f0c4005c9e345b596133770cd57d892"
-    documentation="Alle gegevensdragers waaronder smartphones en laptops, waarop niet-publieke informatie staat, zijn versleuteld conform de laatst bekende en geldende richtlijnen. Dit reduceert het risico op een gegevenslek bij verlies van een dergelijk apparaat. Ook niet-publieke gegevens in transit worden beschermd door adequate beveiligingsmaatregelen. Dit kan door de verbinding zelf te beveiligen danwel door encryptie van de informatie zelf. Dit laatste heeft de voorkeur.">
+    documentation="Versleutel alle gegevensdragers waarop niet-publieke informatie staat, inclusief smartphones en laptops, conform de laatst bekende en geldende richtlijnen. Dit reduceert het risico op een gegevenslek bij verlies van een dergelijk apparaat. &#xD;&#xA;&#xD;&#xA;Neem voor niet-publieke gegevens ook adequate beveiligingsmaatregelen om ze te beschermen in ransit.  Dit kan door de verbinding te beveiligen, danwel door encryptie van de informatie zelf. Dit laatste heeft de voorkeur.">
   <properties
       key="WerkgroepID"
       value="IM506"/>
