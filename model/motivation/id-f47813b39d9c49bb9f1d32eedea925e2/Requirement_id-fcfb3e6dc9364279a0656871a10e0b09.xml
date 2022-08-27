@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM203 Identificeer de voor de dienst relevante standaardoplossingen"
     id="id-fcfb3e6dc9364279a0656871a10e0b09"
-    documentation="Inventariseer de voor de dienst relevante standaardoplossingen voor gebieden zoals:&#xD;&#xA;* identificatie&#xD;&#xA;* authenticatie&#xD;&#xA;* autorisatie&#xD;&#xA;* onweerlegbaarheid&#xD;&#xA;* encryptie&#xD;&#xA;* semantiek&#xD;&#xA;* toegankelijkheid&#xD;&#xA;* presentatie en vormgeving&#xD;&#xA;Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen in de opzet van de dienst."/>
+    documentation="Inventariseer de voor de dienst relevante standaardoplossingen voor gebieden zoals:&#xD;&#xA;* identificatie&#xD;&#xA;* authenticatie&#xD;&#xA;* autorisatie&#xD;&#xA;* onweerlegbaarheid&#xD;&#xA;* encryptie&#xD;&#xA;* semantiek&#xD;&#xA;* toegankelijkheid&#xD;&#xA;* presentatie en vormgeving&#xD;&#xA;Beoordeel de oplossingen op geschiktheid. Bij geschiktheid worden ze opgenomen in de opzet van de dienst.">
+  <properties
+      key="WerkgroepID"
+      value="IM203"/>
+</archimate:Requirement>

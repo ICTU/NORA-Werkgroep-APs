@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM009 Ken je afnemers en stem diensten hierop af"
     id="id-9c36647a4aba40bb9c9b219f8c4e81e8"
-    documentation="Verdiep je in de achtergronden van je afnemers en de context waarin zij van de dienst gebruik maken en vergewis je van de digitale vaardigheden van je doelgroep. Zorg dat de dienst is afgestemd op de (digi)vaardigheden en mogelijkheden van alle (potentiële) afnemers. &#xD;&#xA;&#xD;&#xA;Weet welke informatie afnemers doorgaans zoeken en waar ze deze zoeken. Deze informatie meld je aan op de voor de afnemers bekende vindplaatsen, zoals zoekmachines, portals, catalogi en registers. Ook de dienst zelf voorzie je van de nodige zoekfuncties. &#xD;&#xA;&#xD;&#xA;Om de afnemer waar dat nodig is door te kunnen verwijzen, zorg je dat je op de hoogte bent van de andere plaatsen waar diensten te vinden zijn."/>
+    documentation="Verdiep je in de achtergronden van je afnemers en de context waarin zij van de dienst gebruik maken en vergewis je van de digitale vaardigheden van je doelgroep. Zorg dat de dienst is afgestemd op de (digi)vaardigheden en mogelijkheden van alle (potentiële) afnemers. &#xD;&#xA;&#xD;&#xA;Weet welke informatie afnemers doorgaans zoeken en waar ze deze zoeken. Deze informatie meld je aan op de voor de afnemers bekende vindplaatsen, zoals zoekmachines, portals, catalogi en registers. Ook de dienst zelf voorzie je van de nodige zoekfuncties. &#xD;&#xA;&#xD;&#xA;Om de afnemer waar dat nodig is door te kunnen verwijzen, zorg je dat je op de hoogte bent van de andere plaatsen waar diensten te vinden zijn.">
+  <properties
+      key="WerkgroepID"
+      value="IM009"/>
+</archimate:Requirement>

@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM146 Stel onweerlegbaarheid vast"
     id="id-8b85ceb5c5fd4b6aba3ada960eeb0ad7"
-    documentation="Stel vast voor welke berichtenstromen of transacties onweerlegbaarheid van gegevens vereist is, zodat daarvoor aanvullende maatregelen genomen kunnen worden."/>
+    documentation="Stel vast voor welke berichtenstromen of transacties onweerlegbaarheid van gegevens vereist is, zodat daarvoor aanvullende maatregelen genomen kunnen worden.">
+  <properties
+      key="WerkgroepID"
+      value="IM146"/>
+</archimate:Requirement>

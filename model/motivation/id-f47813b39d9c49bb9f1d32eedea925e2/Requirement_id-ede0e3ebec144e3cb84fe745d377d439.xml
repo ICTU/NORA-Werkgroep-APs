@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM213 Stel de juridische aansprakelijkheid per gegevensobject vast"
     id="id-ede0e3ebec144e3cb84fe745d377d439"
-    documentation="Per informatie-object is de bron en daarmee de juridische aansprakelijkheid voor de juistheid van het object vastgesteld."/>
+    documentation="Per informatie-object is de bron en daarmee de juridische aansprakelijkheid voor de juistheid van het object vastgesteld.">
+  <properties
+      key="WerkgroepID"
+      value="IM213"/>
+</archimate:Requirement>

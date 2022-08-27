@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM070 Scheid proces van data"
     id="id-08abdf3d7bdf481898de2d78a34712b6"
-    documentation="Scheid proces van data en data van software. Zorg dat software hardware-agnostisch is. De afhankelijkheden tussen (proces-)onderdelen moeten bij voorkeur zo klein mogelijk zijn. Hierdoor blijft ontkoppeling op een later moment mogelijk."/>
+    documentation="Scheid proces van data en data van software. Zorg dat software hardware-agnostisch is. De afhankelijkheden tussen (proces-)onderdelen moeten bij voorkeur zo klein mogelijk zijn. Hierdoor blijft ontkoppeling op een later moment mogelijk.">
+  <properties
+      key="WerkgroepID"
+      value="IM070"/>
+</archimate:Requirement>

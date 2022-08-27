@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM520 Verleen alleen strikt noodzakelijke toegangsrechten"
     id="id-63c558aae3ec4f3f957cc040c83f72d3"
-    documentation="Ken geen rollen en toegangsrechten toe aan accounts van gebruikers en services tenzij dat strikt noodzakelijk is (Least Privilege)."/>
+    documentation="Ken geen rollen en toegangsrechten toe aan accounts van gebruikers en services tenzij dat strikt noodzakelijk is (Least Privilege).">
+  <properties
+      key="WerkgroepID"
+      value="IM520"/>
+</archimate:Requirement>

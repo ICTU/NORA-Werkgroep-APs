@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM124 Stel betrokkenen op de hoogte van het doel waarvoor gegevens verzameld worden"
     id="id-0249f53f391e48b994a5b086b826b5af"
-    documentation="Stel bij het verzamelen en opvragen van persoonsgegevens de betrokkenen op de hoogte van het doel waarvoor de gegevens worden verzameld en van de rechten die zij mogen uitoefenen."/>
+    documentation="Stel bij het verzamelen en opvragen van persoonsgegevens de betrokkenen op de hoogte van het doel waarvoor de gegevens worden verzameld en van de rechten die zij mogen uitoefenen.">
+  <properties
+      key="WerkgroepID"
+      value="IM124"/>
+</archimate:Requirement>

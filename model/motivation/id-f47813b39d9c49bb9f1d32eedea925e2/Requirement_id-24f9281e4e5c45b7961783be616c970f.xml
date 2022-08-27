@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM078 Gebruik de standaard met het meest specifieke werkingsgebied"
     id="id-24f9281e4e5c45b7961783be616c970f"
-    documentation="Gebruik de standaard met het meest specifieke werkingsgebied. Als deze conflicteert met bredere (internationale) standaarden, zorg dan in de sector voor afstemming daarmee."/>
+    documentation="Gebruik de standaard met het meest specifieke werkingsgebied. Als deze conflicteert met bredere (internationale) standaarden, zorg dan in de sector voor afstemming daarmee.">
+  <properties
+      key="WerkgroepID"
+      value="IM078"/>
+</archimate:Requirement>

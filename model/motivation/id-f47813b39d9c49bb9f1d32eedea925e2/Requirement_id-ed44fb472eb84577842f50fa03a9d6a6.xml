@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM144 Bepaal de continuïteitseisen"
     id="id-ed44fb472eb84577842f50fa03a9d6a6"
-    documentation="Continuïteitseisen vormen de input voor het maken van een calamiteitenplan. Voorbeelden van continuïteitseisen zijn Maximum Tolerable Outage (MTO), Recovery Time Objective (RTO), Recovery Point Objective (RPO)."/>
+    documentation="Continuïteitseisen vormen de input voor het maken van een calamiteitenplan. Voorbeelden van continuïteitseisen zijn Maximum Tolerable Outage (MTO), Recovery Time Objective (RTO), Recovery Point Objective (RPO).">
+  <properties
+      key="WerkgroepID"
+      value="IM144"/>
+</archimate:Requirement>

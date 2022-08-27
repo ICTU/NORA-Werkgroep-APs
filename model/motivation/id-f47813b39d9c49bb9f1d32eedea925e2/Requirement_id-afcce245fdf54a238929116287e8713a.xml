@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM043 Defineer de toegangsregels kanaalonafhankelijk"
     id="id-afcce245fdf54a238929116287e8713a"
-    documentation="Formuleer uniforme regels die gelden voor toegang tot de entiteiten (dienst, informatie, object) onafhankelijk van het kanaal."/>
+    documentation="Formuleer uniforme regels die gelden voor toegang tot de entiteiten (dienst, informatie, object) onafhankelijk van het kanaal.">
+  <properties
+      key="WerkgroepID"
+      value="IM043"/>
+</archimate:Requirement>

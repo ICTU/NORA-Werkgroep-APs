@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM109 Pas de FAIR dataprincipes toe"
     id="id-945217efd17f4d1db57e5839e89e50f7"
-    documentation="Pas de implicaties van de FAIR dataprincipes toe. Zie ook [https://www.go-fair.org/fair-principles/ go.fair.org FAIR-principes]."/>
+    documentation="Pas de implicaties van de FAIR dataprincipes toe. Zie ook [https://www.go-fair.org/fair-principles/ go.fair.org FAIR-principes].">
+  <properties
+      key="WerkgroepID"
+      value="IM109"/>
+</archimate:Requirement>

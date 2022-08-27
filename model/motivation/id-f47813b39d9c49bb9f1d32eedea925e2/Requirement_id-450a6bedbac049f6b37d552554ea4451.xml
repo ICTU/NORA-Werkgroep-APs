@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM116 Leg auditlogs vast bij de bronregistratie van het gegeven"
     id="id-450a6bedbac049f6b37d552554ea4451"
-    documentation="Als eigenaar van de bron wil je inzicht hebben in de toegang en inzage (CRUD) van de gegevens die vanuit de bron worden gebruikt. Voorkom dat auditgegevens verspreid raken over afnemende applicaties."/>
+    documentation="Als eigenaar van de bron wil je inzicht hebben in de toegang en inzage (CRUD) van de gegevens die vanuit de bron worden gebruikt. Voorkom dat auditgegevens verspreid raken over afnemende applicaties.">
+  <properties
+      key="WerkgroepID"
+      value="IM116"/>
+</archimate:Requirement>

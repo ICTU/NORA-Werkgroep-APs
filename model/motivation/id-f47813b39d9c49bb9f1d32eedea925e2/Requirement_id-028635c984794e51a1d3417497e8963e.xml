@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM056 Regisseer hergebruik diensten in de keten"
     id="id-028635c984794e51a1d3417497e8963e"
-    documentation="Hergebruik van diensten in de keten moet onderling tussen de verschillende overheidsorganisaties georganiseerd en geregisseerd worden. Zorg voor een register van diensten die voor hergebruik geschikt en beschikbaar zijn."/>
+    documentation="Hergebruik van diensten in de keten moet onderling tussen de verschillende overheidsorganisaties georganiseerd en geregisseerd worden. Zorg voor een register van diensten die voor hergebruik geschikt en beschikbaar zijn.">
+  <properties
+      key="WerkgroepID"
+      value="IM056"/>
+</archimate:Requirement>

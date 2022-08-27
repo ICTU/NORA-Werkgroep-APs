@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM095 Leg een Service Level Agreement vast bij de dienst"
     id="id-ff0e901df78d4e3f81698411163cd3e1"
-    documentation="Leg de inhoud van de dienst en het akkoord hierop schriftelijk vast, in de vorm van een Service Level Agreement (SLA), een Gegevens Leverings Overeenkomst (GLO), of in wet- en regelgeving. &#xD;&#xA;&#xD;&#xA;Dit is in elk geval noodzakelijk voor bedrijfskritische diensten of diensten met een zeer vertrouwelijk karakter. Hierbij is het akkoord en de inhoud daarvan schriftelijk vastgelegd. &#xD;&#xA;&#xD;&#xA;De dienstverlener geeft hierbij ook aan welk betrouwbaarheidsniveau geldt voor de identificatie van de afnemer."/>
+    documentation="Leg de inhoud van de dienst en het akkoord hierop schriftelijk vast, in de vorm van een Service Level Agreement (SLA), een Gegevens Leverings Overeenkomst (GLO), of in wet- en regelgeving. &#xD;&#xA;&#xD;&#xA;Dit is in elk geval noodzakelijk voor bedrijfskritische diensten of diensten met een zeer vertrouwelijk karakter. Hierbij is het akkoord en de inhoud daarvan schriftelijk vastgelegd. &#xD;&#xA;&#xD;&#xA;De dienstverlener geeft hierbij ook aan welk betrouwbaarheidsniveau geldt voor de identificatie van de afnemer.">
+  <properties
+      key="WerkgroepID"
+      value="IM095"/>
+</archimate:Requirement>

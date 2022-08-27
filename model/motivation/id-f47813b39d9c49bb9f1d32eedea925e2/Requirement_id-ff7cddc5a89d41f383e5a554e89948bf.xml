@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM104 Leg de doelbinding vast in de metadata van het gegevensobject"
     id="id-ff7cddc5a89d41f383e5a554e89948bf"
-    documentation="De verwerkingshistorie inclusief doel van verwerking wordt vastgelegd bij het gegegevensobject als metadata. Dit betekent dat de historie van acties waarin een gegevensobject wordt verwerkt (opvragen / vastleggen / wijzigen / verwijderen) inclusief het doel van de actie vastgelegd wordt bij het gegevenobject."/>
+    documentation="De verwerkingshistorie inclusief doel van verwerking wordt vastgelegd bij het gegegevensobject als metadata. Dit betekent dat de historie van acties waarin een gegevensobject wordt verwerkt (opvragen / vastleggen / wijzigen / verwijderen) inclusief het doel van de actie vastgelegd wordt bij het gegevenobject.">
+  <properties
+      key="WerkgroepID"
+      value="IM104"/>
+</archimate:Requirement>

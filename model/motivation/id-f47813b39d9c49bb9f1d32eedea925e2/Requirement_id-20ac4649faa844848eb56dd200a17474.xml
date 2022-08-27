@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM221 Garandeer de beschikbaarheid van systemen"
     id="id-20ac4649faa844848eb56dd200a17474"
-    documentation="ICT-voorzieningen voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid. De beschikbaarheid van gegevens en systeemfuncties wordt gegarandeerd door vermeervoudiging van systeemfuncties, door herstelbaarheid en beheersing van verwerkingen, door voorspelling van discontinuïteit en handhaving van functionaliteit."/>
+    documentation="ICT-voorzieningen voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid. De beschikbaarheid van gegevens en systeemfuncties wordt gegarandeerd door vermeervoudiging van systeemfuncties, door herstelbaarheid en beheersing van verwerkingen, door voorspelling van discontinuïteit en handhaving van functionaliteit.">
+  <properties
+      key="WerkgroepID"
+      value="IM221"/>
+</archimate:Requirement>

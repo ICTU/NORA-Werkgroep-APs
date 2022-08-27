@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM019 Maak de dienst toegankelijk voor anderstaligen"
     id="id-77695a81dc7049f3b4305589b898922b"
-    documentation="Zorg dat een (potentiële) anderstalige gebruiker de dienst ook kan afnemen, door deze ook in een algemeen toegankelijke taal aan te bieden (bv. Engels)."/>
+    documentation="Zorg dat een (potentiële) anderstalige gebruiker de dienst ook kan afnemen, door deze ook in een algemeen toegankelijke taal aan te bieden (bv. Engels).">
+  <properties
+      key="WerkgroepID"
+      value="IM019"/>
+</archimate:Requirement>

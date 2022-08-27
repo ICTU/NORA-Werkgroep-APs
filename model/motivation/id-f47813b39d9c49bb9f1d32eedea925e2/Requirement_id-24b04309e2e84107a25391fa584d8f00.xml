@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM011 Verwijs naar de bron"
     id="id-24b04309e2e84107a25391fa584d8f00"
-    documentation="Verwijzen naar de bron heeft voorkeur boven een kopie uit die bron. Inzage in de bron heeft de voorkeur boven zelf opslaan. Afspraken daarover worden vastgelegd en bekend gemaakt. &#xD;&#xA;&#xD;&#xA;Vanuit legitimiteitsperspectief kan het nodig zijn een kopie vast te leggen."/>
+    documentation="Verwijzen naar de bron heeft voorkeur boven een kopie uit die bron. Inzage in de bron heeft de voorkeur boven zelf opslaan. Afspraken daarover worden vastgelegd en bekend gemaakt. &#xD;&#xA;&#xD;&#xA;Vanuit legitimiteitsperspectief kan het nodig zijn een kopie vast te leggen.">
+  <properties
+      key="WerkgroepID"
+      value="IM011"/>
+</archimate:Requirement>

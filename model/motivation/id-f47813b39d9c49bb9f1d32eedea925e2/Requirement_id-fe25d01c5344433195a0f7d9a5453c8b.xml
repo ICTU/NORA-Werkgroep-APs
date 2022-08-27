@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM091 Zorg voor open specificaties"
     id="id-fe25d01c5344433195a0f7d9a5453c8b"
-    documentation="Zorg voor open specificaties. Zodat deze hergebruikt kunnen worden over instellingen heen. Dit voorkomt dat verschillende organisaties hetzelfde wiel moeten uitvinden. Zie ook [[EIF]] principle 2: &quot;Openness&quot;, aanbeveling 4. [https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf EIF-brochure (pdf)]"/>
+    documentation="Zorg voor open specificaties. Zodat deze hergebruikt kunnen worden over instellingen heen. Dit voorkomt dat verschillende organisaties hetzelfde wiel moeten uitvinden. Zie ook [[EIF]] principle 2: &quot;Openness&quot;, aanbeveling 4. [https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf EIF-brochure (pdf)]">
+  <properties
+      key="WerkgroepID"
+      value="IM091"/>
+</archimate:Requirement>

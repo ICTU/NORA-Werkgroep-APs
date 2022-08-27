@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM162 Bepaal taken en verantwoordelijkheden van de gegevensverwerking"
     id="id-8d1439656d4f455a90753b7549d06394"
-    documentation="Verantwoordelijkheden, bevoegdheden en taken bij gegevensverwerking zijn bepaald en bekend."/>
+    documentation="Verantwoordelijkheden, bevoegdheden en taken bij gegevensverwerking zijn bepaald en bekend.">
+  <properties
+      key="WerkgroepID"
+      value="IM162"/>
+</archimate:Requirement>

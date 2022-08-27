@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM152 Hanteer het zero-trust model"
     id="id-c876131382024e349d08b1eb609d079c"
-    documentation="Ga nooit uit van een impliciet vertrouwen. Controleer overal het netwerkverkeer. Controleer toegang per sessie. Hanteer dynamische policies en gebruik daarbij de gedligheidsduur van de laatste authenticatie. Blijf continue monitoren. Dwing authenticatie en autorisatie strict af. Verzamel zoveel mogelijk gegevens om de beveiliging te blijven verbeteren."/>
+    documentation="Ga nooit uit van een impliciet vertrouwen. Controleer overal het netwerkverkeer. Controleer toegang per sessie. Hanteer dynamische policies en gebruik daarbij de gedligheidsduur van de laatste authenticatie. Blijf continue monitoren. Dwing authenticatie en autorisatie strict af. Verzamel zoveel mogelijk gegevens om de beveiliging te blijven verbeteren.">
+  <properties
+      key="WerkgroepID"
+      value="IM152"/>
+</archimate:Requirement>

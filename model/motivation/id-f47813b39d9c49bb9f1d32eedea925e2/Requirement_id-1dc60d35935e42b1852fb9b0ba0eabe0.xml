@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="IM040 Maak stelselafspraken over identificatie en authenticatie"
     id="id-1dc60d35935e42b1852fb9b0ba0eabe0"
-    documentation="Maak stelselafspraken om te komen tot één generiek digitaal stelsel voor identificatie en authenticatie of sluit aan bij een bestaand kanaaloverstijgend stelsel met afspraken over betrouwbaarheidsniveau's."/>
+    documentation="Maak stelselafspraken om te komen tot één generiek digitaal stelsel voor identificatie en authenticatie of sluit aan bij een bestaand kanaaloverstijgend stelsel met afspraken over betrouwbaarheidsniveau's.">
+  <properties
+      key="WerkgroepID"
+      value="IM040"/>
+</archimate:Requirement>
