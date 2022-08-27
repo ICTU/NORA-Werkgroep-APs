@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM147 Verifieer de kwaliteit van gegevens van het begin tot het einde van het proces"
+    name="IMP065 Verifieer de kwaliteit van gegevens van het begin tot het einde van het proces"
     id="id-9b30aa2ac7ae4a08821d29907469c493"
     documentation="Controleer de kwaliteit van gegevens vanaf invoer en op ieder koppelvlak aan de hand van de vastgestelde kwaliteitseisen. Eenmaal geverifieerd hoeft een verificatie niet opnieuw plaats te vinden als de eerder uitgevoerde verificatie nog betrouwbaar is.">
   <properties

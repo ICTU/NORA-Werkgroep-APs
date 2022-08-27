@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM223 Controleer de verwerking van gegevens"
+    name="IMP080 Controleer de verwerking van gegevens"
     id="id-4edc7430c38148e88255e31be93aed9c"
     documentation="Controleer de verwerking van gegevens: &#xD;&#xA;&#xD;&#xA;* Zijn de criteria voor juistheid, en tijdigheid vastgesteld? &#xD;&#xA;* Worden gegevens die vanuit een systeemvreemde omgeving ingevoerd zijn eerst gecontroleerd op juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt? &#xD;&#xA;* Worden te versturen gegevens gecontroleerd op juistheid, volledigheid en tijdigheid?&#xD;&#xA;* Worden ter verwerking aangeboden gegevens gecontroleerd op juiste, volledig en tijdige verwerking?&#xD;&#xA;* Worden kritieke gegevens die in verschillende gegevensverzamelingen voorkomen periodiek met elkaar vergeleken op consistentie? (Dit geldt alleen zolang de gegevens niet frequent en integraal worden gesynchroniseerd met de brongegevens)">
   <properties

@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM505 Wissel gegevens tussen (web)applicaties uit met API's"
+    name="IMP083 Wissel gegevens tussen (web)applicaties uit met API's"
     id="id-e1c8ddbb70684bc0849ce98f84fdc32a"
     documentation="Gegevensuitwisseling tussen (web)applicaties gebeurt via [[REST API Design Rules|Restful API's]]. De broneigenaar levert API's die voldoen aan de moderne RESTful standaarden. API's dienen centraal te worden beheerd in een API management systeem.">
   <properties

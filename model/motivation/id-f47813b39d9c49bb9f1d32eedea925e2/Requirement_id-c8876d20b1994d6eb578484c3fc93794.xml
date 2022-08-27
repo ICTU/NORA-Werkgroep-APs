@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM208 Maak afspraken over nieuwe (en oude) versies van standaarden"
+    name="IMP076 Maak afspraken over nieuwe (en oude) versies van standaarden"
     id="id-c8876d20b1994d6eb578484c3fc93794"
     documentation="De dienstverlener en de afnemers maken afspraken over de periode waarin overgegaan wordt op een nieuwe versie van de standaard. Wanneer een nieuwe versie van een standaard geïmplementeerd wordt, blijft de aanbieder de oude versie ondersteunen zolang als dat volgens afspraak nodig is.">
   <properties

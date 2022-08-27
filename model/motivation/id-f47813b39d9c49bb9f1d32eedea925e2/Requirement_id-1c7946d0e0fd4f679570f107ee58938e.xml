@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM051 Bevorder hergebruik van gegevens"
+    name="IMP021 Bevorder hergebruik van gegevens"
     id="id-1c7946d0e0fd4f679570f107ee58938e"
     documentation="Maak zo veel mogelijk gebruik van gegevens die reeds beschikbaar zijn in plaats van deze gegevens opnieuw te verzamelen of te creëren.">
   <properties

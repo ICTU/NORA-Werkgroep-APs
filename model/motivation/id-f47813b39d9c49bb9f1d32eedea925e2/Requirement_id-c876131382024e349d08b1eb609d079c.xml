@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM152 Hanteer het zero-trust model"
+    name="IMP069 Hanteer het zero-trust model"
     id="id-c876131382024e349d08b1eb609d079c"
     documentation="Ga nooit uit van het impliciete vertrouwen dat wie op een bepaald netwerk of systeem komt daar ook hoort:&#xD;&#xA;&#xD;&#xA;* Controleer overal het netwerkverkeer. &#xD;&#xA;* Controleer toegang per sessie. &#xD;&#xA;* Hanteer dynamische policies en gebruik daarbij de gedligheidsduur van de laatste authenticatie. &#xD;&#xA;* Blijf continue monitoren. Verzamel zoveel mogelijk gegevens om de beveiliging te blijven verbeteren.&#xD;&#xA;&#xD;&#xA;Dit wordt ook wel het 'zero-trust' model genoemd.">
   <properties

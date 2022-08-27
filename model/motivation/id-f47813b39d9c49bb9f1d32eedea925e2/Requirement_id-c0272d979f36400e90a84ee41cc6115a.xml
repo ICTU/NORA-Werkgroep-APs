@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM027 Maak beveiligingsmaatregelen zo gebruiksvriendelijk mogelijk"
+    name="IMP015 Maak beveiligingsmaatregelen zo gebruiksvriendelijk mogelijk"
     id="id-c0272d979f36400e90a84ee41cc6115a"
     documentation="Maak beveilingingsmaatregelen transparant voor de gebruiker en richt deze zo gebruiksvriendelijk mogelijk in. Verleid de gebruiker zo veel mogelijk om veilig te werken: zo leidt het afdwingen van gebruikersonvriendelijke beveiligingsmaatregelen vaak tot onveilige workarounds en ander onveilig gedrag.">
   <properties

@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM073 Ontwerp op modulaire wijze"
+    name="IMP031 Ontwerp op modulaire wijze"
     id="id-414d558b0a9b4c82b832bb36df014f6d"
     documentation="Realiseer complexe systemen op modulaire wijze. Dit doe je door het systeem zodanig te ontwerpen dat deze opgedeeld kan worden in modules. Elke module moet eigenschappen bevatten die het mogelijk maken om ze (via gestandaardiseerde koppelvlakken) aan elkaar te koppelen. Zodanig vormen ze in het geheel een complex systeem.">
   <properties

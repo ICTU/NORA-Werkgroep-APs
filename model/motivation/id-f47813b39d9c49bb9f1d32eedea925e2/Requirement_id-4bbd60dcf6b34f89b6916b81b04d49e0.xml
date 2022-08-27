@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM084 Pas open standaarden toe"
+    name="IMP036 Pas open standaarden toe"
     id="id-4bbd60dcf6b34f89b6916b81b04d49e0"
     documentation="Verwerf producten die aan de standaard(en) voldoen. Hierbij geldt: Open standaarden tenzij. &#xD;&#xA;&#xD;&#xA;Implementaties maken gebruik van de beschrijvingen uit de open standaarden om leveranciersonafhankelijkheid te behouden. &#xD;&#xA;&#xD;&#xA;Maak met afnemers afspraken over de te gebruiken open standaarden. Anticipeer hierbij op de ontwikkeling van de open standaarden, bijvoorbeeld door nieuws over [[standaarden]] te volgen via noraonline.nl of [https://www.forumstandaardisatie.nl/ www.forumstandaardisatie.nl/]">
   <properties

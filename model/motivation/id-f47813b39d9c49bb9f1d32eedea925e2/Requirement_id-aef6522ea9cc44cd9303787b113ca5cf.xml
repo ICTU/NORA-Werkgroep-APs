@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM016 Sluit aan op het voorkeurskanaal van de gebruiker"
+    name="IMP011 Sluit aan op het voorkeurskanaal van de gebruiker"
     id="id-aef6522ea9cc44cd9303787b113ca5cf"
     documentation="Sluit qua kanaal aan op de voorkeurkeuze van gebruikers. Digitale kanalen zijn hierin leidend, doch er mag niet voorbij worden gegaan aan het belang van burgers die geen of beperkte mogelijkheden hebben om digitaal te communiceren.">
   <properties

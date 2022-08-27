@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM149 Richt een sterke logging en audit-trail in"
+    name="IMP066 Richt een sterke logging en audit-trail in"
     id="id-16931fb47aae4691b3d06050e3952626"
     documentation="Logging is fundamenteel in applicaties. Richt een sterke logging en audit-trail in, voor elke applicatie en elk systeem. Logbestanden en audit-trails spelen een sleutelrol in het detecteren van aanvallen en het afhandelen van incidenten.&#xD;&#xA;&#xD;&#xA;Logberichten moeten zo veel mogelijk informatie bevatten over hetgeen er gebeurd is (wie, wat, waar, wanneer) en moeten op het juiste niveau gelogd worden. &#xD;&#xA;&#xD;&#xA;Let er op dat logberichten geen persoonlijke kenmerken ([[AVG (Algemene Verordening Gegevensbescherming)|AVG]])  of security kenmerken (zoals wachtwoorden) mogen bevatten.">
   <properties

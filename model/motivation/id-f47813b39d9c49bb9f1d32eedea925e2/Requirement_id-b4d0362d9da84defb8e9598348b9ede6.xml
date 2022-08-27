@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM206 Gebruik open standaarden voor modellering"
+    name="IMP075 Gebruik open standaarden voor modellering"
     id="id-b4d0362d9da84defb8e9598348b9ede6"
     documentation="Organisaties werken volgens een open standaard voor o.a. architectuur-, data- en procesmodellering die door alle samenwerkende partijen op uniforme wijze wordt toegepast. De gekozen open standaard is bepalend voor de keuze van modelleersystemen die deze standaard ondersteunen.&#xD;&#xA;&#xD;&#xA;Wissel modellen uit tussen organisaties op basis van open standaarden.&#xD;&#xA;&#xD;&#xA;Voorbeelden van modelleerstandaarden zijn [[ArchiMate]] (architectuur), UML (data) en BPMN (processen).">
   <properties

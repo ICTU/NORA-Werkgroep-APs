@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM055 Neem oorspronkelijke grondslag mee bij hergebruik diensten"
+    name="IMP022 Neem oorspronkelijke grondslag mee bij hergebruik diensten"
     id="id-c3d9cd541af74fb0a231562f974570d0"
     documentation="Bij hergebruik van diensten kijken zowel aanbieder als afnemer opnieuw naar de oorspronkelijke grondslag en doelbinding. Als dat nodig blijkt passen zij pseudonimisering dan wel anonimisering van de data toe. &#xD;&#xA;&#xD;&#xA;Dit houdt in dat bij te ontwikkelen functionaliteit de oorspronkelijke grondslag bepalend is voor de hergebruikmogelijkheden.">
   <properties

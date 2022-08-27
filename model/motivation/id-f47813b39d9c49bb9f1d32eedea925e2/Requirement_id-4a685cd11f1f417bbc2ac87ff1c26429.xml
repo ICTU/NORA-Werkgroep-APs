@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM105 Stel één verantwoordelijke vast voor ieder gegeven"
+    name="IMP046 Stel één verantwoordelijke vast voor ieder gegeven"
     id="id-4a685cd11f1f417bbc2ac87ff1c26429"
     documentation="Voor ieder gegeven en voor iedere verwerking moet er een verantwoordelijke gegevenseigenaar zijn. Dat vraagt een inventarisatie van alle relevante gegevensobjecten.">
   <properties

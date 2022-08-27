@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM135 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt"
+    name="IMP055 Gegevens eenmalig uitgevraagd, uniek opgeslagen, meervoudig gebruikt"
     id="id-949650edda59447cbb078e1dcd0ed24c"
     documentation="Gegevens worden eenmalig uitgevraagd of verzameld, uniek opgeslagen, en vervolgens meervoudig gebruikt. Dit impliceert tevens dat de juistheid van de gebruikte informatie-objecten uit een bronregistratie niet voor gebruik opnieuw hoeft te worden gecontroleerd.">
   <properties

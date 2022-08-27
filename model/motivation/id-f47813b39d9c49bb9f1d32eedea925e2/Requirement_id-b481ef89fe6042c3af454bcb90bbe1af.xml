@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM225 Borg de vertrouwelijkheid van gegevens in maatregelen"
+    name="IMP081 Borg de vertrouwelijkheid van gegevens in maatregelen"
     id="id-b481ef89fe6042c3af454bcb90bbe1af"
     documentation="De vertrouwelijkheid van gegevens wordt gegarandeerd door scheiding van systeemfuncties, door controle op communicatiegedrag en gegevensuitwisseling, door validatie op toegang tot gegevens en systeemfuncties en door versleuteling van gegevens.">
   <properties

@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM140 Geef de voorkeur aan halen i.p.v. brengen van gegevens"
+    name="IMP059 Geef de voorkeur aan halen i.p.v. brengen van gegevens"
     id="id-100e6e5157134564ae9b29317759632b"
     documentation="Geef de voorkeur aan het halen (pull) i.p.v. het brengen van gegevens (push).">
   <properties

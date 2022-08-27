@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM082 Gebruik een actueel register met standaarden"
+    name="IMP035 Gebruik een actueel register met standaarden"
     id="id-c39c58ebf8c74d31b7ec8b6d0330fb39"
     documentation="Maak gebruik van een actueel register met [[standaarden]] per tepassingsgebied. Functionele standaarden hebben betrekking op bijvoorbeeld gegevensuitwisseling, beveiliging, taalgebruik, digitale communicatie, etc. Standaarden met een organisatorisch werkingsgebied hebben betrekking op bijvoorbeeld de strafrechtketen, zorgketen, sociale zekerheid, financiën, etc.">
   <properties

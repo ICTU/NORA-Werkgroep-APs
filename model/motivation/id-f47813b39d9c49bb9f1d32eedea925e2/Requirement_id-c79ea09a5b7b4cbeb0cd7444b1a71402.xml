@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM085 Pleeg onderhoud op de toegepaste standaarden"
+    name="IMP037 Pleeg onderhoud op de toegepaste standaarden"
     id="id-c79ea09a5b7b4cbeb0cd7444b1a71402"
     documentation="Zorg via lifecyclemanagement voor toepassing van voldoende actuele versies van [[standaarden]]. Inventariseer de relevante standaarden en neem dat mee in het ontwerp van de dienst/voorziening.">
   <properties

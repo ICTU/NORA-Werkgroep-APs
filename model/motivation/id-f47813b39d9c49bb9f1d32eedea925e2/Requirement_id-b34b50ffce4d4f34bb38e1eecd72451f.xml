@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IM020 Elimineer overbodige processtappen (voor de afnemer)"
+    name="IMP014 Elimineer overbodige processtappen (voor de afnemer)"
     id="id-b34b50ffce4d4f34bb38e1eecd72451f"
     documentation="Stel bij iedere processtap de vraag of deze stap waarde toevoegt voor de afnemer of dat de processtap evengoed weggelaten kan worden.">
   <properties
