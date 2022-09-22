@@ -1,4 +1,5 @@
 <archimate:Grouping
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Laag5 Infrastructuur"
-    id="id-e1dd5189a3e74a9aa9bed2a68b8b58c5"/>
+    id="id-e1dd5189a3e74a9aa9bed2a68b8b58c5"
+    documentation="Binnen deze laag vallen de netwerken, middleware, knooppunten en infrastructuur die nodig is om systemen te hosten en gegevens tussen die systemen uit te wisselen. "/>

@@ -1,4 +1,5 @@
 <archimate:Grouping
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Laag4 Applicatie"
-    id="id-e28f6311e03a458d8160cc92b818e631"/>
+    id="id-e28f6311e03a458d8160cc92b818e631"
+    documentation="Binnen deze laag vallen registers en softwarematige functies."/>
