@@ -1447,21 +1447,11 @@ De dienstverlener geeft hierbij ook aan welk betrouwbaarheidsniveau geldt voor d
   <folder name="Implementation &amp; Migration" id="id-1c4352d7336c4d599e1e112b7967e1c7" type="implementation_migration"/>
   <folder name="Other" id="id-3f6737f3c27c4dce9384ac8be605e64b" type="other">
     <folder name="NORA Architectuurlagen" id="id-30f705719afb43e68426b7c589a3839a">
-      <element xsi:type="archimate:Grouping" name="Laag1 Grondslagen en visie" id="id-1d4a343462be40548c3b704b34ed0a04">
-        <documentation>Deze laag bevat alle wet- en regelgeving die van toepassing kan zijn op onze vraagstukken en projecten.</documentation>
-      </element>
-      <element xsi:type="archimate:Grouping" name="Laag3 Informatie" id="id-4468c6df9320405e8fce62e54e297b0b">
-        <documentation>Een belangrijke basis voor samenwerking, is het delen van taal en begrippen (woorden), zodat we elkaar kunnen begrijpen en voor het uitwisselen en (her)gebruiken van elkanders informatie. Er is (nog) geen uitputtend overzicht beschikbaar van de informatie en gegevens die voor de informatiehuishouding van de overheid relevant zijn. Doorgaans wordt voor elk systeem, organisatie of domein, een afzonderlijk gegevenswoordenboek en/of gegevensmodel gehanteerd.</documentation>
-      </element>
-      <element xsi:type="archimate:Grouping" name="Laag2 Organisatorisch" id="id-55298bd32f1f46e1a171a689e47fdf45">
-        <documentation>Deze laag bevat alle producten en diensten van de overheid en de processen en organisaties die hierbij betrokken zijn. Hieronder valt ook de manier waarop binnen de eigen organisatie producten en diensten geproduceerd worden, zoals bijvoorbeeld Zaakgericht Werken.</documentation>
-      </element>
-      <element xsi:type="archimate:Grouping" name="Laag5 Infrastructuur" id="id-e1dd5189a3e74a9aa9bed2a68b8b58c5">
-        <documentation>Binnen deze laag vallen de netwerken, middleware, knooppunten en infrastructuur die nodig is om systemen te hosten en gegevens tussen die systemen uit te wisselen. </documentation>
-      </element>
-      <element xsi:type="archimate:Grouping" name="Laag4 Applicatie" id="id-e28f6311e03a458d8160cc92b818e631">
-        <documentation>Binnen deze laag vallen registers en softwarematige functies.</documentation>
-      </element>
+      <element xsi:type="archimate:Grouping" name="Laag 1 - Grondslagen en visie" id="id-1d4a343462be40548c3b704b34ed0a04"/>
+      <element xsi:type="archimate:Grouping" name="Laag 3 - Informatie" id="id-4468c6df9320405e8fce62e54e297b0b"/>
+      <element xsi:type="archimate:Grouping" name="Laag 2 - Organisatorisch" id="id-55298bd32f1f46e1a171a689e47fdf45"/>
+      <element xsi:type="archimate:Grouping" name="Laag 5 - Infrastructuur" id="id-e1dd5189a3e74a9aa9bed2a68b8b58c5"/>
+      <element xsi:type="archimate:Grouping" name="Laag 4 - Applicatie" id="id-e28f6311e03a458d8160cc92b818e631"/>
     </folder>
     <folder name="NORA Metamodel" id="id-c8584a8f524945d6804d6892bace2ca1">
       <element xsi:type="archimate:Grouping" name="#Laag (vijflaagsmodel)" id="id-0504999ce61e49df8699ef95d21fff88"/>
