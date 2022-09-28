@@ -21,7 +21,7 @@ Let op, bij export uit Archi, kies semicolon als separator (;) en codering UTF-8
 Deze bevat een Excel sheet met data-koppelingen naar de drie bovengenoemde csv's, inclusief kruistabellen. Logica zit geheel in PowerQuery. Download deze Excel en ververs (Refresh) de data met de Refresh knop in de Data tab.
 
 ## xml
-Export naar xml uit Archi (als Open Exchange Format). Dit formaat kan worden geopend in ArchiMate tools die dit open formaat ondersteunen (zoals BiZZdesign). In BiZZdesign Enterprise Studio, importeer het xml bestand met de functie 'Import ArchiMate model exchange file' (in het ArchiMate menu).
+Export naar xml uit Archi (als Open Exchange Format) en naar .archimate (Archi formaat). Het XML formaat kan worden geopend in ArchiMate tools die dit open formaat ondersteunen (zoals BiZZdesign). In BiZZdesign Enterprise Studio, importeer het xml bestand met de functie 'Import ArchiMate model exchange file' (in het ArchiMate menu). Let op: Download het bestand vanuit de RAW view (en vanuit hier Save as...).
 
 ## png
 PNG export van alle Views uit het Archimate model.

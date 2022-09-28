@@ -9,7 +9,7 @@
     <dc:subject>Actualisering Architectuurprincipes NORA</dc:subject>
     <dc:description>Werkmodel ArchiMate van de werkgroep Actualisering NORA Architectuurprincipes</dc:description>
     <dc:contributor>NORA Werkgroep Architectuurprincipes</dc:contributor>
-    <dc:date>27-Aug-2022</dc:date>
+    <dc:date>27-Sep-2022</dc:date>
     <dc:language>Dutch</dc:language>
   </metadata>
   <elements>
@@ -2140,19 +2140,24 @@ De dienstverlener geeft hierbij ook aan welk betrouwbaarheidsniveau geldt voor d
       </properties>
     </element>
     <element identifier="id-1d4a343462be40548c3b704b34ed0a04" xsi:type="Grouping">
-      <name xml:lang="en">Laag 1 - Grondslagen en visie</name>
+      <name xml:lang="en">Laag1 Grondslagen en visie</name>
+      <documentation xml:lang="en">Deze laag bevat alle wet- en regelgeving die van toepassing kan zijn op onze vraagstukken en projecten.</documentation>
     </element>
     <element identifier="id-4468c6df9320405e8fce62e54e297b0b" xsi:type="Grouping">
-      <name xml:lang="en">Laag 3 - Informatie</name>
+      <name xml:lang="en">Laag3 Informatie</name>
+      <documentation xml:lang="en">Een belangrijke basis voor samenwerking, is het delen van taal en begrippen (woorden), zodat we elkaar kunnen begrijpen en voor het uitwisselen en (her)gebruiken van elkanders informatie. Er is (nog) geen uitputtend overzicht beschikbaar van de informatie en gegevens die voor de informatiehuishouding van de overheid relevant zijn. Doorgaans wordt voor elk systeem, organisatie of domein, een afzonderlijk gegevenswoordenboek en/of gegevensmodel gehanteerd.</documentation>
     </element>
     <element identifier="id-55298bd32f1f46e1a171a689e47fdf45" xsi:type="Grouping">
-      <name xml:lang="en">Laag 2 - Organisatorisch</name>
+      <name xml:lang="en">Laag2 Organisatorisch</name>
+      <documentation xml:lang="en">Deze laag bevat alle producten en diensten van de overheid en de processen en organisaties die hierbij betrokken zijn. Hieronder valt ook de manier waarop binnen de eigen organisatie producten en diensten geproduceerd worden, zoals bijvoorbeeld Zaakgericht Werken.</documentation>
     </element>
     <element identifier="id-e1dd5189a3e74a9aa9bed2a68b8b58c5" xsi:type="Grouping">
-      <name xml:lang="en">Laag 5 - Infrastructuur</name>
+      <name xml:lang="en">Laag5 Infrastructuur</name>
+      <documentation xml:lang="en">Binnen deze laag vallen de netwerken, middleware, knooppunten en infrastructuur die nodig is om systemen te hosten en gegevens tussen die systemen uit te wisselen.</documentation>
     </element>
     <element identifier="id-e28f6311e03a458d8160cc92b818e631" xsi:type="Grouping">
-      <name xml:lang="en">Laag 4 - Applicatie</name>
+      <name xml:lang="en">Laag4 Applicatie</name>
+      <documentation xml:lang="en">Binnen deze laag vallen registers en softwarematige functies.</documentation>
     </element>
     <element identifier="id-0504999ce61e49df8699ef95d21fff88" xsi:type="Grouping">
       <name xml:lang="en">#Laag (vijflaagsmodel)</name>
