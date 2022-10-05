@@ -786,7 +786,11 @@ Technische schuld (technical debt) treedt op als er - al dan niet bewust - voor 
 "id-3f0c4005c9e345b596133770cd57d892";"Requirement";"IMP084 Versleutel gegevens in rust en transport";"Versleutel alle gegevensdragers waarop niet-publieke informatie staat, inclusief smartphones en laptops, conform de laatst bekende en geldende richtlijnen. Dit reduceert het risico op een gegevenslek bij verlies van een dergelijk apparaat. 
 
 Neem voor niet-publieke gegevens ook adequate beveiligingsmaatregelen om ze te beschermen in ransit.  Dit kan door de verbinding te beveiligen, danwel door encryptie van de informatie zelf. Dit laatste heeft de voorkeur.";""
-"id-bbc30912ad1a48aeb364b021f4ee919f";"Requirement";"IMP085 Kies bij cloudoplossingen SaaS boven PaaS boven IaaS";"Kies bij voorkeur SaaS oplossingen boven PaaS oplossingen, en PaaS oplossingen boven IaaS oplossingen. Aanvullend geldt: kies public cloud boven community cloud en community cloud boven private cloud.";""
+"id-bbc30912ad1a48aeb364b021f4ee919f";"Requirement";"IMP085 Kies bij cloudoplossingen SaaS boven PaaS boven IaaS";"Bij cloud oplossingen, kies bij voorkeur SaaS oplossingen boven PaaS oplossingen, en PaaS oplossingen boven IaaS oplossingen. Aanvullend geldt: kies public cloud boven community cloud en community cloud boven private cloud.
+
+SaaS oplossingen zijn (vaak) te prefereren voor processen of functionaliteit die niet uniek of onderscheidend zijn voor de organisatie of het werkdomein. Veelal betreffen dit: e-mail of agenda applicaties, of een applicatie voor HR of Financiën.
+
+Houd bij cloud oplossingen rekening met het definiëren van een goede exit strategie en interoperabiliteit standaarden.";""
 "id-3b0d51ddb8d64a7b82b28d7dd2df0aaa";"Requirement";"IMP086 Zorg dat software up-to-date is";"Houd alle gebruikte software en software-componenten, van applicatief tot infrastructureel, actueel. Volg de update-cyclus van leveranciers strikt: voer updates, patches en beveiligingsupdates zo snel mogelijk door op alle relevante systemen.";""
 "id-ae7659c577784ce2aed2e9589e36510b";"Requirement";"IMP087 Verwerk bericht-interactie persistent";"Zorg dat een bericht dat een mutatie tot gevolg heeft, bijvoorbeeld een bericht dat een betalingsopdracht representeert, niet verloren kan gaan. Een dergelijk 'transactioneel' bericht moet een incident als uitwijk of storing kunnen overleven. 
 
