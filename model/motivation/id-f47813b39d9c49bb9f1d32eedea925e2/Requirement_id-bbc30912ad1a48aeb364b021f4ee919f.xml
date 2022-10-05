@@ -1,8 +1,8 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="IMP085 Kies bij cloudoplossingen SaaS boven PaaS boven IaaS"
+    name="IMP085 Kies bij cloudoplossingen voor SaaS boven PaaS boven IaaS"
     id="id-bbc30912ad1a48aeb364b021f4ee919f"
-    documentation="Bij cloud oplossingen, kies bij voorkeur SaaS oplossingen boven PaaS oplossingen, en PaaS oplossingen boven IaaS oplossingen. Aanvullend geldt: kies public cloud boven community cloud en community cloud boven private cloud.&#xD;&#xA;&#xD;&#xA;SaaS oplossingen zijn (vaak) te prefereren voor processen of functionaliteit die niet uniek of onderscheidend zijn voor de organisatie of het werkdomein. Veelal betreffen dit: e-mail of agenda applicaties, of een applicatie voor HR of Financiën.&#xD;&#xA;&#xD;&#xA;Houd bij cloud oplossingen rekening met het definiëren van een goede exit strategie en interoperabiliteit standaarden.">
+    documentation="Bij het kiezen voor een cloud oplossing, geef de voorkeur aan SaaS boven PaaS boven IaaS. Houd hierbij rekening met het definiëren van een goede exit strategie en interoperabiliteit standaarden om vendor lock-ins zo beperkt mogelijk te houden. Een cloud oplossing vergt een gedegen strategie en plan van aanpak vanuit de eigen organisatie hoe met (publieke, community of private) cloud diensten om te gaan. &#xD;&#xA;&#xD;&#xA;Het SaaS (Software as a Service) model richt zich primair op eindgebruikers. Deze zijn (vaak) te prefereren voor oplossingen die niet uniek of onderscheidend zijn voor de organisatie of het werkdomein. Veelal betreffen dit: e-mail/agenda applicaties of een applicatie voor HR of Financiën. PaaS (Platform as a Service) richt zich vooral op ontwikkelaars waarmee ze een ontwikkelplatform ter beschikking krijgen waarbij de cloud dienstverlener zorg draagt voor de infrastructurele aspecten. Bij IaaS neem je infrastructuur componenten uit de cloud af zoals servers, opslag, en netwerken. ">
   <properties
       key="WerkgroepID"
       value="IM507"/>
