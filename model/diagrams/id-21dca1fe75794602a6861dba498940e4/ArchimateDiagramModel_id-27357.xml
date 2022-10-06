@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="02 Inleiding"
     id="id-27357"
-    documentation="Dit ArchiMate model is het werkmodel van de NORA werkgroep Architectuurprincipes en NIET het officiële kanaal. Deze is te vinden op https://www.noraonline.nl/wiki/NORA_online">
+    documentation="Dit ArchiMate model is het werkmodel van de NORA werkgroep Architectuurprincipes en NIET het officiële kanaal. Deze is te vinden op:&#xD;&#xA;https://www.noraonline.nl/wiki/NORA_online&#xD;&#xA;&#xD;&#xA;De locatie van dit werkmodel is:&#xD;&#xA;https://github.com/ICTU/NORA-Werkgroep-APs">
   <children
       xsi:type="archimate:DiagramModelNote"
       id="id-d22f6ba0dd8d470b938fc01e81d5bb2d"

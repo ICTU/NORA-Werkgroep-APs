@@ -846,9 +846,9 @@
       lineColor="#7459d9"
       fillColor="#b3fde4">
     <bounds
-        x="58"
+        x="434"
         y="1344"
-        width="459"
+        width="366"
         height="55"/>
     <referencedModel
         xsi:type="archimate:ArchimateDiagramModel"
@@ -860,9 +860,9 @@
       lineColor="#7459d9"
       fillColor="#b3fde4">
     <bounds
-        x="552"
+        x="59"
         y="1344"
-        width="428"
+        width="360"
         height="55"/>
     <referencedModel
         xsi:type="archimate:ArchimateDiagramModel"

@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="09 IMP Implicaties per NAP en per laag (met vervallen implicaties)"
+    name="10 IMP Implicaties per NAP en per laag (met vervallen implicaties)"
     id="id-104b2d24103d4244aa82b64be0b39d65">
   <children
       xsi:type="archimate:DiagramModelGroup"

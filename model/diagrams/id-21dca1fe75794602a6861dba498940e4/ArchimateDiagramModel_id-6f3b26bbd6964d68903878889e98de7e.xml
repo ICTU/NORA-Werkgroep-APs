@@ -198,9 +198,9 @@
           href="RealizationRelationship_id-b0c738ea6ad34850a645693f7a0e1204.xml#id-b0c738ea6ad34850a645693f7a0e1204"/>
     </sourceConnections>
     <bounds
-        x="288"
-        y="648"
-        width="201"
+        x="396"
+        y="624"
+        width="275"
         height="55"/>
     <archimateElement
         xsi:type="archimate:Requirement"
@@ -220,8 +220,8 @@
     </sourceConnections>
     <bounds
         x="62"
-        y="648"
-        width="193"
+        y="624"
+        width="275"
         height="55"/>
     <archimateElement
         xsi:type="archimate:Requirement"

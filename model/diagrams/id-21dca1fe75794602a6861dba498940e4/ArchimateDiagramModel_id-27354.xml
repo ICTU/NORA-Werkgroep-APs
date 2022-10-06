@@ -80,8 +80,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9ed5d7c340b74fd2929f3e60849031f1"
-      font="1|Verdana|14.0|0|COCOA|1|"
-      fontColor="#000000"
+      font="1|Verdana|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Verdana"
       lineColor="#7459d9"
       textAlignment="1"
       fillColor="#b3e09c">
@@ -97,8 +96,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f44814e1aad04048aee83ebd2a40b7b8"
-      font="1|Verdana|14.0|0|COCOA|1|"
-      fontColor="#000000"
+      font="1|Verdana|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Verdana"
       lineColor="#4acf8c"
       textAlignment="1"
       fillColor="#f0d5fd">
@@ -114,8 +112,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-6a06b89eb72a4ca483f5bacc2cc22951"
-      font="1|Verdana|14.0|0|COCOA|1|"
-      fontColor="#000000"
+      font="1|Verdana|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Verdana"
       lineColor="#7459d9"
       textAlignment="1"
       fillColor="#c2e3f8">
@@ -131,8 +128,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b8d63f35df824312bf6e42845f9a03e3"
-      font="1|Verdana|14.0|0|COCOA|1|"
-      fontColor="#000000"
+      font="1|Verdana|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Verdana"
       lineColor="#7459d9"
       textAlignment="1"
       fillColor="#ffc2a6">
@@ -148,8 +144,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-46f0d63f6c194bedb99d11d42026af3b"
-      font="1|Verdana|14.0|0|COCOA|1|"
-      fontColor="#000000"
+      font="1|Verdana|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Verdana"
       lineColor="#7459d9"
       textAlignment="1"
       fillColor="#e0e0e0">
