@@ -157,8 +157,8 @@
         source="id-28674"
         target="id-28678">
       <archimateRelationship
-          xsi:type="archimate:InfluenceRelationship"
-          href="InfluenceRelationship_id-27767.xml#id-27767"/>
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-36487d4b31e34ba0b8c7984e6244b455.xml#id-36487d4b31e34ba0b8c7984e6244b455"/>
     </sourceConnections>
     <bounds
         x="688"

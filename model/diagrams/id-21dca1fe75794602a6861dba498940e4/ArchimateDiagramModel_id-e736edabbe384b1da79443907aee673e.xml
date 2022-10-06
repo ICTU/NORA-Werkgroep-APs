@@ -80,8 +80,8 @@
         source="id-ec32cdbf0557462e8fc8c4cd081c3759"
         target="id-467614c20c044c6bb393dcd2cc1ad45e">
       <archimateRelationship
-          xsi:type="archimate:InfluenceRelationship"
-          href="InfluenceRelationship_id-a9e0d9986bcd46ba90394df7e0ff788a.xml#id-a9e0d9986bcd46ba90394df7e0ff788a"/>
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-8cf793b1aeaf4ea2a4bc9e7ca52816d2.xml#id-8cf793b1aeaf4ea2a4bc9e7ca52816d2"/>
     </sourceConnections>
     <bounds
         x="63"

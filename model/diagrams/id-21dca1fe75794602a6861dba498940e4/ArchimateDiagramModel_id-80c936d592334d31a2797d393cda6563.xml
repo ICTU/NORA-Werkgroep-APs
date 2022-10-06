@@ -137,8 +137,8 @@
         source="id-5bc5baf9f22643f9a3c92c5ef86ab067"
         target="id-43ae3a8078734220827c160844825310">
       <archimateRelationship
-          xsi:type="archimate:InfluenceRelationship"
-          href="InfluenceRelationship_id-1e36428f3fb64ee485ce1301b50a2dd4.xml#id-1e36428f3fb64ee485ce1301b50a2dd4"/>
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-39931a5e22fa441f9429e8c513bd2659.xml#id-39931a5e22fa441f9429e8c513bd2659"/>
     </sourceConnections>
     <bounds
         x="63"

@@ -1,11 +1,12 @@
-<archimate:InfluenceRelationship
+<archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-c65594b6317e4b9a841b113b766e38e8">
+    id="id-36c1a521c0aa4a4f9fb1c1b2914b3969"
+    directed="true">
   <source
       xsi:type="archimate:Goal"
-      href="Goal_id-28646.xml#id-28646"/>
+      href="Goal_id-37364.xml#id-37364"/>
   <target
       xsi:type="archimate:Driver"
       href="Driver_id-28626.xml#id-28626"/>
-</archimate:InfluenceRelationship>
+</archimate:AssociationRelationship>
