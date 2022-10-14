@@ -28,3 +28,7 @@ PNG export van alle Views uit het Archimate model.
 
 ## word
 Word mailmerge exports. Bron hiervoor is de [excel]. Bestanden eindigend op [...Output.docx] bevatten de export.
+
+## PowerBI rapport op de CSV export
+Experimenteel Power BI Dashboard die het makkelijk maakt door de NORA principes te bladeren
+https://app.powerbi.com/view?r=eyJrIjoiMWU5M2VjMjMtNjU5Yy00NDNmLWIwNjUtMTg3NzFhNTFmMWNkIiwidCI6ImUyMjQ0NWVmLTJkOTYtNDY1My04OTlkLWRhMWQxNGVjYzNiYyIsImMiOjl9
