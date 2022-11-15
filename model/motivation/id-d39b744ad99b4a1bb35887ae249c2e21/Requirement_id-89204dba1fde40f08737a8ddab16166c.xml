@@ -1,5 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="_IM517 Alle data van een workload is te exporteren naar een standaard formaat"
-    id="id-89204dba1fde40f08737a8ddab16166c"
-    documentation="Alle data die wordt verwerkt door een cloudprovider als onderdeel van één of meer workloads (applicaties) is te exporeren naar een open industrie-standaard formaat, zodat deze data eenvoudig kan worden verplaatst. Dit is noodzakelijk voor het gebruik in een exit strategie of voor andere doeleinden. Naast het praktische nut voor de eigen data mobiliteit kan voor sommige gegevensverzamelingen gelden dat individuen een recht hebben op data-overdraagbaarheid (in het geval deze persoonsgegevens hebben verstrekt).&#xD;&#xA;Bron:&#xD;&#xA;_D1.IMP600 Alle data van een workload is te exporteren naar een standaard formaat&#xD;&#xA;@@Laurens: Mogelijk overeenkomst met andere implicaties over standaard formaten (voor DUTO)."/>

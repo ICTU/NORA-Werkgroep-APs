@@ -1,5 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="_IM510 Cloud Infrastructuur wordt met Infrastructure as Code beheerd"
-    id="id-3cabfe29bbe8414997a5c09df85b1fe6"
-    documentation="Cloud infrastructuur inrichting moet herhaalbaar zijn en wijzigingen moeten herleidbaar zijn. Configuratiedrift moet worden tegengegaan en inzichtelijk zijn. Dit kan door deze infrastructuur inrichting vast te leggen in code (IaC). Deze code (vaak grotendeels declaratief, in templates) zit in een source code management systeem en is voorzien van build- en releasedefinities.&#xD;&#xA;_D1.IMP568 Cloud Infrastructuur wordt met Infrastructure as Code beheerd"/>

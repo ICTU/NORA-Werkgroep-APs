@@ -1,5 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="_IM154 Zelfstandige verantwoordelijkheid"
-    id="id-e4af2b0604d64a4cb050edffbf3696d7"
-    documentation="D-IAM006&#xD;&#xA;Zelfstandige verantwoordelijkheid&#xD;&#xA;Elke voorziening is zelfstandig verantwoordelijk voor zijn beveiliging. Elke voorziening moet zijn deel van de toegangsregels implementeren en dus ook verifieren.&#xD;&#xA;[CASB, application level firewalling, etc]"/>
