@@ -1,0 +1,1 @@
+Het bestand dat hier staat is een export uit Archi in het [ArchiMate Model Exchange File Format](https://pubs.opengroup.org/architecture/archimate31-exchange-file-format-guide/). Het is daardoor te importeren in alle gangbare architectuur-software.
